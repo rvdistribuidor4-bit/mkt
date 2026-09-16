@@ -48,8 +48,29 @@ Son **2 fichas = 2 sedes reales** (no duplicados).
 
 **Estado de correcciones (2026-09-16):**
 - **Sede 9 de Julio** (única con escritura habilitada en Windsor): ✅ descripción cargada · ✅ categorías (oftalmólogo + centro de oftalmología + clínica médica + cirujano) · ✅ WhatsApp como botón de "Citas" (url_appointment → wa.me/5493516371007) · web ya la tenía.
-- **Sede Deán Funes:** ⛔ Windsor NO habilitó escritura en esta ficha → pendiente cargar web. Habilitarla en https://onboard.windsor.ai?datasource=google_my_business (posible límite de plan: 1 location por cuenta).
+- **Sede Deán Funes:** ✅ web cargada · ✅ categorías (oftalmólogo + centro de oftalmología + clínica médica + cirujano) · ✅ WhatsApp como botón de "Citas".
 - ❌ **Nombre:** la API de Windsor no permite cambiar el título de la ficha → unificar a "Centro de Ojos Lazarte" **manual** en Google Business (incluye corregir "Dean"→"Deán").
 - ⏳ Pendiente: responder reseñas + campaña para pedir reseñas nuevas.
+
+## Search Console — búsquedas reales (últimos 90 días, conectado 2026-09-16)
+**Marca (rankea #1, trae clicks):** "lazarte oftalmologo cordoba" (28 clicks), "clinica lazarte 9 de julio" (13), "dr lazarte oftalmologo cordoba" (7). ~71 clicks/90d, casi todos de marca → captamos a quien ya nos conoce, no demanda nueva.
+
+**Oportunidad grande — aparecemos pero en página 3-4 (0 clicks):**
+| Query | Impresiones | Posición |
+|---|---|---|
+| cirugía de cataratas córdoba | 122 | ~32 |
+| operación de cataratas córdoba | 108 | ~31 |
+| cirugía de cataratas en córdoba | 67 | ~32 |
+| cirugía refractiva en córdoba | 55 | ~41 |
+| prótesis oculares córdoba | 54 | ~57 |
+| cirugía de pterigium en córdoba | 37 | ~39 |
+| oftalmologo cordoba | 50 | ~7.8 (casi page 1) |
+
+**Acción (valida el plan):** crear páginas dedicadas por tratamiento apuntando a "…en Córdoba":
+- /cataratas (u "operación de cataratas en Córdoba")
+- /cirugia-refractiva
+- /pterigium
+- /protesis-oculares
+Hoy están como anclas dentro de cirugias.html/especialidades.html → rankean débil. "oftalmologo cordoba" (pos 7.8) es el win más cercano: optimizar home / página "oftalmólogo en Córdoba".
 
 **Web ya corregida con estos datos (2026-09-16):** iframes de mapas y link "Ver reseñas" ahora usan los cid reales de cada sede.
