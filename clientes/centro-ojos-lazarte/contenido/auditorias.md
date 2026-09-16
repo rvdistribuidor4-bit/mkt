@@ -46,12 +46,10 @@ Son **2 fichas = 2 sedes reales** (no duplicados).
 | Coordenadas | -31.4135, -64.1924 | ❌ NO |
 | Categorías extra | ❌ | ❌ |
 
-**Correcciones a aplicar en las fichas (pendiente OK del cliente):**
-1. Unificar nombre de marca en ambas (riesgo: re-verificación de Google)
-2. Cargar web en sede principal
-3. Cargar descripción en sede 9 de Julio
-4. Agregar categorías secundarias (Clínica oftalmológica, Cirujano oftalmólogo, Centro médico)
-5. Corregir "Dean" → "Deán"
-6. Responder reseñas + campaña para pedir reseñas nuevas
+**Estado de correcciones (2026-09-16):**
+- **Sede 9 de Julio** (única con escritura habilitada en Windsor): ✅ descripción cargada · ✅ categorías (oftalmólogo + centro de oftalmología + clínica médica + cirujano) · ✅ WhatsApp como botón de "Citas" (url_appointment → wa.me/5493516371007) · web ya la tenía.
+- **Sede Deán Funes:** ⛔ Windsor NO habilitó escritura en esta ficha → pendiente cargar web. Habilitarla en https://onboard.windsor.ai?datasource=google_my_business (posible límite de plan: 1 location por cuenta).
+- ❌ **Nombre:** la API de Windsor no permite cambiar el título de la ficha → unificar a "Centro de Ojos Lazarte" **manual** en Google Business (incluye corregir "Dean"→"Deán").
+- ⏳ Pendiente: responder reseñas + campaña para pedir reseñas nuevas.
 
 **Web ya corregida con estos datos (2026-09-16):** iframes de mapas y link "Ver reseñas" ahora usan los cid reales de cada sede.
