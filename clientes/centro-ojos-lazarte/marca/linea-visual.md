@@ -26,6 +26,10 @@
 | Fecha | Formato | Tema | Media ID |
 |---|---|---|---|
 | 2026-09-15 | Carrusel (5) | "Señales de alerta" (moscas/destellos/doble) | 17991120669011844 |
+| 2026-09-16 | Carrusel (7) | "5 señales de que tu vista necesita un control" (borroso, cuesta leer, luz molesta, más luz, visión cambió) | (pendiente — feed con retraso) |
+
+**Placas de síntomas ya usadas en carruseles:** moscas volantes, destellos, visión doble (15/09); visión borrosa, cuesta leer, luz molesta, más luz para leer, visión cambió (16/09).
+**Comentario de WhatsApp pendiente de fijar** en el post del 16/09 (ver copy abajo).
 
 ## Accesos y datos
 - Instagram account id (Windsor): `17841414497159496`
