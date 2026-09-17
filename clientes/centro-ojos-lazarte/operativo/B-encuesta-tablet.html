@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Encuesta Lazarte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1C3044; --navy-2:#233b52; --teal:#3D8B7A; --gold:#E8A33D;
+  --green:#2E7D6E; --amber:#B8862A; --red:#B0413A;
+  --bg:#eef1f3; --card:#ffffff; --ink:#1C3044; --mut:#5b6b78; --line:#dce1e5; --chipbg:#f4f6f7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1a25; --card:#15242f; --ink:#eef4f2; --mut:#9fb0ba; --line:#274050; --chipbg:#1b2c38;
+    --navy:#12212e;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1a25; --card:#15242f; --ink:#eef4f2; --mut:#9fb0ba; --line:#274050; --chipbg:#1b2c38; --navy:#12212e;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--ink);
+  padding:16px;line-height:1.4;display:flex;justify-content:center}
+.app{width:100%;max-width:680px}
+.brand{display:flex;align-items:center;gap:10px;justify-content:center;margin:6px 0 14px}
+.brand svg{width:34px;height:22px}
+.brand .n{font-weight:800;letter-spacing:.12em;font-size:13px;color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 18px 40px -28px rgba(28,48,68,.5)}
+h1{font-size:22px;font-weight:800;margin-bottom:4px}
+.sub{color:var(--mut);font-size:14px;margin-bottom:16px}
+.q{margin:16px 0}
+.q .lbl{font-weight:700;font-size:15px;margin-bottom:9px;display:block}
+.opts{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.opt{border:1.5px solid var(--line);background:var(--chipbg);color:var(--ink);border-radius:12px;
+  min-height:56px;font-size:17px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.12s}
+.opt .em{font-size:22px}
+.opt.sel{background:var(--teal);border-color:var(--teal);color:#fff}
+.ends{display:flex;justify-content:space-between;font-size:11px;color:var(--mut);margin-top:5px}
+.nps{display:grid;grid-template-columns:repeat(6,1fr);gap:7px}
+.nps .opt{min-height:52px;font-size:16px}
+.nps .opt[data-v="9"].sel,.nps .opt[data-v="10"].sel{background:var(--green);border-color:var(--green)}
+.nps .opt[data-v="7"].sel,.nps .opt[data-v="8"].sel{background:var(--amber);border-color:var(--amber)}
+.nps .opt[data-lo="1"].sel{background:var(--red);border-color:var(--red)}
+textarea{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:12px;font:inherit;
+  background:var(--chipbg);color:var(--ink);min-height:72px;resize:vertical}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:none;border-radius:14px;
+  min-height:58px;font-size:18px;font-weight:800;cursor:pointer;text-decoration:none;transition:.12s}
+.btn-p{background:var(--navy);color:#fff}
+.btn-t{background:var(--teal);color:#fff}
+.btn-o{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+.btn:active{transform:translateY(1px)}
+.btn.sm{min-height:46px;font-size:15px;border-radius:12px}
+.row{display:flex;gap:10px}
+.sedebtns{display:grid;gap:12px;margin-top:8px}
+.sede{border:1.5px solid var(--line);background:var(--chipbg);border-radius:14px;padding:18px;text-align:left;cursor:pointer}
+.sede b{display:block;font-size:18px}.sede span{color:var(--mut);font-size:14px}
+.mut{color:var(--mut);font-size:13px}
+.hide{display:none!important}
+.result-ic{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:34px;margin:0 auto 12px}
+.center{text-align:center}
+.qr{background:#fff;border-radius:14px;padding:14px;display:inline-block;margin:10px auto;box-shadow:0 10px 26px -16px rgba(0,0,0,.4)}
+.qr img{width:210px;height:210px;display:block;image-rendering:pixelated}
+.badge{display:inline-block;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.04em}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:13px;color:var(--mut)}
+.link{color:var(--teal);font-weight:700;background:none;border:none;cursor:pointer;font-size:13px}
+.dashgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.stat{background:var(--chipbg);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+.stat b{display:block;font-size:26px;color:var(--ink)}
+.stat span{font-size:11px;color:var(--mut)}
+.bar{height:10px;border-radius:6px;background:var(--line);overflow:hidden;display:flex}
+.bar i{display:block;height:100%}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--mut);margin-top:6px;flex-wrap:wrap}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;vertical-align:0px;margin-right:4px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--navy);color:#fff;
+  padding:12px 20px;border-radius:12px;font-weight:700;font-size:14px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
+.toast.show{opacity:1}
+.check{display:flex;align-items:center;gap:10px;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;margin-top:10px}
+.check.on{border-color:var(--green);background:rgba(46,125,110,.10)}
+.check .bx{width:24px;height:24px;border-radius:7px;border:2px solid var(--mut);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff}
+.check.on .bx{background:var(--green);border-color:var(--green)}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="brand">
+    <svg viewBox="0 0 64 40" fill="none"><path d="M2 20C2 20 13 4 32 4C51 4 62 20 62 20C62 20 51 36 32 36C13 36 2 20 2 20Z" stroke="#3D8B7A" stroke-width="3"/><circle cx="32" cy="20" r="9" stroke="#3D8B7A" stroke-width="3"/><circle cx="32" cy="20" r="3.4" fill="#3D8B7A"/></svg>
+    <div class="n">CENTRO DE OJOS LAZARTE</div>
+  </div>
+
+  <!-- START -->
+  <div id="s-start" class="card">
+    <h1>Encuesta de satisfacción</h1>
+    <p class="sub">Control post-cirugía · elegí la sede para empezar</p>
+    <div class="sedebtns">
+      <button class="sede" onclick="start('Deán Funes 614')"><b>Sede principal</b><span>Deán Funes 614, Córdoba</span></button>
+      <button class="sede" onclick="start('9 de Julio 778')"><b>Consultorios externos</b><span>9 de Julio 778, Córdoba</span></button>
+    </div>
+    <div class="foot">
+      <span id="cnt-start" class="mut"></span>
+      <button class="link" onclick="showDash()">Ver tablero →</button>
+    </div>
+  </div>
+
+  <!-- FORM -->
+  <div id="s-form" class="card hide">
+    <h1 style="font-size:19px">¿Cómo fue tu atención?</h1>
+    <p class="sub" id="form-sede"></p>
+
+    <div class="q" data-q="q1">
+      <span class="lbl">1. En general, ¿cómo fue tu experiencia?</span>
+      <div class="opts">
+        <button class="opt" data-v="1"><span class="em">😞</span></button>
+        <button class="opt" data-v="2"><span class="em">🙁</span></button>
+        <button class="opt" data-v="3"><span class="em">😐</span></button>
+        <button class="opt" data-v="4"><span class="em">🙂</span></button>
+        <button class="opt" data-v="5"><span class="em">😀</span></button>
+      </div>
+    </div>
+    <div class="q" data-q="q2">
+      <span class="lbl">2. El trato del personal</span>
+      <div class="opts"><button class="opt" data-v="1">1</button><button class="opt" data-v="2">2</button><button class="opt" data-v="3">3</button><button class="opt" data-v="4">4</button><button class="opt" data-v="5">5</button></div>
+      <div class="ends"><span>Malo</span><span>Excelente</span></div>
+    </div>
+    <div class="q" data-q="q3">
+      <span class="lbl">3. ¿La información fue clara?</span>
+      <div class="opts"><button class="opt" data-v="1">1</button><button class="opt" data-v="2">2</button><button class="opt" data-v="3">3</button><button class="opt" data-v="4">4</button><button class="opt" data-v="5">5</button></div>
+      <div class="ends"><span>Nada clara</span><span>Muy clara</span></div>
+    </div>
+    <div class="q" data-q="q4">
+      <span class="lbl">4. Los tiempos de espera</span>
+      <div class="opts"><button class="opt" data-v="1">1</button><button class="opt" data-v="2">2</button><button class="opt" data-v="3">3</button><button class="opt" data-v="4">4</button><button class="opt" data-v="5">5</button></div>
+      <div class="ends"><span>Muy largos</span><span>Muy buenos</span></div>
+    </div>
+    <div class="q" data-q="q5">
+      <span class="lbl">5. Las instalaciones (comodidad, limpieza)</span>
+      <div class="opts"><button class="opt" data-v="1">1</button><button class="opt" data-v="2">2</button><button class="opt" data-v="3">3</button><button class="opt" data-v="4">4</button><button class="opt" data-v="5">5</button></div>
+      <div class="ends"><span>Malas</span><span>Excelentes</span></div>
+    </div>
+    <div class="q" data-q="nps">
+      <span class="lbl">6. Del 0 al 10, ¿nos recomendarías a un familiar o amigo?</span>
+      <div class="nps" id="npsrow"></div>
+    </div>
+    <div class="q">
+      <span class="lbl">7. ¿Algo para mejorar o destacar? (opcional)</span>
+      <textarea id="coment" placeholder="Comentario del paciente…"></textarea>
+    </div>
+    <button class="btn btn-p" onclick="submitForm()">Guardar respuesta</button>
+    <div class="foot"><button class="link" onclick="go('s-start')">← Cancelar</button><span class="mut">Pregunta 6 obligatoria</span></div>
+  </div>
+
+  <!-- RESULT -->
+  <div id="s-result" class="card hide center"></div>
+
+  <!-- DASH -->
+  <div id="s-dash" class="card hide">
+    <h1 style="font-size:19px">Tablero de auditoría</h1>
+    <p class="sub" id="dash-range"></p>
+    <div class="dashgrid">
+      <div class="stat"><b id="d-n">0</b><span>respuestas</span></div>
+      <div class="stat"><b id="d-nps">–</b><span>NPS</span></div>
+      <div class="stat"><b id="d-sat">–</b><span>satisfacción</span></div>
+    </div>
+    <div class="bar" id="d-bar"></div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--green)"></span>Promotores (9-10): <b id="d-p">0</b></span>
+      <span><span class="dot" style="background:var(--amber)"></span>Pasivos (7-8): <b id="d-pa">0</b></span>
+      <span><span class="dot" style="background:var(--red)"></span>Detractores (0-6): <b id="d-de">0</b></span>
+    </div>
+    <div style="margin-top:14px" class="mut" id="d-resenas"></div>
+    <div class="row" style="margin-top:16px">
+      <button class="btn btn-t sm" onclick="exportCSV()">⬇ Exportar CSV</button>
+      <button class="btn btn-o sm" onclick="go('s-start')">Volver</button>
+    </div>
+    <div class="foot"><button class="link" style="color:var(--red)" onclick="wipe()">Borrar todos los datos</button></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const KEY='lazarte_encuestas_v1';
+const QR={'Deán Funes 614':'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjQAAAI0AQMAAAAwRSFAAAAABlBMVEUcMET///9kmirRAAADG0lEQVR42u2dQW6EMAxFrV5g7n/L3IC2U7D/NwyEtqvRQ7MAWt4C6cmx44RY/uUYAQcOHDhw4MCBA+d9OCPySHI86n++zr8vn3/K83rk+38+4n8OOHDeiRNm64hVnKdcadzqlMhlj+AXHDjnfo0teG0nP5atoUq0qjA3JN7hFxw4M349w1adbDEr41eLdPgFB84tv2qIOKIFr8NIh19w4NzLv6JyrrIszDvyLzhwJv2qyzH7cwLvGQ6cF361iv1Wh8/ifC/RHzzFe4YD57Vfw4OX3KkjS/QyUCR+wYFz6VcGqTSoKhjiVCZiNlbELzhwzv2SwsXq1GZT9867R7ZhJO8ZDpzT+LVrz6hpLynd1+XQGiPvGQ6cF36NMI9G2ISXaJVzzdVAhV9w4Fz5VSEswsLW1oW43t/NQVPfgANnPv+q5Ks1z2fCFSYj9Xk4cK7jl3vURoDVfDheeIdfcOBcjQ+jTXh5o69NiskqMPyCA+d8fJjK6PgwtH8+vCZP/gUHznT8aspoHUNr9bqK2dZQ4xccOCd+xUHt/WBF86O3KdK/AQfOTPzK5Es76nfrUGyDjmD9Fxw4c/lXWbZYL0efStZKCPkXHDgTflXmJYmYthpmxcNSMPIvOHBm4pfWDHUHAFmNYsnX4r2++AUHznl9QxKuKtQ/lv2OUvUL+g/hwLn2S8eBaU1I/6FFLtn6hvgFB85M/OpLJrVmuFg4s/vELzhwZuJXq8CPOMqzLKIRv+DAmYpfWo2XOeUIGzdWGxX983Dg3Boftrb5OBgH7vfvDea/4MCZGB+G9xza/r0ym2wCMv8FB86d/KtvYqMfelj6Vx7Iv+DAmfJLV6mYOCZgZWGSjuEXHDhnfu2+uBe688ajr2KO1gOMX3DgXNU3VDft0LB9pcL2F2V/ADhwbo0P23JLLSru1qTQfwgHzmx9I6OSqqRm6VxzPY5fcODc8as51VrrbYqZ/efhwPmVX+H7HIZ/K1bv4BccODfyr8WXJ49omyK2+TL8ggPn3C+7bLULKd33Nc70H8KBc+nX348BBw4cOHDgwIED5z04n7aBiQUp7ln5AAAAAElFTkSuQmCC','9 de Julio 778':'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjQAAAI0AQMAAAAwRSFAAAAABlBMVEUcMET///9kmirRAAADGklEQVR42u2dbW7jMAxEib2A739L3UDbrB1xhv6Q2u2v4AlB0CjyK2BgQHJMKdF/ZbSAAwcOHDhw4MCB8zmcFmOMma+32PIfja++Jvf5vOS1/k/8zoAD55M4YWptLxG9FBSir38zJq5yCfqCA+dZX+0dvN6v1NGuuE2WlUvQFxw4i/rag9Q7VzwW9CNs5Tv6ggPnR/raq62aE2poi0BfcOD8sP7ah5Za76IsdUf9BQfOsr7yY1t9OYH7DAfOjb6KYz/M+V16WzeLo/erq7jPcODc66v4hzKT421uaKJI/IIDZzE/HG6GORjFUZRvRYzcZzhwbuOXRqVDUxGaHI41mTSKb4++4MB5iF9HCFMfXro1ovRNRa4nP4QDZx6/JGb5g60qwPEyowN9wYHzEL96SkabNMzN8EBG/IIDZz1+ZVe8OvO9q+8xBvELDpzv1V+bNRmqoXEuzXQ9+oIDZyU/HOlfhLfKy7cR1lFPfggHzjQ/HJI5Jps5hLrRMksz6i84cNbiVy2+fGtzqm+72NqMvuDAmegr3HuXmWxK9E2XbuBzn+HAmcQvNeRL09TFHrFN7XruMxw49/VXv2iStz3LsvjcoIi+4MB5jl81cvk5NuFGfTob1F9w4Kzkh+4Nnrctq/Whvb7oCw6cefyKuiGlyK14IGndoy84cB71Veos64zSMq1dn4uIvuDAmeur+aPksifFlZUz6AsOnJX8UB8ct7DTNlxruu8SfcGBM9FXVMvCFmj/oe//Cvx5OHCm+WGLuvFE/cPt3DBvD6DRFxw4z/qKsFNDVU0juh2XNAtt6AsOnHn8kjM3bK+KJoSbZ4/4h3DgrOir35wmqiaGFGUZyPAP4cB51tf5/F550Gx/l1PaqL/gwFmIX/pRA1MJZKMQq6ENfcGBs5AfFru+NHJcH92GvuDAmfkbIyrV3/zqVn/d/F4z9xkOnCV9Rdl0eXooZu49+oID51v68mMPtU/DOudDVcZ9hgNnrf4SiyPKgQCn8zfQFxw4U33Zx+Jd9LqtMg/A4fxeOHCm+vr/0eDAgQMHDhw4cOB8Bucv1yZ0Gv7ahvsAAAAASUVORK5CYII='};
+const LINK={'Deán Funes 614':'https://www.google.com/maps?cid=8255073618670487764','9 de Julio 778':'https://www.google.com/maps?cid=1606484270696815309'};
+let cur={};
+
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||[]}catch(e){return[]}}
+function save(a){try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1900)}
+function go(id){for(const s of ['s-start','s-form','s-result','s-dash'])document.getElementById(s).classList.add('hide');document.getElementById(id).classList.remove('hide');window.scrollTo(0,0)}
+
+// build NPS row
+(function(){const r=document.getElementById('npsrow');for(let i=0;i<=10;i++){const b=document.createElement('button');b.className='opt';b.dataset.v=i;b.textContent=i;if(i<=6)b.dataset.lo='1';r.appendChild(b)}})();
+
+// option selection
+document.querySelectorAll('#s-form .q').forEach(q=>{
+  q.querySelectorAll('.opt').forEach(o=>o.addEventListener('click',()=>{
+    q.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));o.classList.add('sel');
+  }));
+});
+
+function start(sede){cur={sede:sede};document.getElementById('form-sede').textContent=sede;
+  document.querySelectorAll('#s-form .opt').forEach(o=>o.classList.remove('sel'));
+  document.getElementById('coment').value='';go('s-form')}
+
+function getSel(q){const el=document.querySelector('#s-form .q[data-q="'+q+'"] .opt.sel');return el?parseInt(el.dataset.v):null}
+
+function submitForm(){
+  const nps=getSel('nps');
+  if(nps===null){toast('Elegí un valor en la pregunta 6');return}
+  const rec={ts:Date.now(),fecha:new Date().toISOString().slice(0,10),sede:cur.sede,
+    q1:getSel('q1'),q2:getSel('q2'),q3:getSel('q3'),q4:getSel('q4'),q5:getSel('q5'),
+    nps:nps,comentario:document.getElementById('coment').value.trim(),resena:false};
+  const a=load();a.push(rec);save(a);cur.idx=a.length-1;
+  showResult(rec);
+}
+
+function showResult(rec){
+  const el=document.getElementById('s-result');const nps=rec.nps;let h='';
+  if(nps>=9){
+    h=`<div class="result-ic" style="background:rgba(46,125,110,.15)">🌟</div>
+      <span class="badge" style="background:var(--green);color:#fff">PROMOTOR · ${nps}/10</span>
+      <h1 style="margin-top:10px">¡Pedile la reseña ahora!</h1>
+      <p class="sub">Mostrale el código para que la deje en Google en el momento.</p>
+      <div class="qr"><img src="${QR[rec.sede]}" alt="QR reseña"></div>
+      <a class="btn btn-t" href="${LINK[rec.sede]}" target="_blank" rel="noopener">Abrir reseña en Google</a>
+      <div class="check" id="chk" onclick="toggleResena()"><span class="bx" id="chkbx"></span><span>Marcar: <b>reseña dejada</b></span></div>`;
+  }else if(nps>=7){
+    h=`<div class="result-ic" style="background:rgba(184,134,42,.15)">🙂</div>
+      <span class="badge" style="background:var(--amber);color:#fff">PASIVO · ${nps}/10</span>
+      <h1 style="margin-top:10px">¡Gracias!</h1>
+      <p class="sub">Preguntá: <b>"¿qué nos faltó para un 10?"</b> y anotalo. No fuerces la reseña.</p>`;
+  }else{
+    h=`<div class="result-ic" style="background:rgba(176,65,58,.15)">🤝</div>
+      <span class="badge" style="background:var(--red);color:#fff">A SEGUIMIENTO · ${nps}/10</span>
+      <h1 style="margin-top:10px">Escuchá y avisá a coordinación</h1>
+      <p class="sub">Disculpate, tomá el motivo y un contacto. <b>No</b> derivar a Google.</p>`;
+  }
+  h+=`<div class="row" style="margin-top:16px"><button class="btn btn-p sm" onclick="start('${rec.sede.replace(/'/g,"\\'")}')">Nueva encuesta →</button><button class="btn btn-o sm" onclick="go('s-start')">Inicio</button></div>`;
+  el.innerHTML=h;go('s-result');
+}
+
+function toggleResena(){const a=load();if(cur.idx==null||!a[cur.idx])return;a[cur.idx].resena=!a[cur.idx].resena;save(a);
+  document.getElementById('chk').classList.toggle('on',a[cur.idx].resena);
+  document.getElementById('chkbx').textContent=a[cur.idx].resena?'✓':'';}
+
+function refreshCount(){const n=load().length;document.getElementById('cnt-start').textContent=n?`${n} respuestas guardadas`:'Sin respuestas aún'}
+
+function showDash(){
+  const a=load();const n=a.length;
+  document.getElementById('d-n').textContent=n;
+  const p=a.filter(x=>x.nps>=9).length, pa=a.filter(x=>x.nps>=7&&x.nps<=8).length, de=a.filter(x=>x.nps<=6).length;
+  const nps=n?Math.round((p/n-de/n)*100):null;
+  document.getElementById('d-nps').textContent=n?(nps>0?'+':'')+nps:'–';
+  const sats=a.filter(x=>x.q1).map(x=>x.q1);const sat=sats.length?(sats.reduce((s,v)=>s+v,0)/sats.length):null;
+  document.getElementById('d-sat').textContent=sat?sat.toFixed(1)+'/5':'–';
+  document.getElementById('d-p').textContent=p;document.getElementById('d-pa').textContent=pa;document.getElementById('d-de').textContent=de;
+  const bar=document.getElementById('d-bar');bar.innerHTML='';
+  if(n){[[p,'var(--green)'],[pa,'var(--amber)'],[de,'var(--red)']].forEach(([v,c])=>{const i=document.createElement('i');i.style.width=(v/n*100)+'%';i.style.background=c;bar.appendChild(i)})}
+  const res=a.filter(x=>x.resena).length;
+  document.getElementById('d-resenas').innerHTML=`📲 Reseñas marcadas como dejadas: <b>${res}</b> de ${p} promotores.`;
+  const fechas=a.map(x=>x.fecha).sort();
+  document.getElementById('dash-range').textContent=n?`${fechas[0]} → ${fechas[fechas.length-1]}`:'Sin datos';
+  go('s-dash');
+}
+
+async function exportCSV(){
+  const a=load();if(!a.length){toast('No hay datos para exportar');return}
+  const cols=['fecha','sede','q1_experiencia','q2_trato','q3_info','q4_tiempos','q5_instalaciones','nps','resena_dejada','comentario'];
+  const rows=a.map(x=>[x.fecha,x.sede,x.q1||'',x.q2||'',x.q3||'',x.q4||'',x.q5||'',x.nps,x.resena?'si':'no',(x.comentario||'').replace(/"/g,'""')]);
+  const csv=cols.join(',')+'\n'+rows.map(r=>r.map(v=>/[",\n;]/.test(''+v)?'"'+v+'"':v).join(',')).join('\n');
+  const data='﻿'+csv;
+  const fname='encuestas-lazarte-'+new Date().toISOString().slice(0,10)+'.csv';
+  // Preferir la capacidad de descargas del visor (claude.ai); si no está, usar blob (archivo abierto directo)
+  try{
+    const dl = (window.claude && claude.use) ? await claude.use('downloads') : null;
+    if(dl){ await dl.save({filename:fname, data}); toast('CSV descargado'); return; }
+  }catch(e){ toast('Descarga cancelada'); return; }
+  const blob=new Blob([data],{type:'text/csv;charset=utf-8'});
+  const url=URL.createObjectURL(blob);const link=document.createElement('a');
+  link.href=url;link.download=fname;
+  document.body.appendChild(link);link.click();document.body.removeChild(link);setTimeout(()=>URL.revokeObjectURL(url),2000);
+  toast('CSV descargado');
+}
+
+function wipe(){if(confirm('¿Borrar TODAS las respuestas guardadas en esta tablet? No se puede deshacer.')){save([]);toast('Datos borrados');showDash();refreshCount()}}
+
+refreshCount();
+</script>
+</body>
+</html>
