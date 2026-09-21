@@ -22,14 +22,21 @@
 **Temas de placas ya existentes (síntomas):** ojo rojo, visión borrosa, moscas volantes, destellos/flashes, cuesta leer, luz molesta, dolor ocular, visión doble, más luz para leer, visión cambió.
 **Consejos:** 20-20-20, no frotarse, buena luz, distancia pantalla, descansar mirada, no automedicarse, controlar=prevenir, sol, cambios repentinos, control.
 
+## Mapa de páginas Canva DAHUk0p5o8k (para el publicador autónomo)
+`urls[N-1]` en el export. 1 ojo rojo · 2 borroso · 3 moscas · 4 destellos · 5 cuesta leer · 6 luz molesta · 7 duele el ojo · 8 visión doble · 9 más luz · 10 visión cambió · 11 20-20-20 · 12 no frotarse · 13 buena luz · 14 distancia pantalla · 15 descansar mirada · 16 no automedicarse · 17 controlar=prevenir · 18 sol · 19 cambios repentinos · 20 tu visión merece control.
+
 ## Publicaciones realizadas
 | Fecha | Formato | Tema | Media ID |
 |---|---|---|---|
 | 2026-09-15 | Carrusel (5) | "Señales de alerta" (moscas/destellos/doble) | 17991120669011844 |
 | 2026-09-16 | Carrusel (7) | "5 señales de que tu vista necesita un control" (borroso, cuesta leer, luz molesta, más luz, visión cambió) | (pendiente — feed con retraso) |
+| 2026-09-21 | Placa | Día de la primavera (saludo) + comentario WhatsApp | 18459093568137612 |
 
 **Placas de síntomas ya usadas en carruseles:** moscas volantes, destellos, visión doble (15/09); visión borrosa, cuesta leer, luz molesta, más luz para leer, visión cambió (16/09).
-**Comentario de WhatsApp pendiente de fijar** en el post del 16/09 (ver copy abajo).
+**Comentario de WhatsApp pendiente de fijar** en los posts del 16/09 y 21/09 (Instagram no permite fijar por API).
+
+## Modo de publicación
+**Autónomo** (M/L/V 10:00 ART): el publicador lee `contenido/plan-mes.md`, publica el próximo PENDIENTE, agrega el comentario de WhatsApp y marca PUBLICADO. Las **historias** que requieran material del usuario se piden aparte.
 
 ## Accesos y datos
 - Instagram account id (Windsor): `17841414497159496`
