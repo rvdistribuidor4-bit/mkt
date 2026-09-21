@@ -98,3 +98,8 @@ h1,h2,h3,h4{font-weight:600;color:var(--navy);line-height:1.2}h1{font-size:2.8re
 .article .disc{font-size:.82rem;color:var(--text-s);border-top:1px solid var(--border);margin-top:2.2rem;padding-top:1.1rem;font-style:italic}
 .article .rel{background:var(--off);border-radius:8px;padding:1.1rem 1.3rem;margin-top:1.8rem}
 .article .rel a{font-weight:600;display:inline-block;margin:.15rem .8rem .15rem 0}
+
+/* Hero brand seal (home) */
+.hero-seal{text-align:center;margin:0 auto 2.6rem;padding-bottom:2rem;border-bottom:1px solid var(--border)}
+.hero-seal img{height:132px;width:auto;display:inline-block}
+@media(max-width:768px){.hero-seal img{height:92px}.hero-seal{margin-bottom:1.8rem;padding-bottom:1.5rem}}
