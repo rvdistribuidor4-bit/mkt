@@ -85,3 +85,16 @@ h1,h2,h3,h4{font-weight:600;color:var(--navy);line-height:1.2}h1{font-size:2.8re
 .hero-img,.feat-img,.sede-img{box-shadow:0 16px 38px -20px rgba(28,48,68,.32)}
 @media(max-width:768px){.tec-gallery{grid-template-columns:1fr 1fr;gap:.8rem}.tec-gallery img{height:160px}}
 @media(max-width:480px){.tec-gallery{grid-template-columns:1fr}}
+
+/* Blog articles */
+.article{max-width:720px;margin:0 auto}
+.article .meta{font-size:.8rem;color:var(--text-s);margin-bottom:1.4rem}
+.article .lead-p{font-size:1.12rem;color:var(--text-s);line-height:1.6;margin-bottom:1.6rem}
+.article p{margin-bottom:1rem;line-height:1.75}
+.article h2{font-size:1.4rem;margin:2rem 0 .7rem;color:var(--navy)}
+.article ul,.article ol{margin:0 0 1rem 1.3rem}
+.article li{margin-bottom:.5rem;line-height:1.6}
+.article .faq-q{font-weight:700;color:var(--navy);margin:1.1rem 0 .3rem}
+.article .disc{font-size:.82rem;color:var(--text-s);border-top:1px solid var(--border);margin-top:2.2rem;padding-top:1.1rem;font-style:italic}
+.article .rel{background:var(--off);border-radius:8px;padding:1.1rem 1.3rem;margin-top:1.8rem}
+.article .rel a{font-weight:600;display:inline-block;margin:.15rem .8rem .15rem 0}
