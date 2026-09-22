@@ -161,22 +161,23 @@ urgencia) y sociales (edad, vulnerabilidad), conforme el Anexo II. Las prestacio
 reprogramarán al período siguiente.
 
 ### DÉCIMA — Precio de referencia, bonificación y cofinanciamiento
-El valor de referencia de cada prestación es el establecido en el Anexo I (Nomenclador). Sobre dicho valor,
-EL CENTRO aplica una bonificación del [40] % y EL MUNICIPIO cofinancia el [60] % restante. El paciente
-abonará $ 0 o el copago mínimo que, en su caso, fije EL MUNICIPIO. Los valores del Anexo I podrán
-actualizarse por acuerdo escrito de LAS PARTES, mediante adenda, con la debida justificación (índice de
-referencia, valores APROSS/PAMI o de mercado).
+El valor de referencia de cada prestación es el establecido en el Anexo I (Nomenclador). El valor de la
+cirugía de catarata (SV-02) se fija en **$ 1.050.000**, tomado como valor de referencia de mercado de
+EL CENTRO. Sobre dichos valores, EL CENTRO aplica una bonificación del [40] % y EL MUNICIPIO cofinancia el
+[60] % restante. El paciente abonará $ 0 o el copago mínimo que, en su caso, fije EL MUNICIPIO. **El sistema
+de actualización de los valores será por paritarias del personal de sanidad**, en línea con los convenios
+prestacionales vigentes de EL CENTRO, instrumentándose por adenda con la debida justificación.
 
 ### DÉCIMO PRIMERA — Facturación, forma de pago y documentación
 EL CENTRO facturará por prestación efectivamente realizada (incluida la jornada de detección por
 jornada/vecino evaluado), consignando en la factura el valor de referencia, la bonificación del [40] % y
 el neto a cargo de EL MUNICIPIO. La factura se acompañará de: orden de prestación (o acta de campaña),
 constancia de elegibilidad, consentimiento informado, comprobante de la práctica, informe médico y, cuando
-corresponda, imágenes o estudios. EL MUNICIPIO pagará dentro de los [30] días de conformada la auditoría,
+corresponda, imágenes o estudios. EL MUNICIPIO pagará dentro de los **[45] días** de conformada la auditoría,
 mediante [medio de pago]. No se admiten anticipos sin prestación realizada.
 
-> **Modelo de línea de facturación sugerida:** «Cirugía de catarata — valor de referencia $1.000.000 —
-> bonificación Programa 40% ($400.000) — neto a cargo del Municipio $600.000». Esta redacción hace visible
+> **Modelo de línea de facturación sugerida:** «Cirugía de catarata — valor de referencia $1.050.000 —
+> bonificación Programa 40% ($420.000) — neto a cargo del Municipio $630.000». Esta redacción hace visible
 > la bonificación en el propio comprobante, que es lo que el Tribunal de Cuentas necesita verificar.
 
 ### DÉCIMO SEGUNDA — Auditoría y control
@@ -259,8 +260,8 @@ indicados.
 | **SV-00A** | **Jornada de detección/screening (por jornada, hasta [N] vecinos)** | $ [______] | $ [______] | $ [______] |
 | **SV-00B** | **Detección por vecino evaluado (retinografía + screening + telelectura)** | $ [______] | $ [______] | $ [______] |
 | SV-01 | Consulta oftalmológica y diagnóstico | $ 30.000 | $ 12.000 | $ 18.000 |
-| SV-02 | Cirugía de catarata (facoemulsificación) con lente intraocular monofocal | $ 1.000.000 | $ 400.000 | $ 600.000 |
-| SV-03 | Cirugía de catarata — segundo ojo | $ 900.000 | $ 360.000 | $ 540.000 |
+| SV-02 | Cirugía de catarata (facoemulsificación) con lente intraocular monofocal | **$ 1.050.000** | $ 420.000 | $ 630.000 |
+| SV-03 | Cirugía de catarata — segundo ojo | $ 950.000 | $ 380.000 | $ 570.000 |
 | SV-04 | Estudios prequirúrgicos (biometría, OCT, etc.) | $ 80.000 | $ 32.000 | $ 48.000 |
 | SV-05 | Control y seguimiento postoperatorio (paquete) | $ 40.000 | $ 16.000 | $ 24.000 |
 | SV-06 | Cirugía de pterigión | $ 350.000 | $ 140.000 | $ 210.000 |
