@@ -77,13 +77,12 @@ document.addEventListener('DOMContentLoaded', function () {
       var btn = form.querySelector('button[type="submit"]');
       if (btn) {
         btn.textContent = 'Abriendo WhatsApp…';
-        btn.disabled = true;
-        setTimeout(function () {
-          btn.textContent = 'Enviar solicitud de turno';
-          btn.disabled = false;
-        }, 4000);
       }
-      window.open(url, '_blank');
+      // Intentar abrir en pestaña nueva; si el navegador lo bloquea, ir en la misma
+      var win = window.open(url, '_blank');
+      if (!win) {
+        window.location.href = url;
+      }
     });
   }
 });
