@@ -15,15 +15,19 @@
   **paritarias de sanidad** (te cubre la inflación).
 - **Ninguno mejora tu precio en ninguna práctica.** BRAMED = lo tuyo; Boreal ≤ lo tuyo.
 
-## Catarata (lo importante para el municipio)
+## Catarata (definición final)
 
-| | Valor |
-|---|---|
-| **Lazarte (pedido)** | **$ 1.050.000** ← más alto |
-| Boreal (propuesta) | $ 950.000 |
-| BRAMED | s/valor (lente a cargo del afiliado, cotizar cirugía) |
+Se adopta el esquema **cirugía sin lente + lente a cargo del paciente** (el que pidió BRAMED):
 
-➡️ **Valor más alto = $ 1.050.000.** Es el que se ofrece al municipio (VER PARA VIVIR).
+| | Cirugía (sin lente) | Lente intraocular |
+|---|---|---|
+| **BRAMED** | **$ 850.000** | a cargo del afiliado |
+| **Municipio (VER PARA VIVIR)** | **$ 850.000** (bonif. 40% $340.000 / municipio 60% $510.000) | a cargo del paciente |
+| Boreal | $ 950.000 (con lente, a renegociar) | — |
+| Lazarte (pedido original, con lente) | $ 1.050.000 | incluida |
+
+➡️ **Municipio: cirugía de catarata $ 850.000 por ojo, sin lente (lente a cargo del paciente)**,
+pago a 45 días por cheque al día o transferencia. Ya aplicado al convenio v2.
 
 ## Diferencias destacadas (Boreal recorta)
 
