@@ -37,4 +37,53 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  // Formulario de contacto -> abre WhatsApp con los datos cargados
+  var form = document.getElementById('contactForm');
+  if (form) {
+    var WA_NUMBER = '5493516371007';
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      function val(id) {
+        var el = document.getElementById(id);
+        return el && el.value ? el.value.trim() : '';
+      }
+      var nombre = val('nombre');
+      var telefono = val('telefono');
+      if (!nombre || !telefono) {
+        alert('Por favor completá al menos tu nombre y teléfono.');
+        return;
+      }
+      var lines = [
+        'Hola, quiero solicitar un turno en Centro de Ojos Lazarte.',
+        '',
+        'Nombre: ' + nombre,
+        'Teléfono: ' + telefono
+      ];
+      var email = val('email');
+      if (email) lines.push('Email: ' + email);
+      var motivo = val('motivo');
+      if (motivo) lines.push('Motivo: ' + motivo);
+      var fecha = val('fecha');
+      if (fecha) lines.push('Día preferido: ' + fecha);
+      var sede = val('sede');
+      if (sede) lines.push('Sede: ' + sede);
+      var mensaje = val('mensaje');
+      if (mensaje) lines.push('Mensaje: ' + mensaje);
+
+      var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
+
+      // Feedback visual
+      var btn = form.querySelector('button[type="submit"]');
+      if (btn) {
+        btn.textContent = 'Abriendo WhatsApp…';
+        btn.disabled = true;
+        setTimeout(function () {
+          btn.textContent = 'Enviar solicitud de turno';
+          btn.disabled = false;
+        }, 4000);
+      }
+      window.open(url, '_blank');
+    });
+  }
 });
