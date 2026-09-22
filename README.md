@@ -12,6 +12,7 @@ mkt/
 │       ├── web/                ← Sitio web (HTML/CSS/JS, estático)
 │       ├── contenido/          ← Planes IG + blog, auditorías
 │       └── marca/              ← Línea visual, accesos, datos
+├── convenios/                  ← Nuevas negociaciones y acuerdos (uso de Ricky)
 └── _plantillas/                ← Recursos reutilizables entre clientes
 ```
 
