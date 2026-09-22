@@ -1,0 +1,125 @@
+Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultimo_contacto,Notas,Proximo_paso
+1,Obra Social Provincial,APROSS,,,apross.gov.ar,Fuerte,-,Convenio vigente,,Prestador activo (base del pitch),Mantener
+2,Obra Social Nacional,PAMI (INSSJP),,138,pami.org.ar,Fuerte,-,Convenio vigente,,Prestador activo; cubre cataratas 100% monofocal,Mantener
+3,Gerenciadora,Grupo Gerenciar Salud,comercial@gerenciarsalud.com.ar,11-5886-5653,gerenciarsalud.com.ar,-,P1,En negociacion,2026-08-31,Presupuesto actualizado sin responder,Responder / decidir
+4,Prepaga,Sancor Salud,florencia.martinez@sancorsalud.com.ar,0800-7777-72583,prestadores.sancorsalud.com.ar,Fuerte,P1,En curso,2026-09-14,Ellos nos contactaron (convenios directos); canal: conectividad@sancorsalud.com.ar,Avanzar y firmar
+5,Prepaga,BRAMED Salud,convenios@bramedsalud.com.ar,,bramedsalud.com.ar,Media,P1,En curso (positivo),2026-09-18,Acordaron mayoria de valores; enviaron grilla,Cerrar grilla y firmar
+6,Gestora/Prepaga,Boreal Salud (e-boreal),csantillan@e-boreal.com.ar,0810-555-2673,borealsalud.com.ar,Fuerte,P1,En curso,2026-09-15,Nomenclador en evaluacion; autorizaciones: autorizacionescba@e-boreal.com.ar,Esperar novedades
+7,Obra Social,OPDEA (Personal de Direccion),doviedo@opdea.org.ar,,opdea.org.ar,Media,P2,En curso,2026-09-14,Enviado practicas/valores; seguimiento hecho,Recontactar
+8,Gestora,Grupo Prolider,info@grupoprolider.com.ar,,grupoprolider.com.ar,Media,P2,Enviado,2026-09-14,Sin respuesta,Recontactar
+9,Prepaga,Galeno,doc.mail@galenoargentina.com.ar,,e-galeno.com.ar,Media,P1,Enviado,2026-07-13,Sin respuesta,Recontactar
+10,Prepaga,Family Salud,areacomercial@familysalud.com.ar,,familysalud.com.ar,Media,P2,Enviado,2026-07-21,Sin respuesta,Recontactar
+11,Obra Social/Prepaga,OSMEDICA (FEMECA),gestionmedicos@osmedica.com,0800-999-1019,osmedica.com.ar,Media,P2,Enviado,2026-07-21,Sin respuesta; auditoria medica 0800-999-1019,Recontactar
+12,Prepaga,Proteccion Medica,admincba@proteccionmedica.com.ar,,proteccionmedica.com.ar,Fuerte,P2,Enviado,2026-07-21,Sin respuesta,Recontactar
+13,Obra Social,Sanidad (OSPSA / FATSA),info@sanidad.org.ar,0800-999-7264,sanidad.org.ar/ospsa,Media,P2,Enviado,2026-07-21,Sin respuesta; tiene Portal de Prestadores,Recontactar
+14,Gestora,Geanet,info@geanet.com.ar,,geanet.com.ar,Baja,P3,Enviado,2026-07-21,Sin respuesta,Recontactar
+15,Prepaga,Sanos,info@sanos.com.ar,,sanos.com.ar,Fuerte,P2,Enviado,2026-07-21,Sin respuesta,Recontactar
+16,Prepaga,PREME,preme@preme.com.ar,,preme.com.ar,Media,P3,Enviado,2026-07-21,Sin respuesta,Recontactar
+17,Prepaga,Federada Salud,ynavarro@federada.com,0810-888-8767,federada.com/contacto,Media,P2,Rechazado (por ahora),2026-07-22,Cartera de oftalmologia completa en la zona,Reintentar mas adelante
+18,Obra Social/Red,Cooperativa Red (coop5/aclinor),aclinor@coop5.com.ar,,coop5.com.ar,Media,P3,Rechazado,2026-08-12,Comision directiva decidio no incorporar,-
+19,Camara,CES - Camara de Entidades de Salud Cba,prestadores@cescordoba.com.ar,,cescordoba.com.ar,Fuerte,P1,Enviado (seguimiento),2026-07-21,Sin cierre,Recontactar
+20,Camara,ACLISA (Asoc. Clinicas Cba),info@aclisa.org.ar,,aclisa.org.ar,Fuerte,P2,Respondio,2026-07-06,Agrupa 45 instituciones; informo su rol,Evaluar adhesion
+21,Colegio/Consejo,CPCE Cordoba (Cs Economicas),cpcecba@cpcecba.org.ar,0351-468-8300,cpcecba.org.ar,Fuerte,P2,Enviado,2026-07-08,Sin respuesta; matriculados via prepagas,Recontactar
+22,Caja profesional,Caja de Abogados Cordoba,serviciomedico@caja-abogados.org.ar,0351-423-5900,caja-abogados.org.ar,Fuerte,P2,Enviado,2026-07-08,Sin respuesta; alt: informacion@caja-abogados.org.ar,Recontactar
+23,Sindicato,UEPC (docentes provinciales),saludymat@uepc.org.ar,0351-410-1400,uepc.org.ar,Fuerte,P1,Enviado,2026-07-08,Sin respuesta; afiliados APROSS; alt: secgral@uepc.org.ar,Recontactar (Camino 1)
+24,Sindicato,UTHGRA Cordoba (gastronomicos),info@uthgracba.org.ar,0351-570-4431,uthgracba.org.ar,Fuerte,P1,Enviado,2026-07-08,Sin respuesta; OBRA SOCIAL PROPIA (OSUTHGRA),Recontactar (Camino 2)
+25,Obra Social,OSSSB (Bancaria),lumassetti@osssb.com.ar,0800-222-3462,osssb.com,Media,P3,Enviado,2026-07-08,Enviado a atbeneficiario@osssb.com.ar; sin respuesta,Recontactar
+26,Otro,Vinculacion (institucional.gsalud),institucional.gsalud@gmail.com,,,-,P3,Enviado,2026-07-06,Vinculacion institucional,Recontactar
+27,Obra Social,SIPSSA,mmarconetto@sipssa.com.ar,,sipssa.com.ar,Baja,P3,Email invalido (bounce),2026-07-21,Direccion inexistente,Conseguir email valido
+28,Otro,CEPSAL,informes@cepsal.org,,,Baja,P3,Email invalido (bounce),2026-07-08,Dominio inexistente,Conseguir email valido
+29,Colegio,CMVM (Circulo Medico),cmvm@arnet.com.ar,,,Media,P3,Email invalido (bounce),2026-07-08,Direccion inexistente,Conseguir email valido
+30,Prepaga,Griff Salud,info@griffsalud.com,,,Baja,P3,Email invalido (bounce),2026-07-06,Dominio inexistente,Conseguir email valido
+31,Prepaga,OSDE,a relevar,,cvprest.osde.com.ar,Fuerte,P1,Sin contactar,,Postulacion via portal CV Prestadores,Postular en portal
+32,Prepaga,Swiss Medical,contratacionesinterior@swissmedical.com.ar,0810-333-7737,swissmedical.com.ar/prestadores,Fuerte,P1,Sin contactar,,Email de contrataciones INTERIOR/Cordoba (verificado),Enviar propuesta
+33,Prepaga,Medife,convenios@medife.com.ar,0810-345-2299,medife.com.ar,Fuerte,P1,Sin contactar,,Canal de convenios verificado,Enviar propuesta
+34,Prepaga,Omint,cgp@omint.com.ar,0810-222-5155,prestadores.omint.com.ar,Media,P2,Sin contactar,,Centro de Gestion de Prestadores,Enviar propuesta
+35,Prepaga,Medicus,prestadores@medicus.com.ar,4129-5300,medicus.com.ar,Baja,P3,Sin contactar,,Fuerte en AMBA; baja en Cba,Enviar propuesta
+36,Prepaga,Avalian (ex ACA Salud),consultasweb@acasalud.com.ar,0341-420-8752,avalian.com/contactos,Fuerte,P1,Sin contactar,,Confirmar canal de prestadores,Enviar propuesta
+37,Prepaga,Jerarquicos Salud,prestadores@jerarquicos.com,0800-888-5040,jerarquicos.com/prestadores,Fuerte,P1,Sin contactar,,Linea exclusiva prestadores (verificado),Enviar propuesta
+38,Prepaga,Prevencion Salud,a relevar,0810-555-1055,prevencionsalud.com.ar/contacto,Fuerte,P1,Sin contactar,,Grupo Sancor; linea prestadores; email a relevar,Llamar / formulario
+39,Prepaga,Accord Salud,a relevar,0810-888-0500,accordsalud.com.ar,Media,P2,Sin contactar,,Centro de Atencion a Prestadores,Llamar / formulario
+40,Prepaga,Hominis,prestaciones@hominis.com.ar,4860-1900,hominis.com.ar/prestadores-hominis,Baja,P3,Sin contactar,,Canal de prestaciones,Enviar propuesta
+41,Prepaga,Luis Pasteur,a relevar,011-4370-1000,oslpasteur.com.ar,Baja,P3,Sin contactar,,Contrataciones int. 263/270,Llamar
+42,Prepaga,Premedic,a relevar,0810-222-5522,premedicmedicinaprivada.com.ar,Baja,P3,Sin contactar,,Email a relevar,Formulario
+43,Prepaga,William Hope,a relevar,0800-333-94673,whope.com.ar/soy_prestador,Baja,P3,Sin contactar,,Form Soy Prestador,Formulario
+44,Prepaga,Bristol Medicine,a relevar,0800-444-0453,bristolmedicine.com.ar,Baja,P3,Sin contactar,,Email a relevar,Formulario
+45,Obra Social,OSECAC (comercio),a relevar,0800-666-0400,osecac.org.ar/ContactoPagina,Fuerte,P1,Sin contactar,,Sin email de prestadores; via Centros de Gestion,Relevar canal prestadores
+46,Obra Social,OSPRERA (rural),consultas@osprera.org.ar,0351-452-6298,osprera.org.ar,Media,P2,Sin contactar,,Red Cba gerenciada (TAC + Colegio Medico); sede Cba,Contactar sede Cba
+47,Obra Social,OSPE (petroleros),obrasocial@ospe.org.ar,0800-444-6773,ospe.ar,Media,P2,Sin contactar,,Facturacion prestadores: facturaciones@ospe.org.ar,Enviar propuesta
+48,Obra Social,OSPIM (maderera),contacto@ospim.com.ar,0800-666-7746,ospim.com.ar,Baja,P3,Sin contactar,,Canal general,Enviar propuesta
+49,Obra Social,OSMATA (mecanicos SMATA),a relevar,011-4340-7400,osmata.com.ar/prestadores-externos,Media,P2,Sin contactar,,Alta via formulario Prestadores externos,Formulario
+50,Obra Social,UTA / OSCTCP (transporte),oficios_osctcp@uta.org.ar,4011-5123,obrasocialuta.com.ar,Media,P2,Sin contactar,,Sin email especifico de prestadores,Enviar por oficios
+51,Obra Social,OSPeDYC (deportivas/civiles),a relevar,0800-345-6773,ospedycdirecto.org.ar,Baja,P3,Sin contactar,,Portal prestadores ospedycdirecto.org.ar,Portal
+52,Obra Social,OSPIC (cinematografica SICA),ospic@sicacine.org.ar,011-4808-0106,ospic.org.ar,Baja,P3,Sin contactar,,,Enviar propuesta
+53,Obra Social,OSPIQYP (quimicos),a relevar,,ospiqyp.org.ar,Baja,P3,Sin contactar,,En concurso preventivo; sin canal publicado,Relevar
+54,Obra Social,OSFATUN (universitarios nodocentes),a relevar,0800-666-5173,osfatun.com.ar/contacto,Media,P3,Sin contactar,,Area Facturacion Prestadores (emails ofuscados),Relevar canal
+55,Obra Social,OSDOP (docentes particulares SADOP),ccpba@osdop.org.ar,0800-666-6450,osdop.org.ar,Media,P2,Sin contactar,,Red regional gerenciada (SERVIRED),Enviar propuesta
+56,Obra Social,OSPACA (Automovil Club),informes@ospaca.com,0800-999-6772,ospaca.com,Baja,P3,Sin contactar,,Prestadores bajo convenio ACA,Enviar propuesta
+57,Obra Social,OSJERA / OSPJERA (agua y energia),a relevar,,osjera.com.ar,Baja,P3,Sin contactar,,Prestadores via Federacion Medica,Relevar
+58,Obra Social,OSPM (maritimo SOMU),reclamos@ospm.com.ar,0810-777-2571,prestadores.ospm.org.ar,Baja,P3,Sin contactar,,Portal de prestadores,Portal
+59,Obra Social,OSSEG (seguros),informacion@osseg.org.ar,011-4131-2000,osseg.org.ar,Baja,P3,Sin contactar,,Prestadores por delegacion,Enviar propuesta
+60,Obra Social,OSPAT (turf),gestionadministrativa@ospat.com.ar,0800-999-1656,ospat.com.ar,Baja,P3,Sin contactar,,Portal de Gestion de Prestadores,Enviar propuesta
+61,Obra Social,ANDAR,a relevar,0341-277-1988,andar.org.ar,Baja,P3,Sin contactar,,Sede Rosario; delegaciones con gmail comerciales,Relevar
+62,Obra Social,ASSPE (empresarios/direccion),a relevar,0800-345-7332,asspesalud.com.ar,Baja,P3,Sin contactar,,Red gerenciada por FideiSalud,Relevar
+63,Obra Social,OSDEPYM,liquidacionescentro@osdepym.com.ar,0800-288-7963,osdepym.com.ar,Media,P2,Sin contactar,,Red Cba gerenciada por VISITAR; sede Cba consultascordoba@osdepym.com.ar,Contactar VISITAR/sede Cba
+64,Gerenciadora,VISITAR (red Cordoba),a relevar,,visitar.com.ar,Fuerte,P2,Sin contactar,,Administra red en Cba para OSDEPYM y otras OOSS/prepagas,Contactar (puerta a varias OOSS)
+65,Obra Social,OSFE (ferroviaria),contactese@osferroviaria.org.ar,,osfe.org.ar,Baja,P3,Sin contactar,,Afiliaciones: postulate@osferroviaria.org.ar,Enviar propuesta
+66,Obra Social,OSPIT (textil),consultas@ospit.org.ar,011-3987-1650,ospit.org.ar,Baja,P3,Sin contactar,,,Enviar propuesta
+67,Obra Social,OSTV (viales),info@vialsalud.com.ar,,ostv.com.ar,Baja,P3,Sin contactar,,Red gerenciada por ROI S.A./VialSalud,Enviar a VialSalud
+68,Obra Social,Pasteleros,a relevar,0800-333-0001,pasteleros.org/convenios,Baja,P3,Sin contactar,,Area Convenios y Escalas (email ofuscado),Relevar canal
+69,Obra Social,OSPIA (alimentacion STIA),ospiacentral@ospia.org.ar,011-4383-9026,ospia.org.ar/prestadores,Baja,P3,Sin contactar,,Seccion Prestadores en el sitio,Enviar propuesta
+70,Obra Social,ADMED,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+71,Obra Social,AOTRA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+72,Obra Social,APM,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+73,Obra Social,Conexion Salud,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+74,Obra Social,Ensalud,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+75,Obra Social,Fedeisalud,a relevar,,fideisalud.com.ar,Baja,P3,Sin contactar,,Gerenciadora (red de ASSPE y otras),Relevar
+76,Obra Social,Global Empresaria,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+77,Obra Social,Ladrilleros (OSPIL),a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+78,Obra Social,Mosaistas,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+79,Obra Social,OS Escribanos,a relevar,,,Media,P3,Sin contactar,,En lista Gerenciar,Relevar
+80,Obra Social,OSA (Actores),a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+81,Obra Social,OSA (Aeronavegantes),a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+82,Obra Social,OSADEF,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+83,Obra Social,OSCE,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+84,Obra Social,OSEIV,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+85,Obra Social,OSETYA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+86,Obra Social,OSMISS,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+87,Obra Social,OSMITA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+88,Obra Social,OSOSS,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+89,Obra Social,OSPATCA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+90,Obra Social,OSPFESIQYP,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+91,Obra Social,OSPIDA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+92,Obra Social,OSPNJ,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+93,Obra Social,OSPOCE,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+94,Obra Social,OSRJA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+95,Obra Social,OSTVENDRA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+96,Obra Social,RAS,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+97,Obra Social,ROISA,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar (gerenciadora ROI S.A.),Relevar
+98,Obra Social,Salud Industrial,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+99,Sindicato,UOM Cordoba (metalurgicos),accionsocial@uomcordoba.org.ar,0351-425-7474,uomcordoba.org.ar,Fuerte,P1,Sin contactar,,OBRA SOCIAL PROPIA (OSUOMRA) + centro medico; afiliaciones@uomcordoba.org.ar,Enviar (Camino 2)
+100,Sindicato,Luz y Fuerza Cordoba,a relevar,,luzyfuerzacordobaelectrum.com.ar,Fuerte,P1,Sin contactar,,OBRA SOCIAL PROPIA (OSPLYFC); sede Dean Funes 672,Relevar y enviar (Camino 2)
+101,Sindicato,SEP (empleados publicos Cba),a relevar,,sep.org.ar,Fuerte,P1,Sin contactar,,Afiliados APROSS; bateria de email lista,Enviar (Camino 1)
+102,Sindicato,AGEPJ (judiciales Cba),a relevar,0351-428-2389,agepj.org.ar,Fuerte,P1,Sin contactar,,Afiliados APROSS; probable info@agepj.org.ar (sin confirmar),Relevar y enviar (Camino 1)
+103,Sindicato,ATE Cordoba,prensa@atecordoba.org,0351-423-2748,atecordoba.org,Fuerte,P2,Sin contactar,,Cobertura a confirmar,Enviar
+104,Sindicato,UPCN Cordoba,a relevar,0351-423-3244,upcndigital.org/cordoba,Fuerte,P2,Sin contactar,,APROSS / obra social UPCN,Relevar y enviar
+105,Sindicato,SUOEM (municipales Cba),a relevar,0351-426-1364,suoemcordoba.com,Fuerte,P2,Sin contactar,,DAS (obra social Municipalidad de Cba),Relevar y enviar
+106,Sindicato,AGEC (comercio Cba),a relevar,0351-423-6418,agec.com.ar,Fuerte,P2,Sin contactar,,Servicios propios (Sanagec) / OSECAC,Relevar y enviar (Camino 2)
+107,Sindicato,Camioneros Cordoba,a relevar,0351-447-8300,obrasocialcamioneroscba.com.ar,Fuerte,P2,Sin contactar,,OBRA SOCIAL PROPIA,Relevar y enviar (Camino 2)
+108,Sindicato,Federacion de Jubilados Cba,a relevar,,pami.org.ar,Fuerte,P1,Sin contactar,,Afiliados PAMI; bateria de email lista,Enviar (Camino 1)
+109,Camara,Camara de Comercio de Cordoba,recepcion@camcomcba.com.ar,0351-422-2570,camcomcba.com.ar,Fuerte,P2,Sin contactar,,Nuclea empresas (empleados via OSECAC/prepagas),Enviar (via afiliadas)
+110,Camara,UIC - Union Industrial de Cordoba,info@uic.org.ar,0351-422-4353,uic.org.ar,Fuerte,P2,Sin contactar,,Nuclea empresas; direccionejecutiva@uic.org.ar,Enviar (via afiliadas)
+111,Camara,CaCEC - Camara Comercio Exterior Cba,cacec@cacec.com.ar,0351-421-4804,cacec.com.ar,Fuerte,P3,Sin contactar,,Nuclea empresas,Enviar
+112,Camara,Bolsa de Comercio de Cordoba,institucionales@bolsacba.com.ar,,bolsacba.com.ar,Fuerte,P3,Sin contactar,,Nuclea empresas,Enviar
+113,Camara,CAMARCO Cordoba (construccion),a relevar,0351-468-4455,camarcocba.com.ar,Fuerte,P3,Sin contactar,,Nuclea empresas,Relevar y enviar
+114,Colegio,Colegio de Escribanos de Cba,secretaria@escribanos.org.ar,0351-570-6500,escribanos.org.ar,Fuerte,P3,Sin contactar,,Matriculados via prepagas,Enviar
+115,Colegio/Consejo,Consejo de Medicos de Cba (CMPC),consejomedico@cmpc.org.ar,0351-422-5004,cmpc.org.ar,Fuerte,P3,Sin contactar,,Matriculados via prepagas,Enviar
+116,Colegio,Colegio de Abogados de Cba,a relevar,0351-422-0448,abogado.org.ar,Fuerte,P3,Sin contactar,,Distinto de la Caja (fila 22),Relevar y enviar
+117,Caja profesional,Caja de Jubilaciones de Cba (provincial),a relevar,0810-122-2252,cajajubilaciones.cba.gov.ar,Fuerte,P3,Sin contactar,,Jubilados provinciales; APROSS,Relevar
+118,ART,Prevencion ART,a relevar,,prevencionart.com.ar,Fuerte,P3,Sin contactar,,Grupo Sancor; accidentes oculares laborales,Relevar
+119,ART,Asociart ART,a relevar,,asociart.com.ar,Media,P3,Sin contactar,,En lista Gerenciar,Relevar
+120,ART,Experta ART,a relevar,,expertaart.com.ar,Media,P3,Sin contactar,,En lista Gerenciar,Relevar
+121,ART,Provincia ART,a relevar,,provinciart.com.ar,Media,P3,Sin contactar,,En lista Gerenciar,Relevar
+122,ART,San Cristobal,a relevar,,sancristobal.com.ar,Media,P3,Sin contactar,,En lista Gerenciar,Relevar
+123,ART,Colonia Suiza ART,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+124,ART,IAPSER ART (Entre Rios),a relevar,,iapser.gov.ar,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
