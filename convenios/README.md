@@ -18,6 +18,7 @@ institucionales, programas y las contrapartes de cada negociación.
 | 🏥 **Financiadores directos** (prepagas / OOSS / ART) | [`base-datos-contactos.csv`](base-datos-contactos.csv) · [`estado-contactos.md`](estado-contactos.md) | 🟢 En curso (varios) |
 | 👁️ **VER PARA VIVIR** (municipios + hogares) | [`ver-para-vivir/`](ver-para-vivir/) | 🔵 Diseñado, por lanzar piloto |
 | 🧑‍🏭 **Sindicatos / patronales / colegios** | [`sindicatos/`](sindicatos/) | 🔵 Batería lista, envío parcial |
+| 🏢 **Empresas grandes** (salud visual corporativa) | [`propuesta-empresas.md`](propuesta-empresas.md) | 🔵 Borrador (incluye nota APROSS) |
 | ⚖️ **Transición jurídica** (Persona → Sociedad) | [`transicion-juridica/`](transicion-juridica/) | 🔵 Habilitador, por ejecutar |
 
 ## Estructura
