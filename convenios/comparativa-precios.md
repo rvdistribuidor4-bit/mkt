@@ -30,9 +30,11 @@ El **Municipio (VER PARA VIVIR)** tiene dos opciones:
 premium (tórica/multifocal) con copago de la diferencia a cargo del paciente. Pago a 45 días por cheque al
 día o transferencia. Aplicado al convenio v2.
 
-> El valor particular de mercado surge de fuentes 2025-2026 (clínicas argentinas + ancla en dólares USD
-> 700-1.200/ojo). Conviene respaldarlo con **1-2 presupuestos particulares escritos de clínicas de
-> Córdoba** para blindar la cifra ante el Tribunal de Cuentas.
+> Valor particular de mercado estimado a partir de precios publicados de cirugía de catarata con lente
+> monofocal (todo incluido) en Argentina 2024-2025 y del rango en dólares (USD 700-1.200/ojo).
+>
+> **Nota interna (no va al municipio):** el precio al municipio es ajustado a propósito; la rentabilidad
+> del Programa está en el **volumen de cirugías**, no en el margen unitario.
 
 ## Diferencias destacadas (Boreal recorta)
 
