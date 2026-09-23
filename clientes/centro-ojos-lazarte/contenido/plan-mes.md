@@ -15,7 +15,7 @@ página N = `urls[N-1]`). Cuenta IG (Windsor): `17841414497159496`.
 ---
 
 ### 1 · Hábitos frente a las pantallas (carrusel) — sug. 2026-09-23
-**estado: PENDIENTE**
+**estado: PUBLICADO (2026-09-23 · media_id 18078993317356407 · comentario WA OK)**
 SPEC: `export-design DAHUk0p5o8k jpg` → carrusel `create_carousel_post` image_urls =
 [ `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/2026-09-22-portada-habitos.jpg`, urls[10], urls[13], urls[14], urls[12], urls[11], urls[16] ].
 CAPTION:
