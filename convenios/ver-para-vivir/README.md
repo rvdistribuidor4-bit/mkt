@@ -16,7 +16,7 @@ y pendientes. **Empezar por ahí.**
 
 ## Estrategia, marca y materiales
 
-- `Modelo_Convenio_Municipal_v2.md` — convenio reescrito (Modo A/B, jornadas de técnicos, 4 campañas/año, catarata sin lente $850.000).
+- `Modelo_Convenio_Municipal_v2.md` — convenio reescrito (Modo A/B, jornadas de técnicos, 4 campañas/año, catarata $850.000 sin lente / $1.000.000 con lente, descuento ya incluido).
 - `mejoras-modelo-operativo.md` — análisis para no mover al médico (jornada de técnicos + teleoftalmología).
 - `auditoria-cordoba.md` — ranking de localidades para el piloto (La Cumbre, San Javier, Deán Funes).
 - `estrategia-gobernacion.md` — cómo escalar a la Provincia de Córdoba.

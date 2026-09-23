@@ -1,7 +1,7 @@
 # 🧭 PANEL DE CONTROL — Convenios Lazarte
 
 > **El archivo para saber, de un vistazo, en qué estamos.** Uso exclusivo de Ricky.
-> Última actualización: **2026-09-23**
+> Última actualización: **2026-09-23** (corrección de precio de catarata municipal)
 > (Índice detallado de carpetas: [`README.md`](README.md))
 
 ---
@@ -18,7 +18,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 - [x] **Flyer VER PARA VIVIR aprobado** → `../ver-para-vivir.png` (imagen final, no se toca más).
 - [x] **Comparativa de precios** Lazarte vs BRAMED vs Boreal (52 prácticas) → [`comparativa-precios.pdf`](comparativa-precios.pdf)
-- [x] **Precio catarata definido:** $850.000 por ojo, cirugía **sin lente** (lente a cargo del paciente), pago 45 días.
+- [x] **Precio catarata definido (municipio):** **$850.000 sin lente** (precio final, descuento incluido; lente a cargo del paciente) **ó $1.000.000 con lente incluida**. Pago 45 días.
 - [x] **Base de datos maestra** de 124 entidades (prepagas, OOSS, sindicatos, patronales) → [`base-datos-contactos.csv`](base-datos-contactos.csv)
 - [x] **Análisis de correos ya enviados** (quién sí / quién no) → [`estado-contactos.md`](estado-contactos.md)
 - [x] **Modelo de convenio municipal v2** (catarata $850k, 45 días, ≥4 campañas/año) → [`ver-para-vivir/Modelo_Convenio_Municipal_v2.md`](ver-para-vivir/Modelo_Convenio_Municipal_v2.md)
@@ -73,7 +73,8 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 |---|---|
 | **23/09** | Flyer VER PARA VIVIR **aprobado** (logo institucional, según Manual de Marca). Panel de control creado. |
 | **23/09** | Iteraciones de diseño del flyer municipal hasta la versión final. |
-| **22/09** | Comparativa de precios (Lazarte/BRAMED/Boreal) + **PDF**. Catarata $850k sin lente, pago 45 días. |
+| **23/09** | Corrección precio catarata municipio: $850k sin lente (descuento incluido) / $1.000.000 con lente. Aplicado a comparativa, PDF y convenio v2. |
+| **22/09** | Comparativa de precios (Lazarte/BRAMED/Boreal) + **PDF**. |
 | **22/09** | 14 borradores de recontacto listos en Gmail. Plan de contacto por tandas + plantilla de email. |
 | **22/09** | Modelo de convenio municipal v2 (≥4 campañas/año). Propuesta a empresas + nota APROSS. |
 | **22/09** | **Base de datos maestra** de 124 entidades. Auditoría de Córdoba para el piloto. |

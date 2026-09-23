@@ -50,8 +50,8 @@ recursos o sin cobertura de la seguridad social el acceso a prestaciones oftalmo
 detección, en especial cirugías de cataratas, principal causa de ceguera evitable;
 
 Que EL CENTRO cuenta con la habilitación, la infraestructura, el equipamiento y el equipo profesional
-y técnico necesarios para brindar dichas prestaciones con estándares de calidad, y ofrece bonificar una
-porción del valor de cada práctica en el marco del Programa;
+y técnico necesarios para brindar dichas prestaciones con estándares de calidad, y ofrece un precio
+preferencial (con descuento del Programa ya incluido) para cada práctica en el marco del Programa;
 
 Que el gasto encuentra respaldo en la partida presupuestaria [partida] del Presupuesto vigente, y que su
 ejecución se sujeta al control del Tribunal de Cuentas municipal;
@@ -61,8 +61,8 @@ Por ello, LAS PARTES acuerdan:
 ### PRIMERA — Objeto
 EL CENTRO se obliga a brindar prestaciones oftalmológicas —**campañas de detección/screening**,
 diagnóstico, cirugía de cataratas y demás prácticas detalladas en el Anexo I— a los vecinos de EL
-MUNICIPIO que resulten beneficiarios del Programa, y EL MUNICIPIO se obliga a cofinanciar dichas
-prestaciones en la proporción y condiciones establecidas en este Convenio. El objeto no comprende
+MUNICIPIO que resulten beneficiarios del Programa, y EL MUNICIPIO se obliga a abonar dichas
+prestaciones a los precios y condiciones establecidos en este Convenio. El objeto no comprende
 subsidio ni aporte general alguno a EL CENTRO, sino el pago de **prestaciones concretas efectivamente
 realizadas** a beneficiarios individualizados.
 
@@ -117,7 +117,8 @@ presupuestaria. Para cada campaña:
 - Determinar la elegibilidad de los beneficiarios y emitir la orden de prestación previa a cada práctica
   de tratamiento.
 - Derivar a los beneficiarios a EL CENTRO mediante el formulario del Anexo III.
-- Cofinanciar el [60] % del valor de cada prestación conforme el Anexo I, previa auditoría y conformidad.
+- Abonar el precio de cada prestación conforme el Anexo I (precio final con descuento del Programa ya
+  incluido), previa auditoría y conformidad.
 - Imputar el gasto a la partida presupuestaria correspondiente y prever los créditos necesarios.
 - Fijar y comunicar el cupo mensual de prestaciones conforme la disponibilidad presupuestaria.
 - Para las campañas (Modalidad B): proveer el local, la convocatoria/difusión y el padrón de vecinos, y
@@ -132,8 +133,8 @@ presupuestaria. Para cada campaña:
 - Aportar, para las jornadas de detección, el **personal técnico** y el **equipamiento portátil**
   necesarios (incluida la cámara de fondo no midriática), y garantizar la **valoración médica a distancia
   por oftalmólogo**.
-- Bonificar el [40] % del valor de referencia de cada prestación (Anexo I), dejando constancia expresa de
-  la bonificación en la factura.
+- Aplicar el descuento del Programa sobre sus valores de mercado, ya reflejado en los precios finales del
+  Anexo I, y facturar a esos precios.
 - Atender únicamente a beneficiarios autorizados por EL MUNICIPIO, dentro del cupo asignado (excepto la
   participación abierta en jornadas de detección, conforme la cláusula TERCERA).
 - Requerir y conservar el consentimiento informado, la historia clínica y la documentación de cada
@@ -160,27 +161,34 @@ presupuestaria. La priorización atenderá a criterios clínicos (grado de pérd
 urgencia) y sociales (edad, vulnerabilidad), conforme el Anexo II. Las prestaciones que excedan el cupo se
 reprogramarán al período siguiente.
 
-### DÉCIMA — Precio de referencia, bonificación y cofinanciamiento
-El valor de referencia de cada prestación es el establecido en el Anexo I (Nomenclador). El valor de la
-cirugía de catarata (SV-02) se fija en **$ 850.000 por ojo**, correspondiente a **honorarios y quirófano,
-sin incluir la lente intraocular**, la cual **queda a cargo del paciente**. Sobre dichos valores, EL CENTRO
-aplica una bonificación del [40] % y EL MUNICIPIO cofinancia el [60] % restante. El paciente abonará $ 0 o el
-copago mínimo que, en su caso, fije EL MUNICIPIO, más el costo de la lente intraocular. **El sistema de
-actualización de los valores será por paritarias del personal de sanidad**, en línea con los convenios
-prestacionales vigentes de EL CENTRO, instrumentándose por adenda con la debida justificación.
+### DÉCIMA — Precio y modalidad de la cirugía de catarata
+El valor de cada prestación es el establecido en el Anexo I (Nomenclador). Los valores allí consignados
+son **precios finales para EL MUNICIPIO, con el descuento del Programa ya incluido** (no se aplica
+bonificación ni cofinanciamiento adicional sobre ellos). La cirugía de catarata (facoemulsificación) por
+ojo se ofrece en **dos modalidades**:
+
+- **Sin lente intraocular: $ 850.000 por ojo** (honorarios y quirófano; la **lente queda a cargo del
+  paciente**).
+- **Con lente intraocular incluida: $ 1.000.000 por ojo.**
+
+El paciente no abona la prestación (salvo, en la modalidad sin lente, el costo de la propia lente), o el
+copago mínimo que, en su caso, fije EL MUNICIPIO. **El sistema de actualización de los valores será por
+paritarias del personal de sanidad**, en línea con los convenios prestacionales vigentes de EL CENTRO,
+instrumentándose por adenda con la debida justificación.
 
 ### DÉCIMO PRIMERA — Facturación, forma de pago y documentación
 EL CENTRO facturará por prestación efectivamente realizada (incluida la jornada de detección por
-jornada/vecino evaluado), consignando en la factura el valor de referencia, la bonificación del [40] % y
-el neto a cargo de EL MUNICIPIO. La factura se acompañará de: orden de prestación (o acta de campaña),
+jornada/vecino evaluado), consignando en la factura el precio final acordado con EL MUNICIPIO (con el
+descuento del Programa ya incluido) y, en la cirugía de catarata, la modalidad (con o sin lente). La
+factura se acompañará de: orden de prestación (o acta de campaña),
 constancia de elegibilidad, consentimiento informado, comprobante de la práctica, informe médico y, cuando
 corresponda, imágenes o estudios. EL MUNICIPIO pagará dentro de los **45 días** de conformada la auditoría,
 mediante **cheque al día o transferencia bancaria**. No se admiten anticipos sin prestación realizada.
 
-> **Modelo de línea de facturación sugerida:** «Cirugía de catarata (sin lente) — valor de referencia
-> $850.000 — bonificación Programa 40% ($340.000) — neto a cargo del Municipio $510.000. Lente intraocular a
-> cargo del paciente». Esta redacción hace visible
-> la bonificación en el propio comprobante, que es lo que el Tribunal de Cuentas necesita verificar.
+> **Modelo de línea de facturación sugerida:** «Cirugía de catarata (sin lente) — precio Programa
+> $850.000 por ojo (descuento ya incluido); lente intraocular a cargo del paciente». Para la modalidad con
+> lente: «Cirugía de catarata (con lente incluida) — $1.000.000 por ojo». El precio consignado es el neto a
+> cargo del Municipio, lo que el Tribunal de Cuentas necesita verificar.
 
 ### DÉCIMO SEGUNDA — Auditoría y control
 EL MUNICIPIO ejercerá auditoría médica y administrativa de todas las prestaciones, con acceso a la
@@ -253,25 +261,26 @@ indicados.
 
 ## ANEXO I — Nomenclador de prestaciones y precios de referencia
 
-> Valores de referencia meramente ilustrativos; deben reemplazarse por el nomenclador vigente al momento de
-> la firma (referencias sugeridas: valores APROSS/PAMI o presupuestos de mercado). La bonificación de EL
-> CENTRO y el aporte de EL MUNICIPIO se calculan sobre estos valores.
+> **Precios finales para EL MUNICIPIO, con el descuento del Programa ya incluido.** No se aplica
+> bonificación ni cofinanciamiento adicional. Los valores no quirúrgicos son de referencia y se ajustan al
+> nomenclador vigente al momento de la firma; el sistema de actualización es por paritarias de sanidad.
 
-| Código | Prestación | Valor de referencia | Bonif. Centro (40%) | Aporte Municipio (60%) |
-|---|---|---|---|---|
-| **SV-00A** | **Jornada de detección/screening (por jornada, hasta [N] vecinos)** | $ [______] | $ [______] | $ [______] |
-| **SV-00B** | **Detección por vecino evaluado (retinografía + screening + telelectura)** | $ [______] | $ [______] | $ [______] |
-| SV-01 | Consulta oftalmológica y diagnóstico | $ 30.000 | $ 12.000 | $ 18.000 |
-| SV-02 | Cirugía de catarata (facoemulsificación) **por ojo — SIN lente intraocular; la lente queda a cargo del paciente** | **$ 850.000** | $ 340.000 | $ 510.000 |
-| SV-03 | Cirugía de catarata — segundo ojo (ídem, sin lente) | $ 850.000 | $ 340.000 | $ 510.000 |
-| SV-04 | Estudios prequirúrgicos (biometría, OCT, etc.) | $ 80.000 | $ 32.000 | $ 48.000 |
-| SV-05 | Control y seguimiento postoperatorio (paquete) | $ 40.000 | $ 16.000 | $ 24.000 |
-| SV-06 | Cirugía de pterigión | $ 350.000 | $ 140.000 | $ 210.000 |
+| Código | Prestación | Precio al Municipio (descuento incluido) |
+|---|---|---|
+| **SV-00A** | **Jornada de detección/screening (por jornada, hasta [N] vecinos)** | $ [______] |
+| **SV-00B** | **Detección por vecino evaluado (retinografía + screening + telelectura)** | $ [______] |
+| SV-01 | Consulta oftalmológica y diagnóstico | $ 30.000 |
+| SV-02 | Cirugía de catarata (facoemulsificación) **por ojo — SIN lente intraocular; la lente queda a cargo del paciente** | **$ 850.000** |
+| SV-02-L | Cirugía de catarata (facoemulsificación) **por ojo — CON lente intraocular incluida** | **$ 1.000.000** |
+| SV-03 | Cirugía de catarata — segundo ojo (ídem, sin lente) | $ 850.000 |
+| SV-04 | Estudios prequirúrgicos (biometría, OCT, etc.) | $ 80.000 |
+| SV-05 | Control y seguimiento postoperatorio (paquete) | $ 40.000 |
+| SV-06 | Cirugía de pterigión | $ 350.000 |
 
-> Nota: los porcentajes de bonificación/aporte son los pactados en la cláusula DÉCIMA y pueden modificarse
-> por adenda. La lente premium/multifocal, de solicitarse, puede quedar excluida o sujeta a copago del
-> paciente. La **jornada de detección** puede facturarse por jornada (SV-00A) o por vecino evaluado
-> (SV-00B), según se pacte; incluye el equipo portátil, el personal técnico y la lectura médica a distancia.
+> Nota: la lente intraocular estándar está incluida en la modalidad SV-02-L; en la modalidad SV-02 la lente
+> queda a cargo del paciente. La lente premium/multifocal, de solicitarse, puede quedar sujeta a copago del
+> paciente por la diferencia. La **jornada de detección** puede facturarse por jornada (SV-00A) o por vecino
+> evaluado (SV-00B), según se pacte; incluye el equipo portátil, el personal técnico y la lectura médica a distancia.
 
 ## ANEXO II — Protocolo de admisión y criterios de elegibilidad
 **Requisitos del beneficiario:** residencia acreditada en el ejido de EL MUNICIPIO; ausencia de cobertura
@@ -295,20 +304,20 @@ realiza al momento de derivar a tratamiento.
 | Constancia de elegibilidad N.° | ____________________ |
 | Origen (campaña de detección / derivación directa) | ____________________ |
 | Prestación autorizada (código Anexo I) | ____________________ |
-| Valor de referencia / aporte municipal | $ __________ / $ __________ |
+| Precio al Municipio (descuento incluido) | $ __________ |
 | Cupo del período | ____ de ____ |
 | Área/funcionario que autoriza | ____________________ |
 | Firma y sello | ____________________ |
 
 ## ANEXO IV — Planilla de rendición y facturación
-| N.° orden | Beneficiario / DNI | Prestación | Fecha | Valor ref. | Bonif. 40% | Aporte Mun. 60% | Factura N.° |
-|---|---|---|---|---|---|---|---|
-|  |  | SV-00B |  |  |  |  |  |
-|  |  | SV-02 |  |  |  |  |  |
-|  |  | SV-04 |  |  |  |  |  |
-| **TOTAL** | | | | $ | $ | $ | |
+| N.° orden | Beneficiario / DNI | Prestación | Fecha | Precio al Municipio (descuento incluido) | Factura N.° |
+|---|---|---|---|---|---|
+|  |  | SV-00B |  |  |  |
+|  |  | SV-02 |  |  |  |
+|  |  | SV-04 |  |  |  |
+| **TOTAL** | | | | $ | |
 
-> Adjuntar a la rendición: facturas con bonificación consignada; órdenes de prestación / actas de campaña;
+> Adjuntar a la rendición: facturas al precio del Programa (descuento incluido); órdenes de prestación / actas de campaña;
 > constancias de elegibilidad; consentimientos; partes quirúrgicos e informes médicos; conformidad de
 > auditoría. Elevar al Tribunal de Cuentas conforme el procedimiento local.
 
@@ -327,8 +336,8 @@ sanitaria de prevención de la discapacidad visual, con criterios objetivos de a
 - **Art. 1.º —** Créase el «Programa Municipal de Salud Visual y Prevención de Ceguera Evitable», destinado a
   cofinanciar **campañas de detección** y prestaciones oftalmológicas a vecinos sin cobertura o de bajos recursos.
 - **Art. 2.º —** Autorízase al Departamento Ejecutivo a celebrar convenios con prestadores oftalmológicos
-  habilitados, bajo la modalidad de compra de prestaciones con bonificación del prestador y cofinanciamiento
-  municipal, conforme el modelo que se aprueba como Anexo.
+  habilitados, bajo la modalidad de compra de prestaciones a precios preferenciales del prestador (con el
+  descuento del Programa ya incluido), conforme el modelo que se aprueba como Anexo.
 - **Art. 3.º —** Los beneficiarios serán determinados por el área competente según criterios objetivos de
   residencia, ausencia de cobertura y vulnerabilidad socioeconómica.
 - **Art. 4.º —** El Programa se financia con la partida ______ del Presupuesto vigente; facúltase a efectuar

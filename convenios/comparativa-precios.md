@@ -17,17 +17,23 @@
 
 ## Catarata (definición final)
 
-Se adopta el esquema **cirugía sin lente + lente a cargo del paciente** (el que pidió BRAMED):
+El **Municipio (VER PARA VIVIR)** tiene dos opciones:
 
-| | Cirugía (sin lente) | Lente intraocular |
+| Opción | Valor por ojo | Lente intraocular |
 |---|---|---|
-| **BRAMED** | **$ 850.000** | a cargo del afiliado |
-| **Municipio (VER PARA VIVIR)** | **$ 850.000** (bonif. 40% $340.000 / municipio 60% $510.000) | a cargo del paciente |
-| Boreal | $ 950.000 (con lente, a renegociar) | — |
-| Lazarte (pedido original, con lente) | $ 1.050.000 | incluida |
+| **Cirugía sin lente** | **$ 850.000** (precio final, **descuento ya incluido**) | a cargo del paciente |
+| **Cirugía con lente** | **$ 1.000.000** | incluida |
 
-➡️ **Municipio: cirugía de catarata $ 850.000 por ojo, sin lente (lente a cargo del paciente)**,
-pago a 45 días por cheque al día o transferencia. Ya aplicado al convenio v2.
+Referencias del mercado:
+
+| | Cirugía | Lente |
+|---|---|---|
+| BRAMED | $ 850.000 (sin lente) | a cargo del afiliado |
+| Boreal | $ 950.000 (con lente, a renegociar) | — |
+| Lazarte (pedido original) | $ 1.050.000 (con lente) | incluida |
+
+➡️ **Municipio: $ 850.000 por ojo sin lente (descuento incluido, lente a cargo del paciente) ó
+$ 1.000.000 con lente incluida.** Pago a 45 días por cheque al día o transferencia. Aplicado al convenio v2.
 
 ## Diferencias destacadas (Boreal recorta)
 
@@ -60,6 +66,6 @@ pago a 45 días por cheque al día o transferencia. Ya aplicado al convenio v2.
   un valor de cirugía además del lente a cargo del afiliado, o cotización pactada).
 - **Boreal:** negociar los recortes más fuertes (retinografía, campo visual, trabeculectomía,
   estrabismo) antes de firmar; el ajuste por paritarias y el pago a 45 días juegan a favor.
-- **Municipio (VER PARA VIVIR):** catarata **$850.000 por ojo, cirugía sin lente** (lente a cargo
-  del paciente), con **actualización por paritarias de sanidad** y **pago a 45 días** (cheque al día
-  o transferencia) — aplicado al Anexo I del convenio v2.
+- **Municipio (VER PARA VIVIR):** catarata **$850.000 por ojo sin lente** (precio final, descuento
+  incluido; lente a cargo del paciente) **ó $1.000.000 con lente incluida**, con **actualización por
+  paritarias de sanidad** y **pago a 45 días** (cheque al día o transferencia) — aplicado al Anexo I del convenio v2.
