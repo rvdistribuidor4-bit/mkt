@@ -32,6 +32,8 @@
 | 2026-09-16 | Carrusel (7) | "5 señales de que tu vista necesita un control" (borroso, cuesta leer, luz molesta, más luz, visión cambió) | (pendiente — feed con retraso) |
 | 2026-09-21 | Placa | Día de la primavera (saludo) + comentario WhatsApp | 18459093568137612 |
 | 2026-09-23 | Carrusel (7) | "Hábitos frente a las pantallas" (20-20-20, distancia, descansar, buena luz, no frotarse) + comentario WhatsApp | 18078993317356407 |
+| 2026-09-23 | Historia | CTA de turnos (WhatsApp 007) — primera historia automática | 17934739221384857 |
+| 2026-09-23 | Reel (creado) | "5 hábitos para cuidar tu vista" — entregado al usuario para subir a mano con audio de tendencia | (publicación manual) |
 
 **Placas de síntomas ya usadas en carruseles:** moscas volantes, destellos, visión doble (15/09); visión borrosa, cuesta leer, luz molesta, más luz para leer, visión cambió (16/09).
 **Comentario de WhatsApp pendiente de fijar** en los posts del 16/09 y 21/09 (Instagram no permite fijar por API).
