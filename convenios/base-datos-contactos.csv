@@ -29,21 +29,21 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 28,Otro,CEPSAL,informes@cepsal.org,,,Baja,P3,Email invalido (bounce),2026-07-08,Dominio inexistente,Conseguir email valido
 29,Colegio,CMVM (Circulo Medico),cmvm@arnet.com.ar,,,Media,P3,Email invalido (bounce),2026-07-08,Direccion inexistente,Conseguir email valido
 30,Prepaga,Griff Salud,info@griffsalud.com,,,Baja,P3,Email invalido (bounce),2026-07-06,Dominio inexistente,Conseguir email valido
-31,Prepaga,OSDE,a relevar,,cvprest.osde.com.ar,Fuerte,P1,Sin contactar,,Postulacion via portal CV Prestadores,Postular en portal
+31,Prepaga,OSDE,a relevar,,cvprest.osde.com.ar,Fuerte,P1,Sin contactar,,"Postulacion via portal CV Prestadores; alta por PORTAL cvprest.osde.com.ar (formulario, no email); filial Cordoba (buscador sucursales)",Cargar alta en portal cvprest.osde.com.ar (no toma email)
 32,Prepaga,Swiss Medical,contratacionesinterior@swissmedical.com.ar,0810-333-7737,swissmedical.com.ar/prestadores,Fuerte,P1,Borrador (a revisar),,Email de contrataciones INTERIOR/Cordoba (verificado),Revisar borrador y enviar (prestador oftalmología)
 33,Prepaga,Medife,convenios@medife.com.ar,0810-345-2299,medife.com.ar,Fuerte,P1,Borrador (a revisar),,Canal de convenios verificado,Revisar borrador y enviar (prestador oftalmología)
 34,Prepaga,Omint,cgp@omint.com.ar,0810-222-5155,prestadores.omint.com.ar,Media,P2,Borrador (a revisar),,Centro de Gestion de Prestadores,Revisar borrador y enviar (prestador oftalmología)
 35,Prepaga,Medicus,prestadores@medicus.com.ar,4129-5300,medicus.com.ar,Baja,P3,Sin contactar,,Fuerte en AMBA; baja en Cba,Enviar propuesta
 36,Prepaga,Avalian (ex ACA Salud),consultasweb@acasalud.com.ar,0341-420-8752,avalian.com/contactos,Fuerte,P1,Borrador (a revisar),,Confirmar canal de prestadores,Revisar borrador y enviar (prestador oftalmología)
 37,Prepaga,Jerarquicos Salud,prestadores@jerarquicos.com,0800-888-5040,jerarquicos.com/prestadores,Fuerte,P1,Borrador (a revisar),,Linea exclusiva prestadores (verificado),Revisar borrador y enviar (prestador oftalmología)
-38,Prepaga,Prevencion Salud,a relevar,0810-555-1055,prevencionsalud.com.ar/contacto,Fuerte,P1,Sin contactar,,Grupo Sancor; linea prestadores; email a relevar,Llamar / formulario
-39,Prepaga,Accord Salud,a relevar,0810-888-0500,accordsalud.com.ar,Media,P2,Sin contactar,,Centro de Atencion a Prestadores,Llamar / formulario
+38,Prepaga,Prevencion Salud,prestadores@prevencionsalud.com.ar,0810-555-1055 / 0800-7777-72583,prevencionsalud.com.ar/contacto,Fuerte,P1,Borrador (a revisar),,Grupo Sancor; linea prestadores; email a relevar; email prestadores@prevencionsalud.com.ar (Grupo Sancor Seguros); pedir derivacion a Convenios,Revisar borrador y enviar (prestador oftalmologia)
+39,Prepaga,Accord Salud,a relevar,0810-888-0500 (Aten. Prestador) / 0810-888-2226,accordsalud.com.ar,Media,P2,Sin contactar,,Centro de Atencion a Prestadores; Centro de Atencion al Prestador 0810-888-0500; portal prestadores; email a confirmar (dominio @accordsalud.com.ar),"Llamar 0810-888-0500 para confirmar email de Convenios, luego borrador"
 40,Prepaga,Hominis,prestaciones@hominis.com.ar,4860-1900,hominis.com.ar/prestadores-hominis,Baja,P3,Sin contactar,,Canal de prestaciones,Enviar propuesta
 41,Prepaga,Luis Pasteur,a relevar,011-4370-1000,oslpasteur.com.ar,Baja,P3,Sin contactar,,Contrataciones int. 263/270,Llamar
 42,Prepaga,Premedic,a relevar,0810-222-5522,premedicmedicinaprivada.com.ar,Baja,P3,Sin contactar,,Email a relevar,Formulario
 43,Prepaga,William Hope,a relevar,0800-333-94673,whope.com.ar/soy_prestador,Baja,P3,Sin contactar,,Form Soy Prestador,Formulario
 44,Prepaga,Bristol Medicine,a relevar,0800-444-0453,bristolmedicine.com.ar,Baja,P3,Sin contactar,,Email a relevar,Formulario
-45,Obra Social,OSECAC (comercio),a relevar,0800-666-0400,osecac.org.ar/ContactoPagina,Fuerte,P1,Sin contactar,,Sin email de prestadores; via Centros de Gestion,Relevar canal prestadores
+45,Obra Social,OSECAC (comercio),a relevar,0800-666-0400,osecac.org.ar/ContactoPagina,Fuerte,P1,Sin contactar,,Sin email de prestadores; via Centros de Gestion; PORTAL prestadores.osecac.org.ar (registro); delegacion Cordoba via buscador; gral 0800-666-0400,Registrarse en portal + pedir email de Prestadores a delegacion Cordoba
 46,Obra Social,OSPRERA (rural),consultas@osprera.org.ar,0351-452-6298,osprera.org.ar,Media,P2,Borrador (a revisar),,Red Cba gerenciada (TAC + Colegio Medico); sede Cba,Revisar borrador y enviar (prestador oftalmología)
 47,Obra Social,OSPE (petroleros),obrasocial@ospe.org.ar,0800-444-6773,ospe.ar,Media,P2,Borrador (a revisar),,Facturacion prestadores: facturaciones@ospe.org.ar,Revisar borrador y enviar (prestador oftalmología)
 48,Obra Social,OSPIM (maderera),contacto@ospim.com.ar,0800-666-7746,ospim.com.ar,Baja,P3,Sin contactar,,Canal general,Enviar propuesta

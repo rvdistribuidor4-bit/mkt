@@ -45,7 +45,11 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 ## 📌 PENDIENTE / PRÓXIMOS PASOS
 
-- [ ] **Relevar emails de 4 grandes:** OSDE, Prevención Salud, OSECAC, Accord (en investigación) → luego borrador.
+- [ ] **4 grandes — cada una por su canal** (no todas toman email):
+      - **Prevención Salud:** ✅ borrador listo en Gmail (a revisar/enviar).
+      - **OSDE:** alta por **portal** cvprest.osde.com.ar (formulario, no email) — hay que cargarla ahí.
+      - **OSECAC:** registrarse en **portal** prestadores.osecac.org.ar + pedir email a delegación Córdoba.
+      - **Accord:** llamar al **0810-888-0500** (Atención al Prestador) para que confirmen el email de Convenios.
 - [ ] **AGEC (comercio):** conseguir email por teléfono/formulario (no publica email) — Acción Social 0351 378-6475. Luego enviar (Camino 2).
 - [ ] **2ª tanda OOSS:** cola larga de obras sociales nacionales P3 con email (OSPIM, OSPIC, OSPACA, OSFE, etc.).
 - [ ] **Corregir 4 emails que rebotaron** (SIPSSA, CEPSAL, CMVM, Griff) — conseguir dirección válida.
