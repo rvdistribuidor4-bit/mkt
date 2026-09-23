@@ -14,6 +14,16 @@ y financiadores**. Diseño genérico y replicable a toda Córdoba y luego al pa�
 cliente, decisiones tomadas, marco jurídico, modelo económico, entregables, campos a completar
 y pendientes. **Empezar por ahí.**
 
+## Estrategia, marca y materiales
+
+- `Modelo_Convenio_Municipal_v2.md` — convenio reescrito (Modo A/B, jornadas de técnicos, 4 campañas/año, catarata sin lente $850.000).
+- `mejoras-modelo-operativo.md` — análisis para no mover al médico (jornada de técnicos + teleoftalmología).
+- `auditoria-cordoba.md` — ranking de localidades para el piloto (La Cumbre, San Javier, Deán Funes).
+- `estrategia-gobernacion.md` — cómo escalar a la Provincia de Córdoba.
+- `proteccion-marca.md` — cómo proteger el proyecto (INPI, DNDA, confidencialidad, licencia).
+- `marca/` — logo VER PARA VIVIR (SVG/PNG) + isotipo.
+- `placa-redes.png` / `.svg` — placa para redes (respaldo municipal, sin logos de obras sociales).
+
 ## Documentos fuente (`fuentes/`)
 
 - `Dictamen_Juridico_Convenio_Oftalmologico.docx` — viabilidad jurídica del convenio con

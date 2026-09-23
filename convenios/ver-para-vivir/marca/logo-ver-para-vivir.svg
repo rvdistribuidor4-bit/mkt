@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 240" font-family="DejaVu Sans, sans-serif">
+  <rect width="940" height="240" fill="none"/>
+  <g>
+      <path d="M30,120 Q120,55.2 210,120 Q120,184.8 30,120 Z" fill="none" stroke="#0F6E6B" stroke-width="13.5" stroke-linejoin="round"/>
+      <circle cx="120" cy="120" r="37.8" fill="#B9770B"/>
+      <circle cx="120" cy="120" r="16.2" fill="#0A4F4D"/>
+      <circle cx="107.4" cy="107.4" r="7.2" fill="#ffffff" opacity="0.85"/>
+    </g>
+  <text x="250" y="128" font-size="78" font-weight="bold" fill="#0A4F4D" letter-spacing="1">VER PARA VIVIR</text>
+  <text x="252" y="178" font-size="27" fill="#B9770B" letter-spacing="3">SALUD VISUAL · ADULTO MAYOR</text>
+</svg>
