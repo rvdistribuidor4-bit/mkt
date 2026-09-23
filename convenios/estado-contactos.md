@@ -1,7 +1,13 @@
 # Estado de contactos — análisis de correos enviados
 
-> Basado en la lectura de la casilla `contacto@centrodeojoslazarte.com` · Actualizado: 2026-09-22
+> Basado en la lectura de la casilla `contacto@centrodeojoslazarte.com` · Actualizado: 2026-09-23
 > Base de datos completa (filtrable): [`base-datos-contactos.csv`](base-datos-contactos.csv)
+
+## 🔔 Ronda 23/09/2026
+- **14 recontactos enviados** (Ricky) a la lista "enviado sin respuesta" + OPDEA: CES, Caja de Abogados, CPCE, UTHGRA, UEPC, Grupo Prolider, Geanet, PREME, Sanos, Protección Médica, OSMÉDICA, Family Salud, Galeno, OPDEA.
+- **Geanet respondió**: derivó la propuesta a su área para revisión.
+- **3 borradores nuevos creados** (Camino 2, gremios con obra social propia, a revisar antes de enviar): **UOM/OSUOMRA** (accionsocial@uomcordoba.org.ar), **Luz y Fuerza/OSPLYFC** (hablemos@osplyfc.com.ar), **Camioneros/OSCCPTAC** (amedicaosccptac@gmail.com, cc afiliaciones).
+- **AGEC** queda pendiente: no publica email; conseguir por teléfono (Acción Social 0351 378-6475) o formulario.
 
 ## Resumen
 
