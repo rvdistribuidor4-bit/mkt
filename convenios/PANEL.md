@@ -38,11 +38,16 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 ## ⏳ ESPERANDO TU OK
 
-- [ ] **Revisar y enviar 3 borradores de gremios** (Camino 2, obra social propia): **UOM/OSUOMRA**, **Luz y Fuerza/OSPLYFC**, **Camioneros/OSCCPTAC**. Están en Gmail, firmados; cuando digas "enviá", salen.
+- [ ] **Revisar y enviar 10 borradores nuevos** (en Gmail, firmados):
+      - **Prepagas:** Swiss Medical, Medifé, Avalian, Jerárquicos, Omint.
+      - **Obras sociales:** OSPRERA, OSPE, UTA/OSCTCP, OSDOP, OSDEPYM.
+      - Recomendación: enviarlos de a ~10-15 por día para no caer en spam.
 
 ## 📌 PENDIENTE / PRÓXIMOS PASOS
 
+- [ ] **Relevar emails de 4 grandes:** OSDE, Prevención Salud, OSECAC, Accord (en investigación) → luego borrador.
 - [ ] **AGEC (comercio):** conseguir email por teléfono/formulario (no publica email) — Acción Social 0351 378-6475. Luego enviar (Camino 2).
+- [ ] **2ª tanda OOSS:** cola larga de obras sociales nacionales P3 con email (OSPIM, OSPIC, OSPACA, OSFE, etc.).
 - [ ] **Corregir 4 emails que rebotaron** (SIPSSA, CEPSAL, CMVM, Griff) — conseguir dirección válida.
 - [ ] **2ª tanda:** prepagas top que faltan (OSDE, Swiss Medical, Medifé, Omint, Medicus…) y sindicatos (faltan 7 de 8).
 - [ ] **VER PARA VIVIR:** elegir municipio piloto y presentar (flyer + presentación PDF + modelo de convenio).
@@ -74,6 +79,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Fecha | Qué hicimos |
 |---|---|
+| **23/09** | Enviados los 3 gremios (UOM, Luz y Fuerza, Camioneros). **10 borradores nuevos** (5 prepagas top + 5 obras sociales) para revisar/enviar. Investigación de emails de OSDE/Prevención/OSECAC/Accord. |
 | **23/09** | Investigación del valor de mercado de cataratas. Precio municipio simplificado a **$850k por ojo todo incluido** vs mercado ~$1,2M (ahorro ≈29%). Presentación, comparativa y convenio actualizados. |
 | **23/09** | Ricky **envió los 14 recontactos**. Presentación de municipios en **PDF** (marca Lazarte). 3 borradores a gremios con OS propia (UOM, Luz y Fuerza, Camioneros). Base de contactos actualizada. |
 | **23/09** | Flyer VER PARA VIVIR **aprobado** (logo institucional, según Manual de Marca). Panel de control creado. |
