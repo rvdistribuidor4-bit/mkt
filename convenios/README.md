@@ -6,9 +6,10 @@ institucionales, programas y las contrapartes de cada negociación.
 
 ## 🚀 Empezá por acá
 
-1. **[`reporte-2026-09.md`](reporte-2026-09.md)** — panorama general y estrategia.
-2. **[`estado-contactos.md`](estado-contactos.md)** — quién ya se contactó y con qué resultado (de los correos).
-3. **[`base-datos-contactos.csv`](base-datos-contactos.csv)** — 📊 **la base de datos** (124 entidades, filtrable en Excel/Sheets).
+1. **[`PANEL.md`](PANEL.md)** — 🧭 **el panel de control**: en qué estamos hoy, qué falta y la bitácora. **Abrí esto primero.**
+2. **[`reporte-2026-09.md`](reporte-2026-09.md)** — panorama general y estrategia.
+3. **[`estado-contactos.md`](estado-contactos.md)** — quién ya se contactó y con qué resultado (de los correos).
+4. **[`base-datos-contactos.csv`](base-datos-contactos.csv)** — 📊 **la base de datos** (124 entidades, filtrable en Excel/Sheets).
 
 ## Frentes de negociación
 

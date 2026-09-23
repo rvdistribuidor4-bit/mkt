@@ -60,5 +60,6 @@ pago a 45 días por cheque al día o transferencia. Ya aplicado al convenio v2.
   un valor de cirugía además del lente a cargo del afiliado, o cotización pactada).
 - **Boreal:** negociar los recortes más fuertes (retinografía, campo visual, trabeculectomía,
   estrabismo) antes de firmar; el ajuste por paritarias y el pago a 45 días juegan a favor.
-- **Municipio (VER PARA VIVIR):** catarata a **$1.050.000** (valor más alto), con **actualización
-  por paritarias de sanidad** y **plazo de pago alineado** — aplicado al Anexo I del convenio v2.
+- **Municipio (VER PARA VIVIR):** catarata **$850.000 por ojo, cirugía sin lente** (lente a cargo
+  del paciente), con **actualización por paritarias de sanidad** y **pago a 45 días** (cheque al día
+  o transferencia) — aplicado al Anexo I del convenio v2.
