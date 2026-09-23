@@ -19,10 +19,11 @@
 
 El **Municipio (VER PARA VIVIR)** tiene dos opciones:
 
-| Opción | Valor por ojo | Lente intraocular |
+| Opción | Valor | Lente intraocular |
 |---|---|---|
-| **Cirugía sin lente** | **$ 850.000** (precio final, **descuento ya incluido**) | a cargo del paciente |
-| **Cirugía con lente** | **$ 1.000.000** | incluida |
+| **Cirugía sin lente** | **$ 850.000** por ojo (precio final, **descuento ya incluido**) | a cargo del paciente |
+| **Cirugía con lente — 1.er ojo** | **$ 1.000.000** | incluida |
+| **Cirugía con lente — 2.º ojo** | **$ 850.000** (preferencial por cirugía bilateral) | incluida |
 
 Referencias del mercado:
 
@@ -32,8 +33,9 @@ Referencias del mercado:
 | Boreal | $ 950.000 (con lente, a renegociar) | — |
 | Lazarte (pedido original) | $ 1.050.000 (con lente) | incluida |
 
-➡️ **Municipio: $ 850.000 por ojo sin lente (descuento incluido, lente a cargo del paciente) ó
-$ 1.000.000 con lente incluida.** Pago a 45 días por cheque al día o transferencia. Aplicado al convenio v2.
+➡️ **Municipio: $ 850.000 por ojo sin lente (descuento incluido, lente a cargo del paciente); con lente
+incluida $ 1.000.000 el 1.er ojo y $ 850.000 el 2.º ojo.** Pago a 45 días por cheque al día o
+transferencia. Aplicado al convenio v2.
 
 ## Diferencias destacadas (Boreal recorta)
 
@@ -67,5 +69,5 @@ $ 1.000.000 con lente incluida.** Pago a 45 días por cheque al día o transfere
 - **Boreal:** negociar los recortes más fuertes (retinografía, campo visual, trabeculectomía,
   estrabismo) antes de firmar; el ajuste por paritarias y el pago a 45 días juegan a favor.
 - **Municipio (VER PARA VIVIR):** catarata **$850.000 por ojo sin lente** (precio final, descuento
-  incluido; lente a cargo del paciente) **ó $1.000.000 con lente incluida**, con **actualización por
-  paritarias de sanidad** y **pago a 45 días** (cheque al día o transferencia) — aplicado al Anexo I del convenio v2.
+  incluido; lente a cargo del paciente); **con lente incluida $1.000.000 el 1.er ojo y $850.000 el 2.º ojo**,
+  con **actualización por paritarias de sanidad** y **pago a 45 días** (cheque al día o transferencia) — aplicado al Anexo I del convenio v2.

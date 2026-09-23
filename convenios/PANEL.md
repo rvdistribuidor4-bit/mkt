@@ -18,7 +18,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 - [x] **Flyer VER PARA VIVIR aprobado** → `../ver-para-vivir.png` (imagen final, no se toca más).
 - [x] **Comparativa de precios** Lazarte vs BRAMED vs Boreal (52 prácticas) → [`comparativa-precios.pdf`](comparativa-precios.pdf)
-- [x] **Precio catarata definido (municipio):** **$850.000 sin lente** (precio final, descuento incluido; lente a cargo del paciente) **ó $1.000.000 con lente incluida**. Pago 45 días.
+- [x] **Precio catarata definido (municipio):** **$850.000 sin lente** (precio final, descuento incluido; lente a cargo del paciente). Con lente incluida: **$1.000.000 el 1.er ojo** y **$850.000 el 2.º ojo** (preferencial bilateral). Pago 45 días.
 - [x] **Base de datos maestra** de 124 entidades (prepagas, OOSS, sindicatos, patronales) → [`base-datos-contactos.csv`](base-datos-contactos.csv)
 - [x] **Análisis de correos ya enviados** (quién sí / quién no) → [`estado-contactos.md`](estado-contactos.md)
 - [x] **Modelo de convenio municipal v2** (catarata $850k, 45 días, ≥4 campañas/año) → [`ver-para-vivir/Modelo_Convenio_Municipal_v2.md`](ver-para-vivir/Modelo_Convenio_Municipal_v2.md)
@@ -73,7 +73,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 |---|---|
 | **23/09** | Flyer VER PARA VIVIR **aprobado** (logo institucional, según Manual de Marca). Panel de control creado. |
 | **23/09** | Iteraciones de diseño del flyer municipal hasta la versión final. |
-| **23/09** | Corrección precio catarata municipio: $850k sin lente (descuento incluido) / $1.000.000 con lente. Aplicado a comparativa, PDF y convenio v2. |
+| **23/09** | Precio catarata municipio: $850k sin lente (descuento incluido); con lente $1.000.000 (1.er ojo) y $850.000 (2.º ojo, bilateral). Aplicado a comparativa, PDF y convenio v2. |
 | **22/09** | Comparativa de precios (Lazarte/BRAMED/Boreal) + **PDF**. |
 | **22/09** | 14 borradores de recontacto listos en Gmail. Plan de contacto por tandas + plantilla de email. |
 | **22/09** | Modelo de convenio municipal v2 (≥4 campañas/año). Propuesta a empresas + nota APROSS. |

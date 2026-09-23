@@ -169,7 +169,8 @@ ojo se ofrece en **dos modalidades**:
 
 - **Sin lente intraocular: $ 850.000 por ojo** (honorarios y quirófano; la **lente queda a cargo del
   paciente**).
-- **Con lente intraocular incluida: $ 1.000.000 por ojo.**
+- **Con lente intraocular incluida: $ 1.000.000 el primer ojo.**
+- **Segundo ojo con lente intraocular incluida: $ 850.000** (precio preferencial por cirugía bilateral).
 
 El paciente no abona la prestación (salvo, en la modalidad sin lente, el costo de la propia lente), o el
 copago mínimo que, en su caso, fije EL MUNICIPIO. **El sistema de actualización de los valores será por
@@ -272,7 +273,7 @@ indicados.
 | SV-01 | Consulta oftalmológica y diagnóstico | $ 30.000 |
 | SV-02 | Cirugía de catarata (facoemulsificación) **por ojo — SIN lente intraocular; la lente queda a cargo del paciente** | **$ 850.000** |
 | SV-02-L | Cirugía de catarata (facoemulsificación) **por ojo — CON lente intraocular incluida** | **$ 1.000.000** |
-| SV-03 | Cirugía de catarata — segundo ojo (ídem, sin lente) | $ 850.000 |
+| SV-03 | Cirugía de catarata — segundo ojo **CON lente intraocular incluida** (precio preferencial bilateral) | **$ 850.000** |
 | SV-04 | Estudios prequirúrgicos (biometría, OCT, etc.) | $ 80.000 |
 | SV-05 | Control y seguimiento postoperatorio (paquete) | $ 40.000 |
 | SV-06 | Cirugía de pterigión | $ 350.000 |
