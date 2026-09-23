@@ -46,3 +46,16 @@
 
 ## Reglas de marca (salud)
 Sin promesas de resultado, sin superlativos ("el mejor"), disclaimer "información general, no reemplaza una consulta". Testimonios solo con consentimiento firmado.
+
+## Reglas de diseño (actualizado 2026-09-23)
+- **Tipografía GRANDE.** El público mayormente ya tiene problemas visuales: títulos y textos con cuerpo generoso, alto contraste. Nunca texto chico.
+- **Sumar imágenes reales.** Además de las placas de fondo plano, usar **fotos reales** (equipamiento, sedes, consultorios, equipo) con overlay marino + texto grande + logo. La foto llama más la atención. Ver `contenido/ig/placa-foto-control-anual.jpg` como modelo.
+- **Colores:** solo los de `marca/paleta-colores.md` (regla fija).
+- **Logo:** siempre el oficial, nunca inventar.
+
+## Formatos y alcance (estrategia)
+Prioridad de alcance en IG hoy: **Reels > Historias > Carruseles > Placas sueltas**.
+- **Reels** (video 9:16, `create_video_post`): formato que más gente nueva trae. Ver `contenido/ig/reel-habitos-pantallas.mp4`.
+- **Historias** (`create_story`, 9:16, desaparecen 24h): recordatorios, CTA de turnos con WhatsApp, detrás de escena.
+- **Carruseles / placas con foto**: educativos, generan guardados.
+- Las **placas de saludo sueltas** (ej. primavera) rinden poco: usarlas con moderación.
