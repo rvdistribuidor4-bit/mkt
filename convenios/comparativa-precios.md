@@ -19,23 +19,20 @@
 
 El **Municipio (VER PARA VIVIR)** tiene dos opciones:
 
-| Opción | Valor | Lente intraocular |
-|---|---|---|
-| **Cirugía sin lente** | **$ 850.000** por ojo (precio final, **descuento ya incluido**) | a cargo del paciente |
-| **Cirugía con lente — 1.er ojo** | **$ 1.000.000** | incluida |
-| **Cirugía con lente — 2.º ojo** | **$ 850.000** (preferencial por cirugía bilateral) | incluida |
+| Concepto | Valor |
+|---|---|
+| **Precio al Municipio (Programa)** | **$ 850.000 por ojo, todo incluido** (con lente intraocular monofocal), ambos ojos |
+| Valor particular de mercado (referencia) | ~$ 1.200.000 por ojo (rango $900.000–$1.500.000, fuentes 2025-2026) |
+| **Ahorro para el municipio** | **≈ 29%** respecto del valor particular |
+| A cargo del vecino | $ 0 |
 
-Referencias del mercado:
+➡️ **Municipio: $ 850.000 por ojo, todo incluido con lente monofocal (descuento ya incluido).** Lente
+premium (tórica/multifocal) con copago de la diferencia a cargo del paciente. Pago a 45 días por cheque al
+día o transferencia. Aplicado al convenio v2.
 
-| | Cirugía | Lente |
-|---|---|---|
-| BRAMED | $ 850.000 (sin lente) | a cargo del afiliado |
-| Boreal | $ 950.000 (con lente, a renegociar) | — |
-| Lazarte (pedido original) | $ 1.050.000 (con lente) | incluida |
-
-➡️ **Municipio: $ 850.000 por ojo sin lente (descuento incluido, lente a cargo del paciente); con lente
-incluida $ 1.000.000 el 1.er ojo y $ 850.000 el 2.º ojo.** Pago a 45 días por cheque al día o
-transferencia. Aplicado al convenio v2.
+> El valor particular de mercado surge de fuentes 2025-2026 (clínicas argentinas + ancla en dólares USD
+> 700-1.200/ojo). Conviene respaldarlo con **1-2 presupuestos particulares escritos de clínicas de
+> Córdoba** para blindar la cifra ante el Tribunal de Cuentas.
 
 ## Diferencias destacadas (Boreal recorta)
 
@@ -68,6 +65,6 @@ transferencia. Aplicado al convenio v2.
   un valor de cirugía además del lente a cargo del afiliado, o cotización pactada).
 - **Boreal:** negociar los recortes más fuertes (retinografía, campo visual, trabeculectomía,
   estrabismo) antes de firmar; el ajuste por paritarias y el pago a 45 días juegan a favor.
-- **Municipio (VER PARA VIVIR):** catarata **$850.000 por ojo sin lente** (precio final, descuento
-  incluido; lente a cargo del paciente); **con lente incluida $1.000.000 el 1.er ojo y $850.000 el 2.º ojo**,
-  con **actualización por paritarias de sanidad** y **pago a 45 días** (cheque al día o transferencia) — aplicado al Anexo I del convenio v2.
+- **Municipio (VER PARA VIVIR):** catarata **$850.000 por ojo, todo incluido con lente monofocal** (precio
+  final, descuento ya incluido; ~29% bajo el valor particular de mercado de ~$1.200.000), con
+  **actualización por paritarias de sanidad** y **pago a 45 días** (cheque al día o transferencia) — aplicado al Anexo I del convenio v2.

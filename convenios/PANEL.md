@@ -10,7 +10,7 @@
 
 Tenemos **4 negociaciones calientes** (Sancor, BRAMED, Boreal, OPDEA), una **base de 124 entidades**
 para salir a buscar convenios, **14 mails de recontacto listos para enviar**, el **flyer del programa
-municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (catarata $850.000 sin lente).
+municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (catarata municipio $850.000 por ojo, todo incluido).
 
 ---
 
@@ -18,7 +18,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 - [x] **Flyer VER PARA VIVIR aprobado** → `../ver-para-vivir.png` (imagen final, no se toca más).
 - [x] **Comparativa de precios** Lazarte vs BRAMED vs Boreal (52 prácticas) → [`comparativa-precios.pdf`](comparativa-precios.pdf)
-- [x] **Precio catarata definido (municipio):** **$850.000 sin lente** (precio final, descuento incluido; lente a cargo del paciente). Con lente incluida: **$1.000.000 el 1.er ojo** y **$850.000 el 2.º ojo** (preferencial bilateral). Pago 45 días.
+- [x] **Precio catarata municipio:** **$850.000 por ojo, todo incluido con lente monofocal** (descuento incluido), ambos ojos. Valor particular de mercado de referencia ~$1.200.000 → **ahorro ≈29%** para el municipio. Vecino paga $0. Pago 45 días.
 - [x] **Base de datos maestra** de 124 entidades (prepagas, OOSS, sindicatos, patronales) → [`base-datos-contactos.csv`](base-datos-contactos.csv)
 - [x] **Análisis de correos ya enviados** (quién sí / quién no) → [`estado-contactos.md`](estado-contactos.md)
 - [x] **Modelo de convenio municipal v2** (catarata $850k, 45 días, ≥4 campañas/año) → [`ver-para-vivir/Modelo_Convenio_Municipal_v2.md`](ver-para-vivir/Modelo_Convenio_Municipal_v2.md)
@@ -74,10 +74,11 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Fecha | Qué hicimos |
 |---|---|
-| **23/09** | Ricky **envió los 14 recontactos**. Presentación de municipios actualizada al precio nuevo → **PDF** (marca Lazarte). 3 borradores a gremios con OS propia (UOM, Luz y Fuerza, Camioneros). Base de contactos actualizada. |
+| **23/09** | Investigación del valor de mercado de cataratas. Precio municipio simplificado a **$850k por ojo todo incluido** vs mercado ~$1,2M (ahorro ≈29%). Presentación, comparativa y convenio actualizados. |
+| **23/09** | Ricky **envió los 14 recontactos**. Presentación de municipios en **PDF** (marca Lazarte). 3 borradores a gremios con OS propia (UOM, Luz y Fuerza, Camioneros). Base de contactos actualizada. |
 | **23/09** | Flyer VER PARA VIVIR **aprobado** (logo institucional, según Manual de Marca). Panel de control creado. |
 | **23/09** | Iteraciones de diseño del flyer municipal hasta la versión final. |
-| **23/09** | Precio catarata municipio: $850k sin lente (descuento incluido); con lente $1.000.000 (1.er ojo) y $850.000 (2.º ojo, bilateral). Aplicado a comparativa, PDF y convenio v2. |
+| **22/09** | Definición inicial del precio de catarata para el municipio (luego simplificado el 23/09). |
 | **22/09** | Comparativa de precios (Lazarte/BRAMED/Boreal) + **PDF**. |
 | **22/09** | 14 borradores de recontacto listos en Gmail. Plan de contacto por tandas + plantilla de email. |
 | **22/09** | Modelo de convenio municipal v2 (≥4 campañas/año). Propuesta a empresas + nota APROSS. |

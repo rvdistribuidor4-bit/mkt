@@ -161,34 +161,31 @@ presupuestaria. La priorización atenderá a criterios clínicos (grado de pérd
 urgencia) y sociales (edad, vulnerabilidad), conforme el Anexo II. Las prestaciones que excedan el cupo se
 reprogramarán al período siguiente.
 
-### DÉCIMA — Precio y modalidad de la cirugía de catarata
+### DÉCIMA — Precio de la cirugía de catarata
 El valor de cada prestación es el establecido en el Anexo I (Nomenclador). Los valores allí consignados
 son **precios finales para EL MUNICIPIO, con el descuento del Programa ya incluido** (no se aplica
 bonificación ni cofinanciamiento adicional sobre ellos). La cirugía de catarata (facoemulsificación) por
-ojo se ofrece en **dos modalidades**:
-
-- **Sin lente intraocular: $ 850.000 por ojo** (honorarios y quirófano; la **lente queda a cargo del
-  paciente**).
-- **Con lente intraocular incluida: $ 1.000.000 el primer ojo.**
-- **Segundo ojo con lente intraocular incluida: $ 850.000** (precio preferencial por cirugía bilateral).
-
-El paciente no abona la prestación (salvo, en la modalidad sin lente, el costo de la propia lente), o el
-copago mínimo que, en su caso, fije EL MUNICIPIO. **El sistema de actualización de los valores será por
-paritarias del personal de sanidad**, en línea con los convenios prestacionales vigentes de EL CENTRO,
-instrumentándose por adenda con la debida justificación.
+ojo se factura a **$ 850.000 por ojo, todo incluido** —honorarios, quirófano y **lente intraocular
+monofocal incluida**—, para ambos ojos. Este valor se encuentra **sensiblemente por debajo del valor
+particular de mercado** para una cirugía equivalente. De solicitarse una **lente premium (tórica o
+multifocal)**, el paciente podrá abonar únicamente la diferencia de valor de la lente. El paciente no
+abona la prestación, o el copago mínimo que, en su caso, fije EL MUNICIPIO. **El sistema de actualización
+de los valores será por paritarias del personal de sanidad**, en línea con los convenios prestacionales
+vigentes de EL CENTRO, instrumentándose por adenda con la debida justificación.
 
 ### DÉCIMO PRIMERA — Facturación, forma de pago y documentación
 EL CENTRO facturará por prestación efectivamente realizada (incluida la jornada de detección por
 jornada/vecino evaluado), consignando en la factura el precio final acordado con EL MUNICIPIO (con el
-descuento del Programa ya incluido) y, en la cirugía de catarata, la modalidad (con o sin lente). La
+descuento del Programa ya incluido); en la cirugía de catarata, el valor es «todo incluido» con lente
+monofocal, y de optarse por lente premium se agrega una línea por la diferencia a cargo del paciente. La
 factura se acompañará de: orden de prestación (o acta de campaña),
 constancia de elegibilidad, consentimiento informado, comprobante de la práctica, informe médico y, cuando
 corresponda, imágenes o estudios. EL MUNICIPIO pagará dentro de los **45 días** de conformada la auditoría,
 mediante **cheque al día o transferencia bancaria**. No se admiten anticipos sin prestación realizada.
 
-> **Modelo de línea de facturación sugerida:** «Cirugía de catarata (sin lente) — precio Programa
-> $850.000 por ojo (descuento ya incluido); lente intraocular a cargo del paciente». Para la modalidad con
-> lente: «Cirugía de catarata (con lente incluida) — $1.000.000 por ojo». El precio consignado es el neto a
+> **Modelo de línea de facturación sugerida:** «Cirugía de catarata (facoemulsificación) por ojo, todo
+> incluido con lente monofocal — precio Programa $850.000 (descuento ya incluido)». De optarse por lente
+> premium, se agrega una línea por la diferencia a cargo del paciente. El precio consignado es el neto a
 > cargo del Municipio, lo que el Tribunal de Cuentas necesita verificar.
 
 ### DÉCIMO SEGUNDA — Auditoría y control
@@ -271,15 +268,14 @@ indicados.
 | **SV-00A** | **Jornada de detección/screening (por jornada, hasta [N] vecinos)** | $ [______] |
 | **SV-00B** | **Detección por vecino evaluado (retinografía + screening + telelectura)** | $ [______] |
 | SV-01 | Consulta oftalmológica y diagnóstico | $ 30.000 |
-| SV-02 | Cirugía de catarata (facoemulsificación) **por ojo — SIN lente intraocular; la lente queda a cargo del paciente** | **$ 850.000** |
-| SV-02-L | Cirugía de catarata (facoemulsificación) **por ojo — CON lente intraocular incluida** | **$ 1.000.000** |
-| SV-03 | Cirugía de catarata — segundo ojo **CON lente intraocular incluida** (precio preferencial bilateral) | **$ 850.000** |
+| SV-02 | Cirugía de catarata (facoemulsificación) **por ojo — todo incluido, con lente intraocular monofocal** | **$ 850.000** |
+| SV-03 | Cirugía de catarata — segundo ojo (ídem, todo incluido) | **$ 850.000** |
 | SV-04 | Estudios prequirúrgicos (biometría, OCT, etc.) | $ 80.000 |
 | SV-05 | Control y seguimiento postoperatorio (paquete) | $ 40.000 |
 | SV-06 | Cirugía de pterigión | $ 350.000 |
 
-> Nota: la lente intraocular estándar está incluida en la modalidad SV-02-L; en la modalidad SV-02 la lente
-> queda a cargo del paciente. La lente premium/multifocal, de solicitarse, puede quedar sujeta a copago del
+> Nota: la lente intraocular monofocal está incluida en el precio de la cirugía de catarata (todo incluido).
+> La lente premium/multifocal (tórica o multifocal), de solicitarse, puede quedar sujeta a copago del
 > paciente por la diferencia. La **jornada de detección** puede facturarse por jornada (SV-00A) o por vecino
 > evaluado (SV-00B), según se pacte; incluye el equipo portátil, el personal técnico y la lectura médica a distancia.
 
