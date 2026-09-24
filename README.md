@@ -12,10 +12,11 @@ mkt/
 │   │   ├── web/                ← Sitio web (HTML/CSS/JS, estático)
 │   │   ├── contenido/          ← Planes IG + blog, auditorías
 │   │   └── marca/              ← Línea visual, accesos, datos
-│   └── velero-san-blas/        ← Velero turístico, San Blas (Panamá)
+│   └── velero-thyra/           ← Velero Thyra, San Blas (Panamá)
 │       ├── web/                ← Landing bilingüe EN/ES, estática
+│       ├── ESTRATEGIA.md       ← Análisis de conversión
 │       ├── contenido/          ← Plan IG + blog
-│       └── marca/              ← Paleta y logo
+│       └── marca/              ← Paleta
 └── _plantillas/                ← Recursos reutilizables entre clientes
 ```
 
@@ -26,4 +27,4 @@ Cada cliente nuevo se agrega como carpeta dentro de `clientes/`.
 | Cliente | Rubro | Ciudad | Estado |
 |---|---|---|---|
 | Centro de Ojos Lazarte | Oftalmología | Córdoba, AR | 🟢 Activo (IG + web) |
-| Velero San Blas | Turismo náutico | San Blas, PA | 🟡 Landing armada, faltan datos |
+| Thyra (velero 42') | Turismo náutico | San Blas, PA | 🟡 Demo lista, faltan fotos reales |

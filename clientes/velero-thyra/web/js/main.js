@@ -1,15 +1,25 @@
-/* Velero San Blas — JS minimo, sin dependencias.
-   Cubre: menu movil, lightbox de galeria y envio del formulario de reserva.
+/* THYRA — JS sin dependencias.
+   Menu movil · header al hacer scroll · animaciones de entrada ·
+   lightbox de galeria · formulario de reserva.
 
    FORMULARIO: por defecto arma un mensaje de WhatsApp con todos los datos
-   cargados (funciona sin backend ni costo). Si se quiere recibir por email,
-   cargar el endpoint de Formspree en data-endpoint del <form> y el script
-   envia por email en lugar de abrir WhatsApp. */
+   cargados (sin backend, sin costo). Para recibir por email, poner el
+   endpoint de Formspree en data-endpoint del <form>. */
 (function () {
   'use strict';
 
-  // --- menu movil ---
   var hdr = document.querySelector('.hdr');
+
+  // --- header solido al bajar ---
+  if (hdr) {
+    var onScroll = function () {
+      hdr.classList.toggle('stuck', window.scrollY > 40);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
+  // --- menu movil ---
   var tog = document.querySelector('.mtog');
   if (tog && hdr) {
     tog.addEventListener('click', function () {
@@ -21,7 +31,20 @@
     });
   }
 
-  // --- lightbox de galeria ---
+  // --- animaciones de entrada ---
+  var rises = document.querySelectorAll('.rise');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: .12 });
+    rises.forEach(function (el) { io.observe(el); });
+  } else {
+    rises.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // --- lightbox ---
   var lb = document.querySelector('.lb');
   if (lb) {
     var lbImg = lb.querySelector('img');
@@ -30,15 +53,15 @@
         lbImg.src = img.currentSrc || img.src;
         lbImg.alt = img.alt;
         lb.classList.add('on');
+        document.body.style.overflow = 'hidden';
       });
     });
-    lb.addEventListener('click', function () { lb.classList.remove('on'); });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') lb.classList.remove('on');
-    });
+    var close = function () { lb.classList.remove('on'); document.body.style.overflow = ''; };
+    lb.addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
   }
 
-  // --- formulario de reserva ---
+  // --- formulario ---
   var form = document.querySelector('.form');
   if (!form) return;
 
@@ -59,7 +82,7 @@
           btn.textContent = form.dataset.sent || '¡Enviado!';
         })
         .catch(function () {
-          // si el email falla, no se pierde la consulta: se abre WhatsApp
+          // si el email falla, la consulta no se pierde: se abre WhatsApp
           window.open(waLink(d), '_blank', 'noopener');
           btn.textContent = label;
         })
@@ -73,24 +96,13 @@
   });
 
   function waLink(d) {
-    var phone = form.dataset.phone || '';
-    var L = {
-      intro: form.dataset.msgIntro || 'Hola, quiero consultar por una reserva.',
-      name: form.dataset.lName || 'Nombre',
-      service: form.dataset.lService || 'Servicio',
-      from: form.dataset.lFrom || 'Desde',
-      to: form.dataset.lTo || 'Hasta',
-      guests: form.dataset.lGuests || 'Personas',
-      msg: form.dataset.lMsg || 'Mensaje'
-    };
-    var lines = [L.intro, ''];
-    function add(label, val) { if (val) lines.push(label + ': ' + val); }
-    add(L.name, d.get('nombre'));
-    add(L.service, d.get('servicio'));
-    add(L.from, d.get('desde'));
-    add(L.to, d.get('hasta'));
-    add(L.guests, d.get('personas'));
-    add(L.msg, d.get('mensaje'));
-    return 'https://wa.me/' + phone + '?text=' + encodeURIComponent(lines.join('\n'));
+    var lines = [form.dataset.msgIntro || 'Hola, quiero consultar por una reserva.', ''];
+    [['nombre', 'lName'], ['servicio', 'lService'], ['desde', 'lFrom'],
+     ['hasta', 'lTo'], ['personas', 'lGuests'], ['mensaje', 'lMsg']]
+      .forEach(function (p) {
+        var v = d.get(p[0]);
+        if (v) lines.push((form.dataset[p[1]] || p[0]) + ': ' + v);
+      });
+    return 'https://wa.me/' + (form.dataset.phone || '') + '?text=' + encodeURIComponent(lines.join('\n'));
   }
 })();
