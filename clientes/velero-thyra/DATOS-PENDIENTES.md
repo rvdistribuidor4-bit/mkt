@@ -111,7 +111,7 @@ El snorkel ya es real: salió de un fotograma del video del drone.
 
 ### Faltan y suman
 
-- [ ] **Una foto de Leandro** — tiene sección propia en la web y hoy va ilustrada con la bañera. Un retrato suyo al timón o cocinando es lo que más le falta a esa sección
+- [ ] **Una foto de Leandro** — la necesita la web *y* la necesita Instagram: la historia del capitán es el mejor reel que tiene este cliente y hoy no hay con qué armarlo. Tiene sección propia en la web y hoy va ilustrada con la bañera. Un retrato suyo al timón o cocinando es lo que más le falta a esa sección
 - [ ] **Un plato suyo, servido a bordo** — es el argumento de venta más fuerte que tiene el barco y no hay ni una foto
 - [ ] La cocina / galley
 - [ ] Un almuerzo real servido en cubierta

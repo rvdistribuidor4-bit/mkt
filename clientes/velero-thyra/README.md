@@ -16,7 +16,7 @@ Tres servicios: **alojamiento a bordo** (tipo Airbnb), **paseos de día** y
 | Reseñas | 🟡 De ejemplo |
 | Cobro en USD | 🔴 Falta abrir cuenta |
 | Dominio y hosting | 🔴 Sin definir |
-| Instagram | ⚪ No iniciado |
+| Instagram | 🟡 Primera pieza lista (carrusel demo en `contenido/ig/`) |
 
 ## Estructura
 
@@ -33,14 +33,15 @@ velero-thyra/
 ├── PRECIOS-Y-COBRO.md   ← ⭐ auditoría de mercado, precios, cancelación y cobro
 ├── PLAN-CAPTACION.md    ← ⭐ cómo llegar a una reserva por semana, canal por canal
 ├── DATOS-PENDIENTES.md  ← ⭐ qué falta para publicar
-└── contenido/ · marca/  ← plan IG y blog (pendiente)
+└── contenido/
+    └── ig/              ← carrusel demo (4 placas) + texto del posteo + su fuente HTML
 ```
 
 ## En una línea
 
 La competencia de San Blas vende itinerarios; esta web vende **un día de tu
 vida** — y apalanca la única ventaja que Thyra tiene y no se puede copiar:
-**seis pasajeros, no sesenta**. El análisis completo está en `ESTRATEGIA.md`.
+**cinco pasajeros, no cincuenta**. El análisis completo está en `ESTRATEGIA.md`.
 
 ## Paleta
 
