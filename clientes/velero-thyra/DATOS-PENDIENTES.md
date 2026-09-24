@@ -49,41 +49,48 @@ Hay que cerrar esto con el dueño antes de publicar.
 
 ## 4. Fotos
 
-**Regla que ya se cumple: todo lo que muestra el Thyra es una foto real del
-Thyra.** Ninguna imagen generada muestra el barco.
+**Regla que se cumple: todo lo que muestra el Thyra es una foto real del Thyra.**
+10 fotos reales, 2 de referencia, y ninguna de las dos muestra el barco.
 
-### Ya incorporadas (reales)
+### Reales, ya incorporadas
 
 | Archivo | Qué es | Dónde se usa |
 |---|---|---|
-| `real-aerea-hq.jpg` | Aérea del Thyra fondeado sobre el arrecife | Hero + galería |
-| `real-banera.jpg` | Bañera con toldo, timón de madera | Paseo de día + galería |
+| `real-aerea-hq.jpg` | Aérea sobre el arrecife | Hero |
+| `real-navegando.jpg` | El Thyra a vela | Paseo de día |
+| `real-atardecer.jpg` | Fondeado al anochecer, con luces | Charter privado |
 | `real-camarote-proa.jpg` | Camarote de proa con claraboya | Noche a bordo |
-| `real-camarote-molas.jpg` | Cucheta con molas en el revestimiento | Sección El velero |
-| `real-salon.jpg` | Salón completo | Charter privado |
+| `real-camarote-molas.jpg` | Cucheta con molas | Sección El velero |
+| `real-sunset.jpg` | Silueta contra el atardecer naranja | Galería (destacada) |
+| `real-banera.jpg` | Bañera con toldo y timón | Galería |
+| `real-salon.jpg` | Salón completo | Galería |
+| `real-fondeadero.jpg` | El fondeadero desde cubierta | Galería |
+| `real-proa-guna.jpg` | Bandera de Guna Yala en la proa | Comunidad guna |
 
-> ⚠️ **La aérea llegó a 591 px y se escaló 2× a 1182 px.** El escalado respetó
-> el encuadre y no inventó nada, pero **conviene pedir el original en alta
-> resolución**: es la imagen que decide si alguien sigue leyendo.
+### Todavía de referencia
 
-### Todavía de referencia (generadas, no muestran el barco)
-
-| Archivo | Qué reemplazar por |
+| Archivo | Reemplazar por |
 |---|---|
-| `snorkel.jpg` | Snorkel real en San Blas: coral, peces |
-| `isla.jpg` | Una isla del archipiélago donde fondea el Thyra |
-| `comida.jpg` | Un almuerzo real servido a bordo |
+| `snorkel.jpg` | Snorkel real: coral, peces |
 | `pesca.jpg` | La caña, o la captura del día |
-| `molas.jpg` | Molas compradas en la comunidad |
 
-### Fotos que faltan y suman mucho
+### Faltan y suman
 
-- [ ] **Thyra navegando a vela**, desde otra embarcación o drone
-- [ ] **Thyra fondeado al atardecer**, con luces encendidas
+- [ ] Un almuerzo real servido a bordo
 - [ ] La cocina / galley
 - [ ] El capitán a bordo
 
-**Foto de comunidad guna:** solo con permiso de las personas retratadas.
+## 4bis. Lo que las fotos revelaron
+
+**Corregido en la web:**
+
+- **El casco es blanco, de fibra.** Yo había escrito "no es un charter de plástico blanco", lo cual era falso. Ahora el copy dice lo que efectivamente pasa: por fuera es un cuarenta y dos pies blanco y prolijo, y abajo es todo teca barnizada y bronce. El contraste funciona mejor que la afirmación equivocada.
+
+**A confirmar con el dueño:**
+
+- [ ] **Marca y modelo.** La vela mayor lleva el logo de Beneteau y el número **331**. Puede ser el modelo, el número de vela, o una vela de segunda mano de otro barco (es común). Confirmar antes de publicarlo en la ficha.
+- [ ] **Bandera argentina a bordo.** ¿El capitán es argentino? Si lo es, **es un gancho enorme para el mercado hispano**: un argentino en San Blas vende distinto a un charter anónimo. Vale una línea en la sección del velero.
+- [ ] **Dos fotos sin confirmar.** La silueta del atardecer y la del fondeadero podrían no ser el Thyra (en la del fondeadero el cojín rojo en primer plano sugiere que está tomada *desde* el Thyra, y el velero que se ve es otro). Sus textos alternativos son neutros a propósito: no afirman que el barco sea el Thyra. Si lo son, se ajustan en un minuto.
 
 ## 5. Reseñas
 
