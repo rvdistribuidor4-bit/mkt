@@ -139,7 +139,7 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 138,Colegio,Colegio de Martilleros y Corredores Cba (CPMCP),sedecentral@cpmcp.org.ar,0351-426-2962,cpmcp.org.ar,Fuerte,P3,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
 139,Colegio,Colegio de Corredores Inmobiliarios Cba (CPI),a relevar,0351-428-0674,cpicordoba.org.ar,Fuerte,P3,Sin contactar,,form web; WA 351-3023272,Relevar email y enviar
 140,Colegio,Colegio de Traductores Publicos Cba (CTPPC),a relevar,0351-468-4622,ctppc.com.ar,Fuerte,P3,Sin contactar,,relevar por web/tel,Relevar email y enviar
-141,Caja profesional,Caja Prevision Salud Profesionales Cba (CPSPS),afiliaciones@cajasaludcba.org,0351-410-6034,cajasalud.com.ar,Fuerte,P1,Sin contactar,,ALTO VALOR: nuclea profesionales de la salud; dominio emails @cajasaludcba.org; alt beneficios@cajasaludcba.org,Enviar (borrador Camino 1/2)
+141,Caja profesional,Caja Prevision Salud Profesionales Cba (CPSPS),afiliaciones@cajasaludcba.org,0351-410-6034,cajasalud.com.ar,Fuerte,P1,Borrador (a revisar),,ALTO VALOR: nuclea profesionales de la salud; dominio emails @cajasaludcba.org; alt beneficios@cajasaludcba.org,Revisar borrador y enviar (Camino 2)
 142,Caja profesional,Caja de Prevision Ley 8470 (Ing/Arq/Agrim/Constr) Cba,a relevar,0351-155-319758,caja8470.com.ar,Fuerte,P2,Sin contactar,,form web,Relevar email y enviar
 143,Camara,Camara Industriales Metalurgicos Cba (CIMCC),info@metalurgicoscba.com.ar,0351-468-1832,metalurgicoscba.com.ar,Fuerte,P3,Sin contactar,,empresas; alt comunicacion@metalurgicoscba.com.ar,Enviar (borrador Camino 1/2)
 144,Camara,Cordoba Technology Cluster,a relevar,0351-589-5550,cordobatechnology.com,Fuerte,P3,Sin contactar,,empresas TI; email no verificado,Relevar email y enviar
@@ -150,19 +150,19 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 149,Camara,Camara de Turismo de Cordoba,camtucor@gmail.com,351-5326554,camaracbaturismo.org.ar,Fuerte,P3,Sin contactar,,empresas turismo,Enviar (borrador Camino 1/2)
 150,Camara,FETAP (transporte de pasajeros) Cba,a relevar,0351-460-2903,fetapcordoba.com,Fuerte,P3,Sin contactar,,empresas transporte; relevar,Relevar email y enviar
 151,Camara,Camara Corredores Inmobiliarios Cba (CaCIC),a relevar,,fira.org.ar/cacic,Fuerte,P3,Sin contactar,,empresas inmob; relevar,Relevar email y enviar
-152,Sindicato,SMATA Cordoba (mecanicos automotriz),info@smatacba.com.ar,0351-422-9550,smatacba.com.ar,Fuerte,P1,Sin contactar,,OS propia OSMATA; gran caudal (IVECO/Renault/VW/FIAT/Nissan); OS osmatacba@yahoo.com.ar (confirmar),Enviar (borrador Camino 2)
-153,Sindicato,Asociacion Bancaria Seccional Cordoba,ofadministracion@bancariacba.com,0351-426-3554,bancariacba.com,Fuerte,P1,Sin contactar,,OS propia OSBA,Enviar (borrador Camino 2)
-154,Sindicato,UOCRA Seccional Cordoba (construccion),sinx560@uocra.org,0351-422-3854,uocra.org,Fuerte,P1,Sin contactar,,OS propia OSPeCon; email verificado,Enviar (borrador Camino 2)
-155,Sindicato,ATSA Cordoba (Sanidad FATSA),info@sanidadatsacba.com.ar,0351-423-3882,sanidadatsacba.com.ar,Fuerte,P2,Sin contactar,,OS propia OSPSA + servicios; alto volumen,Enviar (borrador Camino 2)
-156,Sindicato,CISPREN (prensa),info@cispren.org.ar,0351-424-3517,cispren.org.ar,Fuerte,P2,Sin contactar,,OS propia Prensalud; receptivos a convenios,Enviar (borrador Camino 2)
-157,Sindicato,STIA Cordoba (alimentacion),info@alimentacioncba.org.ar,0351-425-3636,alimentacioncba.org.ar,Fuerte,P2,Sin contactar,,OS propia alimentacion; email verificado,Enviar (borrador Camino 2)
+152,Sindicato,SMATA Cordoba (mecanicos automotriz),info@smatacba.com.ar,0351-422-9550,smatacba.com.ar,Fuerte,P1,Borrador (a revisar),,OS propia OSMATA; gran caudal (IVECO/Renault/VW/FIAT/Nissan); OS osmatacba@yahoo.com.ar (confirmar),Revisar borrador y enviar (Camino 2)
+153,Sindicato,Asociacion Bancaria Seccional Cordoba,ofadministracion@bancariacba.com,0351-426-3554,bancariacba.com,Fuerte,P1,Borrador (a revisar),,OS propia OSBA,Revisar borrador y enviar (Camino 2)
+154,Sindicato,UOCRA Seccional Cordoba (construccion),sinx560@uocra.org,0351-422-3854,uocra.org,Fuerte,P1,Borrador (a revisar),,OS propia OSPeCon; email verificado,Revisar borrador y enviar (Camino 2)
+155,Sindicato,ATSA Cordoba (Sanidad FATSA),info@sanidadatsacba.com.ar,0351-423-3882,sanidadatsacba.com.ar,Fuerte,P2,Borrador (a revisar),,OS propia OSPSA + servicios; alto volumen,Revisar borrador y enviar (Camino 2)
+156,Sindicato,CISPREN (prensa),info@cispren.org.ar,0351-424-3517,cispren.org.ar,Fuerte,P2,Borrador (a revisar),,OS propia Prensalud; receptivos a convenios,Revisar borrador y enviar (Camino 2)
+157,Sindicato,STIA Cordoba (alimentacion),info@alimentacioncba.org.ar,0351-425-3636,alimentacioncba.org.ar,Fuerte,P2,Borrador (a revisar),,OS propia alimentacion; email verificado,Revisar borrador y enviar (Camino 2)
 158,Sindicato,ASTF (empleados de farmacia) Cba,a relevar,0351-422-0650,astf.org.ar,Fuerte,P3,Sin contactar,,OS propia farmacia; relevar email por tel,Relevar email y enviar
 159,Sindicato,Sindicato del Seguro Seccional Cordoba,a relevar,0351-363-4063,sindicatodelseguro.com.ar,Fuerte,P3,Sin contactar,,OS OSSEG (ya en base); alt consultas@ssra.org.ar,Relevar email y enviar
-160,Sindicato,AVVA Cordoba (viajantes vendedores),avva-cordoba@viajantesvendedores.org.ar,0351-431-7500,avva.org.ar,Fuerte,P2,Sin contactar,,servicios sociales propios,Enviar (borrador Camino 2)
-161,Sindicato,SETIA Cordoba (entidades civiles/deportivas),cordoba@setia.org.ar,0351-431-5857,setia.org.ar,Fuerte,P2,Sin contactar,,OS propia,Enviar (borrador Camino 2)
+160,Sindicato,AVVA Cordoba (viajantes vendedores),avva-cordoba@viajantesvendedores.org.ar,0351-431-7500,avva.org.ar,Fuerte,P2,Borrador (a revisar),,servicios sociales propios,Revisar borrador y enviar (Camino 2)
+161,Sindicato,SETIA Cordoba (entidades civiles/deportivas),cordoba@setia.org.ar,0351-431-5857,setia.org.ar,Fuerte,P2,Borrador (a revisar),,OS propia,Revisar borrador y enviar (Camino 2)
 162,Sindicato,Union Obreros Madera Cordoba,obrasocialmadera@yahoo.com.ar,0351-421-3086,usimra.com.ar,Fuerte,P3,Sin contactar,,OS propia OSPIM (ya en base como OS),Enviar (borrador Camino 2)
 163,Sindicato,SOELSAC (limpieza y servicios) Cba,a relevar,0800-348-0023,ossoelsac.com.ar,Fuerte,P2,Sin contactar,,OS PROPIA local OSSOELSAC; ideal convenio directo; relevar email,Relevar email y enviar
-164,Sindicato,SURRBAC (recoleccion residuos) Cba,surrbacinstitucional@gmail.com,0351-756-2316,ossurrbac.com,Fuerte,P2,Sin contactar,,OS PROPIA local OSSURRBAC,Enviar (borrador Camino 2)
+164,Sindicato,SURRBAC (recoleccion residuos) Cba,surrbacinstitucional@gmail.com,0351-756-2316,ossurrbac.com,Fuerte,P2,Borrador (a revisar),,OS PROPIA local OSSURRBAC,Revisar borrador y enviar (Camino 2)
 165,Sindicato,SOETC (telefonicos FOEESITRA) Cba,a relevar,,soetc.ar,Fuerte,P3,Sin contactar,,OS telefonica; relevar,Relevar email y enviar
 166,Sindicato,UEJN Seccional Cordoba (judiciales nac.),a relevar,,uejn.org.ar,Fuerte,P3,Sin contactar,,OS OSPJN; relevar,Relevar email y enviar
 167,Sindicato,Union Ferroviaria Seccionales Cordoba,a relevar,,unionferroviaria.org.ar,Fuerte,P3,Sin contactar,,OS OSFE (ya en base) + Mutual UF; relevar,Relevar email y enviar

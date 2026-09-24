@@ -38,12 +38,16 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 ## ⏳ ESPERANDO TU OK
 
-- Nada pendiente de tu OK ahora mismo: los 11 borradores (prepagas + OOSS + Prevención) **ya se enviaron** (24/09).
+- [ ] **Revisar y enviar 12 borradores nuevos** (en Gmail, firmados):
+      - **Gremios con OS propia (Camino 2):** SMATA/OSMATA, Bancaria/OSBA, UOCRA/OSPeCon, ATSA, CISPREN/Prensalud, STIA, SURRBAC, AVVA, SETIA + **Caja de la Salud (CPSPS)**.
+      - **Rebotes recuperados:** OSDOP (deleg. Córdoba) y Medifé (intento).
+      - Enviá de a ~10-15 por día.
 
 ## 📌 PENDIENTE / PRÓXIMOS PASOS
 
 - [ ] **Nueva prospección Córdoba (lista, +50 entidades):** armar borradores para las que tienen email. Prioridad Camino 2 (OS propia): **SMATA, Bancaria, UOCRA, ATSA, CISPREN, STIA, SURRBAC, SOELSAC, AVVA, SETIA** + **Caja Salud (CPSPS)**. Colegios profesionales = Camino 1.
-- [ ] **Después:** OSDE, OSECAC, Accord por su canal (portal/teléfono) — instructivo pendiente.
+- [ ] **OSDE, OSECAC, Accord:** entrar por portal/teléfono → **instructivo paso a paso listo** en [`instructivo-OSDE-OSECAC-Accord.md`](instructivo-OSDE-OSECAC-Accord.md).
+- [ ] **SOELSAC** y demás "a relevar" de Córdoba: conseguir email por teléfono → borrador.
 - [ ] **Corregir 3 rebotes:** Medifé (bloqueó), Avalian y OSDOP (dirección inexistente) → conseguir email correcto y reenviar (en investigación).
 - [ ] **4 grandes — cada una por su canal** (no todas toman email):
       - **Prevención Salud:** ✅ borrador listo en Gmail (a revisar/enviar).
@@ -83,6 +87,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Fecha | Qué hicimos |
 |---|---|
+| **24/09** | **12 borradores nuevos**: 10 gremios con OS propia (SMATA, Bancaria, UOCRA, ATSA, CISPREN, STIA, SURRBAC, AVVA, SETIA, Caja Salud) + OSDOP y Medifé recuperados. Instructivo OSDE/OSECAC/Accord creado. |
 | **24/09** | Prospección Córdoba: **+50 entidades nuevas** (27 colegios/cajas/cámaras + 23 sindicatos/mutuales; base = 174). Recuperados OSDOP y Medifé (rebotes). |
 | **24/09** | Ricky envió los 11 borradores. Respuestas: **Boreal acordado**, OPDEA en evaluación, Galeno suspendido; **rechazos** CES y Caja Abogados; **rebotes** Medifé/Avalian/OSDOP. Lanzada prospección de Córdoba (sindicatos, mutuales, cámaras, colegios). |
 | **23/09** | Enviados los 3 gremios (UOM, Luz y Fuerza, Camioneros). **10 borradores nuevos** (5 prepagas top + 5 obras sociales) para revisar/enviar. Investigación de emails de OSDE/Prevención/OSECAC/Accord. |
