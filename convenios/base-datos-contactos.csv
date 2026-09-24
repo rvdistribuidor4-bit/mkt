@@ -31,10 +31,10 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 30,Prepaga,Griff Salud,info@griffsalud.com,,,Baja,P3,Email invalido (bounce),2026-07-06,Dominio inexistente,Conseguir email valido
 31,Prepaga,OSDE,a relevar,,cvprest.osde.com.ar,Fuerte,P1,Sin contactar,,"Postulacion via portal CV Prestadores; alta por PORTAL cvprest.osde.com.ar (formulario, no email); filial Cordoba (buscador sucursales)",Cargar alta en portal cvprest.osde.com.ar (no toma email)
 32,Prepaga,Swiss Medical,contratacionesinterior@swissmedical.com.ar,0810-333-7737,swissmedical.com.ar/prestadores,Fuerte,P1,Enviado (24/09),2026-09-24,Email de contrataciones INTERIOR/Cordoba (verificado),Esperar respuesta
-33,Prepaga,Medife,convenios@medife.com.ar,0810-345-2299,medife.com.ar,Fuerte,P1,Email inválido (bloqueado),2026-09-24,Canal de convenios verificado; convenios@medife.com.ar bloqueó el mensaje (550),Conseguir email alternativo de convenios
+33,Prepaga,Medife,atencionalprestador@medife.com.ar,0810-345-2299,medife.com.ar,Fuerte,P1,Borrador (a revisar),2026-09-24,Canal de convenios verificado; convenios@medife.com.ar bloqueó el mensaje (550); canal OFICIAL: formulario 'Quiero ser prestador' medife.com.ar/contacto/quiero-ser-prestador; borrador a atencionalprestador@ como intento,Enviar borrador y/o cargar formulario web
 34,Prepaga,Omint,cgp@omint.com.ar,0810-222-5155,prestadores.omint.com.ar,Media,P2,Enviado (24/09),2026-09-24,Centro de Gestion de Prestadores; casilla CGP es solo facturación; buscar área de convenios,Buscar canal de convenios
 35,Prepaga,Medicus,prestadores@medicus.com.ar,4129-5300,medicus.com.ar,Baja,P3,Sin contactar,,Fuerte en AMBA; baja en Cba,Enviar propuesta
-36,Prepaga,Avalian (ex ACA Salud),consultasweb@acasalud.com.ar,0341-420-8752,avalian.com/contactos,Fuerte,P1,Email inválido (bounce),2026-09-24,Confirmar canal de prestadores; consultasweb@acasalud.com.ar inexistente (550),Conseguir email alternativo
+36,Prepaga,Avalian (ex ACA Salud),consultasweb@acasalud.com.ar,0341-420-8752,avalian.com/contactos,Fuerte,P1,Email inválido (bounce),2026-09-24,Confirmar canal de prestadores; consultasweb@acasalud.com.ar inexistente (550); sin email de convenios publico; portal online.avalian.com/prestador/ingreso; tel 0810-222-72583; dominio @avalian.com,Cargar por portal de prestadores o llamar 0810-222-72583
 37,Prepaga,Jerarquicos Salud,prestadores@jerarquicos.com,0800-888-5040,jerarquicos.com/prestadores,Fuerte,P1,Enviado (24/09),2026-09-24,Linea exclusiva prestadores (verificado),Esperar respuesta
 38,Prepaga,Prevencion Salud,prestadores@prevencionsalud.com.ar,0810-555-1055 / 0800-7777-72583,prevencionsalud.com.ar/contacto,Fuerte,P1,Enviado (24/09),2026-09-24,Grupo Sancor; linea prestadores; email a relevar; email prestadores@prevencionsalud.com.ar (Grupo Sancor Seguros); pedir derivacion a Convenios,Esperar respuesta
 39,Prepaga,Accord Salud,a relevar,0810-888-0500 (Aten. Prestador) / 0810-888-2226,accordsalud.com.ar,Media,P2,Sin contactar,,Centro de Atencion a Prestadores; Centro de Atencion al Prestador 0810-888-0500; portal prestadores; email a confirmar (dominio @accordsalud.com.ar),"Llamar 0810-888-0500 para confirmar email de Convenios, luego borrador"
@@ -53,7 +53,7 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 52,Obra Social,OSPIC (cinematografica SICA),ospic@sicacine.org.ar,011-4808-0106,ospic.org.ar,Baja,P3,Sin contactar,,,Enviar propuesta
 53,Obra Social,OSPIQYP (quimicos),a relevar,,ospiqyp.org.ar,Baja,P3,Sin contactar,,En concurso preventivo; sin canal publicado,Relevar
 54,Obra Social,OSFATUN (universitarios nodocentes),a relevar,0800-666-5173,osfatun.com.ar/contacto,Media,P3,Sin contactar,,Area Facturacion Prestadores (emails ofuscados),Relevar canal
-55,Obra Social,OSDOP (docentes particulares SADOP),ccpba@osdop.org.ar,0800-666-6450,osdop.org.ar,Media,P2,Email inválido (bounce),2026-09-24,Red regional gerenciada (SERVIRED); ccpba@osdop.org.ar inexistente (550),Conseguir email alternativo (deleg. Córdoba)
+55,Obra Social,OSDOP (docentes particulares SADOP),coordinacion.cordoba@osdop.org.ar,351 4470987,osdop.org.ar,Media,P2,Borrador (a revisar),2026-09-24,Red regional gerenciada (SERVIRED); ccpba@osdop.org.ar inexistente (550); deleg. Cordoba coordinacion.cordoba@osdop.org.ar (verificado); nacional 0810-345-2527,Revisar borrador y enviar
 56,Obra Social,OSPACA (Automovil Club),informes@ospaca.com,0800-999-6772,ospaca.com,Baja,P3,Sin contactar,,Prestadores bajo convenio ACA,Enviar propuesta
 57,Obra Social,OSJERA / OSPJERA (agua y energia),a relevar,,osjera.com.ar,Baja,P3,Sin contactar,,Prestadores via Federacion Medica,Relevar
 58,Obra Social,OSPM (maritimo SOMU),reclamos@ospm.com.ar,0810-777-2571,prestadores.ospm.org.ar,Baja,P3,Sin contactar,,Portal de prestadores,Portal
@@ -123,3 +123,30 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 122,ART,San Cristobal,a relevar,,sancristobal.com.ar,Media,P3,Sin contactar,,En lista Gerenciar,Relevar
 123,ART,Colonia Suiza ART,a relevar,,,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
 124,ART,IAPSER ART (Entre Rios),a relevar,,iapser.gov.ar,Baja,P3,Sin contactar,,En lista Gerenciar,Relevar
+125,Colegio,Colegio de Ingenieros Civiles de Cordoba,colegio@civiles.org.ar,0351-423-9130,civiles.org.ar,Fuerte,P2,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+126,Colegio,Colegio de Ingenieros Agronomos Cba (CIAPC),info@ciacordoba.org.ar,351-593-3015,ciacordoba.org.ar,Fuerte,P2,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+127,Colegio,Colegio de Ingenieros Especialistas Cba (CIEC),ciec@ciec.com.ar,0351-422-0081,ciec.com.ar,Fuerte,P2,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+128,Colegio,Colegio de Arquitectos de Cordoba,provincial@colegio-arquitectos.com.ar,0351-156-089128,colegio-arquitectos.com.ar,Fuerte,P2,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+129,Colegio,Colegio de Agrimensores de Cordoba,info@agrimcba.org.ar,0351-424-5544,agrimensorescordoba.org.ar,Fuerte,P3,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+130,Colegio,Colegio de Farmaceuticos Cba (COLFACOR),presidencia@colfacor.org.ar,0351-424-9511,colfacor.org.ar,Fuerte,P2,Sin contactar,,salud; matriculados,Enviar (borrador Camino 1/2)
+131,Colegio,Colegio de Bioquimicos Cba (COBICO),cobico@cobico.com.ar,0351-423-1961,cobico.ar,Fuerte,P2,Sin contactar,,salud; matriculados,Enviar (borrador Camino 1/2)
+132,Colegio,Colegio Odontologico Cba,colegioodontologico@colodontcba.org.ar,0351-422-4209,colodontcba.org.ar,Fuerte,P2,Sin contactar,,salud; matriculados,Enviar (borrador Camino 1/2)
+133,Colegio,Colegio de Kinesiologos y Fisioterapeutas Cba,colegio@colkyfcba.org,0351-473-3158,colkyfcba.org,Fuerte,P2,Sin contactar,,salud; matriculados,Enviar (borrador Camino 1/2)
+134,Colegio,Colegio de Psicologos Cba (CPPC),cppc@cppc.org.ar,0351-425-9637,cppc.org.ar,Fuerte,P2,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+135,Colegio,Colegio Medico Veterinario Cba,administracion@covetcba.com.ar,0351-452-1962,covetcba.com.ar,Fuerte,P3,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+136,Colegio,Colegio de Nutricionistas Cba (CNPC),informes@colegionut.com.ar,0351-424-0946,colegionut.com,Fuerte,P3,Sin contactar,,salud; matriculados,Enviar (borrador Camino 1/2)
+137,Colegio,Colegio de Fonoaudiologia Cba (CPFC),info@cpfc.org.ar,0351-424-2507,cpfc.org.ar,Fuerte,P3,Sin contactar,,salud; matriculados,Enviar (borrador Camino 1/2)
+138,Colegio,Colegio de Martilleros y Corredores Cba (CPMCP),sedecentral@cpmcp.org.ar,0351-426-2962,cpmcp.org.ar,Fuerte,P3,Sin contactar,,matriculados,Enviar (borrador Camino 1/2)
+139,Colegio,Colegio de Corredores Inmobiliarios Cba (CPI),a relevar,0351-428-0674,cpicordoba.org.ar,Fuerte,P3,Sin contactar,,form web; WA 351-3023272,Relevar email y enviar
+140,Colegio,Colegio de Traductores Publicos Cba (CTPPC),a relevar,0351-468-4622,ctppc.com.ar,Fuerte,P3,Sin contactar,,relevar por web/tel,Relevar email y enviar
+141,Caja profesional,Caja Prevision Salud Profesionales Cba (CPSPS),afiliaciones@cajasaludcba.org,0351-410-6034,cajasalud.com.ar,Fuerte,P1,Sin contactar,,ALTO VALOR: nuclea profesionales de la salud; dominio emails @cajasaludcba.org; alt beneficios@cajasaludcba.org,Enviar (borrador Camino 1/2)
+142,Caja profesional,Caja de Prevision Ley 8470 (Ing/Arq/Agrim/Constr) Cba,a relevar,0351-155-319758,caja8470.com.ar,Fuerte,P2,Sin contactar,,form web,Relevar email y enviar
+143,Camara,Camara Industriales Metalurgicos Cba (CIMCC),info@metalurgicoscba.com.ar,0351-468-1832,metalurgicoscba.com.ar,Fuerte,P3,Sin contactar,,empresas; alt comunicacion@metalurgicoscba.com.ar,Enviar (borrador Camino 1/2)
+144,Camara,Cordoba Technology Cluster,a relevar,0351-589-5550,cordobatechnology.com,Fuerte,P3,Sin contactar,,empresas TI; email no verificado,Relevar email y enviar
+145,Camara,Asoc. Hotelera Gastronomica Cba (AEHGC/FEHGRA),asociacion@fehgracba.com,0351-421-7011,hotelesygastronomiacordoba.com,Fuerte,P3,Sin contactar,,empresas,Enviar (borrador Camino 1/2)
+146,Camara,FEDECOM - Federacion Comercial de Cordoba,a relevar,,fedecom.org.ar,Fuerte,P3,Sin contactar,,nuclea camaras/comercios; relevar,Relevar email y enviar
+147,Camara,CARTEZ (asociaciones rurales 3a zona),a relevar,,cartez.org.ar,Fuerte,P3,Sin contactar,,productores; relevar,Relevar email y enviar
+148,Camara,Sociedad Rural de Cordoba,info@sociedadruralcordoba.org,,sociedadruralcordoba.org,Fuerte,P3,Sin contactar,,productores; Lima 469,Enviar (borrador Camino 1/2)
+149,Camara,Camara de Turismo de Cordoba,camtucor@gmail.com,351-5326554,camaracbaturismo.org.ar,Fuerte,P3,Sin contactar,,empresas turismo,Enviar (borrador Camino 1/2)
+150,Camara,FETAP (transporte de pasajeros) Cba,a relevar,0351-460-2903,fetapcordoba.com,Fuerte,P3,Sin contactar,,empresas transporte; relevar,Relevar email y enviar
+151,Camara,Camara Corredores Inmobiliarios Cba (CaCIC),a relevar,,fira.org.ar/cacic,Fuerte,P3,Sin contactar,,empresas inmob; relevar,Relevar email y enviar
