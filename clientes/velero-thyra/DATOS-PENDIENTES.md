@@ -70,9 +70,9 @@ Hay que cerrar esto con el dueño antes de publicar.
 
 **Todavía falta:**
 
-- [ ] **¿El casco es de madera o de fibra?** Un sueco de 1964 con 13 t suele ser de madera, y las fotos muestran el casco blanco pintado. Si es de madera, es un dato que vale oro y hoy la web no lo dice
-- [ ] **Astillero o modelo.** Con "Suecia + 1964 + 42 pies + 13 t" un entendido lo identifica. Suma para el relato y para el valor del barco
-- [ ] **Aparejo**: ¿sloop, ketch o yawl? La web no lo afirma porque no está confirmado
+- [x] ~~¿El casco es de madera o de fibra?~~ → **CASCO DE MADERA**, confirmado por el dueño. Ya está en la ficha, en la barra de datos (*"13 t · casco de madera, nada de plástico"*) y en el copy: *"El casco es de madera, pintado de blanco, y todavía navegando sesenta y dos años después. Barcos así ya no se construyen, y los que siguen a flote son los que alguien cuidó."*
+- [ ] **Astillero o modelo** — el dueño no lo sabe. **Está en los papeles del barco**: la matrícula o el certificado de registro traen astillero y número de casco. Con "Suecia + 1964 + 42 pies + 13 t + casco de madera" un entendido lo identifica, y ahí puede haber historia que ningún competidor tiene
+- [ ] **Aparejo**: ¿sloop, ketch o yawl? La web no lo afirma porque no está confirmado. Se resuelve con una foto del barco entero a vela
 - [ ] **Distribución real**: ¿cuántos camarotes cerrados y cuántas plazas en el salón?
 - [ ] Pasajeros máximo: la web dice 5 + capitán
 - [ ] Baños: la web dice 2 + ducha
@@ -118,9 +118,11 @@ El snorkel ya es real: salió de un fotograma del video del drone.
 
 ## 4bis. Lo que las fotos revelaron
 
-**Corregido en la web:**
+**Corregido en la web (dos veces, y la segunda vale la pena leerla):**
 
-- **El casco es blanco, de fibra.** Yo había escrito "no es un charter de plástico blanco", lo cual era falso. Ahora el copy dice lo que efectivamente pasa: por fuera es un cuarenta y dos pies blanco y prolijo, y abajo es todo teca barnizada y bronce. El contraste funciona mejor que la afirmación equivocada.
+- Primero escribí *"no es un charter de plástico blanco"* mirando el interior de madera. Falso: por fuera se ve blanco.
+- Después deduje de las fotos que **el casco era de fibra**. **También falso.** El dueño confirmó que **el casco es de madera**, pintado de blanco.
+- Moraleja para la próxima: de una foto se deduce el color, no el material. El dato lo tiene el dueño.
 
 **A confirmar con el dueño:**
 
