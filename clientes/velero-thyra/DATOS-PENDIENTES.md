@@ -161,6 +161,18 @@ Los MP4 son H.264 estándar y reproducen en cualquier navegador real. Probé
 generar WebM para servir además, pero con este material pesaban **más** que
 los MP4, así que no compensa.
 
+### 🔴 Pedir los originales — esto sí frena trabajo
+
+Los cuatro clips llegaron **por WhatsApp**, que los entregó a **464×832 y
+576×1024 px**. Para la web alcanza, pero un reel de Instagram es 1080×1920: hay
+que ampliarlos al doble y se nota. Es el único punto donde la calidad del
+material corta lo que se puede producir.
+
+**Pedirle a Leandro que los mande por Google Drive, WeTransfer o WhatsApp
+"enviar como documento".** De esas tres formas no se recomprimen. Con los
+originales, `contenido/ig/armar_reel.py` se vuelve a correr y el reel sale
+nítido sin rehacer el montaje.
+
 ## 5. Reseñas
 
 Tres reales de Airbnb o Google, textuales, con nombre, país y mes.

@@ -121,3 +121,71 @@ herramientas de pago, y siempre con las fotos reales del barco.
 - **Una foto de Leandro** al timón o cocinando. La historia del capitán es el
   mejor reel que tiene este cliente y hoy no hay material para armarlo.
 - **Un plato servido a bordo.** Se menciona en el texto y no se puede mostrar.
+
+---
+
+# Reel en video · «Un velero de 1964»
+
+**Archivo:** `thyra-reel.mp4` — 1080 × 1920, 30 fps, **20 s**, ~10 MB
+**Portada sugerida:** `thyra-reel-portada.jpg`
+**Fuentes editables:** `reel.html` (los textos) + `armar_reel.py` (el montaje)
+**Costo de producción:** US$0
+
+## Cómo está montado
+
+| Tramo | Material | Dura | Texto |
+|---|---|---|---|
+| 1 | Foto: fondeado al atardecer | 4,0 s | *Este velero tiene 62 años* |
+| 2 | **Video real**: el Thyra desde el agua | 3,4 s | *Y sigue cruzando el Caribe* · Suecia, 1964 |
+| 3 | Placa de datos | 3,6 s | 1964 · Madera · 13 t → *Por eso no se zarandea* |
+| 4 | Foto: el salón | 3,4 s | *Caoba y bronce* |
+| 5 | **Video real**: archipiélago desde el aire | 3,4 s | *Cinco pasajeros. No cincuenta* |
+| 6 | Foto: aérea sobre el arrecife | 4,8 s | US$120 · WhatsApp |
+
+Las fotos no están quietas: llevan un zoom lento (un tramo entra, otro sale), que
+es lo que evita que un reel armado con fotos se sienta una presentación de
+diapositivas. Las transiciones encadenan, y al entrar y salir de la placa oscura
+pasan por negro, que le da un respiro al ojo antes del dato.
+
+## Sobre el audio
+
+**El reel va sin música a propósito.** La música se le pone desde el buscador de
+audio de Instagram, al subirlo. Razones:
+
+1. La música incrustada en el archivo la silencian o la bloquean por derechos.
+2. El audio elegido dentro de la app **sí cuenta para el alcance**: el reel entra
+   en el feed de ese audio. Un archivo con música pegada no entra en ninguno.
+
+Buscar algo instrumental, tranquilo, tipo guitarra o folk suave. Que no tape.
+
+## ⚠️ El límite de calidad, y cómo se levanta
+
+Los dos tramos de video se ven más blandos que las fotos. No es el montaje: los
+clips llegaron **por WhatsApp**, que los entregó a 464 × 832 y 576 × 1024 px, y
+para un reel hay que subirlos a 1080 × 1920. Las fotos aguantan porque llegaron
+a 1100–1180 px.
+
+**Pedirle a Leandro los originales** y que los mande por **Google Drive,
+WeTransfer o WhatsApp "enviar como documento"** — de esas tres maneras no se
+recomprimen. Con eso, se cambian las rutas en `armar_reel.py`, se vuelve a
+correr, y el mismo reel sale nítido sin rehacer nada.
+
+## Cómo volver a generarlo
+
+```bash
+cd clientes/velero-thyra/contenido/ig
+python3 render_reel_capas.py   # textos  → reel-capas/*.png
+python3 armar_reel.py          # montaje → thyra-reel.mp4
+```
+
+Cambiar un precio o una línea es editar `reel.html` y correr los dos comandos.
+
+## Cómo publicarlo
+
+- **Portada:** usar `thyra-reel-portada.jpg`, o elegir el segundo 2–3 en la app.
+  En la grilla del perfil se recorta al centro, y ahí el barco queda bien.
+- **Texto del posteo:** sirve el mismo del carrusel, recortado a los dos primeros
+  párrafos. En reels, las primeras dos líneas son lo único que se lee.
+- **Zona segura:** los textos están por encima de los 430 px inferiores, así que
+  ni el pie de foto ni los botones de Instagram los tapan.
+- **Compartirlo también en historias** el mismo día, con sticker de enlace.

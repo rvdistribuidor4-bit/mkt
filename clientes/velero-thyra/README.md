@@ -16,7 +16,7 @@ Tres servicios: **alojamiento a bordo** (tipo Airbnb), **paseos de día** y
 | Reseñas | 🟡 De ejemplo |
 | Cobro en USD | 🔴 Falta abrir cuenta |
 | Dominio y hosting | 🔴 Sin definir |
-| Instagram | 🟡 Primera pieza lista (carrusel demo en `contenido/ig/`) |
+| Instagram | 🟡 Carrusel + reel en video listos (`contenido/ig/`) |
 
 ## Estructura
 
@@ -34,7 +34,7 @@ velero-thyra/
 ├── PLAN-CAPTACION.md    ← ⭐ cómo llegar a una reserva por semana, canal por canal
 ├── DATOS-PENDIENTES.md  ← ⭐ qué falta para publicar
 └── contenido/
-    └── ig/              ← carrusel demo (4 placas) + texto del posteo + su fuente HTML
+    └── ig/              ← carrusel (4 placas), reel en video, textos y las fuentes para regenerarlos
 ```
 
 ## En una línea
