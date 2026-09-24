@@ -299,8 +299,16 @@ section{padding:clamp(4rem,9vw,8rem) 0;position:relative}
 .reel{margin:0;position:relative;border-radius:14px;overflow:hidden;background:var(--profundo);
   aspect-ratio:9/16;box-shadow:var(--sombra-s);cursor:pointer}
 .reel video,.reel img.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.reel video{opacity:0;transition:opacity .6s}
-.reel video.ready{opacity:1}
+.reel video{opacity:0;transition:opacity .5s;z-index:1}
+.reel.playing video{opacity:1}
+/* boton de play: aparece solo si el navegador bloqueo el autoplay (iframe, iOS) */
+.reel .playbtn{position:absolute;inset:0;margin:auto;z-index:3;width:60px;height:60px;border-radius:50%;
+  background:rgba(4,33,46,.55);backdrop-filter:blur(8px);border:1.5px solid rgba(255,255,255,.55);
+  color:#fff;display:none;place-items:center;cursor:pointer;padding-left:4px;
+  transition:transform .2s,background .2s}
+.reel .playbtn:hover{transform:scale(1.08);background:rgba(4,33,46,.8)}
+.reel.blocked .playbtn{display:grid}
+.reel.loud .snd{background:var(--laguna);color:var(--abismo);border-color:transparent}
 .reel figcaption{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:1.4rem 1.1rem .95rem;
   color:#fff;font-size:.92rem;font-weight:500;line-height:1.35;
   background:linear-gradient(to top,rgba(4,33,46,.88),transparent)}

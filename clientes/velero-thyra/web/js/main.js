@@ -61,43 +61,84 @@
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
   }
 
-  // --- reels: el video se descarga recien cuando entra en pantalla ---
-  // asi la pagina no paga 2,7 MB de entrada, que en San Blas importa.
+  // --- reels ---
+  // El <video> ya esta en el HTML con poster; solo se le asigna el src cuando
+  // entra en pantalla, asi la portada no paga los megas de entrada.
+  // Dentro de un iframe (y en iOS) el navegador puede bloquear el autoplay aun
+  // con el video en silencio: en ese caso NO se deja el poster congelado y
+  // mudo, se muestra un boton de play y cualquier toque sobre la tarjeta lo
+  // arranca, que es un gesto del usuario y siempre esta permitido.
   var reels = document.querySelectorAll('.reel');
-  if (reels.length && 'IntersectionObserver' in window) {
-    var rio = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        var fig = e.target;
-        var vid = fig.querySelector('video');
-        if (e.isIntersecting) {
-          if (!vid) {
-            vid = document.createElement('video');
-            vid.src = fig.dataset.src;
-            vid.muted = true; vid.loop = true; vid.playsInline = true;
-            vid.setAttribute('playsinline', '');
-            vid.preload = 'auto';
-            vid.addEventListener('playing', function () { vid.classList.add('ready'); });
-            fig.insertBefore(vid, fig.firstChild);
-          }
-          var p = vid.play();
-          if (p && p.catch) p.catch(function () {});   // autoplay bloqueado: queda el poster
-        } else if (vid) {
-          vid.pause();
-        }
-      });
-    }, { threshold: .35 });
-    reels.forEach(function (r) { rio.observe(r); });
+  if (reels.length) {
 
-    // el boton de sonido: uno con audio por vez
+    var arrancar = function (fig) {
+      var v = fig.querySelector('video');
+      if (!v) return;
+      if (!v.src) v.src = fig.dataset.src;          // descarga diferida
+      var p = v.play();
+      if (p && p.then) {
+        p.then(function () { fig.classList.remove('blocked'); })
+         .catch(function () { fig.classList.add('blocked'); });  // muestra el boton
+      }
+    };
+
+    if ('IntersectionObserver' in window) {
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) arrancar(e.target);
+          else {
+            var v = e.target.querySelector('video');
+            if (v && !v.paused) v.pause();
+          }
+        });
+      }, { threshold: .3 });
+      reels.forEach(function (r) { obs.observe(r); });
+    } else {
+      reels.forEach(arrancar);
+    }
+
+    reels.forEach(function (fig) {
+      var v = fig.querySelector('video');
+      if (!v) return;
+      v.addEventListener('playing', function () {
+        fig.classList.add('playing');
+        fig.classList.remove('blocked');
+      });
+
+      // tocar la tarjeta: arranca si esta frenado, y si ya corre alterna el sonido
+      fig.addEventListener('click', function () {
+        if (v.paused) { arrancar(fig); return; }
+        sonido(fig, v);
+      });
+    });
+
+    function sonido(fig, v) {
+      var encender = v.muted;
+      document.querySelectorAll('.reel').forEach(function (o) {
+        var ov = o.querySelector('video');
+        if (ov) { ov.muted = true; }
+        o.classList.remove('loud');
+      });
+      v.muted = !encender;
+      fig.classList.toggle('loud', encender);
+      if (encender && v.paused) v.play().catch(function () {});
+    }
+
     document.querySelectorAll('.reel .snd').forEach(function (btn) {
       btn.addEventListener('click', function (ev) {
         ev.stopPropagation();
-        var vid = btn.closest('.reel').querySelector('video');
-        if (!vid) return;
-        var encender = vid.muted;
-        document.querySelectorAll('.reel video').forEach(function (v) { v.muted = true; });
-        vid.muted = !encender;
-        if (encender) { vid.currentTime = 0; vid.play().catch(function () {}); }
+        var fig = btn.closest('.reel');
+        var v = fig.querySelector('video');
+        if (!v) return;
+        if (v.paused) arrancar(fig);
+        sonido(fig, v);
+      });
+    });
+
+    document.querySelectorAll('.reel .playbtn').forEach(function (btn) {
+      btn.addEventListener('click', function (ev) {
+        ev.stopPropagation();
+        arrancar(btn.closest('.reel'));
       });
     });
   }
