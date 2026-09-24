@@ -42,7 +42,8 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 ## 📌 PENDIENTE / PRÓXIMOS PASOS
 
-- [ ] **Nueva prospección Córdoba (en curso):** relevar todos los gremios/mutuales + cámaras/colegios de Córdoba que faltan → armar borradores.
+- [ ] **Nueva prospección Córdoba (lista, +50 entidades):** armar borradores para las que tienen email. Prioridad Camino 2 (OS propia): **SMATA, Bancaria, UOCRA, ATSA, CISPREN, STIA, SURRBAC, SOELSAC, AVVA, SETIA** + **Caja Salud (CPSPS)**. Colegios profesionales = Camino 1.
+- [ ] **Después:** OSDE, OSECAC, Accord por su canal (portal/teléfono) — instructivo pendiente.
 - [ ] **Corregir 3 rebotes:** Medifé (bloqueó), Avalian y OSDOP (dirección inexistente) → conseguir email correcto y reenviar (en investigación).
 - [ ] **4 grandes — cada una por su canal** (no todas toman email):
       - **Prevención Salud:** ✅ borrador listo en Gmail (a revisar/enviar).
@@ -82,6 +83,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Fecha | Qué hicimos |
 |---|---|
+| **24/09** | Prospección Córdoba: **+50 entidades nuevas** (27 colegios/cajas/cámaras + 23 sindicatos/mutuales; base = 174). Recuperados OSDOP y Medifé (rebotes). |
 | **24/09** | Ricky envió los 11 borradores. Respuestas: **Boreal acordado**, OPDEA en evaluación, Galeno suspendido; **rechazos** CES y Caja Abogados; **rebotes** Medifé/Avalian/OSDOP. Lanzada prospección de Córdoba (sindicatos, mutuales, cámaras, colegios). |
 | **23/09** | Enviados los 3 gremios (UOM, Luz y Fuerza, Camioneros). **10 borradores nuevos** (5 prepagas top + 5 obras sociales) para revisar/enviar. Investigación de emails de OSDE/Prevención/OSECAC/Accord. |
 | **23/09** | Investigación del valor de mercado de cataratas. Precio municipio simplificado a **$850k por ojo todo incluido** vs mercado ~$1,2M (ahorro ≈29%). Presentación, comparativa y convenio actualizados. |
