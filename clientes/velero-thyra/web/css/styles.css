@@ -310,3 +310,23 @@ section{padding:clamp(4rem,9vw,8rem) 0;position:relative}
 .reel .snd:hover{background:rgba(4,33,46,.85)}
 @media(max-width:860px){.reels{grid-template-columns:repeat(2,1fr);gap:.8rem}}
 @media(max-width:420px){.reels{grid-template-columns:1fr}.reel{aspect-ratio:4/5}}
+
+/* ---------- el capitan ---------- */
+.skipper{background:var(--abismo);color:#fff}
+.skipper h2,.skipper h3{color:#fff}
+.skipper .lead,.skipper p{color:rgba(255,255,255,.76)}
+.skipper .eyebrow{color:var(--laton)}
+.skipper img{border-radius:var(--r);box-shadow:var(--sombra)}
+.pull{font-family:Fraunces,serif;font-size:clamp(1.3rem,2.1vw,1.65rem);line-height:1.35;
+  color:#fff;border-left:2px solid var(--laton);padding:.2rem 0 .2rem 1.4rem;margin:2rem 0}
+.route{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.8rem;list-style:none;padding:0}
+.route li{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;
+  color:#CBDDE4;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+  border-radius:100px;padding:.4rem .9rem}
+.route li:last-child{background:var(--laton);color:#fff;border-color:transparent}
+
+/* ---------- guna yala ---------- */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;margin-top:3rem}
+.fact{border-top:2px solid var(--laton);padding-top:1.1rem}
+.fact b{display:block;font-family:Fraunces,serif;font-size:2rem;color:var(--abismo);line-height:1;margin-bottom:.4rem}
+.fact span{font-size:.94rem;color:var(--suave);line-height:1.5;display:block}

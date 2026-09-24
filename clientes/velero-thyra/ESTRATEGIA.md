@@ -69,9 +69,21 @@ Es lo que ningún competidor está contando.
 privado, con precio y un botón cada una. Tres es la cantidad que se compara sin
 esfuerzo; con siete, la gente no elige.
 
-**"Seis, no sesenta" como diferenciador central.** Es la única ventaja
-estructural frente a los operadores grandes: no se puede copiar sin dejar de ser
-un operador grande. Todo el posicionamiento cuelga de ahí.
+**Dos diferenciadores duros, no uno.** Ambos son estructurales: no se pueden
+copiar sin dejar de ser lo que la competencia es.
+
+1. **"Cinco, no cincuenta".** Un operador grande no puede ofrecer intimidad sin
+   dejar de ser grande.
+2. **El capitán es cocinero profesional.** Leandro se fue de Argentina a los
+   diecisiete y recorrió República Dominicana, Miami, Brasil, Alemania y España
+   trabajando en cocinas, antes de quedarse en las islas. En un mercado donde
+   "comidas incluidas" significa una bandeja tibia, acá el que lleva el barco es
+   el que cocina.
+
+El segundo es, comercialmente, **el más valioso de los dos**, y es el que la
+competencia no puede improvisar: se puede comprar un barco más lindo, no se
+puede comprar veinte años de cocina. Tiene su propia sección y se repite en el
+hero, en "qué incluye", en el día completo y en la línea de tiempo del día.
 
 **CTA fijo en móvil.** Barra inferior con precio y botón, siempre visible. La
 mayoría del tráfico turístico entra por el celular, y el momento de decidir no
@@ -107,6 +119,24 @@ El turquesa se reserva para lo accionable. Si algo es turquesa, se toca.
 2. **Scroll hasta "Un día a bordo"** — si la gente no llega, el hero no está funcionando.
 3. **Reservas directas vs. Airbnb** — cada punto que se mueve de Airbnb a directo es ~15% de comisión recuperada.
 4. **Idioma del visitante** — para saber dónde poner el esfuerzo de SEO.
+
+## 6bis. Contar el lugar, no solo el paseo
+
+Guna Yala tiene una historia que casi ningún competidor cuenta: en 1925 los
+gunas se levantaron contra la prohibición de su lengua y sus ceremonias,
+declararon una república y arrancaron una autonomía que en 1938 quedó
+reconocida y hoy sigue vigente, con un Congreso General que decide por consenso.
+Es una sociedad matrilineal donde la propiedad se hereda por línea femenina.
+
+Eso cumple tres funciones a la vez:
+
+1. **Justifica las reglas.** La tasa de ingreso y los permisos dejan de ser un
+   trámite molesto y pasan a ser la razón por la que el archipiélago no tiene un
+   resort en cada banco de arena.
+2. **Posiciona al operador como alguien que respeta el lugar**, no como alguien
+   que lo explota. Las molas se compran directo a quien las cose.
+3. **Es SEO puro.** "Guna Yala historia", "revolución guna", "molas" son
+   búsquedas que hoy se llevan blogs de viaje, no operadores.
 
 ## 7. Lo que sigue
 

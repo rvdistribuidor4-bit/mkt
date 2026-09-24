@@ -58,8 +58,10 @@ Hay que cerrar esto con el dueño antes de publicar.
 - [ ] Pasajeros máximo: la demo dice 6
 - [ ] Baños: la demo dice 2 + ducha
 - [ ] Marca, modelo y **año** — es un clásico de madera, y el año suma valor
-- [ ] Nombre del capitán y una línea sobre él
+- [x] ~~Nombre del capitán~~ → **Leandro**, con sección propia
 - [ ] ¿Hay tripulación además del capitán?
+- [ ] **Datos de Leandro que faltan**: ¿hace cuánto vive en las islas? ¿en qué cocinas trabajó (si se pueden nombrar, suman muchísimo)? ¿tiene titulación náutica que valga mencionar?
+- [ ] **Fabio**: en la web no aparece. Él mismo dice que "poco se sabe de él". ¿Quiere aparecer como el dueño que cumplió un sueño comprando el Thyra, o prefiere quedar afuera? Es una línea que humaniza, pero es su decisión
 
 ## 4. Fotos
 
@@ -91,9 +93,10 @@ El snorkel ya es real: salió de un fotograma del video del drone.
 
 ### Faltan y suman
 
-- [ ] Un almuerzo real servido a bordo
+- [ ] **Una foto de Leandro** — tiene sección propia en la web y hoy va ilustrada con la bañera. Un retrato suyo al timón o cocinando es lo que más le falta a esa sección
+- [ ] **Un plato suyo, servido a bordo** — es el argumento de venta más fuerte que tiene el barco y no hay ni una foto
 - [ ] La cocina / galley
-- [ ] El capitán a bordo
+- [ ] Un almuerzo real servido en cubierta
 
 ## 4bis. Lo que las fotos revelaron
 
