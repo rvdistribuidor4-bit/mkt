@@ -7,9 +7,22 @@ convertirla en el sitio real y publicable.
 
 | Buscar | Reemplazar por |
 |---|---|
-| `507XXXXXXXX` | WhatsApp con código de país, **sin + ni espacios** (ej. `50761234567`) |
 | `https://tudominio.com` | Dominio real |
 | `AIRBNB-URL` | Link al anuncio de Airbnb |
+
+**Contactos ya cargados:**
+
+| Quién | WhatsApp | Uso |
+|---|---|---|
+| **Fabio** (dueño) | +54 9 3548 63-5569 | ✅ Número público de la web: botón flotante, CTAs y formulario |
+| **Leo** (capitán) | +507 6921-3447 | Interno / post-reserva. Aparece nombrado en la web, sin número |
+
+> **Por qué Fabio y no Leo en la web.** El turista escribe de madrugada desde
+> Europa o EEUU. Si ese mensaje cae en un teléfono fondeado en San Blas sin
+> señal, la respuesta llega dos días tarde y la reserva se perdió. Fabio tiene
+> señal estable. Leo aparece **por nombre** en la sección del velero, que es lo
+> que humaniza, y su número se pasa una vez confirmada la reserva.
+> Si el dueño prefiere al revés, es cambiar una variable.
 
 Verificar que no quedó ninguno:
 
@@ -17,19 +30,20 @@ Verificar que no quedó ninguno:
 grep -rn "507XXXXXXXX\|tudominio.com\|AIRBNB-URL" web/
 ```
 
-## 2. Precios — hoy son de ejemplo
+## 2. Precios — propuesta con auditoría de mercado
 
-Los de la demo están puestos según valores de mercado de San Blas, **no son los
-del dueño**:
+Ver **`PRECIOS-Y-COBRO.md`**: relevamiento de la competencia, los tres precios
+propuestos y por qué. Resumen:
 
-| Experiencia | En la demo | Real |
+| Experiencia | Propuesto | Barco lleno (5) |
 |---|---|---|
-| Noche a bordo | US$165 pp/noche | ☐ |
-| Paseo de día | US$135 pp/día | ☐ |
-| Charter privado | US$980 /día barco entero | ☐ |
-| Tasa de Guna Yala | (no especificada) | ☐ |
+| Día completo (12 h) | US$120 pp | US$600 |
+| Noche a bordo | US$150 pp/noche | US$750 |
+| Barco entero | US$750/día | — |
 
-Aparecen en: hero, barra fija de móvil, tres tarjetas de experiencias.
+- [ ] **Que el dueño valide los tres precios y el piso de 3 pasajeros para salir**
+- [ ] Confirmar la tasa de Guna Yala vigente (relevada: US$22 pp)
+- [ ] Confirmar el costo del traslado 4x4 que cobra su proveedor
 
 ## 3. Ficha del barco — confirmar
 
@@ -131,11 +145,12 @@ Las de la demo dicen "reseña de ejemplo" a propósito: **nunca inventarlas.**
 
 ## 6. Textos que solo puede dar el dueño
 
-- [ ] **Formas de pago** (FAQ) — sin esto se pierden reservas
-- [ ] **Política de cancelación**, incluido mal tiempo (FAQ)
+- [x] ~~Formas de pago~~ → propuesta cargada: seña 30% por link, saldo en efectivo USD. **Falta abrir la cuenta** (ver `PRECIOS-Y-COBRO.md`)
+- [x] ~~Política de cancelación~~ → propuesta cargada en la FAQ. **Falta que el dueño la apruebe**
 - [ ] Confirmar qué incluye y qué no
 - [ ] Mínimo de noches (la demo dice 2)
 - [ ] Temporada: ¿opera todo el año?
+- [ ] ¿El día completo sale desde Cartí o desde dónde? El horario 7–19 asume salida de puerto
 
 ## 7. Sacar la marca de demo
 

@@ -12,7 +12,9 @@ Tres servicios: **alojamiento a bordo** (tipo Airbnb), **paseos de día** y
 | Fotos del barco | 🟢 Reales (10) |
 | Fotos de entorno | 🟡 Solo `pesca.jpg` sigue siendo generada |
 | Videos | 🟢 4 clips reales, con carga diferida |
-| Precios y reseñas | 🟡 De ejemplo |
+| Precios | 🟡 Propuesta con auditoría de mercado, a validar |
+| Reseñas | 🟡 De ejemplo |
+| Cobro en USD | 🔴 Falta abrir cuenta |
 | Dominio y hosting | 🔴 Sin definir |
 | Instagram | ⚪ No iniciado |
 
@@ -28,6 +30,7 @@ velero-thyra/
 │   ├── img/             ← 12 fotos reales + 1 de referencia + posters
 │   └── vid/             ← 4 clips verticales (2,9 MB, carga diferida)
 ├── ESTRATEGIA.md        ← ⭐ análisis: por qué la web está armada así
+├── PRECIOS-Y-COBRO.md   ← ⭐ auditoría de mercado, precios, cancelación y cobro
 ├── DATOS-PENDIENTES.md  ← ⭐ qué falta para publicar
 └── contenido/ · marca/  ← plan IG y blog (pendiente)
 ```
