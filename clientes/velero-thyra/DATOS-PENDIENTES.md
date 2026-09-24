@@ -33,40 +33,55 @@ Aparecen en: hero, barra fija de móvil, tres tarjetas de experiencias.
 
 ## 3. Ficha del barco — confirmar
 
-Puesto en la demo como un 42 pies típico. Confirmar con el dueño:
+⚠️ **Las fotos contradicen parte de lo que supuse.** El salón tiene camas a los
+lados, así que la distribución **no** son tres camarotes cerrados con puerta.
+Por eso la web ya no afirma "3 dobles" ni "cada camarote tiene puerta": dice
+"3 camarotes" y la FAQ invita a consultar qué cuchetas toca según el grupo.
+Hay que cerrar esto con el dueño antes de publicar.
 
-- [x] Eslora: 42 pies *(dato real)*
-- [ ] Camarotes: la demo dice 3 dobles
-- [ ] Pasajeros: la demo dice 6 máximo
+- [x] Eslora: 42 pies *(dato del dueño)*
+- [ ] **Distribución real**: ¿cuántos camarotes cerrados y cuántas plazas en el salón?
+- [ ] Pasajeros máximo: la demo dice 6
 - [ ] Baños: la demo dice 2 + ducha
-- [ ] Marca, modelo y año del velero
+- [ ] Marca, modelo y **año** — es un clásico de madera, y el año suma valor
 - [ ] Nombre del capitán y una línea sobre él
 - [ ] ¿Hay tripulación además del capitán?
 
-## 4. Fotos reales — **lo más importante**
+## 4. Fotos
 
-Las 10 imágenes de `web/img/` son **generadas, de referencia**. Sirven para que
-el dueño vea la web funcionando; **no para publicar**. Si un huésped reserva
-viendo un barco que no es el Thyra, son reseñas destruidas y reclamo por
-publicidad engañosa.
+**Regla que ya se cumple: todo lo que muestra el Thyra es una foto real del
+Thyra.** Ninguna imagen generada muestra el barco.
 
-Reemplazar respetando el nombre de archivo:
+### Ya incorporadas (reales)
 
-| Archivo | Qué foto va | Mínimo |
+| Archivo | Qué es | Dónde se usa |
 |---|---|---|
-| `hero.jpg` | **La más importante.** Thyra fondeado junto a una isla, drone, hora dorada | 1920×1080 |
-| `cabina.jpg` | Camarote doble hecho, con luz natural | 1200×800 |
-| `cubierta.jpg` | Bañera y cubierta con el mar de fondo | 1200×800 |
-| `navegando.jpg` | Thyra a vela, desde otra embarcación o drone | 1400×900 |
-| `snorkel.jpg` | Bajo el agua: coral, peces | 1200×800 |
-| `comida.jpg` | Un almuerzo real servido a bordo | 1200×800 |
-| `isla.jpg` | Isla desierta de San Blas, aérea si se puede | 1400×900 |
-| `atardecer.jpg` | Thyra fondeado al anochecer con luces | 1400×900 |
-| `pesca.jpg` | Caña, captura del día | 1200×800 |
-| `molas.jpg` | Molas compradas en la comunidad | 1200×800 |
+| `real-aerea-hq.jpg` | Aérea del Thyra fondeado sobre el arrecife | Hero + galería |
+| `real-banera.jpg` | Bañera con toldo, timón de madera | Paseo de día + galería |
+| `real-camarote-proa.jpg` | Camarote de proa con claraboya | Noche a bordo |
+| `real-camarote-molas.jpg` | Cucheta con molas en el revestimiento | Sección El velero |
+| `real-salon.jpg` | Salón completo | Charter privado |
 
-> Si el dueño no tiene foto aérea, **vale la pena pagar un drone una tarde**. El
-> hero es la imagen que decide si alguien sigue leyendo.
+> ⚠️ **La aérea llegó a 591 px y se escaló 2× a 1182 px.** El escalado respetó
+> el encuadre y no inventó nada, pero **conviene pedir el original en alta
+> resolución**: es la imagen que decide si alguien sigue leyendo.
+
+### Todavía de referencia (generadas, no muestran el barco)
+
+| Archivo | Qué reemplazar por |
+|---|---|
+| `snorkel.jpg` | Snorkel real en San Blas: coral, peces |
+| `isla.jpg` | Una isla del archipiélago donde fondea el Thyra |
+| `comida.jpg` | Un almuerzo real servido a bordo |
+| `pesca.jpg` | La caña, o la captura del día |
+| `molas.jpg` | Molas compradas en la comunidad |
+
+### Fotos que faltan y suman mucho
+
+- [ ] **Thyra navegando a vela**, desde otra embarcación o drone
+- [ ] **Thyra fondeado al atardecer**, con luces encendidas
+- [ ] La cocina / galley
+- [ ] El capitán a bordo
 
 **Foto de comunidad guna:** solo con permiso de las personas retratadas.
 
@@ -86,7 +101,8 @@ Las de la demo dicen "reseña de ejemplo" a propósito: **nunca inventarlas.**
 ## 7. Sacar la marca de demo
 
 Cuando todo lo anterior esté cargado, borrar el bloque `demo-note` del footer en
-los dos HTML. Es el aviso de que las fotos y precios son de referencia.
+los dos HTML. Hoy aclara que las fotos del barco son reales pero que arrecife,
+isla y comida siguen siendo de referencia, y que precios y reseñas son de ejemplo.
 
 ## 8. Publicación
 

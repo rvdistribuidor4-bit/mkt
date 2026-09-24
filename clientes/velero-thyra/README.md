@@ -9,7 +9,8 @@ Tres servicios: **alojamiento a bordo** (tipo Airbnb), **paseos de día** y
 | Pieza | Estado |
 |---|---|
 | Landing bilingüe EN/ES | 🟢 Demo terminada |
-| Fotos | 🟡 De referencia (generadas) — faltan las reales |
+| Fotos del barco | 🟢 Reales (5) |
+| Fotos de entorno | 🟡 De referencia — snorkel, isla, comida, pesca |
 | Precios y reseñas | 🟡 De ejemplo |
 | Dominio y hosting | 🔴 Sin definir |
 | Instagram | ⚪ No iniciado |
