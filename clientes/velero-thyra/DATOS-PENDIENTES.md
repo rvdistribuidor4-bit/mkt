@@ -53,11 +53,29 @@ Por eso la web ya no afirma "3 dobles" ni "cada camarote tiene puerta": dice
 "3 camarotes" y la FAQ invita a consultar qué cuchetas toca según el grupo.
 Hay que cerrar esto con el dueño antes de publicar.
 
-- [x] Eslora: 42 pies *(dato del dueño)*
+**Lo que contó Fabio en el audio, ya cargado en la web:**
+
+- [x] **Botado en 1964**, construido **en Suecia**, en **madera polaca**
+- [x] **Diseñado para navegación oceánica**
+- [x] **Desplaza ~13 toneladas** — casi el doble que un 42 pies moderno
+- [x] Interior revestido en **caoba y bronce** (yo había escrito "teca": corregido en toda la web)
+- [x] Eslora: 42 pies
+
+> **El ángulo que marcó el dueño es el correcto y ya está aplicado.** Pidió
+> destacar *estabilidad, solidez, confiabilidad*, porque hay pasajeros a los que
+> el barco les da resquemor. Las trece toneladas son el argumento: un barco
+> pesado no se zarandea. Está en la barra de datos, en la sección del velero
+> (*"Si nunca dormiste en un barco, este es el barco para hacerlo. Trece
+> toneladas no se zarandean"*) y en la FAQ del mareo.
+
+**Todavía falta:**
+
+- [ ] **¿El casco es de madera o de fibra?** Un sueco de 1964 con 13 t suele ser de madera, y las fotos muestran el casco blanco pintado. Si es de madera, es un dato que vale oro y hoy la web no lo dice
+- [ ] **Astillero o modelo.** Con "Suecia + 1964 + 42 pies + 13 t" un entendido lo identifica. Suma para el relato y para el valor del barco
+- [ ] **Aparejo**: ¿sloop, ketch o yawl? La web no lo afirma porque no está confirmado
 - [ ] **Distribución real**: ¿cuántos camarotes cerrados y cuántas plazas en el salón?
-- [ ] Pasajeros máximo: la demo dice 6
-- [ ] Baños: la demo dice 2 + ducha
-- [ ] Marca, modelo y **año** — es un clásico de madera, y el año suma valor
+- [ ] Pasajeros máximo: la web dice 5 + capitán
+- [ ] Baños: la web dice 2 + ducha
 - [x] ~~Nombre del capitán~~ → **Leandro**, con sección propia
 - [ ] ¿Hay tripulación además del capitán?
 - [ ] **Datos de Leandro que faltan**: ¿hace cuánto vive en las islas? ¿en qué cocinas trabajó (si se pueden nombrar, suman muchísimo)? ¿tiene titulación náutica que valga mencionar?
@@ -106,7 +124,7 @@ El snorkel ya es real: salió de un fotograma del video del drone.
 
 **A confirmar con el dueño:**
 
-- [ ] **Marca y modelo.** La vela mayor lleva el logo de Beneteau y el número **331**. Puede ser el modelo, el número de vela, o una vela de segunda mano de otro barco (es común). Confirmar antes de publicarlo en la ficha.
+- [x] ~~Marca y modelo por la vela~~ → **resuelto**: el barco es sueco de 1964, así que la vela con logo Beneteau y el número 331 es de segunda mano, de otro barco. Nunca se publicó en la ficha, y está bien que así sea.
 - [ ] **Bandera argentina a bordo.** ¿El capitán es argentino? Si lo es, **es un gancho enorme para el mercado hispano**: un argentino en San Blas vende distinto a un charter anónimo. Vale una línea en la sección del velero.
 - [ ] **Dos fotos sin confirmar.** La silueta del atardecer y la del fondeadero podrían no ser el Thyra (en la del fondeadero el cojín rojo en primer plano sugiere que está tomada *desde* el Thyra, y el velero que se ve es otro). Sus textos alternativos son neutros a propósito: no afirman que el barco sea el Thyra. Si lo son, se ajustan en un minuto.
 
