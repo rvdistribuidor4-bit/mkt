@@ -126,26 +126,42 @@ herramientas de pago, y siempre con las fotos reales del barco.
 
 # Reel en video · «Un velero de 1964»
 
-**Archivo:** `thyra-reel.mp4` — 1080 × 1920, 30 fps, **20 s**, ~10 MB
+**Archivo:** `thyra-reel.mp4` — 1080 × 1920, 30 fps, **31,6 s**, ~14 MB
 **Portada sugerida:** `thyra-reel-portada.jpg`
 **Fuentes editables:** `reel.html` (los textos) + `armar_reel.py` (el montaje)
 **Costo de producción:** US$0
 
 ## Cómo está montado
 
-| Tramo | Material | Dura | Texto |
-|---|---|---|---|
-| 1 | Foto: fondeado al atardecer | 4,0 s | *Este velero tiene 62 años* |
-| 2 | **Video real**: el Thyra desde el agua | 3,4 s | *Y sigue cruzando el Caribe* · Suecia, 1964 |
-| 3 | Placa de datos | 3,6 s | 1964 · Madera · 13 t → *Por eso no se zarandea* |
-| 4 | Foto: el salón | 3,4 s | *Caoba y bronce* |
-| 5 | **Video real**: archipiélago desde el aire | 3,4 s | *Cinco pasajeros. No cincuenta* |
-| 6 | Foto: aérea sobre el arrecife | 4,8 s | US$120 · WhatsApp |
+| Tramo | Material | Dura | Lectura | Texto |
+|---|---|---|---|---|
+| 1 | Foto: fondeado al atardecer | 5,2 s | 4,0 s | *Este velero tiene 62 años* |
+| 2 | **Video real**: el Thyra desde el agua | 4,4 s | 3,2 s | *Y sigue cruzando el Caribe* |
+| 3 | Placa de datos | 7,6 s | 6,4 s | 1964 → Madera → 13 t → *Por eso no se zarandea* |
+| 4 | Foto: el salón | 5,4 s | 4,2 s | *Caoba y bronce* |
+| 5 | **Video real**: archipiélago desde el aire | 4,4 s | 3,2 s | *Cinco pasajeros. No cincuenta* |
+| 6 | Foto: aérea sobre el arrecife | 6,6 s | 5,4 s | US$120 · WhatsApp |
 
-Las fotos no están quietas: llevan un zoom lento (un tramo entra, otro sale), que
-es lo que evita que un reel armado con fotos se sienta una presentación de
-diapositivas. Las transiciones encadenan, y al entrar y salir de la placa oscura
-pasan por negro, que le da un respiro al ojo antes del dato.
+## Las dos reglas que mandan sobre la duración
+
+Son las que hacen que se pueda leer, y las que explican por qué el reel dura
+media hora de más si uno las mira en una tabla:
+
+1. **Nunca hay dos textos encimados.** Cada línea entra recién cuando terminó la
+   transición y se va antes de que empiece la siguiente. Durante el crossfade la
+   pantalla no tiene letras: el ojo solo ve cambiar la imagen.
+2. **El tramo dura lo que tarda en leerse, con aire.** Por eso los tramos con
+   más palabras son más largos, y la columna «Lectura» es el tiempo real que el
+   texto está a plena opacidad.
+
+La placa de datos, además, **revela las filas de a una** —1964, Madera, 13 t, y
+recién al final el remate—. Seis segundos de una placa quieta son aire muerto;
+seis segundos donde algo aparece cada segundo y medio se leen solos.
+
+Las fotos tampoco están quietas: llevan un zoom lento, uno entrando y otro
+saliendo. Es lo que evita que un reel armado con fotos se sienta una
+presentación de diapositivas. Al entrar y salir de la placa oscura las
+transiciones pasan por negro, que le da un respiro al ojo antes del dato.
 
 ## Sobre el audio
 
@@ -178,11 +194,13 @@ python3 render_reel_capas.py   # textos  → reel-capas/*.png
 python3 armar_reel.py          # montaje → thyra-reel.mp4
 ```
 
-Cambiar un precio o una línea es editar `reel.html` y correr los dos comandos.
+Los tiempos están todos juntos en la lista `GUION` de `armar_reel.py`: cada
+tramo tiene su duración y el segundo en que entra cada texto. Si algo sigue
+yendo rápido, se sube el número de `dur` de ese tramo y listo.
 
 ## Cómo publicarlo
 
-- **Portada:** usar `thyra-reel-portada.jpg`, o elegir el segundo 2–3 en la app.
+- **Portada:** usar `thyra-reel-portada.jpg`, o elegir el segundo 3–4 en la app.
   En la grilla del perfil se recorta al centro, y ahí el barco queda bien.
 - **Texto del posteo:** sirve el mismo del carrusel, recortado a los dos primeros
   párrafos. En reels, las primeras dos líneas son lo único que se lee.
