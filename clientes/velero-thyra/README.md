@@ -31,6 +31,7 @@ velero-thyra/
 │   └── vid/             ← 4 clips verticales (2,9 MB, carga diferida)
 ├── ESTRATEGIA.md        ← ⭐ análisis: por qué la web está armada así
 ├── PRECIOS-Y-COBRO.md   ← ⭐ auditoría de mercado, precios, cancelación y cobro
+├── PLAN-CAPTACION.md    ← ⭐ cómo llegar a una reserva por semana, canal por canal
 ├── DATOS-PENDIENTES.md  ← ⭐ qué falta para publicar
 └── contenido/ · marca/  ← plan IG y blog (pendiente)
 ```
