@@ -71,8 +71,9 @@ Hay que cerrar esto con el dueño antes de publicar.
 
 | Archivo | Reemplazar por |
 |---|---|
-| `snorkel.jpg` | Snorkel real: coral, peces |
-| `pesca.jpg` | La caña, o la captura del día |
+| `pesca.jpg` | La caña, o la captura del día — **es la última imagen generada que queda** |
+
+El snorkel ya es real: salió de un fotograma del video del drone.
 
 ### Faltan y suman
 
@@ -91,6 +92,37 @@ Hay que cerrar esto con el dueño antes de publicar.
 - [ ] **Marca y modelo.** La vela mayor lleva el logo de Beneteau y el número **331**. Puede ser el modelo, el número de vela, o una vela de segunda mano de otro barco (es común). Confirmar antes de publicarlo en la ficha.
 - [ ] **Bandera argentina a bordo.** ¿El capitán es argentino? Si lo es, **es un gancho enorme para el mercado hispano**: un argentino en San Blas vende distinto a un charter anónimo. Vale una línea en la sección del velero.
 - [ ] **Dos fotos sin confirmar.** La silueta del atardecer y la del fondeadero podrían no ser el Thyra (en la del fondeadero el cojín rojo en primer plano sugiere que está tomada *desde* el Thyra, y el velero que se ve es otro). Sus textos alternativos son neutros a propósito: no afirman que el barco sea el Thyra. Si lo son, se ajustan en un minuto.
+
+## 4ter. Videos
+
+Cuatro clips verticales, en la sección **Ver / Watch**. Se descargan recién
+cuando entran en pantalla (2,9 MB en total, que la portada no paga de entrada),
+se reproducen en loop sin sonido y tienen botón para activar el audio.
+
+| Clip | Qué muestra | Peso |
+|---|---|---|
+| `thyra-drone.mp4` | Isla, arrecife y snorkel desde el aire | 805 KB |
+| `thyra-casco.mp4` | El Thyra desde el agua, de proa a popa | 632 KB |
+| `thyra-archipielago.mp4` | Aéreas del archipiélago con veleros fondeados | 525 KB |
+| `thyra-rio.mp4` | Cayuco río arriba, selva y cascada | 909 KB |
+
+### ⚠️ Consentimiento de las personas filmadas
+
+- **Descarté un tramo** del primer video donde aparece **una mujer claramente
+  identificable en primer plano**, durante varios segundos. No va a una web
+  pública sin su permiso por escrito. Si lo da, el material está y es bueno.
+- En el clip del río **se ve gente caminando y en el cayuco**, mayormente de
+  espaldas. Riesgo bajo, pero conviene pedir el OK igual.
+- Los demás clips no tienen personas identificables.
+
+### Nota técnica
+
+El Chromium de este contenedor no trae códecs H.264, así que **no pude
+reproducir los MP4 acá**. Validé la lógica completa (carga diferida, loop,
+pausa al salir de pantalla, botón de sonido) con un archivo WebM: funciona.
+Los MP4 son H.264 estándar y reproducen en cualquier navegador real. Probé
+generar WebM para servir además, pero con este material pesaban **más** que
+los MP4, así que no compensa.
 
 ## 5. Reseñas
 

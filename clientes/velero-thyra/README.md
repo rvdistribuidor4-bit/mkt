@@ -10,7 +10,8 @@ Tres servicios: **alojamiento a bordo** (tipo Airbnb), **paseos de día** y
 |---|---|
 | Landing bilingüe EN/ES | 🟢 Demo terminada |
 | Fotos del barco | 🟢 Reales (10) |
-| Fotos de entorno | 🟡 De referencia — solo snorkel y pesca |
+| Fotos de entorno | 🟡 Solo `pesca.jpg` sigue siendo generada |
+| Videos | 🟢 4 clips reales, con carga diferida |
 | Precios y reseñas | 🟡 De ejemplo |
 | Dominio y hosting | 🔴 Sin definir |
 | Instagram | ⚪ No iniciado |
@@ -23,8 +24,9 @@ velero-thyra/
 │   ├── index.html       ← landing EN
 │   ├── es/index.html    ← landing ES
 │   ├── css/styles.css   ← sistema visual completo
-│   ├── js/main.js       ← menú, scroll, animaciones, galería, formulario
-│   └── img/             ← 10 imágenes de referencia + favicon
+│   ├── js/main.js       ← menú, scroll, animaciones, galería, reels, formulario
+│   ├── img/             ← 12 fotos reales + 1 de referencia + posters
+│   └── vid/             ← 4 clips verticales (2,9 MB, carga diferida)
 ├── ESTRATEGIA.md        ← ⭐ análisis: por qué la web está armada así
 ├── DATOS-PENDIENTES.md  ← ⭐ qué falta para publicar
 └── contenido/ · marca/  ← plan IG y blog (pendiente)
