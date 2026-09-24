@@ -4,12 +4,12 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 3,Gerenciadora,Grupo Gerenciar Salud,comercial@gerenciarsalud.com.ar,11-5886-5653,gerenciarsalud.com.ar,-,P1,En negociacion,2026-08-31,Presupuesto actualizado sin responder,Responder / decidir
 4,Prepaga,Sancor Salud,florencia.martinez@sancorsalud.com.ar,0800-7777-72583,prestadores.sancorsalud.com.ar,Fuerte,P1,En curso,2026-09-14,Ellos nos contactaron (convenios directos); canal: conectividad@sancorsalud.com.ar,Avanzar y firmar
 5,Prepaga,BRAMED Salud,convenios@bramedsalud.com.ar,,bramedsalud.com.ar,Media,P1,En curso (positivo),2026-09-18,Acordaron mayoria de valores; enviaron grilla,Cerrar grilla y firmar
-6,Gestora/Prepaga,Boreal Salud (e-boreal),csantillan@e-boreal.com.ar,0810-555-2673,borealsalud.com.ar,Fuerte,P1,En curso (contrapropuesta),2026-09-22,Contrapropuesta recibida 22/09 (xlsx); pago 45 dias; aumentos por paritarias sanidad,Analizar contrapropuesta y responder
-7,Obra Social,OPDEA (Personal de Direccion),doviedo@opdea.org.ar,,opdea.org.ar,Media,P2,Enviado (recontacto 23/09),2026-09-23,Enviado practicas/valores; seguimiento hecho,Esperar respuesta / seguimiento 7-10 días
+6,Gestora/Prepaga,Boreal Salud (e-boreal),csantillan@e-boreal.com.ar,0810-555-2673,borealsalud.com.ar,Fuerte,P1,En curso (acordado),2026-09-23,Contrapropuesta recibida 22/09 (xlsx); pago 45 dias; aumentos por paritarias sanidad; Ricky aceptó contrapropuesta (23/09); avanzando al alta,Esperar indicaciones de alta (C. Santillan)
+7,Obra Social,OPDEA (Personal de Direccion),doviedo@opdea.org.ar,,opdea.org.ar,Media,P2,En curso (en evaluación),2026-09-23,Enviado practicas/valores; seguimiento hecho; en evaluación por Gerencia de Prestaciones (24/09),Aguardar resolución
 8,Gestora,Grupo Prolider,info@grupoprolider.com.ar,,grupoprolider.com.ar,Media,P2,Enviado (recontacto 23/09),2026-09-23,Sin respuesta,Esperar respuesta / seguimiento 7-10 días
-9,Prepaga,Galeno,doc.mail@galenoargentina.com.ar,,e-galeno.com.ar,Media,P1,Enviado (recontacto 23/09),2026-09-23,Sin respuesta,Esperar respuesta / seguimiento 7-10 días
+9,Prepaga,Galeno,doc.mail@galenoargentina.com.ar,,e-galeno.com.ar,Media,P1,Respondió (suspendido),2026-09-23,Sin respuesta; incorporaciones suspendidas (organizan zona); guardan contacto; MaraMicaela.Benitez@galeno.com.ar,Recontactar en 2-3 meses
 10,Prepaga,Family Salud,areacomercial@familysalud.com.ar,,familysalud.com.ar,Media,P2,Enviado (recontacto 23/09),2026-09-23,Sin respuesta,Esperar respuesta / seguimiento 7-10 días
-11,Obra Social/Prepaga,OSMEDICA (FEMECA),gestionmedicos@osmedica.com,0800-999-1019,osmedica.com.ar,Media,P2,Enviado (recontacto 23/09),2026-09-23,Sin respuesta; auditoria medica 0800-999-1019,Esperar respuesta / seguimiento 7-10 días
+11,Obra Social/Prepaga,OSMEDICA (FEMECA),gestionmedicos@osmedica.com,0800-999-1019,osmedica.com.ar,Media,P2,Enviado (24/09),2026-09-24,Sin respuesta; auditoria medica 0800-999-1019; auto-respuesta 48-72hs,Esperar respuesta
 12,Prepaga,Proteccion Medica,admincba@proteccionmedica.com.ar,,proteccionmedica.com.ar,Fuerte,P2,Enviado (recontacto 23/09),2026-09-23,Sin respuesta,Esperar respuesta / seguimiento 7-10 días
 13,Obra Social,Sanidad (OSPSA / FATSA),info@sanidad.org.ar,0800-999-7264,sanidad.org.ar/ospsa,Media,P2,Enviado,2026-07-21,Sin respuesta; tiene Portal de Prestadores,Recontactar
 14,Gestora,Geanet,info@geanet.com.ar,,geanet.com.ar,Baja,P3,Respondió,2026-09-23,Sin respuesta; derivó la propuesta al área (23/09),Esperar contacto del área derivado
@@ -17,10 +17,10 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 16,Prepaga,PREME,preme@preme.com.ar,,preme.com.ar,Media,P3,Enviado (recontacto 23/09),2026-09-23,Sin respuesta,Esperar respuesta / seguimiento 7-10 días
 17,Prepaga,Federada Salud,ynavarro@federada.com,0810-888-8767,federada.com/contacto,Media,P2,Rechazado (por ahora),2026-07-22,Cartera de oftalmologia completa en la zona,Reintentar mas adelante
 18,Obra Social/Red,Cooperativa Red (coop5/aclinor),aclinor@coop5.com.ar,,coop5.com.ar,Media,P3,Rechazado,2026-08-12,Comision directiva decidio no incorporar,-
-19,Camara,CES - Camara de Entidades de Salud Cba,prestadores@cescordoba.com.ar,,cescordoba.com.ar,Fuerte,P1,Enviado (recontacto 23/09),2026-09-23,Sin cierre,Esperar respuesta / seguimiento 7-10 días
+19,Camara,CES - Camara de Entidades de Salud Cba,prestadores@cescordoba.com.ar,,cescordoba.com.ar,Fuerte,P1,Rechazado (por ahora),2026-09-24,Sin cierre; no incorporan prestadores en la ciudad (Laura Manfreda int 420),Reintentar más adelante
 20,Camara,ACLISA (Asoc. Clinicas Cba),info@aclisa.org.ar,,aclisa.org.ar,Fuerte,P2,Respondio,2026-07-06,Agrupa 45 instituciones; informo su rol,Evaluar adhesion
 21,Colegio/Consejo,CPCE Cordoba (Cs Economicas),cpcecba@cpcecba.org.ar,0351-468-8300,cpcecba.org.ar,Fuerte,P2,Enviado (recontacto 23/09),2026-09-23,Sin respuesta; matriculados via prepagas,Esperar respuesta / seguimiento 7-10 días
-22,Caja profesional,Caja de Abogados Cordoba,serviciomedico@caja-abogados.org.ar,0351-423-5900,caja-abogados.org.ar,Fuerte,P2,Enviado (recontacto 23/09),2026-09-23,Sin respuesta; alt: informacion@caja-abogados.org.ar,Esperar respuesta / seguimiento 7-10 días
+22,Caja profesional,Caja de Abogados Cordoba,serviciomedico@caja-abogados.org.ar,0351-423-5900,caja-abogados.org.ar,Fuerte,P2,Rechazado (por ahora),2026-09-24,Sin respuesta; alt: informacion@caja-abogados.org.ar; no incorporan esta especialidad; guardan propuesta,Reintentar más adelante
 23,Sindicato,UEPC (docentes provinciales),saludymat@uepc.org.ar,0351-410-1400,uepc.org.ar,Fuerte,P1,Enviado (recontacto 23/09),2026-09-23,Sin respuesta; afiliados APROSS; alt: secgral@uepc.org.ar,Esperar respuesta / seguimiento 7-10 días
 24,Sindicato,UTHGRA Cordoba (gastronomicos),info@uthgracba.org.ar,0351-570-4431,uthgracba.org.ar,Fuerte,P1,Enviado (recontacto 23/09),2026-09-23,Sin respuesta; OBRA SOCIAL PROPIA (OSUTHGRA),Esperar respuesta / seguimiento 7-10 días
 25,Obra Social,OSSSB (Bancaria),lumassetti@osssb.com.ar,0800-222-3462,osssb.com,Media,P3,Enviado,2026-07-08,Enviado a atbeneficiario@osssb.com.ar; sin respuesta,Recontactar
@@ -30,13 +30,13 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 29,Colegio,CMVM (Circulo Medico),cmvm@arnet.com.ar,,,Media,P3,Email invalido (bounce),2026-07-08,Direccion inexistente,Conseguir email valido
 30,Prepaga,Griff Salud,info@griffsalud.com,,,Baja,P3,Email invalido (bounce),2026-07-06,Dominio inexistente,Conseguir email valido
 31,Prepaga,OSDE,a relevar,,cvprest.osde.com.ar,Fuerte,P1,Sin contactar,,"Postulacion via portal CV Prestadores; alta por PORTAL cvprest.osde.com.ar (formulario, no email); filial Cordoba (buscador sucursales)",Cargar alta en portal cvprest.osde.com.ar (no toma email)
-32,Prepaga,Swiss Medical,contratacionesinterior@swissmedical.com.ar,0810-333-7737,swissmedical.com.ar/prestadores,Fuerte,P1,Borrador (a revisar),,Email de contrataciones INTERIOR/Cordoba (verificado),Revisar borrador y enviar (prestador oftalmología)
-33,Prepaga,Medife,convenios@medife.com.ar,0810-345-2299,medife.com.ar,Fuerte,P1,Borrador (a revisar),,Canal de convenios verificado,Revisar borrador y enviar (prestador oftalmología)
-34,Prepaga,Omint,cgp@omint.com.ar,0810-222-5155,prestadores.omint.com.ar,Media,P2,Borrador (a revisar),,Centro de Gestion de Prestadores,Revisar borrador y enviar (prestador oftalmología)
+32,Prepaga,Swiss Medical,contratacionesinterior@swissmedical.com.ar,0810-333-7737,swissmedical.com.ar/prestadores,Fuerte,P1,Enviado (24/09),2026-09-24,Email de contrataciones INTERIOR/Cordoba (verificado),Esperar respuesta
+33,Prepaga,Medife,convenios@medife.com.ar,0810-345-2299,medife.com.ar,Fuerte,P1,Email inválido (bloqueado),2026-09-24,Canal de convenios verificado; convenios@medife.com.ar bloqueó el mensaje (550),Conseguir email alternativo de convenios
+34,Prepaga,Omint,cgp@omint.com.ar,0810-222-5155,prestadores.omint.com.ar,Media,P2,Enviado (24/09),2026-09-24,Centro de Gestion de Prestadores; casilla CGP es solo facturación; buscar área de convenios,Buscar canal de convenios
 35,Prepaga,Medicus,prestadores@medicus.com.ar,4129-5300,medicus.com.ar,Baja,P3,Sin contactar,,Fuerte en AMBA; baja en Cba,Enviar propuesta
-36,Prepaga,Avalian (ex ACA Salud),consultasweb@acasalud.com.ar,0341-420-8752,avalian.com/contactos,Fuerte,P1,Borrador (a revisar),,Confirmar canal de prestadores,Revisar borrador y enviar (prestador oftalmología)
-37,Prepaga,Jerarquicos Salud,prestadores@jerarquicos.com,0800-888-5040,jerarquicos.com/prestadores,Fuerte,P1,Borrador (a revisar),,Linea exclusiva prestadores (verificado),Revisar borrador y enviar (prestador oftalmología)
-38,Prepaga,Prevencion Salud,prestadores@prevencionsalud.com.ar,0810-555-1055 / 0800-7777-72583,prevencionsalud.com.ar/contacto,Fuerte,P1,Borrador (a revisar),,Grupo Sancor; linea prestadores; email a relevar; email prestadores@prevencionsalud.com.ar (Grupo Sancor Seguros); pedir derivacion a Convenios,Revisar borrador y enviar (prestador oftalmologia)
+36,Prepaga,Avalian (ex ACA Salud),consultasweb@acasalud.com.ar,0341-420-8752,avalian.com/contactos,Fuerte,P1,Email inválido (bounce),2026-09-24,Confirmar canal de prestadores; consultasweb@acasalud.com.ar inexistente (550),Conseguir email alternativo
+37,Prepaga,Jerarquicos Salud,prestadores@jerarquicos.com,0800-888-5040,jerarquicos.com/prestadores,Fuerte,P1,Enviado (24/09),2026-09-24,Linea exclusiva prestadores (verificado),Esperar respuesta
+38,Prepaga,Prevencion Salud,prestadores@prevencionsalud.com.ar,0810-555-1055 / 0800-7777-72583,prevencionsalud.com.ar/contacto,Fuerte,P1,Enviado (24/09),2026-09-24,Grupo Sancor; linea prestadores; email a relevar; email prestadores@prevencionsalud.com.ar (Grupo Sancor Seguros); pedir derivacion a Convenios,Esperar respuesta
 39,Prepaga,Accord Salud,a relevar,0810-888-0500 (Aten. Prestador) / 0810-888-2226,accordsalud.com.ar,Media,P2,Sin contactar,,Centro de Atencion a Prestadores; Centro de Atencion al Prestador 0810-888-0500; portal prestadores; email a confirmar (dominio @accordsalud.com.ar),"Llamar 0810-888-0500 para confirmar email de Convenios, luego borrador"
 40,Prepaga,Hominis,prestaciones@hominis.com.ar,4860-1900,hominis.com.ar/prestadores-hominis,Baja,P3,Sin contactar,,Canal de prestaciones,Enviar propuesta
 41,Prepaga,Luis Pasteur,a relevar,011-4370-1000,oslpasteur.com.ar,Baja,P3,Sin contactar,,Contrataciones int. 263/270,Llamar
@@ -44,16 +44,16 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 43,Prepaga,William Hope,a relevar,0800-333-94673,whope.com.ar/soy_prestador,Baja,P3,Sin contactar,,Form Soy Prestador,Formulario
 44,Prepaga,Bristol Medicine,a relevar,0800-444-0453,bristolmedicine.com.ar,Baja,P3,Sin contactar,,Email a relevar,Formulario
 45,Obra Social,OSECAC (comercio),a relevar,0800-666-0400,osecac.org.ar/ContactoPagina,Fuerte,P1,Sin contactar,,Sin email de prestadores; via Centros de Gestion; PORTAL prestadores.osecac.org.ar (registro); delegacion Cordoba via buscador; gral 0800-666-0400,Registrarse en portal + pedir email de Prestadores a delegacion Cordoba
-46,Obra Social,OSPRERA (rural),consultas@osprera.org.ar,0351-452-6298,osprera.org.ar,Media,P2,Borrador (a revisar),,Red Cba gerenciada (TAC + Colegio Medico); sede Cba,Revisar borrador y enviar (prestador oftalmología)
-47,Obra Social,OSPE (petroleros),obrasocial@ospe.org.ar,0800-444-6773,ospe.ar,Media,P2,Borrador (a revisar),,Facturacion prestadores: facturaciones@ospe.org.ar,Revisar borrador y enviar (prestador oftalmología)
+46,Obra Social,OSPRERA (rural),consultas@osprera.org.ar,0351-452-6298,osprera.org.ar,Media,P2,Enviado (24/09),2026-09-24,Red Cba gerenciada (TAC + Colegio Medico); sede Cba,Esperar respuesta
+47,Obra Social,OSPE (petroleros),obrasocial@ospe.org.ar,0800-444-6773,ospe.ar,Media,P2,Enviado (24/09),2026-09-24,Facturacion prestadores: facturaciones@ospe.org.ar,Esperar respuesta
 48,Obra Social,OSPIM (maderera),contacto@ospim.com.ar,0800-666-7746,ospim.com.ar,Baja,P3,Sin contactar,,Canal general,Enviar propuesta
 49,Obra Social,OSMATA (mecanicos SMATA),a relevar,011-4340-7400,osmata.com.ar/prestadores-externos,Media,P2,Sin contactar,,Alta via formulario Prestadores externos,Formulario
-50,Obra Social,UTA / OSCTCP (transporte),oficios_osctcp@uta.org.ar,4011-5123,obrasocialuta.com.ar,Media,P2,Borrador (a revisar),,Sin email especifico de prestadores,Revisar borrador y enviar (prestador oftalmología)
+50,Obra Social,UTA / OSCTCP (transporte),oficios_osctcp@uta.org.ar,4011-5123,obrasocialuta.com.ar,Media,P2,Enviado (24/09),2026-09-24,Sin email especifico de prestadores,Esperar respuesta
 51,Obra Social,OSPeDYC (deportivas/civiles),a relevar,0800-345-6773,ospedycdirecto.org.ar,Baja,P3,Sin contactar,,Portal prestadores ospedycdirecto.org.ar,Portal
 52,Obra Social,OSPIC (cinematografica SICA),ospic@sicacine.org.ar,011-4808-0106,ospic.org.ar,Baja,P3,Sin contactar,,,Enviar propuesta
 53,Obra Social,OSPIQYP (quimicos),a relevar,,ospiqyp.org.ar,Baja,P3,Sin contactar,,En concurso preventivo; sin canal publicado,Relevar
 54,Obra Social,OSFATUN (universitarios nodocentes),a relevar,0800-666-5173,osfatun.com.ar/contacto,Media,P3,Sin contactar,,Area Facturacion Prestadores (emails ofuscados),Relevar canal
-55,Obra Social,OSDOP (docentes particulares SADOP),ccpba@osdop.org.ar,0800-666-6450,osdop.org.ar,Media,P2,Borrador (a revisar),,Red regional gerenciada (SERVIRED),Revisar borrador y enviar (prestador oftalmología)
+55,Obra Social,OSDOP (docentes particulares SADOP),ccpba@osdop.org.ar,0800-666-6450,osdop.org.ar,Media,P2,Email inválido (bounce),2026-09-24,Red regional gerenciada (SERVIRED); ccpba@osdop.org.ar inexistente (550),Conseguir email alternativo (deleg. Córdoba)
 56,Obra Social,OSPACA (Automovil Club),informes@ospaca.com,0800-999-6772,ospaca.com,Baja,P3,Sin contactar,,Prestadores bajo convenio ACA,Enviar propuesta
 57,Obra Social,OSJERA / OSPJERA (agua y energia),a relevar,,osjera.com.ar,Baja,P3,Sin contactar,,Prestadores via Federacion Medica,Relevar
 58,Obra Social,OSPM (maritimo SOMU),reclamos@ospm.com.ar,0810-777-2571,prestadores.ospm.org.ar,Baja,P3,Sin contactar,,Portal de prestadores,Portal
@@ -61,7 +61,7 @@ Nº,Categoria,Entidad,Email,Telefono,Web_o_Portal,Cordoba,Prioridad,Estado,Ultim
 60,Obra Social,OSPAT (turf),gestionadministrativa@ospat.com.ar,0800-999-1656,ospat.com.ar,Baja,P3,Sin contactar,,Portal de Gestion de Prestadores,Enviar propuesta
 61,Obra Social,ANDAR,a relevar,0341-277-1988,andar.org.ar,Baja,P3,Sin contactar,,Sede Rosario; delegaciones con gmail comerciales,Relevar
 62,Obra Social,ASSPE (empresarios/direccion),a relevar,0800-345-7332,asspesalud.com.ar,Baja,P3,Sin contactar,,Red gerenciada por FideiSalud,Relevar
-63,Obra Social,OSDEPYM,liquidacionescentro@osdepym.com.ar,0800-288-7963,osdepym.com.ar,Media,P2,Borrador (a revisar),,Red Cba gerenciada por VISITAR; sede Cba consultascordoba@osdepym.com.ar,Revisar borrador y enviar (prestador oftalmología)
+63,Obra Social,OSDEPYM,liquidacionescentro@osdepym.com.ar,0800-288-7963,osdepym.com.ar,Media,P2,Enviado (24/09),2026-09-24,Red Cba gerenciada por VISITAR; sede Cba consultascordoba@osdepym.com.ar; auto-respuesta facturación (deriva a OSTVLA),Esperar / verificar área de convenios
 64,Gerenciadora,VISITAR (red Cordoba),a relevar,,visitar.com.ar,Fuerte,P2,Sin contactar,,Administra red en Cba para OSDEPYM y otras OOSS/prepagas,Contactar (puerta a varias OOSS)
 65,Obra Social,OSFE (ferroviaria),contactese@osferroviaria.org.ar,,osfe.org.ar,Baja,P3,Sin contactar,,Afiliaciones: postulate@osferroviaria.org.ar,Enviar propuesta
 66,Obra Social,OSPIT (textil),consultas@ospit.org.ar,011-3987-1650,ospit.org.ar,Baja,P3,Sin contactar,,,Enviar propuesta

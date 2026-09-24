@@ -1,7 +1,7 @@
 # 🧭 PANEL DE CONTROL — Convenios Lazarte
 
 > **El archivo para saber, de un vistazo, en qué estamos.** Uso exclusivo de Ricky.
-> Última actualización: **2026-09-23** (recontactos enviados · presentación municipios en PDF · borradores de gremios)
+> Última actualización: **2026-09-24** (11 borradores enviados · Boreal acordado · nueva prospección Córdoba)
 > (Índice detallado de carpetas: [`README.md`](README.md))
 
 ---
@@ -31,20 +31,19 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Qué | Estado | Próximo paso |
 |---|---|---|
+| **Boreal** | ✅ **Acordado** — Ricky aceptó la contrapropuesta (23/09) | Esperar indicaciones de alta (C. Santillan) |
 | **Sancor Salud** | Muy caliente (nos contactaron ellos) | Cerrar — lo maneja Ricky |
 | **BRAMED** | Acordó 48/52 valores | Definir cirugía de catarata y firmar |
-| **Boreal** | En evaluación por auditoría | Negociar los recortes fuertes antes de firmar |
-| **OPDEA** | Seguimiento enviado | Esperando respuesta / borrador de follow-up listo |
+| **OPDEA** | En evaluación por Gerencia de Prestaciones | Aguardar resolución |
 
 ## ⏳ ESPERANDO TU OK
 
-- [ ] **Revisar y enviar 10 borradores nuevos** (en Gmail, firmados):
-      - **Prepagas:** Swiss Medical, Medifé, Avalian, Jerárquicos, Omint.
-      - **Obras sociales:** OSPRERA, OSPE, UTA/OSCTCP, OSDOP, OSDEPYM.
-      - Recomendación: enviarlos de a ~10-15 por día para no caer en spam.
+- Nada pendiente de tu OK ahora mismo: los 11 borradores (prepagas + OOSS + Prevención) **ya se enviaron** (24/09).
 
 ## 📌 PENDIENTE / PRÓXIMOS PASOS
 
+- [ ] **Nueva prospección Córdoba (en curso):** relevar todos los gremios/mutuales + cámaras/colegios de Córdoba que faltan → armar borradores.
+- [ ] **Corregir 3 rebotes:** Medifé (bloqueó), Avalian y OSDOP (dirección inexistente) → conseguir email correcto y reenviar (en investigación).
 - [ ] **4 grandes — cada una por su canal** (no todas toman email):
       - **Prevención Salud:** ✅ borrador listo en Gmail (a revisar/enviar).
       - **OSDE:** alta por **portal** cvprest.osde.com.ar (formulario, no email) — hay que cargarla ahí.
@@ -83,6 +82,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Fecha | Qué hicimos |
 |---|---|
+| **24/09** | Ricky envió los 11 borradores. Respuestas: **Boreal acordado**, OPDEA en evaluación, Galeno suspendido; **rechazos** CES y Caja Abogados; **rebotes** Medifé/Avalian/OSDOP. Lanzada prospección de Córdoba (sindicatos, mutuales, cámaras, colegios). |
 | **23/09** | Enviados los 3 gremios (UOM, Luz y Fuerza, Camioneros). **10 borradores nuevos** (5 prepagas top + 5 obras sociales) para revisar/enviar. Investigación de emails de OSDE/Prevención/OSECAC/Accord. |
 | **23/09** | Investigación del valor de mercado de cataratas. Precio municipio simplificado a **$850k por ojo todo incluido** vs mercado ~$1,2M (ahorro ≈29%). Presentación, comparativa y convenio actualizados. |
 | **23/09** | Ricky **envió los 14 recontactos**. Presentación de municipios en **PDF** (marca Lazarte). 3 borradores a gremios con OS propia (UOM, Luz y Fuerza, Camioneros). Base de contactos actualizada. |

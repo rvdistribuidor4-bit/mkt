@@ -3,6 +3,17 @@
 > Basado en la lectura de la casilla `contacto@centrodeojoslazarte.com` · Actualizado: 2026-09-23
 > Base de datos completa (filtrable): [`base-datos-contactos.csv`](base-datos-contactos.csv)
 
+## 🔔 Ronda 24/09/2026
+- **Enviados los 11 borradores** (5 prepagas + 5 OOSS + Prevención Salud) y los 3 gremios (UOM, Luz y Fuerza, Camioneros).
+- **Respuestas:**
+  - 🟢 **Boreal:** Ricky aceptó la contrapropuesta → avanzando al alta como prestador.
+  - 🟢 **OPDEA:** en evaluación por Gerencia de Prestaciones.
+  - 🟡 **Galeno:** incorporaciones suspendidas (organizan zona); guardan contacto (MaraMicaela.Benitez@galeno.com.ar).
+  - 🔴 **Rechazos (por ahora):** CES ("no incorporamos prestadores en la ciudad"), Caja de Abogados ("no incorporamos esta especialidad").
+  - ⚠️ **Rebotes/bloqueos (conseguir otro email):** Medifé (bloqueó, 550), Avalian (inexistente), OSDOP (inexistente).
+  - Auto-respuestas: OSMÉDICA (48-72hs), Omint y OSDEPYM (casillas de facturación).
+- **Nueva prospección Córdoba** lanzada: sindicatos/mutuales + cámaras/colegios que faltan.
+
 ## 🔔 Ronda 23/09/2026
 - **14 recontactos enviados** (Ricky) a la lista "enviado sin respuesta" + OPDEA: CES, Caja de Abogados, CPCE, UTHGRA, UEPC, Grupo Prolider, Geanet, PREME, Sanos, Protección Médica, OSMÉDICA, Family Salud, Galeno, OPDEA.
 - **Geanet respondió**: derivó la propuesta a su área para revisión.
