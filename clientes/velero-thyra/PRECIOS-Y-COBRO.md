@@ -93,32 +93,47 @@ del capitán siempre: nueva fecha o devolución del 100%, seña incluida.
 | **Efectivo USD al abordar** | El saldo | 0% | Ninguna: es lo normal en San Blas |
 | **Airbnb** | Reservas que ya llegan por ahí | ~15% | Ninguna, pero es la más cara |
 
-### Recomendación
+### Recomendación operativa
 
 **Esquema de dos pasos, que es el que ya usa la industria:**
 
-1. **Seña 30% por link de pago** (PayPal para empezar por volumen de reconocimiento; Payoneer si el volumen crece, porque es la mitad de caro).
-2. **Saldo 70% en efectivo USD al subir a bordo.** En Guna Yala el dólar en efectivo es la moneda real, el capitán lo necesita para tasas y compras, y evita comisiones.
+1. **Seña 30% por transferencia internacional en USD (Wise).** Es lo que usan la mayoría de los charters del Caribe, y con razón: Wise da datos de cuenta locales en dólares, el cliente transfiere como si fuera doméstico, el tipo de cambio es el real y la comisión es mínima comparada con el 5,4% de PayPal. Se deja PayPal como alternativa para el cliente que solo quiere poner la tarjeta.
+2. **Saldo 70% en efectivo USD al subir a bordo.** En Guna Yala el dólar en efectivo es la moneda real, el capitán lo necesita igual para tasas y compras, y no paga comisión nadie.
 
-Ese esquema cubre el riesgo de no-show con la seña y minimiza comisiones sobre el grueso.
+La seña cubre el no-show; el grueso no paga comisiones. Ya está redactado así en la FAQ de la web, en los dos idiomas.
 
-### Pasos concretos
+### La pregunta de fondo no es el medio de cobro, es quién factura
 
-- [ ] Definir **quién factura**: ¿el dueño como persona en Argentina, o hay sociedad en Panamá? Cambia todo lo demás.
-- [ ] Abrir **PayPal Business** con el correo del negocio y verificar cuenta bancaria.
-- [ ] Abrir **Payoneer** en paralelo y comparar con dos cobros reales.
-- [ ] Cargar el link de pago en la web (el formulario y la FAQ ya anuncian "link de pago seguro").
-- [ ] Definir el circuito: quién manda el link, quién confirma, dónde se anota la reserva.
+Conviene separar dos cosas que se mezclan:
 
-### ⚠️ Antes de mover un peso
+**1. Dónde se genera la renta.** El barco está en Panamá, el capitán vive en Panamá, el servicio se presta íntegramente en aguas panameñas. **Es renta de fuente panameña.** Si la factura una estructura panameña, tributa en Panamá, que es donde la actividad efectivamente ocurre. Eso es lo ordinario en el negocio náutico, no una maniobra.
 
-Desde **febrero de 2026 Argentina adhiere al estándar CRS 2.0**: PayPal, Wise y
-Payoneer reportan saldos y movimientos a las autoridades fiscales argentinas. No
-es un problema, pero **sí cambia cómo conviene estructurarlo**.
+**2. Quién la cobra.** Si el titular de la cuenta es Fabio como persona física residente fiscal en Argentina, entra a jugar que **Argentina grava la renta mundial de sus residentes** — y ahí el medio de cobro es irrelevante, porque lo que define la obligación es la residencia del titular, no por dónde pasó el dinero.
 
-**Esto lo tiene que ver un contador con experiencia en servicios al exterior, no
-nosotros.** Yo puedo dejar el circuito armado y los links funcionando; la decisión
-de dónde factura y cómo lo declara es del dueño y su contador.
+O sea: la diferencia entre las dos situaciones no la hace usar Wise en lugar de PayPal. La hace **de quién es la estructura que factura**.
+
+### ⚠️ Dos datos que cambian el cálculo
+
+- **Desde febrero de 2026 Argentina adhiere al estándar CRS 2.0.** Wise, PayPal y Payoneer **reportan automáticamente** saldos y movimientos a las autoridades fiscales argentinas. Cualquier esquema que dependa de que "no hay control" está construido sobre una premisa que este año dejó de ser cierta.
+- **Panamá tiene sistema territorial**, pero eso no significa que no grave: no grava la renta de fuente extranjera, y esta operación es de fuente **panameña**. Hay que ver qué régimen aplica a un charter turístico y qué registros pide la autoridad marítima.
+
+### Lo que hay que preguntarle al contador
+
+No "cómo cobro sin que se vea", sino:
+
+1. **¿Qué estructura corresponde en Panamá** para un charter que opera íntegramente ahí? ¿Sociedad panameña, registro como operador turístico, qué pide la autoridad marítima?
+2. **¿Cuál es la situación de residencia fiscal de Fabio?** Es lo que determina si la renta panameña le impacta en Argentina.
+3. **¿Cómo se documentan los cobros en efectivo a bordo** para que la contabilidad cierre?
+
+Tiene que ser un contador con experiencia en servicios al exterior y, si se puede, que conozca Panamá. **Esto excede lo que yo puedo recomendar**: puedo dejar el circuito de cobro andando y los textos escritos, pero la estructura la define un profesional que se haga responsable de lo que firma.
+
+### Pasos concretos para arrancar
+
+- [ ] **Definir quién factura** (punto 1 de arriba). Todo lo demás depende de esto.
+- [ ] Abrir **Wise Business** a nombre de quien corresponda una vez resuelto lo anterior.
+- [ ] Abrir **PayPal** como alternativa de tarjeta.
+- [ ] Armar el circuito: quién manda los datos de transferencia, quién confirma la seña, dónde se anota la reserva.
+- [ ] Definir **cómo se registran los cobros en efectivo** a bordo.
 
 ---
 
