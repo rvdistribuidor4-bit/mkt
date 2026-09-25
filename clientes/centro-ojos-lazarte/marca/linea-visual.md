@@ -22,7 +22,7 @@ alternar y no dejar más de dos planas seguidas.
 
 **Fotos disponibles** en `contenido/fotos-drive/` (reales, del Drive del cliente,
 sin pacientes): `admision`, `consultorio`, `sala-espera`, `pasillo`,
-`equipos-diagnostico`, `microscopio-quirurgico`, `equipo-detalle`.
+`equipos-diagnostico`, `consultorio-lampara`, `equipo-detalle`.
 
 ## Diseños en Canva (originales — NO editar, trabajar sobre copias)
 | Diseño | ID | Contenido |
