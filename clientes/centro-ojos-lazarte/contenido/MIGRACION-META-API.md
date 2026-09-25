@@ -16,7 +16,8 @@ semana.
 
 | Requisito | Estado |
 |---|---|
-| Cuenta de Instagram tipo Empresa | ✅ `17841414497159496` |
+| Cuenta de Instagram tipo Empresa | ✅ `17841414497159496` (confirmado: ya devolvía insights) |
+| App de Meta | ✅ creada (ver abajo, hay dos) |
 | Página de Facebook vinculada | ✅ «Centro de ojo Lazarte» `1164144553456561` |
 | Imágenes en una URL pública | ✅ ya se sirven desde GitHub (`raw.githubusercontent.com`) |
 
@@ -36,12 +37,32 @@ un archivo: necesita una URL pública. Nosotros ya la teníamos.
 Esto lo tiene que hacer **alguien con el Facebook del cliente**, porque pide su
 login. Son unos 40 minutos.
 
-### 1. Crear la app
+### 1. La app — ✅ YA ESTÁ
 
-1. Entrar a **developers.facebook.com** → *Mis aplicaciones* → *Crear*.
-2. Tipo: **Empresa** (Business).
-3. Asociarla a la cuenta comercial del Centro de Ojos Lazarte.
-4. Agregar el producto **Instagram** → *Instagram Graph API*.
+Hay **dos apps creadas**, las dos bajo el negocio «Centro de ojo Lazarte»:
+
+| App | ID | Modo |
+|---|---|---|
+| Centro de ojos Lazarte | `1357320925736401` | En desarrollo |
+| centro de ojos lazarte v1 | `1579592890194197` | En desarrollo |
+
+**Usar una sola.** Abrir las dos y quedarse con la que ya tenga **Instagram**
+en *Productos*. Si ninguna lo tiene, usar `Centro de ojos Lazarte`
+(`1357320925736401`) y agregarle el producto **Instagram → Instagram Graph
+API**. A la otra conviene borrarla o dejarla de lado, para no confundirse
+después con cuál token es cuál.
+
+> ### ⚠️ «Modo: En desarrollo» NO es un problema
+>
+> Es la duda que frena a todo el mundo acá, así que: **no hace falta pasar la
+> app a producción ni pedir App Review.** La revisión de Meta es para apps que
+> manejan cuentas de terceros. Cuando el token lo genera alguien que tiene rol
+> en la app (administrador, desarrollador o tester) y los activos son propios
+> —la página y la cuenta de Instagram del cliente—, los permisos se otorgan
+> igual, con la app en desarrollo. Lo mismo vale para el token de usuario del
+> sistema.
+>
+> Traducido: **se puede publicar hoy, sin esperar aprobación de nadie.**
 
 ### 2. Sacar el token
 
@@ -67,10 +88,17 @@ GET https://graph.facebook.com/v21.0/oauth/access_token
     &fb_exchange_token=<TOKEN_CORTO>
 ```
 
-**La opción buena, que no vence nunca:** en *Meta Business Suite → Configuración
-del negocio → Usuarios → Usuarios del sistema*, crear un usuario del sistema,
-darle acceso a la página y a la app, y generar su token con los mismos permisos.
-Ese no caduca y evita tener que renovar cada dos meses. Si se puede, hacer esta.
+**La opción buena, que no vence nunca — hacer esta.** En
+**business.facebook.com/settings** → *Usuarios* → **Usuarios del sistema**:
+
+1. *Agregar* → nombre: `publicador-ig` → rol **Administrador del sistema**.
+2. *Agregar activos* → **Apps** → la app elegida → **Control total**.
+3. *Agregar activos* → **Cuentas de Instagram** → `@centrodeojoslazarte` → **Control total**.
+4. *Agregar activos* → **Páginas** → `Centro de ojo Lazarte` → **Control total**.
+5. **Generar token nuevo** → elegir la app → tildar los cinco permisos de arriba.
+
+Ese token **no caduca**. Se muestra **una sola vez**: copiarlo en ese momento.
+Si se pierde, no se recupera — se genera otro y listo.
 
 ### 3. Guardarlo donde corresponde
 
@@ -151,7 +179,9 @@ No son urgentes; se suman cuando el Instagram ya esté andando.
 - [x] Confirmado que `graph.facebook.com` es alcanzable desde el contenedor
 - [x] Rutina automática **desactivada** para que no duplique con la carga manual
 - [x] Puente manual listo → `PUBLICAR-A-MANO.md`
-- [ ] Crear la app de Meta y sacar el token *(lo hace el cliente)*
+- [x] ~~Crear la app de Meta~~ → hay dos, bajo el negocio «Centro de ojo Lazarte»
+- [ ] Elegir una de las dos y agregarle el producto Instagram
+- [ ] Generar el token de usuario del sistema *(lo hace el cliente)*
 - [ ] Cargar `META_IG_TOKEN` en el entorno
 - [ ] Reescribir la rutina para que publique por Graph API
 - [ ] Reactivar la rutina
