@@ -1,0 +1,59 @@
+name: Publicar web de Lazarte
+
+# Cada push a main que toque la web del cliente la sube a Hostinger.
+# Nada mas dispara este workflow: los otros clientes y los documentos no.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'clientes/centro-ojos-lazarte/web/**'
+      - '.github/workflows/deploy-lazarte.yml'
+  workflow_dispatch:        # para publicar a mano desde la pestaña Actions
+
+concurrency:
+  group: deploy-lazarte     # dos pushes seguidos no se pisan
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verificar que el HTML no este roto
+        run: |
+          # Un HTML mal cerrado o un JSON-LD invalido no deberia llegar a produccion.
+          python3 - <<'PY'
+          import json, pathlib, re, sys
+          web = pathlib.Path('clientes/centro-ojos-lazarte/web')
+          errores = []
+          for f in sorted(web.glob('*.html')):
+              h = f.read_text(encoding='utf-8')
+              if '<html' not in h or '</html>' not in h:
+                  errores.append(f"{f.name}: falta <html> o </html>")
+              for m in re.finditer(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', h, re.S):
+                  try:
+                      json.loads(m.group(1))
+                  except Exception as e:
+                      errores.append(f"{f.name}: JSON-LD invalido — {e}")
+          if errores:
+              print("\n".join(errores)); sys.exit(1)
+          print(f"OK: {len(list(web.glob('*.html')))} paginas revisadas")
+          PY
+
+      - name: Subir por FTP a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server:   ${{ secrets.HOSTINGER_FTP_HOST }}
+          username: ${{ secrets.HOSTINGER_FTP_USER }}
+          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
+          local-dir: clientes/centro-ojos-lazarte/web/
+          server-dir: public_html/
+          # Sube solo lo que cambio. Lo que ya estaba en el servidor y no viene
+          # del repo NO se borra: dangerous-clean-slate queda en false.
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.DS_Store
