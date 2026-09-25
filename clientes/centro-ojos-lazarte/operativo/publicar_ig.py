@@ -123,7 +123,15 @@ BLOQUE = re.compile(
 
 def proximo():
     texto = PLAN.read_text()
-    for m in BLOQUE.finditer(texto):
+    bloques = list(BLOQUE.finditer(texto))
+    # Si el archivo dice PENDIENTE pero no parsea ningun bloque, el formato se
+    # rompio. Sin esto el script anuncia "no quedan pendientes" y se queda tan
+    # tranquilo: paso el 25/09/2026 al corromper los CAPTION con un sed.
+    if not bloques and "estado: PENDIENTE" in texto:
+        sys.exit("El plan tiene posts PENDIENTE pero ninguno parsea: el formato\n"
+                 "de plan-mes.md esta roto. Revisar que cada bloque tenga sus\n"
+                 "lineas IMG: y CAPTION: con el bloque de codigo bien cerrado.")
+    for m in bloques:
         if m.group("estado").strip() == "PENDIENTE":
             return texto, m
     return texto, None

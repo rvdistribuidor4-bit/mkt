@@ -34,7 +34,7 @@
 | 2026-09-23 | Carrusel (7) | "Hábitos frente a las pantallas" (20-20-20, distancia, descansar, buena luz, no frotarse) + comentario WhatsApp | 18078993317356407 |
 | 2026-09-23 | Historia | CTA de turnos (WhatsApp 007) — primera historia automática | 17934739221384857 |
 | 2026-09-23 | Reel (creado) | "5 hábitos para cuidar tu vista" — entregado al usuario para subir a mano con audio de tendencia | (publicación manual) |
-| 2026-09-25 | Placa | "Cuidá tus ojos del sol" — primera publicada por la API de Meta (sin Windsor). ⚠️ sin comentario de WhatsApp: la app no tiene permiso para comentar | 18089540378694793 |
+| 2026-09-25 | Placa | "Cuidá tus ojos del sol" — publicada 01:04 y **eliminada**: salió fuera de horario (la cadencia es 10:00) y arrancó con 1 de alcance. Vuelve a la cola para republicarse en horario | (eliminada) |
 
 **Placas de síntomas ya usadas en carruseles:** moscas volantes, destellos, visión doble (15/09); visión borrosa, cuesta leer, luz molesta, más luz para leer, visión cambió (16/09).
 **Comentario de WhatsApp pendiente de fijar** en los posts del 16/09 y 21/09 (Instagram no permite fijar por API).

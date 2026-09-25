@@ -36,7 +36,9 @@ médicos.
 SPEC: `export-design DAHUk0p5o8k jpg` → carrusel `create_carousel_post` image_urls =
 
 [ `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/2026-09-22-portada-habitos.jpg`, urls[10], urls[13], urls[14], urls[12], urls[11], urls[16] ].
-CAPTION:\n```\nMuchas horas frente a la pantalla le pasan factura a tu vista 👀
+CAPTION:
+```
+Muchas horas frente a la pantalla le pasan factura a tu vista 👀
 
 5 hábitos simples para cuidarla:
 1️⃣ Regla 20-20-20: cada 20 min, mirá 20 segundos algo a 6 metros
@@ -47,138 +49,158 @@ CAPTION:\n```\nMuchas horas frente a la pantalla le pasan factura a tu vista �
 
 Pequeños cambios, gran diferencia para tu salud visual.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #pantallas #cuidadodelavista #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #pantallas #cuidadodelavista #centrodeojoslazarte
+```
 
 ### 2 · Consejo: cuidá tus ojos del sol (placa) — sug. 2026-09-25
-**estado: PUBLICADO (2026-09-25 · media_id 18089540378694793 · ⚠️ falta el comentario de WhatsApp)**
+**estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-sol.jpg
-CAPTION:\n```\nEl sol también afecta tus ojos ☀️👓
+CAPTION:
+```
+El sol también afecta tus ojos ☀️👓
 
 Usá anteojos de sol adecuados cuando corresponda: cuidan tus ojos de la radiación, no son solo estética.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #cuidadodelavista #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #cuidadodelavista #centrodeojoslazarte
+```
 
 ### 3 · Dr. Armando Lazarte (institucional) — sug. 2026-09-28
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dr-lazarte.jpg
-CAPTION:\n```\nDetrás de cada consulta hay un equipo que te acompaña 💙
+CAPTION:
+```
+Detrás de cada consulta hay un equipo que te acompaña 💙
 
 La dirección médica está a cargo del Dr. Armando Lazarte, con más de 35 años de trayectoria dedicados a la oftalmología y la cirugía de cataratas en Córdoba. Trato cercano, escucha y acompañamiento en cada paso.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Deán Funes 614 · 9 de Julio 778 — Córdoba
+📍 Deán Funes 614 · 9 de Julio 778 — Córdoba
 
-#oftalmología #cirugíadecataratas #córdoba #centrodeojoslazarte\n```
+#oftalmología #cirugíadecataratas #córdoba #centrodeojoslazarte
+```
 
 ### 4 · Síntoma: ¿tenés el ojo rojo? (placa) — sug. 2026-09-30
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-ojo-rojo.jpg
-CAPTION:\n```\n¿Tenés el ojo rojo? 👁️
+CAPTION:
+```
+¿Tenés el ojo rojo? 👁️
 
 Puede ser algo pasajero… o una señal de que algo necesita atención. Si persiste, o aparece con dolor o cambios en la visión, consultá.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #centrodeojoslazarte
+```
 
 ### 5 · Control oftalmológico anual (placa) — sug. 2026-10-02
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-control-anual.jpg
-CAPTION:\n```\nVer bien no siempre significa que esté todo bien 👀
+CAPTION:
+```
+Ver bien no siempre significa que esté todo bien 👀
 
 Muchas enfermedades de los ojos no dan síntomas al principio. Un control al año ayuda a detectarlas a tiempo. Si hace más de un año que no controlás tu vista, este es un buen momento.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #controloftalmológico #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #controloftalmológico #centrodeojoslazarte
+```
 
 ### 6 · Consejo: no te automediques (placa) — sug. 2026-10-05
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-no-automedicarse.jpg
-CAPTION:\n```\n¿Molestia en los ojos? No uses gotas por tu cuenta 🚫💧
+CAPTION:
+```
+¿Molestia en los ojos? No uses gotas por tu cuenta 🚫💧
 
 Cada ojo es diferente y no todas las gotas sirven para lo mismo. Ante una molestia que persiste, consultá antes de automedicarte.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #centrodeojoslazarte
+```
 
 ### 7 · Obras sociales (placa CTA) — sug. 2026-10-07
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-obras-sociales.jpg
-CAPTION:\n```\nTrabajamos con tu obra social 💙
+CAPTION:
+```
+Trabajamos con tu obra social 💙
 
 PAMI, OSDE, APROSS, Swiss Medical, Galeno y muchas más. Consultanos por tu cobertura y coordiná tu turno.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Deán Funes 614 · 9 de Julio 778 — Córdoba
+📍 Deán Funes 614 · 9 de Julio 778 — Córdoba
 
-#obrasociales #oftalmología #córdoba #centrodeojoslazarte\n```
+#obrasociales #oftalmología #córdoba #centrodeojoslazarte
+```
 
 ### 8 · Síntoma: ¿te duele el ojo? (placa) — sug. 2026-10-09
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dolor-ojo.jpg
-CAPTION:\n```\n¿Te duele el ojo? 👁️
+CAPTION:
+```
+¿Te duele el ojo? 👁️
 
 El dolor ocular no debería ignorarse, sobre todo si es intenso o aparece junto con cambios en la visión. Ante la duda, consultá.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #centrodeojoslazarte
+```
 
 ### 9 · Consejo: no ignores los cambios repentinos (placa) — sug. 2026-10-12
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-cambios-vision.jpg
-CAPTION:\n```\nSi tu visión cambia de golpe, no lo dejes pasar ⚠️👀
+CAPTION:
+```
+Si tu visión cambia de golpe, no lo dejes pasar ⚠️👀
 
 Los cambios repentinos en la visión merecen atención. Consultá con un profesional cuanto antes.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #centrodeojoslazarte
+```
 
 ### 10 · Tu visión merece un control (placa CTA) — sug. 2026-10-14
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-vision-control.jpg
-CAPTION:\n```\nTu visión merece un control 💙
+CAPTION:
+```
+Tu visión merece un control 💙
 
 Ver bien también es cuidar tu calidad de vida. Si hace tiempo que no controlás tu vista, escribinos y coordinamos tu turno.
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 ℹ️ Información general, no reemplaza una consulta.
 
-#saludvisual #oftalmología #córdoba #centrodeojoslazarte\n```
+#saludvisual #oftalmología #córdoba #centrodeojoslazarte
+```
 
 ### 11 · Día de la Madre (placa especial) — sug. 2026-10-16
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dia-madre.jpg
-CAPTION:\n```\nEste domingo es el Día de la Madre 💛
+CAPTION:
+```
+Este domingo es el Día de la Madre 💛
 
 A todas las mamás que cuidan a los suyos cada día: gracias. Que no falte quien cuide de ustedes… ni de su visión. ¡Feliz día!
 
-📲 Turnos y consultas por WhatsApp — link en la bio
-\1 Centro de Ojos Lazarte — Córdoba
+📍 Centro de Ojos Lazarte — Córdoba
 
-#diadelamadre #córdoba #centrodeojoslazarte\n```
+#diadelamadre #córdoba #centrodeojoslazarte
+```
 
 ---
 
