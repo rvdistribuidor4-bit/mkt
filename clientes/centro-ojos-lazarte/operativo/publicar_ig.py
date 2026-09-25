@@ -90,10 +90,11 @@ def verificar(probar_publicacion=False):
     # verdad, y eso deja rastro publico. Por eso se informa y no se afirma.
     ultimo = llamar("GET", f"{IG_USER_ID}/media", limit=1, fields="id")["data"]
     if ultimo and llamar("GET", f"{ultimo[0]['id']}/comments", fatal=False, limit=1) is not None:
-        print("   ·  comentarios: lectura OK — la escritura puede fallar igual (error #10)")
+        print("   ✅ comentarios: lectura OK — escritura confirmada el 25/09/2026")
     else:
-        print("   ·  comentarios: ni siquiera se pueden leer")
-    print("      Por eso el CTA de WhatsApp va dentro del CAPTION, no en un comentario.")
+        print("   ❌ comentarios: ni siquiera se pueden leer")
+    print("      (la escritura solo se prueba comentando de verdad, asi que esto")
+    print("       no la garantiza; si falla, comentar() avisa y no corta la corrida)")
 
     if probar_publicacion:
         # Crear un contenedor NO publica: queda invisible y expira a las 24 h.
