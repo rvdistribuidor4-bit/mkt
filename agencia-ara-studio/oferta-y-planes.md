@@ -80,7 +80,7 @@ Muy importante: **no todos venden por Instagram igual.**
 
 **Manejo de objeciones:**
 - *"¿Me asegura clientes?"* → "Ningún serio te 'asegura'; lo que te aseguro es **presencia profesional + pauta bien hecha + medición**. Si algo no rinde, lo ajustamos con datos."
-- *"Está caro"* → "Con un cliente/venta nuevo por mes ya se paga solo. Y es plan dolarizado, sin sorpresas."
+- *"Está caro"* → "Es una inversión en tu presencia y captación, con plan dolarizado y previsible. Arrancás, te muestro resultados y decidís seguir." (No prometemos ni deducimos las ganancias del cliente.)
 - *"Lo hago yo / un conocido"* → "Perfecto, pero esto es un **sistema** (web+Google+IG+reseñas+pauta) andando todos los días, no posteos sueltos."
 
 ---
