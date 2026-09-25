@@ -9,6 +9,21 @@
 - Firma inferior: `CENTRO DE OJOS LAZARTE` (`#74938e`)
 - Estética: limpia, seria, médica, sin emojis en la imagen (los emojis van en el copy)
 
+## Placas con foto real (estilo LAZARTE v2 sobre fotografía)
+
+Mismo sistema, pero con **foto real de la clínica** de fondo en vez de color
+plano. Se arman con `contenido/ig/placas-foto.html` + `render_placas_foto.py`,
+sin Canva y sin costo. El velo azul marino garantiza el contraste, y overline y
+firma llevan sombra porque el verde salvia solo no se sostiene sobre foto.
+
+**Cuándo usarlas:** para cortar la monotonía del feed. Con la grilla de 3 por
+fila, una placa plana atrás de otra se ve como un bloque muerto. Conviene
+alternar y no dejar más de dos planas seguidas.
+
+**Fotos disponibles** en `contenido/fotos-drive/` (reales, del Drive del cliente,
+sin pacientes): `admision`, `consultorio`, `sala-espera`, `pasillo`,
+`equipos-diagnostico`, `microscopio-quirurgico`, `equipo-detalle`.
+
 ## Diseños en Canva (originales — NO editar, trabajar sobre copias)
 | Diseño | ID | Contenido |
 |---|---|---|

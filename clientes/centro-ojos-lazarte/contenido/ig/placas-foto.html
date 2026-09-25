@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Estilo LAZARTE v2, con foto real de fondo en vez de color plano.
+   Paleta oficial, sin inventar colores:
+   #0C264B fondo · #FBFCFD titulo · #C7D6D2 apoyo · #74938E overline y firma · #3D8B7A acento */
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#222}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;background:#0C264B;
+   font-family:Inter,sans-serif;margin-bottom:40px}
+.p img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* el velo deja ver la foto arriba y garantiza contraste abajo */
+.velo{position:absolute;inset:0;background:linear-gradient(180deg,
+      rgba(12,38,75,.45) 0%,rgba(12,38,75,.62) 42%,rgba(12,38,75,.96) 100%)}
+.in{position:absolute;inset:0;padding:96px 84px;display:flex;flex-direction:column;z-index:2}
+.over{font-size:26px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+      color:#74938E;padding-top:20px;border-top:3px solid #3D8B7A;display:inline-block;
+      align-self:flex-start;text-shadow:0 2px 16px rgba(12,38,75,.95)}
+h1{font-size:76px;line-height:1.14;font-weight:700;color:#FBFCFD;margin-top:auto;
+   letter-spacing:-.01em;text-shadow:0 3px 30px rgba(12,38,75,.7)}
+.sub{font-size:34px;line-height:1.5;color:#C7D6D2;margin-top:30px;max-width:24ch;
+     text-shadow:0 2px 20px rgba(12,38,75,.8)}
+.firma{margin-top:64px;font-size:22px;letter-spacing:.2em;color:#74938E;font-weight:600;
+       text-shadow:0 2px 14px rgba(12,38,75,.9)}
+</style></head><body>
+
+<!-- dolor-ojo -->
+<div class="p"><img src="../fotos-drive/consultorio.jpg"><div class="velo"></div>
+  <div class="in"><div class="over">Síntomas</div>
+    <h1>¿Te duele el ojo?</h1>
+    <div class="sub">El dolor ocular no debería ignorarse, sobre todo si es intenso o aparece junto con cambios en la visión.</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div></div></div>
+
+<!-- cambios-vision -->
+<div class="p"><img src="../fotos-drive/equipos-diagnostico.jpg"><div class="velo"></div>
+  <div class="in"><div class="over">Consejo visual</div>
+    <h1>No ignores los cambios repentinos</h1>
+    <div class="sub">Si tu visión cambia de golpe, no lo dejes pasar. Consultá con un profesional cuanto antes.</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div></div></div>
+
+</body></html>

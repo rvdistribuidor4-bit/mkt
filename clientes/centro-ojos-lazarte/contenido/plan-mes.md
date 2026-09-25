@@ -145,7 +145,7 @@ PAMI, OSDE, APROSS, Swiss Medical, Galeno y muchas más. Consultanos por tu cobe
 
 ### 8 · Síntoma: ¿te duele el ojo? (placa) — sug. 2026-10-09
 **estado: PENDIENTE**
-IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dolor-ojo.jpg
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dolor-ojo-foto.jpg
 CAPTION:
 ```
 ¿Te duele el ojo? 👁️
@@ -160,7 +160,7 @@ El dolor ocular no debería ignorarse, sobre todo si es intenso o aparece junto 
 
 ### 9 · Consejo: no ignores los cambios repentinos (placa) — sug. 2026-10-12
 **estado: PENDIENTE**
-IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-cambios-vision.jpg
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-cambios-vision-foto.jpg
 CAPTION:
 ```
 Si tu visión cambia de golpe, no lo dejes pasar ⚠️👀
