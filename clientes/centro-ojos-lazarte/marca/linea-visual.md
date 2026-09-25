@@ -50,6 +50,7 @@ sin pacientes): `admision`, `consultorio`, `sala-espera`, `pasillo`,
 | 2026-09-23 | Historia | CTA de turnos (WhatsApp 007) — primera historia automática | 17934739221384857 |
 | 2026-09-23 | Reel (creado) | "5 hábitos para cuidar tu vista" — entregado al usuario para subir a mano con audio de tendencia | (publicación manual) |
 | 2026-09-25 | Placa | "Cuidá tus ojos del sol" — publicada 01:04 y **eliminada**: salió fuera de horario (la cadencia es 10:00) y arrancó con 1 de alcance. Vuelve a la cola para republicarse en horario | (eliminada) |
+| 2026-09-25 | Placa + historia | "Cuidá tus ojos del sol" — primera publicada por la rutina nueva (API de Meta, sin Windsor), con comentario de WhatsApp e historia 9:16 | 18121711963940203 |
 
 **Placas de síntomas ya usadas en carruseles:** moscas volantes, destellos, visión doble (15/09); visión borrosa, cuesta leer, luz molesta, más luz para leer, visión cambió (16/09).
 **Comentario de WhatsApp pendiente de fijar** en los posts del 16/09 y 21/09 (Instagram no permite fijar por API).

@@ -57,7 +57,7 @@ Pequeños cambios, gran diferencia para tu salud visual.
 ```
 
 ### 2 · Consejo: cuidá tus ojos del sol (placa)
-**estado: PENDIENTE**
+**estado: PUBLICADO (2026-09-25 · media_id 18121711963940203)**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-sol.jpg
 STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-sol.jpg
 CAPTION:
