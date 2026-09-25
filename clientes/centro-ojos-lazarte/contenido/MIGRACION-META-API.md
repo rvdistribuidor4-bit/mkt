@@ -158,6 +158,39 @@ GET /<IG_USER_ID>?fields=followers_count,media_count
 
 ---
 
+## El prompt nuevo de la rutina
+
+Cuando el token esté cargado y las placas en `main`, la rutina
+`trig_01C9DQ6kPasmAsXBwrcdfRSN` se reactiva con este prompt, que es mucho más
+corto que el anterior porque toda la lógica se fue al script:
+
+```
+[Publicador autónomo LAZARTE — el usuario autorizó publicar sin consultar.
+NO preguntes; ejecutá.]
+
+1) cd clientes/centro-ojos-lazarte/operativo
+2) python3 publicar_ig.py --verificar
+   Si falla: avisá con el error de Meta tal cual y NO sigas. No reintentes en
+   loop: la próxima corrida Lun/Mié/Vie retoma.
+3) python3 publicar_ig.py --proximo
+   El script publica el primer bloque PENDIENTE de contenido/plan-mes.md,
+   agrega el comentario de WhatsApp y marca el bloque con su media_id.
+4) Si dice que no quedan posts PENDIENTE: avisá que el plan del mes se
+   completó y ofrecé armar el próximo. NO publiques nada.
+5) Agregá la fila correspondiente en marca/linea-visual.md (Publicaciones
+   realizadas). Commit + push a main.
+6) Avisá al usuario en 1-2 líneas qué se publicó.
+
+Nunca imprimas META_IG_TOKEN. Cumplimiento médico: los CAPTION ya traen el
+disclaimer donde corresponde; no agregues promesas de resultado.
+```
+
+Lo que se gana respecto del anterior: el comentario de WhatsApp vuelve a ser
+automático, Canva sale de la cadena y, si algo falla, falla en un script que se
+puede correr a mano con `--ensayo` para ver qué iba a hacer.
+
+---
+
 ## Las otras dos fuentes, también gratis
 
 No son urgentes; se suman cuando el Instagram ya esté andando.
