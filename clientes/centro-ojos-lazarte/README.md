@@ -16,15 +16,20 @@ Marketing gestionado por ARA (redes + web + SEO local).
 
 | Frente | Estado | Notas |
 |---|---|---|
-| Instagram | 🟢 Activo | 1er carrusel publicado. Recordatorios Lun/Mié/Vie 18hs (ART) |
+| Instagram | 🟡 Publicación manual | 8 posts, 28 seguidores. Windsor pasó a pago → rutina pausada. Ver `contenido/PUBLICAR-A-MANO.md` |
 | Web | 🟡 Corregida, sin subir | P1 aplicados. Falta: Maps reales, redirección www, fotos reales |
 | Google Business / Maps | 🔴 Pendiente | Conectar en Windsor o pasar ficha |
 | Blog | 🔴 Pendiente | Plan editorial listo, faltan artículos |
 
 ## Pendientes manuales (del cliente)
 
+- [ ] 🔴 **Link de la bio de IG → WhatsApp.** La bio dice «Turnos por WhatsApp ⤵️»
+      y el link registrado es la web. Es el único paso entre ver un post y
+      escribir, y está pendiente desde el principio
+- [ ] 🔴 **Verificar el tag de GA4 en el sitio online.** Search Console reporta
+      112 clics en 30 días y GA4 no registra ni una sesión
+- [ ] Crear la app de Meta y pasar el token (ver `contenido/MIGRACION-META-API.md`)
 - [ ] Fijar comentario de WhatsApp en el último post de IG
-- [ ] Verificar link de la bio de IG → WhatsApp
 - [ ] Conectar Google Business (Windsor) o pasar captura de la ficha de Maps
 - [ ] Al subir la web: redirigir `www` ↔ sin `www` (hosting)
 - [ ] Cargar 2 reseñas reales de Google en la home

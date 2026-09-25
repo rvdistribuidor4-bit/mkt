@@ -1,5 +1,11 @@
 # Plan de contenido IG — Centro de Ojos Lazarte
 
+> ⏸️ **PAUSADO — Windsor pasó a plan pago (25/09/2026).** La rutina automática
+> está desactivada. Los 10 posts pendientes se cargan a mano en Meta Business
+> Suite siguiendo `PUBLICAR-A-MANO.md`, y las placas que antes salían de Canva
+> ya están descargadas en `ig/`. Para volver al modo automático, sin costo:
+> `MIGRACION-META-API.md`.
+
 **Modo autónomo.** Cadencia Lun/Mié/Vie 10:00 ART. El publicador lee este archivo,
 toma el **primer post con `estado: PENDIENTE`**, ejecuta su bloque `SPEC`, agrega el
 comentario de WhatsApp, marca `estado: PUBLICADO (fecha · media_id)` y hace commit.
