@@ -117,6 +117,7 @@ BLOQUE = re.compile(
     r"^### (?P<n>\d+) · (?P<titulo>.+)$\n"
     r"^\*\*estado: (?P<estado>[^*\n]+)\*\*$\n"
     r"^IMG: (?P<img>.+)$\n"
+    r"(^STORY: (?P<story>\S+)$\n)?"
     r"^CAPTION:$\n```\n(?P<caption>[\s\S]*?)\n```",
     re.M)
 
@@ -160,6 +161,8 @@ def publicar(m, ensayo):
         print(f"   {u.rsplit('/', 1)[-1]}")
     if not 1 <= len(imgs) <= 10:
         sys.exit(f"Instagram admite 1 placa o entre 2 y 10 en carrusel; vinieron {len(imgs)}")
+    if m.group("story"):
+        print(f"   + historia: {m.group('story').rsplit('/', 1)[-1]}")
     if ensayo:
         print("   (ensayo: no se publica nada)")
         return None
@@ -175,6 +178,24 @@ def publicar(m, ensayo):
     media_id = pub["id"]
     print(f"   publicado · media_id {media_id}")
     return media_id
+
+
+def historia(url):
+    """Publica la historia del dia. NO es fatal si falla.
+
+    Es la placa del feed montada en 9:16 para empujar trafico al posteo. Por
+    API no se pueden poner stickers de link ni encuestas, asi que va como
+    imagen; el sticker de link ademas pide 10 mil seguidores.
+    """
+    cont = llamar("POST", f"{IG_USER_ID}/media", fatal=False,
+                  image_url=url, media_type="STORIES")
+    if not cont:
+        print("   ⚠️  la historia NO se publico. El posteo si.")
+        return
+    pub = llamar("POST", f"{IG_USER_ID}/media_publish", fatal=False,
+                 creation_id=cont["id"])
+    print(f"   historia publicada · {pub['id']}" if pub
+          else "   ⚠️  la historia NO se publico. El posteo si.")
 
 
 def comentar(media_id):
@@ -213,5 +234,7 @@ if __name__ == "__main__":
             marcar(texto, m, media_id)          # primero el estado, siempre
             print("   plan-mes.md actualizado")
             comentar(media_id)                  # y despues lo accesorio
+            if m.group("story"):
+                historia(m.group("story"))
     else:
         ap.print_help()
