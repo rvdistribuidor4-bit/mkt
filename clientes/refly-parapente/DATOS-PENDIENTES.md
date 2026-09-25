@@ -1,16 +1,16 @@
 # Datos pendientes — Refly Experience
 
-## 1. La pregunta que ordena todo
+## 1. ~~La pregunta que ordena todo~~ → resuelta por el voucher
 
-**¿Cuántos días del mes se puede volar, y cuántos de esos se vuela?**
+El cliente confirmó que **se venden vouchers y se coordina la fecha después con
+el pronóstico**. Eso saca al clima de la ecuación de la venta: se puede vender
+todos los días, aunque no se vuele. Ver §6 de `ESTRATEGIA.md`.
 
-- Si el clima permite 12 días y se vuela 10 → **el techo es el clima**. Instagram
-  sirve para llenar mejor cada día volable y para subir el precio, no para
-  vender más vuelos.
-- Si el clima permite 20 días y se vuela 10 → **el techo es la demanda**, y ahí
-  sí Instagram mueve la aguja de verdad.
+Queda una versión más chica de la pregunta, que igual conviene medir:
 
-Son dos estrategias distintas y no se pueden hacer las dos a la vez.
+- [ ] ¿Cuántos vuelos por día puede hacer el staff cuando el clima acompaña?
+      Es el techo real de un fin de semana bueno, y define cuánto se puede
+      vender sin quedar mal.
 
 ## 2. Del negocio
 
@@ -22,12 +22,26 @@ Son dos estrategias distintas y no se pueden hacer las dos a la vez.
 - [ ] ¿Hay convenios con hoteles, cabañas o agencias de La Cumbre?
 - [ ] ¿Qué pasa si el pasajero viaja y no se puede volar? ¿Reprograma, devuelve?
 
-## 3. Del piloto — es el activo más importante y no está contado
+## 3. De los pilotos
 
-- [ ] Nombre, años volando, cantidad de vuelos biplaza acumulados
-- [ ] Licencia y habilitación (FAA / club) — **el dato que saca el miedo**
-- [ ] ¿Compite? ¿Tiene historia propia de vuelo?
-- [ ] ¿Se anima a aparecer en cámara hablando? Es lo que más convierte
+**Confirmado:** staff de **4 pilotos**, todos con **más de 15 años** en el
+deporte, alguno con **30**.
+
+- [ ] Nombre de cada uno y años exactos, para poder decirlo sin redondear
+- [ ] Cantidad de vuelos biplaza acumulados (aunque sea un orden de magnitud)
+- [ ] Licencia y habilitación (FAA / club) — **el dato que más saca el miedo**
+- [ ] ¿Alguno compite o compitió?
+- [x] ~~¿Hablan a cámara?~~ → **No.** El cliente ofrece pilotos no biplaza para
+      que lo hagan; **no conviene** (ver §6bis). Se resuelve mostrando el
+      chequeo en silencio y dejando hablar a los pasajeros
+
+## 3bis. Voucher — para armarlo hace falta
+
+- [ ] Vigencia (sugerido: 12 meses)
+- [ ] Política si el clima no acompaña el día pactado (sugerido: reprograma
+      sin costo, siempre, y escrito)
+- [ ] Medios de cobro a distancia
+- [ ] ¿Se puede poner el nombre del agasajado en el voucher?
 
 ## 4. Material
 

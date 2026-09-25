@@ -111,17 +111,81 @@ es en realidad el mejor contenido del rubro y **nadie lo usa**:
 - **Lista de espera por clima.** Al que viajó y no pudo volar, no se lo pierde:
   se lo agenda.
 
-## 6. La pregunta que hay que responder antes de producir nada
+## 6. El voucher rompe el techo del clima — y es lo más importante de todo esto
 
-**¿El techo son los días volables o la demanda?**
+El cliente confirma que **se pueden vender vouchers y coordinar la fecha después,
+mirando el pronóstico**. Eso no es un detalle operativo: cambia el producto.
 
-| Si el clima permite ~12 días y se vuela 10 | Si permite ~20 y se vuela 10 |
+**Sin voucher**, se vende un vuelo para hoy. La venta depende del clima, de que
+la persona esté en La Cumbre, y de que tenga el día libre. Tres condiciones que
+tienen que darse a la vez.
+
+**Con voucher**, se vende *el derecho a volar cuando el clima quiera*. La venta
+se despega del clima por completo. Se puede vender un martes de lluvia, a alguien
+que está en Buenos Aires, para que vuele en enero.
+
+### Y abre un mercado entero que hoy no se está tocando
+
+Un vuelo de $200.000 es caro para autorregalarse y **perfecto para regalar**.
+Quien lo compra muchas veces no es quien vuela: es el que busca un regalo que se
+recuerde, y está cansado de regalar cosas.
+
+> «No sabía qué regalarle» es la frase que vende este producto, y no está en
+> ninguna parte de la comunicación del rubro.
+
+Eso convierte el calendario en una herramienta de ventas:
+
+| Fecha | Por qué |
 |---|---|
-| El techo es el clima | El techo es la demanda |
-| Instagram sirve para **llenar mejor cada día y subir el precio** | Instagram sirve para **vender más vuelos** |
-| Prioridad: ticket promedio, packs, convenios con hoteles | Prioridad: alcance, reels, prueba social |
+| **Día de la Madre** (18/10) | La primera que viene. Regalo para la madre que "ya tiene todo" |
+| **Navidad** | El pico del año para regalos de experiencia |
+| **Día del Amigo** (20/07) | En Argentina mueve más que en casi ningún país |
+| **Día del Padre** (junio) | El clásico del regalo de experiencia |
+| **Cumpleaños** | Todo el año, y se puede pautar por fecha de nacimiento |
 
-Son estrategias distintas. **Sin ese dato, cualquier plan es adivinanza.**
+### Lo que hay que resolver para que funcione
+
+- [ ] **Vigencia del voucher.** Sugerido: 12 meses. Menos genera reclamos; más
+      complica la caja y el precio con inflación.
+- [ ] **Qué pasa si el clima no acompaña el día pactado.** La respuesta tiene que
+      estar escrita y ser generosa: se reprograma sin costo, siempre. Es
+      exactamente el miedo de quien compra por adelantado.
+- [ ] **Cómo se entrega.** Un PDF lindo, con nombre del agasajado, se manda por
+      WhatsApp en dos minutos y se puede imprimir. No hace falta nada más.
+- [ ] **Cómo se cobra** a distancia (transferencia, Mercado Pago, link).
+
+**Esto es lo primero que armaría**, antes que cualquier reel.
+
+## 6bis. Los cuatro pilotos son el activo que no está contado
+
+**Cuatro pilotos, todos con más de 15 años en el deporte, alguno con 30.**
+
+Para un pasajero que duda, eso vale más que cualquier foto de paisaje. Y hoy no
+está escrito en ningún lado.
+
+⚠️ Al escribirlo, no inventar un total acumulado sin confirmarlo. «Cuatro
+pilotos, todos con más de quince años volando, el más veterano con treinta» es
+verificable y suficientemente fuerte. Un número redondeado para arriba que
+después no cierre, destruye justo la confianza que se busca.
+
+### Que no hablen a cámara no es un problema
+
+El cliente avisa que los pilotos biplaza no hablan a cámara, y que podría poner a
+otros pilotos que sí. **Yo no lo haría**, por dos razones:
+
+1. Si el que explica no es el que te va a llevar, el argumento se cae solo, y si
+   no se aclara, se vuelve engañoso.
+2. **No hace falta.** En este rubro la autoridad no se dice, se muestra.
+
+Lo que reemplaza a la cabeza parlante, y funciona mejor:
+
+- **Las manos del piloto haciendo el chequeo**, en silencio, con el texto en
+  pantalla. Mostrar competencia convence más que escucharla.
+- **El pasajero habla y el piloto trabaja.** El testimonio del que acaba de
+  aterrizar es más creíble que cualquier cosa que diga el vendedor.
+- **Texto sobre imagen** para los datos duros (años, vuelos, habilitación).
+
+Si alguno se anima más adelante, mejor. Pero no es un bloqueo.
 
 ## 7. Por dónde arrancaría
 
