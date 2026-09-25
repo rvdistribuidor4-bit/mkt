@@ -6,23 +6,35 @@
 > ya están descargadas en `ig/`. Para volver al modo automático, sin costo:
 > `MIGRACION-META-API.md`.
 
-**Modo autónomo.** Cadencia Lun/Mié/Vie 10:00 ART. El publicador lee este archivo,
-toma el **primer post con `estado: PENDIENTE`**, ejecuta su bloque `SPEC`, agrega el
-comentario de WhatsApp, marca `estado: PUBLICADO (fecha · media_id)` y hace commit.
+**Modo autónomo.** Cadencia Lun/Mié/Vie 10:00 ART. La rutina corre
+`operativo/publicar_ig.py --proximo`, que toma el **primer bloque con
+`estado: PENDIENTE`**, lo publica por la API de Meta, agrega el comentario de
+WhatsApp y marca el bloque como PUBLICADO con su `media_id`.
 
-**Comentario de WhatsApp** (agregar tras publicar, con el media_id del resultado):
-`📲 Sacá tu turno por WhatsApp: https://wa.me/5493516371007 · 📍 Deán Funes 614 · 9 de Julio 778, Córdoba`
-*(Instagram no permite fijarlo por API; el pin queda manual del usuario.)*
+**Formato de cada bloque** — el script lo parsea, así que respetarlo:
 
-**Canva base:** `DAHUk0p5o8k`. `export-design` devuelve 20 URLs (array 0-indexed:
-página N = `urls[N-1]`). Cuenta IG (Windsor): `17841414497159496`.
-**Cumplimiento:** sin promesas de resultado ni superlativos; disclaimer en temas médicos.
+```
+### N · Título
+**estado: PENDIENTE**
+IMG: <url pública de la imagen>
+CAPTION:
+```‌(bloque de código con el texto tal cual va)```‌
+```
+
+⚠️ **`IMG` tiene que ser una URL pública.** Meta no acepta que le subas un
+archivo. Por eso las placas viven en el repo y se sirven desde
+`raw.githubusercontent.com`, **y la rama `main` tiene que tenerlas**.
+
+Cuenta de Instagram: `17841414497159496`. Token: `META_IG_TOKEN` en el entorno.
+**Cumplimiento:** sin promesas de resultado ni superlativos; disclaimer en temas
+médicos.
 
 ---
 
 ### 1 · Hábitos frente a las pantallas (carrusel) — sug. 2026-09-23
 **estado: PUBLICADO (2026-09-23 · media_id 18078993317356407 · comentario WA OK)**
 SPEC: `export-design DAHUk0p5o8k jpg` → carrusel `create_carousel_post` image_urls =
+
 [ `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/2026-09-22-portada-habitos.jpg`, urls[10], urls[13], urls[14], urls[12], urls[11], urls[16] ].
 CAPTION:
 ```
@@ -45,7 +57,7 @@ Pequeños cambios, gran diferencia para tu salud visual.
 
 ### 2 · Consejo: cuidá tus ojos del sol (placa) — sug. 2026-09-25
 **estado: PENDIENTE**
-SPEC: `export-design DAHUk0p5o8k jpg` → `create_image_post` image_url = urls[17] (pág. 18).
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-sol.jpg
 CAPTION:
 ```
 El sol también afecta tus ojos ☀️👓
@@ -60,7 +72,7 @@ Usá anteojos de sol adecuados cuando corresponda: cuidan tus ojos de la radiaci
 
 ### 3 · Dr. Armando Lazarte (institucional) — sug. 2026-09-28
 **estado: PENDIENTE**
-SPEC: `create_image_post` image_url = `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dr-lazarte.jpg`.
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dr-lazarte.jpg
 CAPTION:
 ```
 Detrás de cada consulta hay un equipo que te acompaña 💙
@@ -74,7 +86,7 @@ La dirección médica está a cargo del Dr. Armando Lazarte, con más de 35 año
 
 ### 4 · Síntoma: ¿tenés el ojo rojo? (placa) — sug. 2026-09-30
 **estado: PENDIENTE**
-SPEC: `export-design DAHUk0p5o8k jpg` → `create_image_post` image_url = urls[0] (pág. 1).
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-ojo-rojo.jpg
 CAPTION:
 ```
 ¿Tenés el ojo rojo? 👁️
@@ -89,7 +101,7 @@ Puede ser algo pasajero… o una señal de que algo necesita atención. Si persi
 
 ### 5 · Control oftalmológico anual (placa) — sug. 2026-10-02
 **estado: PENDIENTE**
-SPEC: `create_image_post` image_url = `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-control-anual.jpg`.
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-control-anual.jpg
 CAPTION:
 ```
 Ver bien no siempre significa que esté todo bien 👀
@@ -104,7 +116,7 @@ Muchas enfermedades de los ojos no dan síntomas al principio. Un control al añ
 
 ### 6 · Consejo: no te automediques (placa) — sug. 2026-10-05
 **estado: PENDIENTE**
-SPEC: `export-design DAHUk0p5o8k jpg` → `create_image_post` image_url = urls[15] (pág. 16).
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-no-automedicarse.jpg
 CAPTION:
 ```
 ¿Molestia en los ojos? No uses gotas por tu cuenta 🚫💧
@@ -119,7 +131,7 @@ Cada ojo es diferente y no todas las gotas sirven para lo mismo. Ante una molest
 
 ### 7 · Obras sociales (placa CTA) — sug. 2026-10-07
 **estado: PENDIENTE**
-SPEC: `create_image_post` image_url = `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-obras-sociales.jpg`.
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-obras-sociales.jpg
 CAPTION:
 ```
 Trabajamos con tu obra social 💙
@@ -133,7 +145,7 @@ PAMI, OSDE, APROSS, Swiss Medical, Galeno y muchas más. Consultanos por tu cobe
 
 ### 8 · Síntoma: ¿te duele el ojo? (placa) — sug. 2026-10-09
 **estado: PENDIENTE**
-SPEC: `export-design DAHUk0p5o8k jpg` → `create_image_post` image_url = urls[6] (pág. 7).
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dolor-ojo.jpg
 CAPTION:
 ```
 ¿Te duele el ojo? 👁️
@@ -148,7 +160,7 @@ El dolor ocular no debería ignorarse, sobre todo si es intenso o aparece junto 
 
 ### 9 · Consejo: no ignores los cambios repentinos (placa) — sug. 2026-10-12
 **estado: PENDIENTE**
-SPEC: `export-design DAHUk0p5o8k jpg` → `create_image_post` image_url = urls[18] (pág. 19).
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-cambios-vision.jpg
 CAPTION:
 ```
 Si tu visión cambia de golpe, no lo dejes pasar ⚠️👀
@@ -163,7 +175,7 @@ Los cambios repentinos en la visión merecen atención. Consultá con un profesi
 
 ### 10 · Tu visión merece un control (placa CTA) — sug. 2026-10-14
 **estado: PENDIENTE**
-SPEC: `export-design DAHUk0p5o8k jpg` → `create_image_post` image_url = urls[19] (pág. 20).
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-vision-control.jpg
 CAPTION:
 ```
 Tu visión merece un control 💙
@@ -178,7 +190,7 @@ Ver bien también es cuidar tu calidad de vida. Si hace tiempo que no controlás
 
 ### 11 · Día de la Madre (placa especial) — sug. 2026-10-16
 **estado: PENDIENTE**
-SPEC: `create_image_post` image_url = `https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dia-madre.jpg`.
+IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dia-madre.jpg
 CAPTION:
 ```
 Este domingo es el Día de la Madre 💛

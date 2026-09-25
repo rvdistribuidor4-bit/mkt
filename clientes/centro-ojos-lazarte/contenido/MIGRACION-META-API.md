@@ -181,8 +181,12 @@ No son urgentes; se suman cuando el Instagram ya esté andando.
 - [x] Puente manual listo → `PUBLICAR-A-MANO.md`
 - [x] ~~Crear la app de Meta~~ → hay dos, bajo el negocio «Centro de ojo Lazarte»
 - [ ] Elegir una de las dos y agregarle el producto Instagram
-- [ ] Generar el token de usuario del sistema *(lo hace el cliente)*
-- [ ] Cargar `META_IG_TOKEN` en el entorno
-- [ ] Reescribir la rutina para que publique por Graph API
-- [ ] Reactivar la rutina
+- [x] ~~Generar el token de usuario del sistema~~ → el cliente ya lo tiene
+- [x] Scripts escritos y probados en seco → `operativo/publicar_ig.py`, `operativo/metricas_ig.py`
+- [x] `plan-mes.md` pasado a un formato que el script parsea (línea `IMG:`)
+- [ ] 🔴 **Cargar `META_IG_TOKEN` en el entorno** (no en el repo, no en el chat).
+      Una sesión nueva lo toma; la actual no lo ve
+- [ ] 🔴 **Mergear las 6 placas nuevas a `main`** — la URL que lee Meta apunta ahí
+- [ ] Correr `publicar_ig.py --verificar` y después `--proximo --ensayo`
+- [ ] Reactivar la rutina apuntando al script
 - [ ] Sumar Search Console (y GA4, cuando el tag esté verificado)
