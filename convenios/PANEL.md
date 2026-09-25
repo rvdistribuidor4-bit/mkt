@@ -46,7 +46,7 @@
 | **Boreal** | ✅ **Acordado** — Ricky aceptó la contrapropuesta | Esperar indicaciones de alta (C. Santillan) |
 | **Jerárquicos** | 🟢 Mandaron el **formulario de alta de prestador** | Completar formulario + documentación y remitir a convenios@jerarquicos.com |
 | **OSDEPYM** | 🟢 Mónica pidió el arancel → **se lo enviamos** (nomenclador + Excel) | Esperar evaluación |
-| **Omint** | 💬 Derivó a Contrataciones Córdoba | Reenviar solicitud a **convenioscba@omint.com.ar** |
+| **Omint** | ✉️ Reenviado a Contrataciones Córdoba (convenioscba@) el 24/09 | Esperar respuesta |
 | **Sancor Salud** | Muy caliente (nos contactaron ellos) | Cerrar — lo maneja Ricky |
 | **BRAMED** | Acordó 48/52 valores | Definir cirugía de catarata y firmar |
 | **OPDEA** | En evaluación por Gerencia de Prestaciones | Aguardar resolución |

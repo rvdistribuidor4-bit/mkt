@@ -6,7 +6,7 @@
 ## 🔔 Ronda 25/09/2026
 - 🟢 **Jerárquicos Salud:** respondieron (prestadores@ y Convenios@jerarquicos.com) y enviaron el **formulario editable de alta de prestador** → completar + documentación y remitir. Muy encaminado.
 - 🟢 **OSDEPYM (Mónica Bussoli):** pidió la propuesta arancelaria; le enviamos el **nomenclador + Excel**. En evaluación.
-- 💬 **Omint:** derivó a **Contrataciones Córdoba → convenioscba@omint.com.ar** (reenviar la solicitud ahí).
+- ✉️ **Omint:** derivó a Contrataciones Córdoba; **ya se reenvió** la solicitud a convenioscba@omint.com.ar (24/09). Esperando respuesta.
 - Base: 174 entidades. Enviados esperando: 20 · Borradores a revisar: 12 · Sin contactar (cola larga): 120.
 
 ## 🔔 Ronda 24/09/2026
