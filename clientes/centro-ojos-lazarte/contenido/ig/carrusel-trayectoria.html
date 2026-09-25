@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Carrusel de trayectoria — LAZARTE v2. Paleta oficial, sin colores nuevos.
+   REGLA: ninguna foto ilustra una afirmacion que no muestra. El quirofano no
+   esta fotografiado, asi que esa placa va sin foto. */
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#222}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;background:#0C264B;
+   font-family:Inter,sans-serif;margin-bottom:40px}
+.p img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.velo{position:absolute;inset:0;background:linear-gradient(180deg,
+      rgba(12,38,75,.55) 0%,rgba(12,38,75,.70) 40%,rgba(12,38,75,.96) 100%)}
+.in{position:absolute;inset:0;padding:96px 84px;display:flex;flex-direction:column;z-index:2}
+.over{font-size:26px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:#74938E;
+      padding-top:20px;border-top:3px solid #3D8B7A;align-self:flex-start;
+      text-shadow:0 2px 16px rgba(12,38,75,.95)}
+.cifra{font-size:190px;line-height:.92;font-weight:800;color:#FBFCFD;margin-top:auto;
+       letter-spacing:-.04em;text-shadow:0 3px 34px rgba(12,38,75,.8)}
+h1{font-size:70px;line-height:1.14;font-weight:700;color:#FBFCFD;margin-top:auto;
+   letter-spacing:-.015em;text-shadow:0 3px 30px rgba(12,38,75,.78)}
+.bajo{font-size:40px;line-height:1.25;font-weight:600;color:#FBFCFD;margin-top:18px}
+.sub{font-size:33px;line-height:1.5;color:#C7D6D2;margin-top:26px;max-width:25ch;
+     text-shadow:0 2px 20px rgba(12,38,75,.85)}
+/* placa de datos, sin foto */
+.fila{display:flex;align-items:baseline;gap:28px;border-top:2px solid rgba(116,147,142,.45);
+      padding:30px 0}
+.fila b{font-size:76px;font-weight:800;color:#FBFCFD;letter-spacing:-.03em;min-width:290px}
+.fila span{font-size:31px;color:#C7D6D2;line-height:1.3}
+.pie{margin-top:52px;display:flex;justify-content:space-between;align-items:flex-end}
+.firma{font-size:22px;letter-spacing:.2em;color:#74938E;font-weight:600;
+       text-shadow:0 2px 14px rgba(12,38,75,.9)}
+.desliza{font-size:24px;color:#C7D6D2;text-shadow:0 2px 14px rgba(12,38,75,.9)}
+.wa{display:inline-flex;background:#3D8B7A;color:#FBFCFD;font-weight:700;font-size:30px;
+    padding:26px 46px;border-radius:100px;margin-top:36px;align-self:flex-start}
+</style></head><body>
+
+<div class="p" data-nombre="tray-1-portada"><img src="../fotos-drive/equipos-diagnostico.jpg">
+  <div class="velo"></div><div class="in">
+  <div class="over">Cirugía de cataratas</div>
+  <div class="cifra">200</div>
+  <div class="bajo">cirugías por mes.</div>
+  <div class="sub">No es una cifra de folleto. Es lo que hacemos todos los meses.</div>
+  <div class="pie"><div class="firma">CENTRO DE OJOS LAZARTE</div><div class="desliza">Deslizá →</div></div></div></div>
+
+<div class="p" data-nombre="tray-2-numeros"><div class="in">
+  <div class="over">Desde 1990</div>
+  <div style="margin-top:auto">
+    <div class="fila"><b>35</b><span>años cuidando la vista<br>de los cordobeses</span></div>
+    <div class="fila"><b>15.000+</b><span>cirugías realizadas</span></div>
+    <div class="fila"><b>3.000+</b><span>pacientes por año</span></div>
+    <div class="fila"><b>40+</b><span>personas en el equipo</span></div>
+  </div>
+  <div class="pie"><div class="firma">CENTRO DE OJOS LAZARTE</div><div class="desliza">→</div></div></div></div>
+
+<div class="p" data-nombre="tray-3-quirofano"><div class="in">
+  <div class="over">Infraestructura</div>
+  <h1>Quirófano propio e internación ambulatoria.</h1>
+  <div class="sub">Consulta, estudios y cirugía en la misma institución. No te derivamos a otro lado.</div>
+  <div class="pie"><div class="firma">CENTRO DE OJOS LAZARTE</div><div class="desliza">→</div></div></div></div>
+
+<div class="p" data-nombre="tray-4-referencia"><img src="../fotos-drive/pasillo.jpg">
+  <div class="velo"></div><div class="in">
+  <div class="over">Alcance</div>
+  <h1>Centro de referencia para todo el norte de Córdoba.</h1>
+  <div class="sub">Recibimos pacientes derivados de otros centros, obras sociales y médicos de familia.</div>
+  <div class="pie"><div class="firma">CENTRO DE OJOS LAZARTE</div><div class="desliza">→</div></div></div></div>
+
+<div class="p" data-nombre="tray-5-cierre"><img src="../fotos-drive/consultorio-lampara.jpg">
+  <div class="velo"></div><div class="in">
+  <div class="over">Dirección médica</div>
+  <h1>Dr. Armando Lazarte</h1>
+  <div class="sub">Más de 35 años dedicados a la oftalmología y la cirugía de cataratas en Córdoba.</div>
+  <div class="wa">Turnos por WhatsApp · link en la bio</div>
+  <div class="pie"><div class="firma">CENTRO DE OJOS LAZARTE</div><div class="desliza"></div></div></div></div>
+
+</body></html>

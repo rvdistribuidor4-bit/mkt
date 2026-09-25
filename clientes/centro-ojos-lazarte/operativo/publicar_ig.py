@@ -116,7 +116,7 @@ def verificar(probar_publicacion=False):
 BLOQUE = re.compile(
     r"^### (?P<n>\d+) · (?P<titulo>.+)$\n"
     r"^\*\*estado: (?P<estado>[^*\n]+)\*\*$\n"
-    r"^IMG: (?P<img>\S+)$\n"
+    r"^IMG: (?P<img>.+)$\n"
     r"^CAPTION:$\n```\n(?P<caption>[\s\S]*?)\n```",
     re.M)
 
@@ -146,12 +146,31 @@ def marcar(texto, m, media_id):
 
 
 def publicar(m, ensayo):
-    img, caption = m.group("img"), m.group("caption")
-    print(f"→ {m.group('n')} · {m.group('titulo')}\n   imagen: {img}")
+    """Publica una placa o un carrusel, segun cuantas URLs traiga la linea IMG.
+
+    Carrusel = cada imagen se sube con is_carousel_item, despues un contenedor
+    con media_type=CAROUSEL y children, y recien ahi se publica. Instagram
+    admite entre 2 y 10 imagenes.
+    """
+    imgs = [u.strip() for u in m.group("img").split(",") if u.strip()]
+    caption = m.group("caption")
+    tipo = f"carrusel de {len(imgs)}" if len(imgs) > 1 else "placa"
+    print(f"→ {m.group('n')} · {m.group('titulo')}   [{tipo}]")
+    for u in imgs:
+        print(f"   {u.rsplit('/', 1)[-1]}")
+    if not 1 <= len(imgs) <= 10:
+        sys.exit(f"Instagram admite 1 placa o entre 2 y 10 en carrusel; vinieron {len(imgs)}")
     if ensayo:
         print("   (ensayo: no se publica nada)")
         return None
-    cont = llamar("POST", f"{IG_USER_ID}/media", image_url=img, caption=caption)
+
+    if len(imgs) == 1:
+        cont = llamar("POST", f"{IG_USER_ID}/media", image_url=imgs[0], caption=caption)
+    else:
+        hijos = [llamar("POST", f"{IG_USER_ID}/media",
+                        image_url=u, is_carousel_item="true")["id"] for u in imgs]
+        cont = llamar("POST", f"{IG_USER_ID}/media", media_type="CAROUSEL",
+                      children=",".join(hijos), caption=caption)
     pub = llamar("POST", f"{IG_USER_ID}/media_publish", creation_id=cont["id"])
     media_id = pub["id"]
     print(f"   publicado · media_id {media_id}")
