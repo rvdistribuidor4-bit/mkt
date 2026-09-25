@@ -50,8 +50,13 @@ directorios y facturas.
 | **Teléfono** | 0351 423-3716 |
 | **WhatsApp** | +54 9 351 637-1007 |
 | **Web** | https://www.centrodeojoslazarte.com |
-| **Sede 1** | Deán Funes 614, Córdoba Capital — *centro integral* |
-| **Sede 2** | 9 de Julio 778, Córdoba Capital — *consultorios externos* |
+| **Sede 1** | Deán Funes 614 — *centro integral: consultorios, estudios y **quirófano propio*** |
+| **Sede 2** | 9 de Julio 778 — *consultorios externos: consultas, controles y estudios* |
+
+> Las dos sedes **no son lo mismo y no deben describirse igual**. La de Deán
+> Funes tiene el quirófano; la de 9 de Julio no opera. Un paciente que va a
+> operarse a la sede equivocada es un problema real, y además Google penaliza
+> dos fichas con contenido idéntico.
 | **Horario** | Lun–Vie 9:00–19:30 · Sáb 9:00–13:00 |
 
 > ⚠️ El horario que figura en los directorios (9 a 19, o 9–13 y 16–19:30) **no
@@ -133,9 +138,25 @@ datos de geolocalización de la foto como señal de veracidad.
 Sin reseñas nuevas, ninguna ficha rankea. El kit con QR por sede ya está armado
 en `contenido/kit-resenas.md`; lo que falta es **usarlo**.
 
-- Pedirla **en el mostrador, al salir**, con el QR impreso a la vista.
-- El mejor momento es el postoperatorio, cuando el paciente ya ve bien.
-- Meta razonable: 4 a 8 reseñas nuevas por mes.
+**Decisión tomada: se piden los días de cirugía.** Es el mejor momento posible
+y conviene entender por qué, para no diluirlo:
+
+- El paciente de cataratas **vuelve a ver** en el control del día siguiente. Esa
+  reseña sale con una emoción que ninguna consulta de rutina genera.
+- Son reseñas que hablan de **cirugía**, que es justamente la búsqueda que más
+  vale: quien busca «cirugía de cataratas Córdoba» está decidiendo dónde operarse.
+- Concentra el pedido en un día y una persona, en vez de depender de que todo el
+  mostrador se acuerde todos los días.
+
+**Cómo hacerlo sin que se caiga:** el QR impreso en el control postoperatorio,
+pedido a mano por quien atiende, con una frase corta. No un cartel: un pedido
+personal. «Si quedaste conforme, ¿nos dejás una reseña? Nos ayuda muchísimo.»
+
+Con 200 cirugías por mes, **alcanza con que una de cada veinte deje reseña para
+tener 10 por mes** — muy por encima de lo que necesita esta ficha.
+
+⚠️ Nunca ofrecer nada a cambio (descuentos, sorteos, regalos). Google lo detecta
+y borra las reseñas, y en salud además es un problema ético.
 
 ### Responder reseñas — reglas que no se negocian
 
