@@ -18,7 +18,7 @@ Marketing gestionado por ARA (redes + web + SEO local).
 |---|---|---|
 | Instagram | 🟡 Publicación manual | 8 posts, 28 seguidores. Windsor pasó a pago → rutina pausada. Ver `contenido/PUBLICAR-A-MANO.md` |
 | Web | 🟡 Corregida, sin subir | P1 aplicados. Falta: Maps reales, redirección www, fotos reales |
-| Google Business / Maps | 🔴 Pendiente | Conectar en Windsor o pasar ficha |
+| Google Business / Maps | 🟡 Playbook listo | `google-business/PLAYBOOK.md`. ⚠️ La clínica figura con **3 nombres distintos** en la web |
 | Blog | 🔴 Pendiente | Plan editorial listo, faltan artículos |
 
 ## Pendientes manuales (del cliente)
