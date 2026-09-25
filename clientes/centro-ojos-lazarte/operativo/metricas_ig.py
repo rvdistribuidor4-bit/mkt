@@ -14,10 +14,10 @@ METRICAS = "reach,views,total_interactions,saved,shares"
 
 
 def pedir(ruta, **params):
+    # Si no hay token explicito, lo inyecta el proxy del entorno (ver publicar_ig.py)
     t = os.environ.get("META_IG_TOKEN")
-    if not t:
-        sys.exit("Falta META_IG_TOKEN en el entorno. Ver contenido/MIGRACION-META-API.md")
-    params["access_token"] = t
+    if t:
+        params["access_token"] = t
     try:
         with urllib.request.urlopen(f"{API}/{ruta}?{urllib.parse.urlencode(params)}",
                                     timeout=60) as r:

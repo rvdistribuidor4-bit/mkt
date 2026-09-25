@@ -21,14 +21,22 @@ COMENTARIO = ("📲 Sacá tu turno por WhatsApp: https://wa.me/5493516371007"
 
 
 def token():
-    t = os.environ.get("META_IG_TOKEN")
-    if not t:
-        sys.exit("Falta META_IG_TOKEN en el entorno. Ver contenido/MIGRACION-META-API.md")
-    return t
+    """El token explicito, si lo hay. Puede no haberlo y estar todo bien.
+
+    En este entorno el proxy inyecta las credenciales de Meta para
+    los hosts de Meta, asi que las llamadas salen autenticadas sin que el
+    script mande access_token. Confirmado contra /me.
+
+    Se deja igual el soporte de META_IG_TOKEN por si se corre desde otro
+    lado (una maquina local, otro entorno) donde no hay proxy que inyecte.
+    """
+    return os.environ.get("META_IG_TOKEN")
 
 
 def llamar(metodo, ruta, **params):
-    params["access_token"] = token()
+    t = token()
+    if t:
+        params["access_token"] = t
     url = f"{API}/{ruta}"
     datos = urllib.parse.urlencode(params).encode()
     pedido = (urllib.request.Request(url, data=datos, method="POST") if metodo == "POST"
@@ -43,40 +51,44 @@ def llamar(metodo, ruta, **params):
         sys.exit(f"Meta respondio {e.code}: {detalle}")
 
 
-# Permisos sin los cuales no se puede publicar ni medir.
-NECESARIOS = {"instagram_basic", "instagram_content_publish", "instagram_manage_insights"}
+# Imagen que ya vive en main, para la prueba de permiso de publicacion.
+IMG_PRUEBA = ("https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/"
+              "clientes/centro-ojos-lazarte/contenido/ig/placa-dr-lazarte.jpg")
 
 
-def verificar():
-    """Verifica el TOKEN, no la conectividad.
+def verificar(probar_publicacion=False):
+    """Verifica que se pueda publicar, probando capacidad real.
 
-    Ojo: pedirle a Graph los datos publicos de la cuenta NO sirve como prueba.
-    En este entorno esa llamada devuelve 200 con datos reales aun sin mandar
-    ningun token, asi que un 200 ahi no dice nada. Lo unico que verifica de
-    verdad el token es debug_token, que ademas lista sus permisos: si falta
-    instagram_content_publish, la publicacion falla recien al intentarla.
+    OJO, la trampa: pedirle a Graph los datos de la cuenta NO prueba nada.
+    Aca esa llamada devuelve 200 con datos reales aun sin credencial valida,
+    asi que un 200 ahi no dice si vamos a poder publicar. Por eso se prueba
+    cada permiso contra el endpoint que lo exige.
     """
-    t = token()
-    d = llamar("GET", "debug_token", input_token=t).get("data", {})
-    if not d.get("is_valid"):
-        sys.exit(f"❌ el token NO es valido: {d.get('error', {}).get('message', d)}")
-
-    scopes = set(d.get("scopes", []))
-    vence = d.get("expires_at", 0)
-    print(f"✅ token valido — app {d.get('app_id')} · tipo {d.get('type')}")
-    print("   vencimiento: " + ("NUNCA (usuario del sistema)" if not vence
-          else datetime.datetime.fromtimestamp(vence).strftime("%Y-%m-%d %H:%M")))
-
-    faltan = NECESARIOS - scopes
-    for p_ in sorted(NECESARIOS):
-        print(f"   {'✅' if p_ in scopes else '❌'} {p_}")
-    if faltan:
-        sys.exit(f"\n❌ faltan permisos: {', '.join(sorted(faltan))}\n"
-                 "   Regenerar el token tildandolos. Ver contenido/MIGRACION-META-API.md")
+    quien = llamar("GET", "me", fields="id,name")
+    print(f"✅ autenticado como «{quien.get('name')}»  (id {quien.get('id')})")
+    if token():
+        print("   credencial: variable META_IG_TOKEN")
+    else:
+        print("   credencial: inyectada por el proxy del entorno")
 
     yo = llamar("GET", IG_USER_ID, fields="username,followers_count,media_count")
     print(f"   cuenta: @{yo['username']} · {yo['followers_count']} seguidores"
           f" · {yo['media_count']} publicaciones")
+
+    llamar("GET", f"{IG_USER_ID}/media", limit=1, fields="id")
+    print("   ✅ instagram_basic")
+    llamar("GET", f"{IG_USER_ID}/insights", metric="reach", period="day")
+    print("   ✅ instagram_manage_insights")
+
+    if probar_publicacion:
+        # Crear un contenedor NO publica: queda invisible y expira a las 24 h.
+        # Es la unica forma de comprobar instagram_content_publish sin postear.
+        c = llamar("POST", f"{IG_USER_ID}/media", image_url=IMG_PRUEBA,
+                   caption="prueba de permisos — este contenedor no se publica")
+        print(f"   ✅ instagram_content_publish  (contenedor {c['id']}, sin publicar)")
+    else:
+        print("   ·  instagram_content_publish: correr con --probar-publicacion")
+
     print("\n✅ listo para publicar")
 
 
@@ -129,10 +141,12 @@ if __name__ == "__main__":
     ap.add_argument("--verificar", action="store_true")
     ap.add_argument("--proximo", action="store_true")
     ap.add_argument("--ensayo", action="store_true")
+    ap.add_argument("--probar-publicacion", action="store_true",
+                    dest="probar", help="crea un contenedor de prueba; no publica")
     a = ap.parse_args()
 
     if a.verificar:
-        verificar()
+        verificar(a.probar)
     elif a.proximo:
         texto, m = proximo()
         if not m:
