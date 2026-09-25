@@ -1,90 +1,120 @@
-<!DOCTYPE html><html><head><meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"><style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#222}
 .h{width:1080px;height:1920px;position:relative;overflow:hidden;background:#0C264B;
-   font-family:Inter,sans-serif;color:#FBFCFD;display:flex;flex-direction:column;
-   align-items:center;padding:150px 60px 170px;margin-bottom:40px}
-.marca{font-size:24px;letter-spacing:.26em;font-weight:700;color:#74938E}
-.placa{margin-top:auto;margin-bottom:auto;width:900px;border-radius:28px;overflow:hidden;
-       box-shadow:0 40px 90px rgba(0,0,0,.45)}
-.placa img{width:100%;display:block}
-.cta{font-size:46px;font-weight:700;line-height:1.25;text-align:center}
+   font-family:Inter,sans-serif;color:#FBFCFD;margin-bottom:40px}
+.h img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.velo{position:absolute;inset:0;background:linear-gradient(180deg,
+      rgba(12,38,75,.80) 0%,rgba(12,38,75,.62) 38%,rgba(12,38,75,.94) 100%)}
+.plano{position:absolute;inset:0;background:
+      radial-gradient(120% 80% at 80% 12%,#123A64 0%,#0C264B 55%,#08192F 100%)}
+/* 300px arriba y 420 abajo: lo que tapan la barra de perfil y la de respuesta */
+.in{position:absolute;inset:0;padding:300px 92px 420px;display:flex;
+    flex-direction:column;z-index:3}
+.over{font-size:28px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;
+      color:#74938E;padding-top:22px;border-top:3px solid #3D8B7A;align-self:flex-start;
+      text-shadow:0 2px 16px rgba(12,38,75,.95)}
+h1{font-size:86px;line-height:1.14;font-weight:700;margin-top:auto;letter-spacing:-.015em;
+   text-shadow:0 3px 34px rgba(12,38,75,.8)}
+.remate{font-size:38px;line-height:1.45;color:#C7D6D2;margin-top:32px;max-width:20ch;
+        text-shadow:0 2px 20px rgba(12,38,75,.85)}
+.pie{margin-top:auto;border-top:2px solid rgba(116,147,142,.4);padding-top:26px}
+.cta{font-size:34px;font-weight:700}
 .cta span{color:#3D8B7A}
-.sub{font-size:30px;color:#C7D6D2;margin-top:20px;text-align:center;line-height:1.45}
-</style></head><body>
-<div class="h" data-nombre="placa-sol">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-sol.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-clinica-1-portada">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-clinica-1-portada.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-dr-lazarte">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-dr-lazarte.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-ojo-rojo">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-ojo-rojo.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-tray-1-portada">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-tray-1-portada.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-control-anual">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-control-anual.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-no-automedicarse">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-no-automedicarse.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-obras-sociales">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-obras-sociales.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-dolor-ojo-foto">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-dolor-ojo-foto.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-dia-madre">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-dia-madre.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-cambios-vision-foto">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-cambios-vision-foto.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-<div class="h" data-nombre="placa-vision-control">
-  <div class="marca">CENTRO DE OJOS LAZARTE</div>
-  <div class="placa"><img src="../placa-vision-control.jpg"></div>
-  <div class="cta">Nuevo en el feed <span>↑</span></div>
-  <div class="sub">Turnos por WhatsApp · link en la bio</div>
-</div>
-</body></html>
+.firma{font-size:21px;letter-spacing:.2em;color:#74938E;font-weight:600;margin-top:12px}
+</style></head><body><div class="h" data-nombre="sol"><div class="plano"></div><div class="in">
+  <div class="over">Consejo visual</div>
+  <h1>¿Tus anteojos de sol filtran UV de verdad?</h1>
+  <div class="remate">No todos lo hacen. Los oscuros sin filtro son peores que no usar nada.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="clinica"><img src="../../fotos-drive/sala-espera.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Antes de venir</div>
+  <h1>¿Nunca viniste a una consulta oftalmológica?</h1>
+  <div class="remate">Te mostramos dónde vas a estar.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="dr-lazarte"><img src="../../fotos-drive/consultorio.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Dirección médica</div>
+  <h1>35 años atendiendo en Córdoba.</h1>
+  <div class="remate">Dr. Armando Lazarte.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="ojo-rojo"><div class="plano"></div><div class="in">
+  <div class="over">Síntomas</div>
+  <h1>El ojo rojo casi siempre se pasa solo.</h1>
+  <div class="remate">Casi siempre.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="trayectoria"><img src="../../fotos-drive/equipos-diagnostico.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Cirugía de cataratas</div>
+  <h1>200 por mes.</h1>
+  <div class="remate">No es una cifra de folleto.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="control-anual"><div class="plano"></div><div class="in">
+  <div class="over">Control</div>
+  <h1>¿Cuándo fue tu último control de la vista?</h1>
+  <div class="remate">Si tardás en contestar, ya pasó demasiado.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="no-automedicarse"><div class="plano"></div><div class="in">
+  <div class="over">Consejo visual</div>
+  <h1>Las gotas del cajón no sirven para todo.</h1>
+  <div class="remate">Cada ojo es distinto.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="obras-sociales"><img src="../../fotos-drive/admision.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Coberturas</div>
+  <h1>PAMI, OSDE, APROSS, Swiss Medical, Galeno.</h1>
+  <div class="remate">Y bastantes más. Consultanos por la tuya.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="dolor-ojo"><img src="../../fotos-drive/consultorio-lampara.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Síntomas</div>
+  <h1>¿Te duele el ojo o te duele la cabeza?</h1>
+  <div class="remate">No siempre es fácil distinguirlo.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="dia-madre"><div class="plano"></div><div class="in">
+  <div class="over">Día de la Madre</div>
+  <h1>A todas las que cuidan de los suyos.</h1>
+  <div class="remate">Que no falte quien cuide de ustedes.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="cambios-vision"><img src="../../fotos-drive/equipos-diagnostico.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Consejo visual</div>
+  <h1>Si tu visión cambia de golpe, no esperes.</h1>
+  <div class="remate">Los cambios repentinos merecen atención.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div>
+<div class="h" data-nombre="vision-control"><img src="../../fotos-drive/pasillo.jpg"><div class="velo"></div><div class="in">
+  <div class="over">Turnos</div>
+  <h1>Ver bien también es calidad de vida.</h1>
+  <div class="remate">Escribinos y coordinamos tu turno.</div>
+  <div class="pie">
+    <div class="cta">Turnos por WhatsApp <span>→</span> link en la bio</div>
+    <div class="firma">CENTRO DE OJOS LAZARTE</div>
+  </div></div></div></body></html>

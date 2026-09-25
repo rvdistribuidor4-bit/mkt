@@ -59,7 +59,7 @@ Pequeños cambios, gran diferencia para tu salud visual.
 ### 2 · Consejo: cuidá tus ojos del sol (placa)
 **estado: PUBLICADO (2026-09-25 · media_id 18121711963940203)**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-sol.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-sol.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-sol.jpg
 CAPTION:
 ```
 El sol también afecta tus ojos ☀️👓
@@ -75,7 +75,7 @@ Usá anteojos de sol adecuados cuando corresponda: cuidan tus ojos de la radiaci
 ### 12 · Así es la clínica (carrusel institucional)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-clinica-1-portada.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-clinica-2-admision.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-clinica-3-espera.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-clinica-4-consultorio.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-clinica-5-equipos.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-clinica-6-cierre.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-clinica-1-portada.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-clinica.jpg
 CAPTION:
 ```
 ¿Nunca viniste? Mirá dónde vas a estar 👁️
@@ -99,7 +99,7 @@ Más de 35 años cuidando la vista de los cordobeses.
 ### 3 · Dr. Armando Lazarte (institucional)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dr-lazarte.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-dr-lazarte.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-dr-lazarte.jpg
 CAPTION:
 ```
 Detrás de cada consulta hay un equipo que te acompaña 💙
@@ -114,7 +114,7 @@ La dirección médica está a cargo del Dr. Armando Lazarte, con más de 35 año
 ### 4 · Síntoma: ¿tenés el ojo rojo? (placa)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-ojo-rojo.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-ojo-rojo.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-ojo-rojo.jpg
 CAPTION:
 ```
 ¿Tenés el ojo rojo? 👁️
@@ -130,7 +130,7 @@ Puede ser algo pasajero… o una señal de que algo necesita atención. Si persi
 ### 13 · Trayectoria en números (carrusel)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-tray-1-portada.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-tray-2-numeros.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-tray-3-quirofano.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-tray-4-referencia.jpg, https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-tray-5-cierre.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-tray-1-portada.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-trayectoria.jpg
 CAPTION:
 ```
 200 cirugías de cataratas por mes 👁️
@@ -158,7 +158,7 @@ Dirección médica: Dr. Armando Lazarte.
 ### 5 · Control oftalmológico anual (placa)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-control-anual.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-control-anual.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-control-anual.jpg
 CAPTION:
 ```
 Ver bien no siempre significa que esté todo bien 👀
@@ -174,7 +174,7 @@ Muchas enfermedades de los ojos no dan síntomas al principio. Un control al añ
 ### 6 · Consejo: no te automediques (placa)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-no-automedicarse.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-no-automedicarse.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-no-automedicarse.jpg
 CAPTION:
 ```
 ¿Molestia en los ojos? No uses gotas por tu cuenta 🚫💧
@@ -190,7 +190,7 @@ Cada ojo es diferente y no todas las gotas sirven para lo mismo. Ante una molest
 ### 7 · Obras sociales (placa CTA)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-obras-sociales.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-obras-sociales.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-obras-sociales.jpg
 CAPTION:
 ```
 Trabajamos con tu obra social 💙
@@ -205,7 +205,7 @@ PAMI, OSDE, APROSS, Swiss Medical, Galeno y muchas más. Consultanos por tu cobe
 ### 8 · Síntoma: ¿te duele el ojo? (placa)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dolor-ojo-foto.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-dolor-ojo-foto.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-dolor-ojo.jpg
 CAPTION:
 ```
 ¿Te duele el ojo? 👁️
@@ -221,7 +221,7 @@ El dolor ocular no debería ignorarse, sobre todo si es intenso o aparece junto 
 ### 11 · Día de la Madre (placa especial)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-dia-madre.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-dia-madre.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-dia-madre.jpg
 CAPTION:
 ```
 Este domingo es el Día de la Madre 💛
@@ -241,7 +241,7 @@ historias específicas. El publicador **no** genera historias solo: las pide al 
 ### 9 · Consejo: no ignores los cambios repentinos (placa)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-cambios-vision-foto.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-cambios-vision-foto.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-cambios-vision.jpg
 CAPTION:
 ```
 Si tu visión cambia de golpe, no lo dejes pasar ⚠️👀
@@ -257,7 +257,7 @@ Los cambios repentinos en la visión merecen atención. Consultá con un profesi
 ### 10 · Tu visión merece un control (placa CTA)
 **estado: PENDIENTE**
 IMG: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/placa-vision-control.jpg
-STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-placa-vision-control.jpg
+STORY: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/clientes/centro-ojos-lazarte/contenido/ig/historias/historia-vision-control.jpg
 CAPTION:
 ```
 Tu visión merece un control 💙

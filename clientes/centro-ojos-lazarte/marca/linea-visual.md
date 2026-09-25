@@ -24,6 +24,27 @@ alternar y no dejar más de dos planas seguidas.
 sin pacientes): `admision`, `consultorio`, `sala-espera`, `pasillo`,
 `equipos-diagnostico`, `consultorio-lampara`, `equipo-detalle`.
 
+## Historias (9:16) — son piezas propias, no la placa del feed
+
+**Regla:** una historia NO repite el posteo. Se ve dos segundos, en vertical y a
+pantalla completa, y su trabajo es **plantear la duda que el posteo responde**.
+
+| El feed dice | La historia dice |
+|---|---|
+| ¿Tenés el ojo rojo? | *El ojo rojo casi siempre se pasa solo.* **Casi siempre.** |
+| Cuidá tus ojos del sol | *¿Tus anteojos de sol filtran UV de verdad?* |
+| Trayectoria en números | *200 por mes.* |
+
+Estructura: un overline, **una sola línea grande**, un remate corto y el CTA.
+Nada más. Si hay foto real que acompañe, va a sangre con velo; si no, fondo de
+marca en degradado.
+
+**Zona segura:** 300 px arriba y 420 px abajo, que es lo que tapan la barra de
+perfil y la de respuesta de Instagram. Nada importante entra ahí.
+
+Se arman con `contenido/ig/generar_historias.py`: el texto de cada una está en
+la lista `HISTORIAS`, arriba del archivo.
+
 ## Diseños en Canva (originales — NO editar, trabajar sobre copias)
 | Diseño | ID | Contenido |
 |---|---|---|
