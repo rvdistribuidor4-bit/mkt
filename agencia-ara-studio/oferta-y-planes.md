@@ -11,6 +11,7 @@ Diferencial (lo que el resto no tiene):
 - **Orientado a resultados** (turnos/ventas), con **reportes** que muestran el retorno.
 - **Caso de éxito real:** Centro de Ojos Lazarte (web + IG automatizado + Google + reseñas).
 - **Plan dolarizado** (previsible ante la inflación).
+- **Exclusividad por rubro/zona:** no tomamos dos competidores directos. El cliente queda "protegido" en su rubro → argumento de venta fuerte y evita conflictos.
 
 ---
 
