@@ -52,8 +52,30 @@ jobs:
           # Sube solo lo que cambio. Lo que ya estaba en el servidor y no viene
           # del repo NO se borra: dangerous-clean-slate queda en false.
           dangerous-clean-slate: false
+          # Nombre de estado nuevo: el anterior quedo desfasado cuando se
+          # restauro public_html de un backup, y el deploy daba verde sin
+          # subir nada. A partir de aca el incremental vuelve a funcionar.
+          state-name: .deploy-lazarte-state.json
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
             **/.DS_Store
+
+      - name: Verificar que la web viva se actualizo
+        run: |
+          echo "Esperando a que el servidor sirva la version nueva..."
+          for i in 1 2 3 4 5 6; do
+            sleep 10
+            vivo=$(curl -s --max-time 25 "https://www.centrodeojoslazarte.com/?cb=$RANDOM" || true)
+            if printf '%s' "$vivo" | grep -qF '423-3716' \
+               && printf '%s' "$vivo" | grep -qF '"department"'; then
+              echo "✅ La web viva tiene el teléfono fijo y el schema de las dos sedes."
+              exit 0
+            fi
+            echo "  intento $i: todavía no aparece"
+          done
+          echo "❌ El deploy terminó pero la web viva NO se actualizó."
+          echo "   Revisar: server-dir del workflow, o que el usuario FTP apunte"
+          echo "   a la carpeta correcta del sitio."
+          exit 1
