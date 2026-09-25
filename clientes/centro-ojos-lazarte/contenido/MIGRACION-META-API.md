@@ -158,6 +158,27 @@ GET /<IG_USER_ID>?fields=followers_count,media_count
 
 ---
 
+## ⚠️ Trampa: un 200 de Graph no prueba que el token sirva
+
+Probado el 25/09/2026 desde el contenedor: esta llamada, **sin mandar ningún
+token**, devuelve 200 con los datos reales de la cuenta.
+
+```bash
+curl -s "https://graph.facebook.com/v21.0/17841414497159496?fields=username,followers_count,media_count"
+# {"username":"centrodeojoslazarte","followers_count":28,"media_count":8,...}
+```
+
+Algo en este entorno responde esas llamadas sin autenticación. Por eso
+**verificar el token pidiendo los datos de la cuenta no verifica nada**: da 200
+igual aunque el token esté vencido, mal generado o directamente ausente.
+
+Lo único que verifica de verdad es **`debug_token`**, que además lista los
+permisos. Es lo que hace `publicar_ig.py --verificar`, y por eso falla explícito
+si falta `instagram_content_publish` — que si no, recién se descubre cuando la
+publicación revienta.
+
+---
+
 ## El prompt nuevo de la rutina
 
 Cuando el token esté cargado y las placas en `main`, la rutina

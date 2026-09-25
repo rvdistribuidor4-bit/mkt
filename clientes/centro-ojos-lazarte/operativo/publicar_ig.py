@@ -43,10 +43,41 @@ def llamar(metodo, ruta, **params):
         sys.exit(f"Meta respondio {e.code}: {detalle}")
 
 
+# Permisos sin los cuales no se puede publicar ni medir.
+NECESARIOS = {"instagram_basic", "instagram_content_publish", "instagram_manage_insights"}
+
+
 def verificar():
+    """Verifica el TOKEN, no la conectividad.
+
+    Ojo: pedirle a Graph los datos publicos de la cuenta NO sirve como prueba.
+    En este entorno esa llamada devuelve 200 con datos reales aun sin mandar
+    ningun token, asi que un 200 ahi no dice nada. Lo unico que verifica de
+    verdad el token es debug_token, que ademas lista sus permisos: si falta
+    instagram_content_publish, la publicacion falla recien al intentarla.
+    """
+    t = token()
+    d = llamar("GET", "debug_token", input_token=t).get("data", {})
+    if not d.get("is_valid"):
+        sys.exit(f"❌ el token NO es valido: {d.get('error', {}).get('message', d)}")
+
+    scopes = set(d.get("scopes", []))
+    vence = d.get("expires_at", 0)
+    print(f"✅ token valido — app {d.get('app_id')} · tipo {d.get('type')}")
+    print("   vencimiento: " + ("NUNCA (usuario del sistema)" if not vence
+          else datetime.datetime.fromtimestamp(vence).strftime("%Y-%m-%d %H:%M")))
+
+    faltan = NECESARIOS - scopes
+    for p_ in sorted(NECESARIOS):
+        print(f"   {'✅' if p_ in scopes else '❌'} {p_}")
+    if faltan:
+        sys.exit(f"\n❌ faltan permisos: {', '.join(sorted(faltan))}\n"
+                 "   Regenerar el token tildandolos. Ver contenido/MIGRACION-META-API.md")
+
     yo = llamar("GET", IG_USER_ID, fields="username,followers_count,media_count")
-    print(f"✅ token OK — @{yo['username']}  ·  {yo['followers_count']} seguidores"
-          f"  ·  {yo['media_count']} publicaciones")
+    print(f"   cuenta: @{yo['username']} · {yo['followers_count']} seguidores"
+          f" · {yo['media_count']} publicaciones")
+    print("\n✅ listo para publicar")
 
 
 # ---------- la cola vive en plan-mes.md ----------
