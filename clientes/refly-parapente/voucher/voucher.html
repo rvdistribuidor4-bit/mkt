@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+/* Voucher de vuelo — Refly Experience.
+   Medidas: 1600x1000 px. Entra bien en WhatsApp y se imprime en A5 apaisado.
+   La paleta es PROVISORIA: cuando el cliente defina marca, se cambian estas
+   cuatro variables y listo. */
+:root{
+  --noche:#0B1D2E;      /* fondo */
+  --cielo:#11334F;      /* degradado */
+  --sol:#E8A33D;        /* acento cálido */
+  --hueso:#F7F5F1;      /* texto principal */
+  --tenue:#9FB3C4;      /* texto de apoyo */
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#333;font-family:Inter,sans-serif}
+.v{width:1600px;height:1000px;position:relative;overflow:hidden;
+   background:linear-gradient(140deg,var(--noche) 0%,var(--cielo) 62%,#16466B 100%);
+   color:var(--hueso);display:flex}
+/* silueta de sierra: dibujada, no es una foto de un lugar que no sea el real */
+.sierra{position:absolute;left:0;right:0;bottom:0;height:300px;opacity:.28}
+.izq{width:63%;padding:78px 70px 64px;display:flex;flex-direction:column;position:relative;z-index:2}
+.der{width:37%;padding:78px 60px 64px;display:flex;flex-direction:column;
+     border-left:2px dashed rgba(159,179,196,.4);position:relative;z-index:2}
+.marca{font-family:Fraunces,serif;font-size:42px;letter-spacing:.16em;font-weight:600}
+.marca small{display:block;font-family:Inter;font-size:15px;letter-spacing:.34em;
+             color:var(--sol);font-weight:600;margin-top:6px}
+.tipo{font-size:19px;letter-spacing:.26em;text-transform:uppercase;color:var(--sol);
+      font-weight:700;margin-top:58px}
+h1{font-family:Fraunces,serif;font-size:82px;line-height:1.04;font-weight:600;margin-top:18px}
+.para{margin-top:46px;font-size:21px;letter-spacing:.2em;text-transform:uppercase;color:var(--tenue);font-weight:600}
+.nombre{font-family:Fraunces,serif;font-size:60px;margin-top:10px;color:var(--sol);line-height:1.1}
+.de{margin-top:26px;font-size:24px;color:var(--tenue)}
+.de b{color:var(--hueso);font-weight:600}
+.pie{margin-top:auto;font-size:20px;color:var(--tenue);line-height:1.6}
+.dato{border-top:2px solid rgba(232,163,61,.5);padding-top:16px;margin-bottom:30px}
+.dato span{display:block;font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--tenue);font-weight:600}
+.dato b{display:block;font-size:34px;margin-top:8px;font-weight:700}
+.dato b.chico{font-size:25px;line-height:1.35;font-weight:600}
+.cond{margin-top:auto;font-size:16px;line-height:1.65;color:var(--tenue)}
+.cond b{color:var(--hueso)}
+</style></head><body>
+
+<div class="v">
+  <svg class="sierra" viewBox="0 0 1600 300" preserveAspectRatio="none">
+    <path d="M0,300 L0,190 L150,120 L300,175 L470,80 L640,160 L820,60 L1000,150 L1180,95 L1360,165 L1600,110 L1600,300 Z" fill="#000"/>
+  </svg>
+
+  <div class="izq">
+    <div class="marca">REFLY<small>EXPERIENCE</small></div>
+    <div class="tipo">Voucher de vuelo</div>
+    <h1>Un vuelo en<br>parapente biplaza</h1>
+    <div class="para">Para</div>
+    <div class="nombre" id="para">—</div>
+    <div class="de">De parte de <b id="de">—</b></div>
+    <div class="pie">Cuchi Corral · La Cumbre, Córdoba<br>Vuelo biplaza con piloto · 15 a 20 minutos en el aire</div>
+  </div>
+
+  <div class="der">
+    <div class="dato"><span>Código</span><b id="codigo">—</b></div>
+    <div class="dato"><span>Válido hasta</span><b id="vence">—</b></div>
+    <div class="dato"><span>Cómo se usa</span><b class="chico">Escribinos por WhatsApp con este código y coordinamos la fecha.</b></div>
+    <div class="cond">
+      <b>Vigencia de 12 meses</b> desde la emisión.<br><br>
+      <b>Si el clima no permite volar, se reprograma sin costo</b>, las veces que
+      haga falta, dentro de la vigencia.<br><br>
+      El vuelo se coordina con pronóstico. Sujeto a condiciones meteorológicas y
+      a los requisitos de peso y edad vigentes.
+    </div>
+  </div>
+</div>
+</body></html>
