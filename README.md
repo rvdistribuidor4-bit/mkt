@@ -12,11 +12,14 @@ mkt/
 │   │   ├── web/                ← Sitio web (HTML/CSS/JS, estático)
 │   │   ├── contenido/          ← Planes IG + blog, auditorías
 │   │   └── marca/              ← Línea visual, accesos, datos
-│   └── velero-thyra/           ← Velero Thyra, San Blas (Panamá)
-│       ├── web/                ← Landing bilingüe EN/ES, estática
-│       ├── ESTRATEGIA.md       ← Análisis de conversión
-│       ├── contenido/          ← Plan IG + blog
-│       └── marca/              ← Paleta
+│   ├── velero-thyra/           ← Velero Thyra, San Blas (Panamá)
+│   │   ├── web/                ← Landing bilingüe EN/ES, estática
+│   │   ├── ESTRATEGIA.md       ← Análisis de conversión
+│   │   ├── contenido/          ← Plan IG + blog + carrusel y reel
+│   │   └── marca/              ← Paleta
+│   └── refly-parapente/        ← Refly Experience, parapente en Cuchi Corral
+│       ├── ESTRATEGIA.md       ← Análisis de mercado y plan
+│       └── DATOS-PENDIENTES.md ← Lo que falta saber
 └── _plantillas/                ← Recursos reutilizables entre clientes
 ```
 
