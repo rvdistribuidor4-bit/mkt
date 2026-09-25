@@ -48,7 +48,7 @@ jobs:
           username: ${{ secrets.HOSTINGER_FTP_USER }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
           local-dir: clientes/centro-ojos-lazarte/web/
-          server-dir: public_html/
+          server-dir: ./
           # Sube solo lo que cambio. Lo que ya estaba en el servidor y no viene
           # del repo NO se borra: dangerous-clean-slate queda en false.
           dangerous-clean-slate: false
