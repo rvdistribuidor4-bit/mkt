@@ -33,7 +33,7 @@ def token():
     return os.environ.get("META_IG_TOKEN")
 
 
-def llamar(metodo, ruta, **params):
+def llamar(metodo, ruta, fatal=True, **params):
     t = token()
     if t:
         params["access_token"] = t
@@ -48,6 +48,9 @@ def llamar(metodo, ruta, **params):
         detalle = e.read().decode(errors="replace")
         # el token viaja en la query: no dejarlo en el log
         detalle = re.sub(r"access_token=[^&\"\s]+", "access_token=<oculto>", detalle)
+        if not fatal:
+            print(f"   ⚠️  Meta respondio {e.code}: {detalle}")
+            return None
         sys.exit(f"Meta respondio {e.code}: {detalle}")
 
 
@@ -79,6 +82,18 @@ def verificar(probar_publicacion=False):
     print("   ✅ instagram_basic")
     llamar("GET", f"{IG_USER_ID}/insights", metric="reach", period="day")
     print("   ✅ instagram_manage_insights")
+
+    # OJO: leer comentarios NO prueba que se puedan escribir. Probado el
+    # 25/09/2026: la lectura daba OK y la escritura fallaba con
+    # "(#10) Application does not have permission for this action", que es un
+    # permiso de la APP, no del token. Lo unico que lo probaria es comentar de
+    # verdad, y eso deja rastro publico. Por eso se informa y no se afirma.
+    ultimo = llamar("GET", f"{IG_USER_ID}/media", limit=1, fields="id")["data"]
+    if ultimo and llamar("GET", f"{ultimo[0]['id']}/comments", fatal=False, limit=1) is not None:
+        print("   ·  comentarios: lectura OK — la escritura puede fallar igual (error #10)")
+    else:
+        print("   ·  comentarios: ni siquiera se pueden leer")
+    print("      Por eso el CTA de WhatsApp va dentro del CAPTION, no en un comentario.")
 
     if probar_publicacion:
         # Crear un contenedor NO publica: queda invisible y expira a las 24 h.
@@ -131,9 +146,22 @@ def publicar(m, ensayo):
     pub = llamar("POST", f"{IG_USER_ID}/media_publish", creation_id=cont["id"])
     media_id = pub["id"]
     print(f"   publicado · media_id {media_id}")
-    llamar("POST", f"{media_id}/comments", message=COMENTARIO)
-    print("   comentario de WhatsApp agregado")
     return media_id
+
+
+def comentar(media_id):
+    """Agrega el comentario de WhatsApp. NO es fatal si falla.
+
+    Aprendido a los golpes el 25/09/2026: el post salio bien, el comentario
+    fallo por permiso, el script murio ahi y el estado quedo sin marcar. La
+    proxima corrida habria publicado el mismo post de nuevo. Por eso el estado
+    se guarda ANTES y esto es lo ultimo que pasa.
+    """
+    if llamar("POST", f"{media_id}/comments", fatal=False, message=COMENTARIO):
+        print("   comentario de WhatsApp agregado")
+    else:
+        print("   ⚠️  el comentario NO se agrego — hay que ponerlo a mano.")
+        print("      Suele ser el permiso instagram_manage_comments.")
 
 
 if __name__ == "__main__":
@@ -154,7 +182,8 @@ if __name__ == "__main__":
             sys.exit(0)
         media_id = publicar(m, a.ensayo)
         if media_id:
-            marcar(texto, m, media_id)
+            marcar(texto, m, media_id)          # primero el estado, siempre
             print("   plan-mes.md actualizado")
+            comentar(media_id)                  # y despues lo accesorio
     else:
         ap.print_help()
