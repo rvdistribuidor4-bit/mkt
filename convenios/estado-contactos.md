@@ -3,6 +3,12 @@
 > Basado en la lectura de la casilla `contacto@centrodeojoslazarte.com` · Actualizado: 2026-09-23
 > Base de datos completa (filtrable): [`base-datos-contactos.csv`](base-datos-contactos.csv)
 
+## 🔔 Ronda 25/09/2026
+- 🟢 **Jerárquicos Salud:** respondieron (prestadores@ y Convenios@jerarquicos.com) y enviaron el **formulario editable de alta de prestador** → completar + documentación y remitir. Muy encaminado.
+- 🟢 **OSDEPYM (Mónica Bussoli):** pidió la propuesta arancelaria; le enviamos el **nomenclador + Excel**. En evaluación.
+- 💬 **Omint:** derivó a **Contrataciones Córdoba → convenioscba@omint.com.ar** (reenviar la solicitud ahí).
+- Base: 174 entidades. Enviados esperando: 20 · Borradores a revisar: 12 · Sin contactar (cola larga): 120.
+
 ## 🔔 Ronda 24/09/2026
 - **Enviados los 11 borradores** (5 prepagas + 5 OOSS + Prevención Salud) y los 3 gremios (UOM, Luz y Fuerza, Camioneros).
 - **Respuestas:**

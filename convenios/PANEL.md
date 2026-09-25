@@ -1,16 +1,28 @@
 # 🧭 PANEL DE CONTROL — Convenios Lazarte
 
 > **El archivo para saber, de un vistazo, en qué estamos.** Uso exclusivo de Ricky.
-> Última actualización: **2026-09-24** (11 borradores enviados · Boreal acordado · nueva prospección Córdoba)
+> Última actualización: **2026-09-25** (Jerárquicos y OSDEPYM avanzando · Omint derivó a Córdoba)
 > (Índice detallado de carpetas: [`README.md`](README.md))
 
 ---
 
 ## 📍 En una línea
 
-Tenemos **4 negociaciones calientes** (Sancor, BRAMED, Boreal, OPDEA), una **base de 124 entidades**
-para salir a buscar convenios, **14 mails de recontacto listos para enviar**, el **flyer del programa
-municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (catarata municipio $850.000 por ojo, todo incluido).
+**Base de 174 entidades.** Convenios avanzando fuerte: **Boreal acordado**, **Jerárquicos** (mandaron formulario de alta), **OSDEPYM** (les pasamos el arancel), OPDEA en evaluación, más Sancor y BRAMED calientes. Frente municipal VER PARA VIVIR completo (flyer + presentación + convenio).
+
+## 📊 Tablero de estado (25/09)
+
+| Estado | Nº |
+|---|---|
+| 🟢 Convenio vigente (PAMI, APROSS) | 2 |
+| 🤝 Acordado / cerrando (Boreal, BRAMED) | 2-3 |
+| 🔵 En curso / evaluando (OPDEA, Jerárquicos, OSDEPYM, Omint) | 4+ |
+| 💬 Respondió (Galeno, Geanet, Sancor…) | 4 |
+| ✉️ Enviado, esperando respuesta | 20 |
+| 📝 Borrador a revisar/enviar | 12 |
+| ⚠️ Email inválido / rebote | 5 |
+| ❌ Rechazado (por ahora): CES, Caja Abogados, Federada, Coop. Red | 4 |
+| ⚪ Sin contactar (cola larga) | 120 |
 
 ---
 
@@ -31,7 +43,10 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Qué | Estado | Próximo paso |
 |---|---|---|
-| **Boreal** | ✅ **Acordado** — Ricky aceptó la contrapropuesta (23/09) | Esperar indicaciones de alta (C. Santillan) |
+| **Boreal** | ✅ **Acordado** — Ricky aceptó la contrapropuesta | Esperar indicaciones de alta (C. Santillan) |
+| **Jerárquicos** | 🟢 Mandaron el **formulario de alta de prestador** | Completar formulario + documentación y remitir a convenios@jerarquicos.com |
+| **OSDEPYM** | 🟢 Mónica pidió el arancel → **se lo enviamos** (nomenclador + Excel) | Esperar evaluación |
+| **Omint** | 💬 Derivó a Contrataciones Córdoba | Reenviar solicitud a **convenioscba@omint.com.ar** |
 | **Sancor Salud** | Muy caliente (nos contactaron ellos) | Cerrar — lo maneja Ricky |
 | **BRAMED** | Acordó 48/52 valores | Definir cirugía de catarata y firmar |
 | **OPDEA** | En evaluación por Gerencia de Prestaciones | Aguardar resolución |
@@ -87,6 +102,7 @@ municipal VER PARA VIVIR aprobado**, y la **comparativa de precios cerrada** (ca
 
 | Fecha | Qué hicimos |
 |---|---|
+| **25/09** | Respuestas: **Jerárquicos** mandó formulario de alta; **Omint** derivó a Contrataciones Córdoba (convenioscba@); **OSDEPYM** recibió el arancel + Excel. Base y panel actualizados. |
 | **24/09** | **12 borradores nuevos**: 10 gremios con OS propia (SMATA, Bancaria, UOCRA, ATSA, CISPREN, STIA, SURRBAC, AVVA, SETIA, Caja Salud) + OSDOP y Medifé recuperados. Instructivo OSDE/OSECAC/Accord creado. |
 | **24/09** | Prospección Córdoba: **+50 entidades nuevas** (27 colegios/cajas/cámaras + 23 sindicatos/mutuales; base = 174). Recuperados OSDOP y Medifé (rebotes). |
 | **24/09** | Ricky envió los 11 borradores. Respuestas: **Boreal acordado**, OPDEA en evaluación, Galeno suspendido; **rechazos** CES y Caja Abogados; **rebotes** Medifé/Avalian/OSDOP. Lanzada prospección de Córdoba (sindicatos, mutuales, cámaras, colegios). |
