@@ -220,10 +220,10 @@ No son urgentes; se suman cuando el Instagram ya esté andando.
   Cloud agregada como usuario en la propiedad. Es la fuente que hoy muestra los
   112 clics mensuales, o sea la más valiosa que tiene el cliente.
 - **GA4** — API gratuita, misma cuenta de servicio.
-  ⚠️ **Antes de conectarla hay que resolver otra cosa:** GA4 no registra ni una
-  sesión en 30 días mientras Search Console ve 112 clics. Conectar la API no
-  sirve de nada hasta que se verifique que el tag está instalado en el sitio que
-  está online.
+  ⚠️ Windsor devolvió cero sesiones en 30 días mientras Search Console veía 112
+  clics. **Pero ese dato no está confirmado**: Windsor también devolvió mal el
+  link de la bio de Instagram (ver README). Antes de sacar conclusiones, mirar
+  GA4 directo.
 
 ---
 

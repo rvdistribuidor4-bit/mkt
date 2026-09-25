@@ -23,11 +23,16 @@ Marketing gestionado por ARA (redes + web + SEO local).
 
 ## Pendientes manuales (del cliente)
 
-- [ ] 🔴 **Link de la bio de IG → WhatsApp.** La bio dice «Turnos por WhatsApp ⤵️»
-      y el link registrado es la web. Es el único paso entre ver un post y
-      escribir, y está pendiente desde el principio
-- [ ] 🔴 **Verificar el tag de GA4 en el sitio online.** Search Console reporta
-      112 clics en 30 días y GA4 no registra ni una sesión
+- [x] ~~Link de la bio de IG → WhatsApp~~ → **ya está bien.** Verificado contra la
+      API de Meta el 25/09/2026: `website = https://wa.me/5493516371007`.
+      ⚠️ Windsor devolvía `centrodeojoslazarte.com` para ese mismo campo —
+      dato viejo de su caché. Lo di por bueno y lo marqué en rojo por error.
+      **Moraleja: los campos de Windsor se contrastan contra la fuente antes
+      de armar una recomendación encima.**
+- [ ] 🟡 **Verificar el tag de GA4 en el sitio online.** Search Console reporta
+      112 clics en 30 días y GA4 devolvió cero sesiones. **Dato sin confirmar:**
+      salió de Windsor, la misma fuente que se equivocó con el link de la bio.
+      Antes de tocar nada, mirar GA4 directo
 - [ ] Crear la app de Meta y pasar el token (ver `contenido/MIGRACION-META-API.md`)
 - [ ] Fijar comentario de WhatsApp en el último post de IG
 - [ ] Conectar Google Business (Windsor) o pasar captura de la ficha de Maps
