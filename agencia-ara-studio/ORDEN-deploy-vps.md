@@ -1,47 +1,60 @@
-# Orden para el Claude que administra el VPS de ARA Solutions
-*(Copiá y pegá el bloque de abajo en ese chat. Antes, completá lo que está entre [ ].)*
+# Orden DEFINITIVA para el Claude que administra el VPS de ARA Solutions
+**Dominio:** studio.arasolutions.com.ar · **Web server:** Caddy (NO nginx) · A record ya cargado.
+
+> Versión segura: el VPS corre Caddy con Health, TV, Master y Distribution. NO se instala
+> nginx (pelearía por 80/443). Se agrega un vhost estático, con diff + validación + OK
+> antes de recargar, y reload (no restart).
 
 ---
 
-## 📋 Bloque para pegar
+## 📋 Bloque para pegar en el chat del VPS
 
 ```
-Necesito desplegar un sitio web estático nuevo en este VPS: la landing de ARA Studio
-(nuestra unidad de marketing). Es HTML/CSS puro, sin backend ni base de datos.
+Necesito desplegar un sitio web estático nuevo: la landing de
+ARA Studio. Es HTML/CSS puro, sin backend ni base de datos.
 
-ARCHIVOS (ya están en GitHub, repo público):
+IMPORTANTE — NO instales nginx. El VPS usa Caddy y ahí corren
+Health, TV, Master y Distribution. nginx pelearía por los puertos
+80/443 y puede tirar abajo los 4 servicios. Servilo con Caddy,
+que ya maneja HTTPS automático (sin certbot).
+
+DOMINIO: studio.arasolutions.com.ar
+(El registro A ya está cargado apuntando al VPS.)
+
+ARCHIVOS (repo público):
 - Repo: https://github.com/rvdistribuidor4-bit/mkt
-- Carpeta: agencia-ara-studio/web/  (index.html + ara-icon.png)
-- Raw index: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/agencia-ara-studio/web/index.html
-- Raw icono: https://raw.githubusercontent.com/rvdistribuidor4-bit/mkt/main/agencia-ara-studio/web/ara-icon.png
+- Carpeta: agencia-ara-studio/web/ (index.html + ara-icon.png)
 
-QUÉ NECESITO QUE HAGAS:
-1. Clonar/descargar esos 2 archivos al VPS (mantené la estructura: index.html y ara-icon.png en la misma carpeta).
-2. Servirlo con nginx como sitio estático en el dominio/subdominio: [ARA_STUDIO_DOMINIO]
-   (ej.: studio.[DOMINIO-ARA-SOLUTIONS]  ó  el dominio propio arastudio.com.ar si ya lo tengo).
-3. Configurar HTTPS con Let's Encrypt/certbot (SSL válido) y forzar HTTP→HTTPS.
-4. Confirmarme la IP del servidor y qué registro DNS tengo que crear (A / CNAME) para apuntar el dominio.
-5. Dejarlo como carpeta versionable para poder actualizarlo después con un git pull (yo lo actualizo desde el mismo repo).
+QUÉ NECESITO:
+1) Clonar el repo en el VPS como carpeta versionable, para poder
+   actualizar después con git pull. Elegí la ruta según cómo está
+   organizado /opt/ara y decime cuál usaste.
+2) Agregar un vhost estático en el Caddyfile para
+   studio.arasolutions.com.ar. HTTPS automático. Sin tocar ningún
+   vhost existente.
+3) ANTES de recargar Caddy: mostrame el diff del Caddyfile y
+   validá la config con caddy validate. Esperá mi OK.
+4) Recargá (reload, NO restart) para no cortar los servicios
+   que están arriba.
+5) Después del reload, verificá obligatoriamente que health, tv,
+   app y distribution siguen respondiendo, y que
+   studio.arasolutions.com.ar carga con certificado válido y
+   redirige HTTP→HTTPS.
+6) README corto con el comando de actualización (git pull).
 
-DATOS:
-- Es 100% estático (nginx sirviendo index.html). No necesita Node, PHP ni DB.
-- Fuentes tipográficas: se cargan desde Google Fonts (Sora + Manrope) — el server no necesita nada extra.
-- Si querés, dejá un pequeño script/README para actualizarlo (git pull en la carpeta del sitio).
-
-Cuando esté arriba, pasame la URL final y la IP + el registro DNS a cargar.
+Las fuentes vienen de Google Fonts, el server no necesita nada
+extra. Mostrame el diff del Caddyfile y esperá mi OK antes de
+recargar.
 ```
 
 ---
 
-## ✅ Notas para vos (Ricardo) — antes de mandar la orden
-1. **Definí el dominio/subdominio** y reemplazá `[ARA_STUDIO_DOMINIO]`:
-   - **Opción rápida (recomendada):** un **subdominio** del dominio que ya usa ARA Solutions (ej. `studio.arasolutions.xxx`). No hay que comprar nada, sale hoy.
-   - **Opción marca propia:** un dominio nuevo `arastudio.com` / `arastudio.com.ar` (hay que verificar disponibilidad y comprarlo).
-2. **Pendiente menor:** en la web hay un **placeholder de WhatsApp** (`000000000`). Cuando me pases tu número de ARA Studio, lo actualizo en el repo y el VPS lo toma con un `git pull`.
-3. El sitio ya quedó **versionado en el repo** (`agencia-ara-studio/web/`), así que futuras mejoras las hago yo ahí y el VPS solo actualiza.
+## Cómo actualizamos a futuro
+- Yo edito `agencia-ara-studio/web/index.html` en el repo → push a `main`.
+- En el VPS: `git pull` en la carpeta del sitio (o le decís al Claude del VPS "actualizá el sitio de ARA Studio").
+- El `git pull` trae los cambios de la rama **main**.
 
-## Cómo actualizamos a futuro (sin fricción)
-- Yo edito `agencia-ara-studio/web/index.html` en el repo → push.
-- El VPS hace `git pull` (o vos le decís al Claude del VPS "actualizá el sitio de ARA Studio") → cambios online.
+## Pendiente menor (lo actualizo yo)
+- La web tiene un placeholder de WhatsApp (`000000000`). Cuando me pases tu número de ARA Studio, lo cambio en el repo y el VPS lo toma con `git pull`.
 
 *Última actualización: 2026-09-25.*
