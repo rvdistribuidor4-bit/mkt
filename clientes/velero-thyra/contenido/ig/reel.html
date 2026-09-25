@@ -1,0 +1,110 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:transparent}
+/* cada capa es un 1080x1920 transparente que ffmpeg superpone sobre foto o video */
+.ov{width:1080px;height:1920px;position:relative;font-family:Inter,sans-serif;color:#fff;
+    overflow:hidden;margin-bottom:30px}
+/* velo inferior: sin esto el texto blanco desaparece sobre agua clara */
+.velo{position:absolute;left:0;right:0;bottom:0;height:1250px;
+      background:linear-gradient(180deg,rgba(4,33,46,0) 0%,rgba(4,33,46,.58) 40%,rgba(4,33,46,.93) 100%)}
+.txt{position:absolute;left:84px;right:84px;bottom:430px}   /* 430 = zona segura de Reels */
+.eyebrow{font-size:27px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:#C08A4E;margin-bottom:26px}
+h1{font-family:Fraunces,serif;font-weight:600;font-size:94px;line-height:1.04;letter-spacing:-.02em;
+   text-shadow:0 3px 34px rgba(4,33,46,.75)}
+h1 em{font-style:italic;color:#3FC1B0}
+.sub{font-size:37px;line-height:1.45;color:#fff;margin-top:28px;max-width:20ch;
+     text-shadow:0 2px 24px rgba(4,33,46,.8)}
+.marca{position:absolute;left:84px;bottom:250px;font-family:Fraunces,serif;font-size:38px;letter-spacing:.14em;font-weight:600}
+.marca small{display:block;font-family:Inter;font-size:18px;letter-spacing:.3em;color:#3FC1B0;font-weight:600;margin-top:4px}
+/* placa de datos: las filas aparecen de a una, por eso se rinde en capas */
+.pl .velo{display:none}
+.centro{position:absolute;left:84px;right:84px;top:52%;transform:translateY(-50%)}
+.dato{border-top:3px solid #C08A4E;padding-top:24px;margin-bottom:64px}
+.dato b{font-family:Fraunces,serif;font-size:104px;line-height:1;display:block}
+.dato span{font-size:33px;color:rgba(255,255,255,.78);margin-top:14px;display:block}
+.remate{font-family:Fraunces,serif;font-size:58px;line-height:1.26;color:#3FC1B0;margin-top:34px}
+.oculto{visibility:hidden}   /* guarda el lugar: todas las capas calzan al pixel */
+.precio{font-family:Fraunces,serif;font-size:132px;line-height:1;text-shadow:0 3px 30px rgba(4,33,46,.7)}
+.precio small{font-family:Inter;font-size:32px;color:#fff;display:block;margin-top:16px;font-weight:500;
+              text-shadow:0 2px 20px rgba(4,33,46,.8)}
+.wa{display:inline-flex;background:#3FC1B0;color:#04212E;font-weight:700;font-size:34px;
+    padding:28px 50px;border-radius:100px;margin-top:44px}
+</style></head><body>
+
+<!-- ov1 · gancho -->
+<div class="ov"><div class="velo"></div><div class="txt">
+  <div class="eyebrow">San Blas · Guna Yala</div>
+  <h1>Este velero tiene <em>62 años</em>.</h1></div></div>
+
+<!-- ov2 · y sigue navegando -->
+<div class="ov"><div class="velo"></div><div class="txt">
+  <h1>Y sigue cruzando el Caribe.</h1></div></div>
+
+<!-- ov3..ov7 · placa de datos, fila por fila (acumulativas) -->
+<div class="ov pl">
+  <div class="eyebrow" style="position:absolute;left:84px;top:300px">La ficha</div>
+  <div class="centro">
+    <div class="dato oculto"><b>1964</b><span>Construido en Suecia, en madera polaca</span></div>
+    <div class="dato oculto"><b>Madera</b><span>El casco, no fibra. Pintado de blanco</span></div>
+    <div class="dato oculto" style="margin-bottom:0"><b>13 t</b><span>Un 42 pies moderno pesa la mitad</span></div>
+    <div class="remate oculto">Por eso no se zarandea.</div></div>
+  <div class="marca">THYRA<small>SAN BLAS</small></div></div>
+
+<div class="ov pl">
+  <div class="eyebrow" style="position:absolute;left:84px;top:300px">La ficha</div>
+  <div class="centro">
+    <div class="dato"><b>1964</b><span>Construido en Suecia, en madera polaca</span></div>
+    <div class="dato oculto"><b>Madera</b><span>El casco, no fibra. Pintado de blanco</span></div>
+    <div class="dato oculto" style="margin-bottom:0"><b>13 t</b><span>Un 42 pies moderno pesa la mitad</span></div>
+    <div class="remate oculto">Por eso no se zarandea.</div></div>
+  <div class="marca">THYRA<small>SAN BLAS</small></div></div>
+
+<div class="ov pl">
+  <div class="eyebrow" style="position:absolute;left:84px;top:300px">La ficha</div>
+  <div class="centro">
+    <div class="dato"><b>1964</b><span>Construido en Suecia, en madera polaca</span></div>
+    <div class="dato"><b>Madera</b><span>El casco, no fibra. Pintado de blanco</span></div>
+    <div class="dato oculto" style="margin-bottom:0"><b>13 t</b><span>Un 42 pies moderno pesa la mitad</span></div>
+    <div class="remate oculto">Por eso no se zarandea.</div></div>
+  <div class="marca">THYRA<small>SAN BLAS</small></div></div>
+
+<div class="ov pl">
+  <div class="eyebrow" style="position:absolute;left:84px;top:300px">La ficha</div>
+  <div class="centro">
+    <div class="dato"><b>1964</b><span>Construido en Suecia, en madera polaca</span></div>
+    <div class="dato"><b>Madera</b><span>El casco, no fibra. Pintado de blanco</span></div>
+    <div class="dato" style="margin-bottom:0"><b>13 t</b><span>Un 42 pies moderno pesa la mitad</span></div>
+    <div class="remate oculto">Por eso no se zarandea.</div></div>
+  <div class="marca">THYRA<small>SAN BLAS</small></div></div>
+
+<div class="ov pl">
+  <div class="eyebrow" style="position:absolute;left:84px;top:300px">La ficha</div>
+  <div class="centro">
+    <div class="dato"><b>1964</b><span>Construido en Suecia, en madera polaca</span></div>
+    <div class="dato"><b>Madera</b><span>El casco, no fibra. Pintado de blanco</span></div>
+    <div class="dato" style="margin-bottom:0"><b>13 t</b><span>Un 42 pies moderno pesa la mitad</span></div>
+    <div class="remate">Por eso no se zarandea.</div></div>
+  <div class="marca">THYRA<small>SAN BLAS</small></div></div>
+
+<!-- ov8 · interior -->
+<div class="ov"><div class="velo"></div><div class="txt">
+  <div class="eyebrow">Abajo</div>
+  <h1>Caoba y bronce.</h1>
+  <div class="sub">Barcos así ya no se construyen.</div></div></div>
+
+<!-- ov9 · la ventaja -->
+<div class="ov"><div class="velo"></div><div class="txt">
+  <h1>Cinco pasajeros.<br><em>No cincuenta.</em></h1></div></div>
+
+<!-- ov10 · cierre -->
+<div class="ov"><div class="velo" style="height:1560px;background:linear-gradient(180deg,rgba(4,33,46,0) 0%,rgba(4,33,46,.62) 36%,rgba(4,33,46,.95) 100%)"></div>
+  <div class="txt" style="bottom:400px">
+  <div class="eyebrow">Día completo · 12 horas</div>
+  <div class="precio">US$120<small>por persona · barco de 5 plazas</small></div>
+  <div class="wa">WhatsApp · link en la bio</div></div>
+  <div class="marca" style="bottom:250px">THYRA<small>SAN BLAS</small></div></div>
+
+</body></html>
