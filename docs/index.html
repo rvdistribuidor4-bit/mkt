@@ -163,6 +163,8 @@
   .feat .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;font-size:1.35rem;
     background:color-mix(in srgb,var(--blue) 14%,transparent);margin-bottom:1rem;
     transition:transform .28s ease}
+  .feat .ic svg{width:23px;height:23px;stroke:var(--blue);fill:none;stroke-width:1.7;
+    stroke-linecap:round;stroke-linejoin:round}
   .feat h3{font-size:1.18rem;font-weight:700;letter-spacing:-.01em}
   .feat p{color:var(--muted);font-size:.96rem;margin-top:.5rem}
 
@@ -239,7 +241,7 @@
   .rubro{flex:none;display:inline-flex;align-items:center;gap:.55rem;white-space:nowrap;
     background:var(--surface);border:1px solid var(--line);border-radius:999px;
     padding:.7rem 1.2rem;font-family:"Sora";font-weight:600;font-size:.95rem;box-shadow:var(--shadow-sm)}
-  .rubro span{font-size:1.15rem}
+  .rubro span{display:none}
 
   /* COMPARATIVA */
   .vs{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:.5rem}
@@ -502,12 +504,12 @@
       <p>No piezas sueltas: un sistema de presencia y captación integrado, montado y medido por nosotros.</p>
     </div>
     <div class="grid3 reveal">
-      <div class="feat"><div class="ic">🧩</div><h3>Presencia completa</h3><p>Web + Google Maps + Instagram + embudo a WhatsApp + reseñas. Todo conectado y coherente.</p></div>
-      <div class="feat"><div class="ic">🤖</div><h3>Contenido con IA</h3><p>Imágenes, video y locución generados con IA. Reels profesionales sin que grabes nada.</p></div>
-      <div class="feat"><div class="ic">🎯</div><h3>Orientado a resultados</h3><p>No perseguimos likes: perseguimos consultas y ventas, con embudo real a WhatsApp.</p></div>
-      <div class="feat"><div class="ic">📊</div><h3>Reportes claros</h3><p>Ves lo que entra y el retorno. Números que se entienden, sin humo.</p></div>
-      <div class="feat"><div class="ic">⭐</div><h3>Reputación</h3><p>Motor de reseñas de Google para ser la ficha que más confianza genera en tu zona.</p></div>
-      <div class="feat"><div class="ic">🛡️</div><h3>Exclusividad</h3><p>No tomamos dos competidores directos. Tu rubro queda protegido con nosotros.</p></div>
+      <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 16l9 5 9-5"/></svg></div><h3>Presencia completa</h3><p>Web + Google Maps + Instagram + embudo a WhatsApp + reseñas. Todo conectado y coherente.</p></div>
+      <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3"/><path d="M12 8.5l1.3 2.2 2.2 1.3-2.2 1.3L12 15.5l-1.3-2.2L8.5 12l2.2-1.3L12 8.5z"/></svg></div><h3>Contenido con IA</h3><p>Imágenes, video y locución generados con IA. Reels profesionales sin que grabes nada.</p></div>
+      <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg></div><h3>Orientado a resultados</h3><p>No perseguimos likes: perseguimos consultas y ventas, con embudo real a WhatsApp.</p></div>
+      <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M6 20v-6M11 20V8M16 20v-9"/></svg></div><h3>Reportes claros</h3><p>Ves lo que entra y el retorno. Números que se entienden, sin humo.</p></div>
+      <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.8 6.8 19.5l1-5.8L3.6 9.6l5.8-.8L12 3.5z"/></svg></div><h3>Reputación</h3><p>Motor de reseñas de Google para ser la ficha que más confianza genera en tu zona.</p></div>
+      <div class="feat"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.2c0 4.6-3.2 7.8-7.5 9.3-4.3-1.5-7.5-4.7-7.5-9.3V6L12 3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Exclusividad</h3><p>No tomamos dos competidores directos. Tu rubro queda protegido con nosotros.</p></div>
     </div>
   </div>
 </section>
@@ -583,7 +585,7 @@
     </div>
     <div class="vs reveal">
       <div class="col old">
-        <h3>😴 Lo de siempre</h3>
+        <h3>Lo de siempre</h3>
         <div class="tagline">un “community manager” suelto</div>
         <ul>
           <li>Solo posteos en Instagram</li>
@@ -595,7 +597,7 @@
         </ul>
       </div>
       <div class="col win">
-        <h3>🚀 Con ARA Studio</h3>
+        <h3>Con ARA Studio</h3>
         <div class="tagline">un sistema completo, con IA</div>
         <ul>
           <li>Web + Google + IG + WhatsApp + reseñas</li>
@@ -619,7 +621,7 @@
     </div>
     <div class="ba reveal">
       <div class="ba-card before">
-        <div class="lbl">😬 Antes</div>
+        <div class="lbl">Antes</div>
         <div class="ba-frame">
           <div class="ugly">
             <div class="u-h">BIENVENIDOS A NUESTRO SITIO</div>
@@ -632,7 +634,7 @@
         </div>
       </div>
       <div class="ba-card after">
-        <div class="lbl">✨ Después</div>
+        <div class="lbl">Después</div>
         <div class="ba-frame">
           <div class="nice">
             <div class="n-nav"><img src="ara-icon.png" alt="">Tu Negocio<span class="sp">Turnos online</span></div>
@@ -813,7 +815,7 @@
       </table>
     </div>
 
-    <p class="note">💡 <b>La pauta es aparte:</b> el presupuesto de Meta/Google lo ponés vos y va directo a la plataforma (sugerido desde USD 100/mes). Nosotros hacemos que rinda cada peso.<br>📸 <b>Fotos (modelo mixto):</b> te damos una guía de qué tomar con el celular y nosotros producimos todo (edición + IA). El plan <b>Full</b> suma 1 sesión on-site coordinada.<br>💳 <b>Cobro por débito automático:</b> todos los planes se abonan por débito, para que tu presencia trabaje sin interrupciones.<br>** <b>CRM Distribution:</b> el alta de la cuenta es un único pago inicial (aparte del fee).</p>
+    <p class="note"><b>La pauta es aparte:</b> el presupuesto de Meta/Google lo ponés vos y va directo a la plataforma (sugerido desde USD 100/mes). Nosotros hacemos que rinda cada peso.<br><b>Fotos (modelo mixto):</b> te damos una guía de qué tomar con el celular y nosotros producimos todo (edición + IA). El plan <b>Full</b> suma 1 sesión on-site coordinada.<br><b>Cobro por débito automático:</b> todos los planes se abonan por débito, para que tu presencia trabaje sin interrupciones.<br><b>CRM Distribution:</b> el alta de la cuenta es un único pago inicial (aparte del fee).</p>
   </div>
 </section>
 
