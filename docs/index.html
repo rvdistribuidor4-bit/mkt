@@ -303,6 +303,24 @@
   @keyframes eq{0%,100%{height:6px}50%{height:18px}}
   @media(prefers-reduced-motion:reduce){.vert .wave i{animation:none;height:12px}}
   .disc{text-align:center;color:var(--muted);font-size:.82rem;margin-top:1.2rem}
+  /* real-content cards */
+  .rc{position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);
+    transition:transform .25s ease}
+  .rc:hover{transform:translateY(-6px)}
+  .rc img{width:100%;height:100%;object-fit:cover;display:block}
+  .rc.sq{aspect-ratio:1/1}
+  .rc.v{aspect-ratio:9/16}
+  .rc .chip2{position:absolute;top:.7rem;left:.7rem;z-index:3;background:rgba(6,8,15,.6);color:#fff;
+    font-family:"Sora";font-weight:700;font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;
+    padding:.28rem .6rem;border-radius:999px;backdrop-filter:blur(6px)}
+  .rc .cap2{position:absolute;left:0;right:0;bottom:0;z-index:3;padding:1.1rem .8rem .7rem;color:#fff;
+    font-family:"Sora";font-weight:600;font-size:.84rem;background:linear-gradient(transparent,rgba(0,0,0,.78))}
+  .rc .cap2 small{display:block;font-family:"Manrope";font-weight:600;font-size:.68rem;color:#cfe0ff;margin-top:.15rem}
+  .rc .play2{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3;width:54px;height:54px;
+    border-radius:50%;background:rgba(255,255,255,.18);backdrop-filter:blur(6px);border:1.5px solid rgba(255,255,255,.5)}
+  .rc .play2::after{content:"";position:absolute;top:50%;left:56%;transform:translate(-50%,-50%);
+    border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent}
+  .showcase{align-items:center}
 
   /* ANTES / DESPUES */
   .ba{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:2rem;align-items:stretch}
@@ -634,36 +652,27 @@
     <div class="head reveal" style="text-align:center;margin:0 auto;max-width:48ch">
       <div class="eyebrow">Así se ve tu contenido</div>
       <h2>Placas, reels e historias que la gente quiere mirar</h2>
-      <p>Producidos con tu identidad de marca, foto real e IA. Esto es lo que publicamos por vos, todos los meses.</p>
+      <p>Contenido real que ya producimos para nuestros clientes. Cada uno con su marca, sus fotos y su mensaje.</p>
     </div>
     <div class="showcase reveal">
-      <div class="piece">
-        <span class="ptag">Placa · feed</span>
-        <div class="placa">
-          <div class="num">3</div>
-          <div class="big">señales de que tu negocio <b>necesita estar en Google</b></div>
-          <div class="foot"><img src="ara-icon.png" alt="">@tunegocio · Córdoba</div>
-        </div>
+      <div class="rc sq">
+        <span class="chip2">Placa · feed</span>
+        <img src="lz-placa.jpg" alt="Placa de feed — Centro de Ojos Lazarte">
+        <div class="cap2">Control anual de la vista<small>@centrodeojoslazarte · Córdoba</small></div>
       </div>
-      <div class="piece">
-        <span class="ptag">Reel · con audio</span>
-        <div class="vert reelbg">
-          <div class="play" aria-hidden="true"></div>
-          <div class="cap">Tu negocio, en 15 segundos.</div>
-          <div class="sub">Video + locución con IA · música de tendencia</div>
-          <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-        </div>
+      <div class="rc v">
+        <span class="chip2">Reel · con audio</span>
+        <img src="th-portada.jpg" alt="Reel — Velero Thyra">
+        <span class="play2" aria-hidden="true"></span>
+        <div class="cap2">Navegá el paraíso<small>@velerothyra · experiencias en velero</small></div>
       </div>
-      <div class="piece">
-        <span class="ptag">Historia</span>
-        <div class="vert storybg">
-          <div class="cap">¿Te atendemos hoy?</div>
-          <div class="sub">Deslizá y escribinos — respondemos al toque.</div>
-          <span class="cta">Escribinos →</span>
-        </div>
+      <div class="rc v">
+        <span class="chip2">Historia</span>
+        <img src="lz-story.jpg" alt="Historia — Centro de Ojos Lazarte">
+        <div class="cap2">Pedí tu turno hoy<small>@centrodeojoslazarte</small></div>
       </div>
     </div>
-    <p class="disc">Piezas de muestra ilustrativas del estilo ARA Studio. Cada cliente recibe contenido con su marca, sus fotos y su mensaje.</p>
+    <p class="disc">Contenido real de clientes de ARA Studio: <b>Centro de Ojos Lazarte</b> y <b>Velero Thyra</b>.</p>
   </div>
 </section>
 
@@ -678,39 +687,39 @@
       <div class="phone">
         <span class="notch"></span>
         <div class="screen">
-          <img class="reel-img" src="reel-cafe.jpg" alt="Reel de ejemplo — cafetería">
+          <img class="reel-img" src="th-sunset.jpg" alt="Reel — Velero Thyra atardecer">
           <div class="grad"></div>
           <div class="bars"><i class="act"></i><i></i><i></i></div>
-          <div class="top"><span class="av"></span>tunegocio<span class="rl">▶ Reel</span></div>
+          <div class="top"><span class="av"></span>velerothyra<span class="rl">▶ Reel</span></div>
           <div class="rail">
-            <div><span class="ico beat">❤️</span>1.2k</div>
-            <div><span class="ico">💬</span>128</div>
+            <div><span class="ico beat">❤️</span>2.1k</div>
+            <div><span class="ico">💬</span>146</div>
             <div><span class="ico">📤</span>Enviar</div>
             <div><span class="ico">🔖</span></div>
           </div>
-          <div class="cap"><div class="u">@tunegocio</div><div class="tx">El ritual del café perfecto ☕ Te esperamos hoy.</div></div>
+          <div class="cap"><div class="u">@velerothyra</div><div class="tx">Atardeceres que no se olvidan 🌅 Reservá tu salida.</div></div>
           <div class="music">🎵 <span class="tk">audio original · tendencia — audio original · tendencia — </span></div>
         </div>
       </div>
       <div class="phone">
         <span class="notch"></span>
         <div class="screen">
-          <img class="reel-img" src="reel-boutique.jpg" alt="Reel de ejemplo — indumentaria" style="animation-delay:-6s">
+          <img class="reel-img" src="th-navegando.jpg" alt="Reel — Velero Thyra navegando" style="animation-delay:-6s">
           <div class="grad"></div>
           <div class="bars"><i></i><i class="act"></i><i></i></div>
-          <div class="top"><span class="av"></span>tunegocio<span class="rl">▶ Reel</span></div>
+          <div class="top"><span class="av"></span>velerothyra<span class="rl">▶ Reel</span></div>
           <div class="rail">
             <div><span class="ico beat">❤️</span>3.4k</div>
-            <div><span class="ico">💬</span>291</div>
+            <div><span class="ico">💬</span>210</div>
             <div><span class="ico">📤</span>Enviar</div>
             <div><span class="ico">🔖</span></div>
           </div>
-          <div class="cap"><div class="u">@tunegocio</div><div class="tx">Nueva temporada 🔥 Mirá los looks y escribinos.</div></div>
+          <div class="cap"><div class="u">@velerothyra</div><div class="tx">Un día de navegación privado ⛵ Escribinos.</div></div>
           <div class="music">🎵 <span class="tk">audio original · tendencia — audio original · tendencia — </span></div>
         </div>
       </div>
     </div>
-    <p class="disc" style="color:var(--panel-muted)">Reels de muestra con imágenes generadas por IA. Cada cliente recibe reels con su negocio, su marca y su mensaje.</p>
+    <p class="disc" style="color:var(--panel-muted)">Reels reales que producimos para <b>Velero Thyra</b>. Cada cliente recibe reels con su negocio, su marca y su mensaje.</p>
   </div>
 </section>
 
