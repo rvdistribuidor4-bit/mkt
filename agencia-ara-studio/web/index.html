@@ -411,9 +411,11 @@
   @keyframes mticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   @media(prefers-reduced-motion:reduce){.phone .music .tk{animation:none}}
 
-  /* real web screenshot in hero */
-  .browser .shot{line-height:0;background:#0a1120}
-  .browser .shot img{width:100%;display:block}
+  /* real web screenshots in hero (rotating) */
+  .browser .shot{position:relative;aspect-ratio:1280/900;background:#0a1120;overflow:hidden}
+  .browser .shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;
+    opacity:0;transition:opacity .9s ease}
+  .browser .shot img.on{opacity:1}
   .stage-cap{text-align:center;color:#9fb2d6;font-family:"Sora",sans-serif;font-weight:600;
     font-size:.82rem;margin-top:1rem;position:relative;z-index:2}
   .stage-cap b{color:#fff}
@@ -468,12 +470,15 @@
           <span class="dot" style="background:#ff5f57"></span>
           <span class="dot" style="background:#febc2e"></span>
           <span class="dot" style="background:#28c840"></span>
-          <span class="url">velerothyra.com</span>
+          <span class="url" id="shotUrl">thyrasailboat.com</span>
         </div>
-        <div class="shot"><img src="thyra-web.png" alt="Sitio web real de Velero Thyra hecho por ARA Studio"></div>
+        <div class="shot">
+          <img class="on" src="thyra-web.png" data-url="thyrasailboat.com" data-name="Thyra Sailboat" alt="Sitio web real de Thyra Sailboat hecho por ARA Studio">
+          <img src="lazarte-web.png" data-url="centrodeojoslazarte.com" data-name="Centro de Ojos Lazarte" alt="Sitio web real de Centro de Ojos Lazarte hecho por ARA Studio">
+        </div>
       </div>
       </div>
-      <div class="stage-cap">Web real que hicimos para <b>Velero Thyra</b></div>
+      <div class="stage-cap">Webs reales que hicimos · <b id="shotName">Thyra Sailboat</b></div>
     </div>
   </div>
 </section>
@@ -661,9 +666,9 @@
       </div>
       <div class="rc v">
         <span class="chip2">Reel · con audio</span>
-        <img src="th-portada.jpg" alt="Reel — Velero Thyra">
+        <img src="th-portada.jpg" alt="Reel — Thyra Sailboat">
         <span class="play2" aria-hidden="true"></span>
-        <div class="cap2">Navegá el paraíso<small>@velerothyra · experiencias en velero</small></div>
+        <div class="cap2">Navegá el paraíso<small>@thyrasailboat · experiencias en velero</small></div>
       </div>
       <div class="rc v">
         <span class="chip2">Historia</span>
@@ -671,7 +676,7 @@
         <div class="cap2">Pedí tu turno hoy<small>@centrodeojoslazarte</small></div>
       </div>
     </div>
-    <p class="disc">Contenido real de clientes de ARA Studio: <b>Centro de Ojos Lazarte</b> y <b>Velero Thyra</b>.</p>
+    <p class="disc">Contenido real de clientes de ARA Studio: <b>Centro de Ojos Lazarte</b> y <b>Thyra Sailboat</b>.</p>
   </div>
 </section>
 
@@ -686,39 +691,39 @@
       <div class="phone">
         <span class="notch"></span>
         <div class="screen">
-          <img class="reel-img" src="th-sunset.jpg" alt="Reel — Velero Thyra atardecer">
+          <img class="reel-img" src="th-sunset.jpg" alt="Reel — Thyra Sailboat atardecer">
           <div class="grad"></div>
           <div class="bars"><i class="act"></i><i></i><i></i></div>
-          <div class="top"><span class="av"></span>velerothyra<span class="rl">▶ Reel</span></div>
+          <div class="top"><span class="av"></span>thyrasailboat<span class="rl">▶ Reel</span></div>
           <div class="rail">
             <div><span class="ico beat">❤️</span>2.1k</div>
             <div><span class="ico">💬</span>146</div>
             <div><span class="ico">📤</span>Enviar</div>
             <div><span class="ico">🔖</span></div>
           </div>
-          <div class="cap"><div class="u">@velerothyra</div><div class="tx">Atardeceres que no se olvidan 🌅 Reservá tu salida.</div></div>
+          <div class="cap"><div class="u">@thyrasailboat</div><div class="tx">Atardeceres que no se olvidan 🌅 Reservá tu salida.</div></div>
           <div class="music">🎵 <span class="tk">audio original · tendencia — audio original · tendencia — </span></div>
         </div>
       </div>
       <div class="phone">
         <span class="notch"></span>
         <div class="screen">
-          <img class="reel-img" src="th-navegando.jpg" alt="Reel — Velero Thyra navegando" style="animation-delay:-6s">
+          <img class="reel-img" src="th-navegando.jpg" alt="Reel — Thyra Sailboat navegando" style="animation-delay:-6s">
           <div class="grad"></div>
           <div class="bars"><i></i><i class="act"></i><i></i></div>
-          <div class="top"><span class="av"></span>velerothyra<span class="rl">▶ Reel</span></div>
+          <div class="top"><span class="av"></span>thyrasailboat<span class="rl">▶ Reel</span></div>
           <div class="rail">
             <div><span class="ico beat">❤️</span>3.4k</div>
             <div><span class="ico">💬</span>210</div>
             <div><span class="ico">📤</span>Enviar</div>
             <div><span class="ico">🔖</span></div>
           </div>
-          <div class="cap"><div class="u">@velerothyra</div><div class="tx">Un día de navegación privado ⛵ Escribinos.</div></div>
+          <div class="cap"><div class="u">@thyrasailboat</div><div class="tx">Un día de navegación privado ⛵ Escribinos.</div></div>
           <div class="music">🎵 <span class="tk">audio original · tendencia — audio original · tendencia — </span></div>
         </div>
       </div>
     </div>
-    <p class="disc" style="color:var(--panel-muted)">Reels reales que producimos para <b>Velero Thyra</b>. Cada cliente recibe reels con su negocio, su marca y su mensaje.</p>
+    <p class="disc" style="color:var(--panel-muted)">Reels reales que producimos para <b>Thyra Sailboat</b>. Cada cliente recibe reels con su negocio, su marca y su mensaje.</p>
   </div>
 </section>
 
@@ -1000,6 +1005,19 @@
       });
     },{passive:true});
     window.addEventListener('pointerleave',function(){spot.style.opacity='0';});
+  }
+
+  /* ---- rotate real web screenshots in hero ---- */
+  var shots=document.querySelectorAll('.browser .shot img');
+  if(shots.length>1 && !reduce){
+    var urlEl=document.getElementById('shotUrl'), nameEl=document.getElementById('shotName'), si=0;
+    setInterval(function(){
+      shots[si].classList.remove('on');
+      si=(si+1)%shots.length;
+      shots[si].classList.add('on');
+      if(urlEl) urlEl.textContent=shots[si].getAttribute('data-url');
+      if(nameEl) nameEl.textContent=shots[si].getAttribute('data-name');
+    },4200);
   }
 
   /* hero content stays fully visible — no fade on scroll */
