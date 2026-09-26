@@ -251,6 +251,90 @@
   .col.win li{color:var(--ink)}
   .col .tagline{font-family:"Sora";font-weight:600;font-size:.82rem;color:var(--muted);margin-top:.2rem}
 
+  /* DETAILED PLAN TABLE */
+  .tablewrap{margin-top:1.6rem;overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+  .ptable{width:100%;border-collapse:collapse;min-width:560px;font-size:.94rem}
+  .ptable th,.ptable td{padding:.85rem 1rem;text-align:center;border-bottom:1px solid var(--line)}
+  .ptable thead th{font-family:"Sora";font-weight:800;font-size:1rem;background:var(--bg-2);position:sticky;top:0}
+  .ptable th:first-child,.ptable td:first-child{text-align:left;color:var(--ink-2);font-weight:600}
+  .ptable .hl{background:color-mix(in srgb,var(--blue) 8%,transparent)}
+  .ptable thead .hl{background:color-mix(in srgb,var(--blue) 16%,transparent);color:var(--blue)}
+  .ptable tbody tr:last-child td{border-bottom:none}
+  .ptable .prow td{font-family:"Sora";font-weight:800;font-size:1.05rem;color:var(--ink)}
+
+  /* CONTENT SHOWCASE */
+  .showcase{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.2rem;margin-top:2rem;align-items:end}
+  @media(max-width:820px){.showcase{grid-template-columns:1fr 1fr;gap:1rem}}
+  @media(max-width:520px){.showcase{grid-template-columns:1fr;max-width:340px;margin-inline:auto}}
+  .piece{position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);
+    border:1px solid var(--line);transition:transform .25s ease}
+  .piece:hover{transform:translateY(-6px)}
+  .piece .ptag{position:absolute;top:.7rem;left:.7rem;z-index:3;background:rgba(6,8,15,.62);
+    color:#fff;font-family:"Sora";font-weight:700;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;
+    padding:.28rem .6rem;border-radius:999px;backdrop-filter:blur(6px)}
+  /* square placa */
+  .placa{aspect-ratio:1/1;background:linear-gradient(150deg,#0f2a5c,#0a1730);color:#fff;
+    display:flex;flex-direction:column;justify-content:space-between;padding:1.3rem}
+  .placa .big{font-family:"Sora";font-weight:800;font-size:1.5rem;line-height:1.12}
+  .placa .big b{color:var(--blue-bright)}
+  .placa .foot{display:flex;align-items:center;gap:.5rem;font-size:.78rem;color:#a9bce0}
+  .placa .foot img{height:20px;border-radius:5px}
+  .placa .num{font-family:"Sora";font-weight:800;font-size:2.6rem;color:var(--blue-bright);line-height:1}
+  /* vertical reel + story */
+  .vert{aspect-ratio:9/16;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:1.1rem;position:relative}
+  .reelbg{background:radial-gradient(120% 80% at 50% 0%,#1b3e7a,#0a1428 70%)}
+  .storybg{background:linear-gradient(160deg,#123d24,#0a1730)}
+  .vert .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.16);backdrop-filter:blur(6px);
+    display:grid;place-items:center;border:1.5px solid rgba(255,255,255,.5)}
+  .vert .play::after{content:"";border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:4px}
+  .vert .cap{font-family:"Sora";font-weight:700;font-size:1.15rem;line-height:1.2}
+  .vert .sub{font-size:.8rem;color:#cfe0ff;margin-top:.35rem}
+  .vert .cta{margin-top:.8rem;align-self:flex-start;background:#25D366;color:#04331a;font-family:"Sora";
+    font-weight:700;font-size:.8rem;padding:.45rem .9rem;border-radius:999px}
+  .vert .wave{position:absolute;bottom:.9rem;right:1rem;display:flex;gap:3px;align-items:flex-end;height:20px}
+  .vert .wave i{width:3px;background:rgba(255,255,255,.8);border-radius:2px;animation:eq 1s ease-in-out infinite}
+  .vert .wave i:nth-child(2){animation-delay:.15s}.vert .wave i:nth-child(3){animation-delay:.3s}
+  .vert .wave i:nth-child(4){animation-delay:.45s}.vert .wave i:nth-child(5){animation-delay:.1s}
+  @keyframes eq{0%,100%{height:6px}50%{height:18px}}
+  @media(prefers-reduced-motion:reduce){.vert .wave i{animation:none;height:12px}}
+  .disc{text-align:center;color:var(--muted);font-size:.82rem;margin-top:1.2rem}
+
+  /* ANTES / DESPUES */
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:2rem;align-items:stretch}
+  @media(max-width:720px){.ba{grid-template-columns:1fr}}
+  .ba-card{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--surface);
+    display:flex;flex-direction:column}
+  .ba-card .lbl{font-family:"Sora";font-weight:800;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;
+    padding:.7rem 1rem;display:flex;align-items:center;gap:.5rem}
+  .ba-card.before .lbl{background:#f3ded6;color:#9a4a30}
+  .ba-card.after .lbl{background:var(--blue);color:#fff}
+  :root:not([data-theme="light"]) .ba-card.before .lbl{background:#3a201a;color:#e6a58c}
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .ba-card.before .lbl{background:#3a201a;color:#e6a58c}}
+  :root[data-theme="dark"] .ba-card.before .lbl{background:#3a201a;color:#e6a58c}
+  .ba-frame{flex:1;min-height:230px;padding:0}
+  /* BEFORE — ugly site */
+  .ugly{height:100%;background:#e9e9ea;color:#222;font-family:"Times New Roman",Times,serif;padding:1.1rem;display:flex;flex-direction:column;gap:.5rem}
+  .ugly .u-h{background:#7a1f1f;color:#fff;font-size:1.25rem;font-weight:700;text-align:center;padding:.5rem;letter-spacing:.02em}
+  .ugly .u-hero{background:#c8c8cc;border:1px dashed #999;color:#666;text-align:center;padding:1.4rem .5rem;font-size:.85rem}
+  .ugly p{font-size:.78rem;color:#333;margin:0}
+  .ugly .u-link{color:#0000ee;text-decoration:underline;font-size:.78rem}
+  .ugly .u-foot{margin-top:auto;font-size:.66rem;color:#888;border-top:1px solid #bbb;padding-top:.4rem}
+  /* AFTER — nice site */
+  .nice{height:100%;background:linear-gradient(160deg,#0e2350,#0a1428);color:#fff;padding:1.2rem;display:flex;flex-direction:column;gap:.6rem}
+  .nice .n-nav{display:flex;align-items:center;gap:.5rem;font-family:"Sora";font-weight:700;font-size:.8rem}
+  .nice .n-nav img{height:18px;border-radius:5px}
+  .nice .n-nav .sp{margin-left:auto;background:var(--blue);color:#fff;font-size:.62rem;padding:.25rem .6rem;border-radius:999px}
+  .nice .n-h{font-family:"Sora";font-weight:800;font-size:1.35rem;line-height:1.12;margin-top:.3rem}
+  .nice .n-h b{color:var(--blue-bright)}
+  .nice .n-p{font-size:.78rem;color:#b9c7e4}
+  .nice .n-row{display:flex;gap:.5rem;margin-top:.2rem}
+  .nice .n-btn{background:var(--blue);color:#fff;font-family:"Sora";font-weight:700;font-size:.72rem;padding:.4rem .8rem;border-radius:999px}
+  .nice .n-btn.g{background:#25D366;color:#04331a}
+  .nice .n-foot{margin-top:auto;display:flex;gap:.5rem}
+  .nice .n-chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:8px;
+    padding:.35rem .5rem;font-size:.64rem;color:#cfe0ff;flex:1;text-align:center}
+
   /* reveal — visible at rest; only enhances when JS+motion allowed */
   .reveal{opacity:1;transform:none}
   html.js:not(.rm) .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
@@ -445,6 +529,81 @@
   </div>
 </section>
 
+<section class="dark">
+  <div class="wrap">
+    <div class="head reveal" style="text-align:center;margin:0 auto 1rem;max-width:46ch">
+      <div class="eyebrow" style="color:var(--blue-bright)">Antes / Después</div>
+      <h2 style="color:#fff">Tu web es tu mejor vendedor. O tu peor primera impresión.</h2>
+      <p class="muted" style="margin-top:.8rem">La misma info, dos mundos. Una espanta; la otra hace que te escriban.</p>
+    </div>
+    <div class="ba reveal">
+      <div class="ba-card before">
+        <div class="lbl">😬 Antes</div>
+        <div class="ba-frame">
+          <div class="ugly">
+            <div class="u-h">BIENVENIDOS A NUESTRO SITIO</div>
+            <div class="u-hero">[ imagen no disponible ]</div>
+            <p>Somos una empresa dedicada al rubro hace muchos años. Para mas informacion contactenos.</p>
+            <a class="u-link">click aqui para ver mas &gt;&gt;</a>
+            <p>Tel: (0351) ... — Horarios: consultar</p>
+            <div class="u-foot">© 2011 · Optimizado para Internet Explorer</div>
+          </div>
+        </div>
+      </div>
+      <div class="ba-card after">
+        <div class="lbl">✨ Después</div>
+        <div class="ba-frame">
+          <div class="nice">
+            <div class="n-nav"><img src="ara-icon.png" alt="">Tu Negocio<span class="sp">Turnos online</span></div>
+            <div class="n-h">La atención que buscabas, <b>a un clic</b>.</div>
+            <div class="n-p">Reservá, consultá y encontranos en Google — desde el celu, en segundos.</div>
+            <div class="n-row"><span class="n-btn">Reservar turno</span><span class="n-btn g">WhatsApp</span></div>
+            <div class="n-foot"><span class="n-chip">⭐ 4,9 en Google</span><span class="n-chip">📍 Cómo llegar</span><span class="n-chip">🕒 Abierto</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="head reveal" style="text-align:center;margin:0 auto;max-width:48ch">
+      <div class="eyebrow">Así se ve tu contenido</div>
+      <h2>Placas, reels e historias que la gente quiere mirar</h2>
+      <p>Producidos con tu identidad de marca, foto real e IA. Esto es lo que publicamos por vos, todos los meses.</p>
+    </div>
+    <div class="showcase reveal">
+      <div class="piece">
+        <span class="ptag">Placa · feed</span>
+        <div class="placa">
+          <div class="num">3</div>
+          <div class="big">señales de que tu negocio <b>necesita estar en Google</b></div>
+          <div class="foot"><img src="ara-icon.png" alt="">@tunegocio · Córdoba</div>
+        </div>
+      </div>
+      <div class="piece">
+        <span class="ptag">Reel · con audio</span>
+        <div class="vert reelbg">
+          <div class="play" aria-hidden="true"></div>
+          <div class="cap">Tu negocio, en 15 segundos.</div>
+          <div class="sub">Video + locución con IA · música de tendencia</div>
+          <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <div class="piece">
+        <span class="ptag">Historia</span>
+        <div class="vert storybg">
+          <div class="cap">¿Te atendemos hoy?</div>
+          <div class="sub">Deslizá y escribinos — respondemos al toque.</div>
+          <span class="cta">Escribinos →</span>
+        </div>
+      </div>
+    </div>
+    <p class="disc">Piezas de muestra ilustrativas del estilo ARA Studio. Cada cliente recibe contenido con su marca, sus fotos y su mensaje.</p>
+  </div>
+</section>
+
 <section id="planes">
   <div class="wrap">
     <div class="head reveal">
@@ -457,10 +616,13 @@
         <div class="pn">Esencial</div>
         <div class="pp">USD 150<small> /mes</small></div>
         <ul>
-          <li>Instagram: feed + historias</li>
-          <li>Placas con foto real / IA</li>
-          <li>Google Business (Maps)</li>
+          <li><b>8 publicaciones</b> de feed / mes</li>
+          <li><b>8 historias</b> / mes con CTA a WhatsApp</li>
+          <li>Placas con <b>foto real + IA</b></li>
+          <li>Google Business (Maps) + 2 posteos/mes</li>
           <li>Embudo a WhatsApp</li>
+          <li>Fotos: guía de tomas + producción nuestra</li>
+          <li>Reporte mensual</li>
           <li class="off">Reels con video + voz IA</li>
           <li class="off">Web / SEO local</li>
           <li class="off">Gestión de pauta</li>
@@ -471,12 +633,14 @@
         <div class="pn">Profesional</div>
         <div class="pp">USD 280<small> /mes</small></div>
         <ul>
-          <li>Todo lo del plan Esencial</li>
-          <li>Reels con video + voz IA (2/mes)</li>
-          <li>Web / landing + SEO local</li>
-          <li>Motor de reseñas</li>
-          <li>Dashboard de métricas</li>
-          <li>Reporte quincenal</li>
+          <li><b>12 publicaciones</b> de feed / mes</li>
+          <li><b>12 historias</b> / mes con CTA</li>
+          <li><b>2 reels</b> / mes con video + voz IA</li>
+          <li><b>Web / landing</b> (1 página) + SEO local</li>
+          <li>Motor de reseñas de Google</li>
+          <li>Google Business gestionado</li>
+          <li>Fotos: guía de tomas + producción nuestra</li>
+          <li>Dashboard + reporte quincenal</li>
           <li class="off">Gestión de pauta</li>
         </ul>
         <a class="btn btn-p" href="https://wa.me/000000000" target="_blank" rel="noopener">Empezar</a>
@@ -485,16 +649,43 @@
         <div class="pn">Full</div>
         <div class="pp">USD 450<small> /mes</small></div>
         <ul>
-          <li>Todo lo del plan Profesional</li>
-          <li>Reels con IA (4/mes)</li>
-          <li>Gestión de campañas de pauta</li>
-          <li>Más volumen de contenido</li>
-          <li>Prioridad + llamada mensual</li>
+          <li><b>20 publicaciones</b> de feed / mes</li>
+          <li><b>20 historias</b> / mes con CTA</li>
+          <li><b>4 reels</b> / mes con video + voz IA</li>
+          <li><b>Web completa</b> (multi-sección) + SEO</li>
+          <li><b>Gestión de pauta</b> Meta/Google (presupuesto aparte)</li>
+          <li>Motor de reseñas + Google Business</li>
+          <li><b>1 sesión de fotos/video on-site</b> coordinada</li>
+          <li>Prioridad + reporte quincenal + llamada mensual</li>
         </ul>
         <a class="btn btn-ghost" href="https://wa.me/000000000" target="_blank" rel="noopener">Lo quiero</a>
       </div>
     </div>
-    <p class="note">💡 <b>La pauta es aparte:</b> el presupuesto de Meta/Google lo ponés vos y va directo a la plataforma (sugerido desde USD 100/mes). Nosotros hacemos que rinda cada peso. El orgánico construye tu marca; la pauta te trae clientes ya.</p>
+
+    <div class="tablewrap reveal">
+      <table class="ptable">
+        <thead>
+          <tr><th>Qué incluye</th><th>Esencial</th><th class="hl">Profesional</th><th>Full</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Publicaciones de feed / mes</td><td>8</td><td class="hl">12</td><td>20</td></tr>
+          <tr><td>Historias / mes (con CTA)</td><td>8</td><td class="hl">12</td><td>20</td></tr>
+          <tr><td>Reels con video + voz IA / mes</td><td>—</td><td class="hl">2</td><td>4</td></tr>
+          <tr><td>Placas con foto real + IA</td><td>✓</td><td class="hl">✓</td><td>✓</td></tr>
+          <tr><td>Fotos del negocio</td><td>Guía + producción</td><td class="hl">Guía + producción</td><td>+ 1 sesión on-site</td></tr>
+          <tr><td>Web / landing + SEO local</td><td>—</td><td class="hl">Landing 1 pág.</td><td>Web completa</td></tr>
+          <tr><td>Google Business (Maps)</td><td>✓ + 2 posteos</td><td class="hl">✓ gestionado</td><td>✓ gestionado</td></tr>
+          <tr><td>Motor de reseñas</td><td>—</td><td class="hl">✓</td><td>✓</td></tr>
+          <tr><td>Embudo a WhatsApp</td><td>✓</td><td class="hl">✓</td><td>✓</td></tr>
+          <tr><td>Gestión de pauta (Meta/Google)*</td><td>—</td><td class="hl">—</td><td>✓</td></tr>
+          <tr><td>Dashboard de métricas</td><td>Básico</td><td class="hl">✓</td><td>✓ prioridad</td></tr>
+          <tr><td>Reporte</td><td>Mensual</td><td class="hl">Quincenal</td><td>Quincenal + llamada</td></tr>
+          <tr class="prow"><td>Precio / mes</td><td>USD 150</td><td class="hl">USD 280</td><td>USD 450</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note">💡 <b>La pauta es aparte:</b> el presupuesto de Meta/Google lo ponés vos y va directo a la plataforma (sugerido desde USD 100/mes). Nosotros hacemos que rinda cada peso.<br>📸 <b>Fotos (modelo mixto):</b> te damos una guía de qué tomar con el celular y nosotros producimos todo (edición + IA). El plan <b>Full</b> suma 1 sesión on-site coordinada.</p>
   </div>
 </section>
 
