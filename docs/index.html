@@ -411,6 +411,13 @@
   @keyframes mticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   @media(prefers-reduced-motion:reduce){.phone .music .tk{animation:none}}
 
+  /* real web screenshot in hero */
+  .browser .shot{line-height:0;background:#0a1120}
+  .browser .shot img{width:100%;display:block}
+  .stage-cap{text-align:center;color:#9fb2d6;font-family:"Sora",sans-serif;font-weight:600;
+    font-size:.82rem;margin-top:1rem;position:relative;z-index:2}
+  .stage-cap b{color:#fff}
+
   /* cursor spotlight — light that follows the pointer */
   #spot{position:fixed;inset:0;pointer-events:none;z-index:5;opacity:0;transition:opacity .4s ease;
     background:radial-gradient(260px 260px at var(--sx,50%) var(--sy,50%),
@@ -461,22 +468,12 @@
           <span class="dot" style="background:#ff5f57"></span>
           <span class="dot" style="background:#febc2e"></span>
           <span class="dot" style="background:#28c840"></span>
-          <span class="url">tunegocio.com</span>
+          <span class="url">velerothyra.com</span>
         </div>
-        <div class="screen">
-          <div class="scr-hero">
-            <span class="chip">Tu marca, online</span>
-            <div class="k">La web que te hace ver profesional</div>
-            <div class="s">Diseño premium, rápida y pensada para que te contacten.</div>
-          </div>
-          <div class="side">
-            <div class="tile"><div class="n">360°</div><div class="l">presencia completa</div></div>
-            <div class="tile"><div class="n">24/7</div><div class="l">captando</div></div>
-            <div class="tile wa"><div class="n">WhatsApp ✓</div><div class="l">embudo directo</div></div>
-          </div>
-        </div>
+        <div class="shot"><img src="thyra-web.png" alt="Sitio web real de Velero Thyra hecho por ARA Studio"></div>
       </div>
       </div>
+      <div class="stage-cap">Web real que hicimos para <b>Velero Thyra</b></div>
     </div>
   </div>
 </section>
