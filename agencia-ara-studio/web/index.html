@@ -89,8 +89,8 @@
   .hero{position:relative;overflow:hidden;background:
      radial-gradient(120% 90% at 50% -10%, #12224a 0%, #0a1224 45%, #05070f 100%)}
   canvas.fx-aurora{position:absolute;inset:-6%;width:112%;height:112%;z-index:0;
-    filter:blur(46px) saturate(135%);opacity:.85;transform:translateZ(0)}
-  .final canvas.fx-aurora{opacity:.7}
+    filter:blur(38px) saturate(145%);opacity:.95;transform:translateZ(0)}
+  .final canvas.fx-aurora{opacity:.78}
   .final .wrap{position:relative;z-index:2}
   .hero canvas.fx{position:absolute;inset:0;width:100%;height:100%;z-index:1;opacity:.9}
   .hero .aurora{position:absolute;inset:-30% -10% auto -10%;height:80%;z-index:1;
@@ -755,7 +755,7 @@
       cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
       var n=Math.round(Math.min(90,Math.max(34,W*H/16000))); pts=[];
       for(var i=0;i<n;i++){pts.push({x:Math.random()*W,y:Math.random()*H,
-        vx:(Math.random()-.5)*.28,vy:(Math.random()-.5)*.28,r:Math.random()*1.6+.7});}
+        vx:(Math.random()-.5)*.62,vy:(Math.random()-.5)*.62,r:Math.random()*1.7+.8});}
     }
     function step(){
       ctx.clearRect(0,0,W,H);
@@ -795,10 +795,10 @@
     var ctx=ac.getContext('2d'), AW=1, AH=1, sc=0.3, raf=0;
     var pal=PALETTES[ac.getAttribute('data-palette')]||PALETTES.cool;
     var blobs=[
-      {x:.28,y:.34,r:.62,c:pal[0],px:.00018,py:.00013,ph:0},
-      {x:.72,y:.28,r:.55,c:pal[1],px:-.00015,py:.00019,ph:1.7},
-      {x:.55,y:.72,r:.7,c:pal[2],px:.00012,py:-.00016,ph:3.1},
-      {x:.18,y:.68,r:.48,c:pal[3],px:.0002,py:.00011,ph:4.6}
+      {x:.28,y:.34,r:.62,c:pal[0],px:.00042,py:.00031,ph:0},
+      {x:.72,y:.28,r:.55,c:pal[1],px:-.00036,py:.00044,ph:1.7},
+      {x:.55,y:.72,r:.7,c:pal[2],px:.0003,py:-.00038,ph:3.1},
+      {x:.18,y:.68,r:.48,c:pal[3],px:.00046,py:.00027,ph:4.6}
     ];
     function resize(){var host=ac.parentElement;
       AW=Math.max(1,Math.round(host.clientWidth*sc)); AH=Math.max(1,Math.round(host.clientHeight*sc));
@@ -808,8 +808,8 @@
       ctx.fillStyle='#070a14'; ctx.fillRect(0,0,AW,AH);
       ctx.globalCompositeOperation='lighter';
       for(var i=0;i<blobs.length;i++){var b=blobs[i];
-        var cx=(b.x+Math.sin(t*b.px+b.ph)*.12)*AW, cy=(b.y+Math.cos(t*b.py+b.ph)*.12)*AH;
-        var rad=b.r*AW*(0.9+0.12*Math.sin(t*0.0004+b.ph));
+        var cx=(b.x+Math.sin(t*b.px+b.ph)*.22)*AW, cy=(b.y+Math.cos(t*b.py+b.ph)*.22)*AH;
+        var rad=b.r*AW*(0.85+0.2*Math.sin(t*0.0009+b.ph));
         var g=ctx.createRadialGradient(cx,cy,0,cx,cy,rad);
         g.addColorStop(0,'rgba('+b.c[0]+','+b.c[1]+','+b.c[2]+',.55)');
         g.addColorStop(1,'rgba('+b.c[0]+','+b.c[1]+','+b.c[2]+',0)');
