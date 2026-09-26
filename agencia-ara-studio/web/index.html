@@ -88,8 +88,10 @@
   /* HERO */
   .hero{position:relative;overflow:hidden;background:
      radial-gradient(120% 90% at 50% -10%, #12224a 0%, #0a1224 45%, #05070f 100%)}
-  .hero canvas.fx-aurora{position:absolute;inset:-6%;width:112%;height:112%;z-index:0;
+  canvas.fx-aurora{position:absolute;inset:-6%;width:112%;height:112%;z-index:0;
     filter:blur(46px) saturate(135%);opacity:.85;transform:translateZ(0)}
+  .final canvas.fx-aurora{opacity:.7}
+  .final .wrap{position:relative;z-index:2}
   .hero canvas.fx{position:absolute;inset:0;width:100%;height:100%;z-index:1;opacity:.9}
   .hero .aurora{position:absolute;inset:-30% -10% auto -10%;height:80%;z-index:1;
     background:radial-gradient(45% 60% at 30% 40%, rgba(94,151,232,.42), transparent 70%),
@@ -708,6 +710,7 @@
 </section>
 
 <section id="contacto" class="final on-dark">
+  <canvas class="fx-aurora" data-palette="warm" aria-hidden="true"></canvas>
   <div class="wrap reveal">
     <h2>¿Listo para llenar tu agenda?</h2>
     <p>Contanos de tu negocio y te armamos una propuesta a medida. Sin compromiso.</p>
@@ -783,37 +786,43 @@
   }
 
   /* ---- flowing aurora background (video-like, GPU-cheap) ---- */
-  var ac=document.querySelector('canvas.fx-aurora');
-  if(ac&&ac.getContext){
-    var actx=ac.getContext('2d'), AW=1, AH=1, sc=0.3, araf=0;
+  var PALETTES={
+    cool:[[70,132,224],[46,116,224],[36,86,180],[120,90,220]],
+    warm:[[60,120,220],[64,170,190],[120,96,210],[40,92,180]]
+  };
+  function runAurora(ac){
+    if(!ac||!ac.getContext)return;
+    var ctx=ac.getContext('2d'), AW=1, AH=1, sc=0.3, raf=0;
+    var pal=PALETTES[ac.getAttribute('data-palette')]||PALETTES.cool;
     var blobs=[
-      {x:.28,y:.34,r:.62,c:[70,132,224],px:.00018,py:.00013,ph:0},
-      {x:.72,y:.28,r:.55,c:[46,116,224],px:-.00015,py:.00019,ph:1.7},
-      {x:.55,y:.72,r:.7,c:[36,86,180],px:.00012,py:-.00016,ph:3.1},
-      {x:.18,y:.68,r:.48,c:[120,90,220],px:.0002,py:.00011,ph:4.6}
+      {x:.28,y:.34,r:.62,c:pal[0],px:.00018,py:.00013,ph:0},
+      {x:.72,y:.28,r:.55,c:pal[1],px:-.00015,py:.00019,ph:1.7},
+      {x:.55,y:.72,r:.7,c:pal[2],px:.00012,py:-.00016,ph:3.1},
+      {x:.18,y:.68,r:.48,c:pal[3],px:.0002,py:.00011,ph:4.6}
     ];
-    function aresize(){var host=ac.parentElement;
+    function resize(){var host=ac.parentElement;
       AW=Math.max(1,Math.round(host.clientWidth*sc)); AH=Math.max(1,Math.round(host.clientHeight*sc));
       ac.width=AW; ac.height=AH;}
-    function astep(t){
-      actx.globalCompositeOperation='source-over';
-      actx.fillStyle='#070a14'; actx.fillRect(0,0,AW,AH);
-      actx.globalCompositeOperation='lighter';
+    function stepA(t){
+      ctx.globalCompositeOperation='source-over';
+      ctx.fillStyle='#070a14'; ctx.fillRect(0,0,AW,AH);
+      ctx.globalCompositeOperation='lighter';
       for(var i=0;i<blobs.length;i++){var b=blobs[i];
         var cx=(b.x+Math.sin(t*b.px+b.ph)*.12)*AW, cy=(b.y+Math.cos(t*b.py+b.ph)*.12)*AH;
         var rad=b.r*AW*(0.9+0.12*Math.sin(t*0.0004+b.ph));
-        var g=actx.createRadialGradient(cx,cy,0,cx,cy,rad);
+        var g=ctx.createRadialGradient(cx,cy,0,cx,cy,rad);
         g.addColorStop(0,'rgba('+b.c[0]+','+b.c[1]+','+b.c[2]+',.55)');
         g.addColorStop(1,'rgba('+b.c[0]+','+b.c[1]+','+b.c[2]+',0)');
-        actx.fillStyle=g; actx.beginPath(); actx.arc(cx,cy,rad,0,6.28); actx.fill();
+        ctx.fillStyle=g; ctx.beginPath(); ctx.arc(cx,cy,rad,0,6.28); ctx.fill();
       }
-      araf=requestAnimationFrame(astep);
+      raf=requestAnimationFrame(stepA);
     }
-    window.addEventListener('resize',aresize); aresize(); araf=requestAnimationFrame(astep);
+    window.addEventListener('resize',resize); resize(); raf=requestAnimationFrame(stepA);
     document.addEventListener('visibilitychange',function(){
-      if(document.hidden){cancelAnimationFrame(araf);}else{araf=requestAnimationFrame(astep);}
+      if(document.hidden){cancelAnimationFrame(raf);}else{raf=requestAnimationFrame(stepA);}
     });
   }
+  document.querySelectorAll('canvas.fx-aurora').forEach(runAurora);
 
   /* ---- 3D tilt on the mockup ---- */
   var tilt=document.getElementById('tilt'), stage=tilt?tilt.closest('.stage'):null;
