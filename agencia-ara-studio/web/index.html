@@ -213,6 +213,44 @@
   footer .fw{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center}
   footer b{color:var(--ink)}
 
+  /* STAT BAND */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+  @media(max-width:760px){.stats{grid-template-columns:1fr 1fr}}
+  .stat{text-align:center;padding:1.4rem 1rem;border-radius:var(--r);
+    border:1px solid var(--panel-line);background:rgba(255,255,255,.03)}
+  .stat .v{font-family:"Sora";font-weight:800;color:#fff;font-size:clamp(2rem,5vw,2.9rem);
+    line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+  .stat .v em{font-style:normal;color:var(--blue-bright)}
+  .stat .l{color:var(--panel-muted);font-size:.86rem;margin-top:.55rem}
+
+  /* RUBROS MARQUEE */
+  .marq{overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+        mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+  .marq + .marq{margin-top:.9rem}
+  .track{display:flex;gap:.8rem;width:max-content;animation:scrollx 38s linear infinite}
+  .track.rev{animation-direction:reverse;animation-duration:46s}
+  .marq:hover .track{animation-play-state:paused}
+  @keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media(prefers-reduced-motion:reduce){.track{animation:none;flex-wrap:wrap;width:auto;justify-content:center}}
+  .rubro{flex:none;display:inline-flex;align-items:center;gap:.55rem;white-space:nowrap;
+    background:var(--surface);border:1px solid var(--line);border-radius:999px;
+    padding:.7rem 1.2rem;font-family:"Sora";font-weight:600;font-size:.95rem;box-shadow:var(--shadow-sm)}
+  .rubro span{font-size:1.15rem}
+
+  /* COMPARATIVA */
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:.5rem}
+  @media(max-width:720px){.vs{grid-template-columns:1fr}}
+  .col{border-radius:var(--r);padding:1.6rem;border:1px solid var(--line);background:var(--surface)}
+  .col.win{border-color:var(--blue);box-shadow:var(--shadow);position:relative}
+  .col h3{font-size:1.15rem;display:flex;align-items:center;gap:.5rem}
+  .col.win h3{color:var(--blue)}
+  .col ul{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-direction:column;gap:.7rem}
+  .col li{font-size:.95rem;padding-left:1.7rem;position:relative;color:var(--ink-2)}
+  .col.old li::before{content:"✕";position:absolute;left:0;color:#c0563f;font-weight:800}
+  .col.win li::before{content:"✓";position:absolute;left:0;color:var(--blue);font-weight:800}
+  .col.win li{color:var(--ink)}
+  .col .tagline{font-family:"Sora";font-weight:600;font-size:.82rem;color:var(--muted);margin-top:.2rem}
+
   /* reveal — visible at rest; only enhances when JS+motion allowed */
   .reveal{opacity:1;transform:none}
   html.js:not(.rm) .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
@@ -281,6 +319,13 @@
     <div class="eyebrow" style="color:var(--blue-bright)">Lo que nos hace distintos</div>
     <h2 style="margin-top:1rem">La mayoría vende <em>“manejo de redes”</em>. Nosotros vendemos clientes.</h2>
     <p>Las redes son una herramienta, no el objetivo. Armamos tu presencia completa y la medimos por lo único que importa: cuántas consultas, turnos y ventas te llegan.</p>
+
+    <div class="stats reveal" style="margin-top:2.6rem">
+      <div class="stat"><div class="v" data-count="5">5</div><div class="l">canales en un solo sistema<br>web · Google · IG · WhatsApp · reseñas</div></div>
+      <div class="stat"><div class="v">24/7</div><div class="l">captando consultas<br>sin descanso ni feriados</div></div>
+      <div class="stat"><div class="v" data-count="100" data-suffix="%">100%</div><div class="l">contenido on-brand<br>con tu identidad, siempre</div></div>
+      <div class="stat"><div class="v">USD</div><div class="l">plan dolarizado<br>precio previsible</div></div>
+    </div>
   </div>
 </section>
 
@@ -302,6 +347,55 @@
   </div>
 </section>
 
+<section style="background:var(--bg-2);padding-block:clamp(2.6rem,6vw,4.4rem)">
+  <div class="wrap">
+    <div class="head reveal" style="text-align:center;margin:0 auto 2rem;max-width:46ch">
+      <div class="eyebrow">¿Para quién es?</div>
+      <h2>Si tu negocio vive de que te encuentren, es para vos</h2>
+    </div>
+  </div>
+  <div class="marq reveal" aria-label="Rubros que atendemos">
+    <div class="track">
+      <div class="rubro"><span>🩺</span>Salud &amp; consultorios</div>
+      <div class="rubro"><span>🍷</span>Gastronomía</div>
+      <div class="rubro"><span>🏠</span>Inmobiliarias</div>
+      <div class="rubro"><span>🚗</span>Automotores</div>
+      <div class="rubro"><span>💆</span>Estética &amp; bienestar</div>
+      <div class="rubro"><span>⚖️</span>Estudios jurídicos</div>
+      <div class="rubro"><span>🏋️</span>Fitness &amp; pilates</div>
+      <div class="rubro"><span>🛍️</span>Indumentaria</div>
+      <div class="rubro" aria-hidden="true"><span>🩺</span>Salud &amp; consultorios</div>
+      <div class="rubro" aria-hidden="true"><span>🍷</span>Gastronomía</div>
+      <div class="rubro" aria-hidden="true"><span>🏠</span>Inmobiliarias</div>
+      <div class="rubro" aria-hidden="true"><span>🚗</span>Automotores</div>
+      <div class="rubro" aria-hidden="true"><span>💆</span>Estética &amp; bienestar</div>
+      <div class="rubro" aria-hidden="true"><span>⚖️</span>Estudios jurídicos</div>
+      <div class="rubro" aria-hidden="true"><span>🏋️</span>Fitness &amp; pilates</div>
+      <div class="rubro" aria-hidden="true"><span>🛍️</span>Indumentaria</div>
+    </div>
+  </div>
+  <div class="marq reveal" aria-hidden="true">
+    <div class="track rev">
+      <div class="rubro"><span>🐴</span>Turismo &amp; experiencias</div>
+      <div class="rubro"><span>🦷</span>Odontología</div>
+      <div class="rubro"><span>🏗️</span>Construcción &amp; PyMEs</div>
+      <div class="rubro"><span>📸</span>Servicios profesionales</div>
+      <div class="rubro"><span>🎓</span>Academias &amp; cursos</div>
+      <div class="rubro"><span>🐾</span>Veterinarias</div>
+      <div class="rubro"><span>🛠️</span>Oficios &amp; talleres</div>
+      <div class="rubro"><span>☕</span>Cafés &amp; locales</div>
+      <div class="rubro"><span>🐴</span>Turismo &amp; experiencias</div>
+      <div class="rubro"><span>🦷</span>Odontología</div>
+      <div class="rubro"><span>🏗️</span>Construcción &amp; PyMEs</div>
+      <div class="rubro"><span>📸</span>Servicios profesionales</div>
+      <div class="rubro"><span>🎓</span>Academias &amp; cursos</div>
+      <div class="rubro"><span>🐾</span>Veterinarias</div>
+      <div class="rubro"><span>🛠️</span>Oficios &amp; talleres</div>
+      <div class="rubro"><span>☕</span>Cafés &amp; locales</div>
+    </div>
+  </div>
+</section>
+
 <section class="dark">
   <div class="wrap">
     <div class="head reveal">
@@ -312,6 +406,41 @@
       <div class="step"><div class="n">PASO 01</div><h3>Diagnóstico</h3><p>Entendemos tu negocio, tu zona y qué querés vender más. Definimos objetivo y mensaje.</p></div>
       <div class="step"><div class="n">PASO 02</div><h3>Sistema andando</h3><p>Montamos web, Google, redes y embudo. Empezamos a publicar y a captar.</p></div>
       <div class="step"><div class="n">PASO 03</div><h3>Resultados medidos</h3><p>Reporte periódico, ajustes con datos y foco en más consultas cada mes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head reveal" style="text-align:center;margin:0 auto 2.2rem;max-width:44ch">
+      <div class="eyebrow">Por qué ARA Studio</div>
+      <h2>La diferencia entre postear y crecer</h2>
+    </div>
+    <div class="vs reveal">
+      <div class="col old">
+        <h3>😴 Lo de siempre</h3>
+        <div class="tagline">un “community manager” suelto</div>
+        <ul>
+          <li>Solo posteos en Instagram</li>
+          <li>Sin web ni presencia en Google</li>
+          <li>No hay embudo: los mensajes se pierden</li>
+          <li>Contenido genérico, sin identidad</li>
+          <li>“Likes” que no se traducen en clientes</li>
+          <li>Cero medición de resultados</li>
+        </ul>
+      </div>
+      <div class="col win">
+        <h3>🚀 Con ARA Studio</h3>
+        <div class="tagline">un sistema completo, con IA</div>
+        <ul>
+          <li>Web + Google + IG + WhatsApp + reseñas</li>
+          <li>Aparecés cuando te buscan en Google</li>
+          <li>Embudo directo a WhatsApp, sin fugas</li>
+          <li>Contenido on-brand con foto real e IA</li>
+          <li>Foco en consultas, turnos y ventas</li>
+          <li>Reportes claros del retorno</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -480,6 +609,22 @@
       });
       c.addEventListener('pointerleave',function(){c.style.transform='';});
     });
+  }
+
+  /* ---- count-up on stat band ---- */
+  var counters=document.querySelectorAll('.v[data-count]');
+  if(counters.length&&'IntersectionObserver' in window){
+    var cio=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting)return; cio.unobserve(e.target);
+        var el=e.target, end=parseInt(el.getAttribute('data-count'),10), suf=el.getAttribute('data-suffix')||'';
+        var t0=null, dur=1100;
+        function tick(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/dur,1);
+          var val=Math.round((0.2+0.8*p)*p*end); if(p<1){el.textContent=val+suf;requestAnimationFrame(tick);}else{el.textContent=end+suf;}}
+        requestAnimationFrame(tick);
+      });
+    },{threshold:.6});
+    counters.forEach(function(c){cio.observe(c);});
   }
 
   /* hero content stays fully visible — no fade on scroll */
