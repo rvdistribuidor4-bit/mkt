@@ -339,6 +339,48 @@
   .nice .n-chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:8px;
     padding:.35rem .5rem;font-size:.64rem;color:#cfe0ff;flex:1;text-align:center}
 
+  /* PHONE REELS */
+  .reels{display:flex;gap:2.2rem;justify-content:center;flex-wrap:wrap;margin-top:2.4rem}
+  .phone{position:relative;width:248px;max-width:74vw;aspect-ratio:9/19;background:#05070d;
+    border-radius:40px;padding:9px;border:1px solid rgba(255,255,255,.12);
+    box-shadow:0 44px 90px -34px rgba(0,0,0,.75), inset 0 0 0 2px rgba(255,255,255,.05);
+    transition:transform .3s ease}
+  .phone:hover{transform:translateY(-10px)}
+  .phone .notch{position:absolute;top:15px;left:50%;transform:translateX(-50%);width:64px;height:18px;
+    background:#000;border-radius:12px;z-index:6}
+  .phone .screen{position:relative;width:100%;height:100%;border-radius:32px;overflow:hidden;background:#0a0f1a}
+  .phone .reel-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    animation:kb 15s ease-in-out infinite alternate}
+  @keyframes kb{from{transform:scale(1.06) translate(0,0)}to{transform:scale(1.22) translate(-3%,-3%)}}
+  @media(prefers-reduced-motion:reduce){.phone .reel-img{animation:none}}
+  .phone .grad{position:absolute;inset:0;z-index:2;
+    background:linear-gradient(to top,rgba(0,0,0,.74),transparent 40%,transparent 72%,rgba(0,0,0,.4))}
+  .phone .bars{position:absolute;top:11px;left:11px;right:11px;display:flex;gap:4px;z-index:4}
+  .phone .bars i{flex:1;height:2.5px;background:rgba(255,255,255,.32);border-radius:2px;overflow:hidden}
+  .phone .bars i.act::after{content:"";display:block;height:100%;width:0;background:#fff;animation:fillbar 7s linear infinite}
+  @keyframes fillbar{to{width:100%}}
+  @media(prefers-reduced-motion:reduce){.phone .bars i.act::after{width:60%;animation:none}}
+  .phone .top{position:absolute;top:22px;left:13px;right:13px;display:flex;align-items:center;gap:.45rem;
+    z-index:4;color:#fff;font-family:"Sora";font-weight:700;font-size:.8rem}
+  .phone .top .av{width:22px;height:22px;border-radius:50%;background:linear-gradient(135deg,#2E74E0,#7FB0F2);
+    border:1.5px solid rgba(255,255,255,.85);flex:none}
+  .phone .top .rl{margin-left:auto;font-weight:600;opacity:.85;font-size:.7rem}
+  .phone .rail{position:absolute;right:10px;bottom:86px;display:flex;flex-direction:column;gap:.95rem;
+    align-items:center;z-index:4;color:#fff}
+  .phone .rail div{display:flex;flex-direction:column;align-items:center;gap:2px;font-family:"Sora";font-weight:600;font-size:.6rem}
+  .phone .rail .ico{font-size:1.35rem;filter:drop-shadow(0 1px 3px rgba(0,0,0,.55))}
+  .phone .rail .ico.beat{animation:beat 2.4s ease-in-out infinite}
+  @keyframes beat{0%,88%,100%{transform:scale(1)}92%{transform:scale(1.28)}96%{transform:scale(1.05)}}
+  @media(prefers-reduced-motion:reduce){.phone .rail .ico.beat{animation:none}}
+  .phone .cap{position:absolute;left:13px;right:46px;bottom:36px;z-index:4;color:#fff}
+  .phone .cap .u{font-family:"Sora";font-weight:700;font-size:.82rem}
+  .phone .cap .tx{font-size:.72rem;color:#eaf1fc;margin-top:.2rem;line-height:1.35}
+  .phone .music{position:absolute;left:13px;right:46px;bottom:15px;z-index:4;display:flex;align-items:center;
+    gap:.4rem;color:#fff;font-size:.66rem;overflow:hidden;white-space:nowrap}
+  .phone .music .tk{display:inline-block;animation:mticker 9s linear infinite}
+  @keyframes mticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media(prefers-reduced-motion:reduce){.phone .music .tk{animation:none}}
+
   /* cursor spotlight — light that follows the pointer */
   #spot{position:fixed;inset:0;pointer-events:none;z-index:5;opacity:0;transition:opacity .4s ease;
     background:radial-gradient(260px 260px at var(--sx,50%) var(--sy,50%),
@@ -612,6 +654,53 @@
       </div>
     </div>
     <p class="disc">Piezas de muestra ilustrativas del estilo ARA Studio. Cada cliente recibe contenido con su marca, sus fotos y su mensaje.</p>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <div class="head reveal" style="text-align:center;margin:0 auto 1rem;max-width:46ch">
+      <div class="eyebrow" style="color:var(--blue-bright)">Reels &amp; TikTok</div>
+      <h2 style="color:#fff">Reels que frenan el pulgar</h2>
+      <p class="muted" style="margin-top:.8rem">Video vertical con música de tendencia y locución IA. El formato que más alcance te da hoy — producido por vos, sin que grabes nada complicado.</p>
+    </div>
+    <div class="reels reveal">
+      <div class="phone">
+        <span class="notch"></span>
+        <div class="screen">
+          <img class="reel-img" src="reel-cafe.jpg" alt="Reel de ejemplo — cafetería">
+          <div class="grad"></div>
+          <div class="bars"><i class="act"></i><i></i><i></i></div>
+          <div class="top"><span class="av"></span>tunegocio<span class="rl">▶ Reel</span></div>
+          <div class="rail">
+            <div><span class="ico beat">❤️</span>1.2k</div>
+            <div><span class="ico">💬</span>128</div>
+            <div><span class="ico">📤</span>Enviar</div>
+            <div><span class="ico">🔖</span></div>
+          </div>
+          <div class="cap"><div class="u">@tunegocio</div><div class="tx">El ritual del café perfecto ☕ Te esperamos hoy.</div></div>
+          <div class="music">🎵 <span class="tk">audio original · tendencia — audio original · tendencia — </span></div>
+        </div>
+      </div>
+      <div class="phone">
+        <span class="notch"></span>
+        <div class="screen">
+          <img class="reel-img" src="reel-boutique.jpg" alt="Reel de ejemplo — indumentaria" style="animation-delay:-6s">
+          <div class="grad"></div>
+          <div class="bars"><i></i><i class="act"></i><i></i></div>
+          <div class="top"><span class="av"></span>tunegocio<span class="rl">▶ Reel</span></div>
+          <div class="rail">
+            <div><span class="ico beat">❤️</span>3.4k</div>
+            <div><span class="ico">💬</span>291</div>
+            <div><span class="ico">📤</span>Enviar</div>
+            <div><span class="ico">🔖</span></div>
+          </div>
+          <div class="cap"><div class="u">@tunegocio</div><div class="tx">Nueva temporada 🔥 Mirá los looks y escribinos.</div></div>
+          <div class="music">🎵 <span class="tk">audio original · tendencia — audio original · tendencia — </span></div>
+        </div>
+      </div>
+    </div>
+    <p class="disc" style="color:var(--panel-muted)">Reels de muestra con imágenes generadas por IA. Cada cliente recibe reels con su negocio, su marca y su mensaje.</p>
   </div>
 </section>
 
