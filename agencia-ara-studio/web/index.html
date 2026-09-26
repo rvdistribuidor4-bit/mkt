@@ -482,18 +482,6 @@
     });
   }
 
-  /* ---- hero parallax ---- */
-  var hw=document.getElementById('heroWrap');
-  if(hw){
-    var ticking=false;
-    window.addEventListener('scroll',function(){
-      if(ticking)return; ticking=true;
-      requestAnimationFrame(function(){
-        var y=window.pageYOffset||0;
-        if(y<820){hw.style.transform='translateY('+(y*.14).toFixed(1)+'px)';hw.style.opacity=String(Math.max(0,1-y/700));}
-        ticking=false;
-      });
-    },{passive:true});
-  }
+  /* hero content stays fully visible — no fade on scroll */
 })();
 </script>
