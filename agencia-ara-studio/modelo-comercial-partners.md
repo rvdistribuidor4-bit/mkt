@@ -1,60 +1,73 @@
-# ARA Studio — Modelo de Partner Comercial (estilo Serhant)
+# ARA Studio — Modelo de Partners (estilo Odoo / Serhant)
 
-**Idea madre:** *Vos vendés. Nosotros producimos. Ganás por cada cliente, todos los meses.*
-Como una agencia grande: le damos al partner todos los recursos (marca, sistema, mail, ficha, casos, capacitación) y el partner solo **capta y cierra**. La agencia **absorbe al cliente** (marca, contrato, facturación y producción) y el partner cobra **comisión recurrente**.
+**Idea madre:** una **red de partners** que operan como mini-agencias bajo la marca, el sistema y el control de calidad de ARA Studio. Cada partner **vende, produce y arma su propio equipo**. ARA Studio pone la estructura de agencia grande; el partner pone las manos y la venta. Escala con **vendedores por todos lados**.
 
-Referencia: el modelo de **Ryan Serhant (SERHANT.)** — la firma da a cada vendedor recursos de estructura grande (branding, contenido, tecnología, formación) y el vendedor construye su propio libro de negocios bajo la marca.
+Referencias: **Odoo** (tiers de partners que implementan/revenden y reciben leads según nivel) + **Serhant** (la firma da recursos de estructura grande y el vendedor construye su libro bajo la marca).
 
 ---
 
-## 1. Qué le damos al partner (los recursos de "agencia grande")
-- **Acceso a nuestro sistema:** CRM y seguimiento **Distribution**, motor de contenido con IA, plantillas y el **sistema de diagnóstico "Antes/Después"** para vender.
-- **Mail propio** (@arasolutions.com.ar).
-- **Ficha propia en la web** de ARA Studio (sección Equipo) → identidad profesional desde el día 1.
-- **Marca + casos de éxito** (Lazarte y los que se sumen) para mostrar.
-- **Capacitación** y guion de venta.
-- **Cero costo de herramientas** y **cero entrega:** toda la producción la hace ARA Studio.
+## 1. Los dos roles
+### 🧑‍💼 Vendedor
+Solo **vende**. No produce. Cobra **comisión recurrente** mientras el cliente esté activo. La producción la hace un Partner o ARA.
 
-## 2. Qué hace el partner
-- Prospecta y cierra usando el sistema de diagnóstico.
-- Carga y sigue sus prospectos en **Distribution**.
-- Sostiene el primer vínculo; la agencia absorbe y factura al cliente.
+### 🚀 Partner (mini-agencia)
+**Vende + produce el contenido de sus clientes** (bajo la **línea estricta de verificación de ARA**) **+ arma su propio equipo de vendedores.** Es la figura de nuestra colega. Gana más porque hace más, y construye un activo propio (su cartera + su equipo).
 
-## 3. La comisión (recurrente — lo clave)
-El fee del cliente es **mensual y recurrente**, así que la comisión también: el partner cobra **mes a mes mientras el cliente siga activo**. Cada cliente que suma **se acumula** (no arranca de cero).
+---
 
-**Comisión recurrente sobre el fee mensual, por tramos de cartera activa:**
+## 2. Cuánto gana un PARTNER (revenue share, porque produce)
+Tramos tipo Odoo, por **cartera activa + calidad sostenida**:
 
-| Clientes activos | Comisión recurrente |
+| Nivel | Clientes activos | Share del fee de SUS clientes |
+|---|---|---|
+| **Partner Ready** | 1 – 4 | **45%** |
+| **Partner Silver** | 5 – 9 | **50%** |
+| **Partner Gold** | 10 + | **55% + ARA le deriva leads propios** |
+
+El 45–55% restante es de **ARA Studio** por: sistema (Distribution + IA), marca, **línea de verificación / control de calidad**, facturación y **cobranza por débito**, y soporte.
+
+## 3. El equipo del Partner (override)
+Cuando un **vendedor del equipo** del Partner cierra un cliente (que el Partner produce), el fee se reparte por rol:
+
+| Rol | Se lleva |
 |---|---|
-| 1 – 3 | **20%** |
-| 4 – 7 | **25%** |
-| 8 o más | **30%** |
+| **Vendedor** (vendió) | 20% |
+| **Partner** (produce + gestiona su equipo) | 30% |
+| **ARA Studio** (sistema, marca, QC, cobranza) | 50% |
 
-- **Bono de bienvenida:** **USD 30 por cliente cerrado** (pago único, al primer cobro del cliente).
-- **Override de equipo (crecer):** si el partner suma a otros vendedores, gana **5%** sobre lo que venden sus reclutados. Así crecemos con **vendedores por todos lados**.
+Así el Partner **gana también sobre lo que vende su equipo**, y se arma la red: más vendedores → más clientes → más cartera propia.
 
-## 4. Ejemplo de ingresos (acumulativo)
-| Momento | Cartera activa | Fees/mes | Tramo | Comisión recurrente |
-|---|---|---|---|---|
-| Mes 1 | 2 clientes (1 Prof + 1 Esencial) | USD 430 | 20% | **≈ USD 86/mes** |
-| Mes 3 | 5 clientes (mix) | ≈ USD 1.400 | 25% | **≈ USD 350/mes** |
-| Mes 6 | 8 clientes (mix) | ≈ USD 2.400 | 30% | **≈ USD 720/mes** |
+## 4. La línea de verificación (calidad)
+**Nada se publica sin pasar el control de calidad de ARA Studio.** El Partner produce, pero cada pieza pasa por nuestra verificación antes de salir. Protege la marca y garantiza el estándar. Un Partner que sostiene calidad sube de nivel (y % ); uno que no la sostiene, no.
 
-*+ bonos de bienvenida. Es una bola de nieve: lo de cada mes se suma a lo del anterior.*
+## 5. Recursos a cuenta
+Si el Partner/vendedor necesita una herramienta para trabajar (ej. una **tablet para mostrar el producto en la visita al cliente**), **la empresa se la provee** y el costo **se descuenta a futuro de sus pagos/comisiones**. Es un adelanto, no un gasto de bolsillo del partner.
 
-## 5. Reglas (claras y justas)
-- La comisión residual se paga **mientras el cliente esté activo y al día**, y mientras el partner **siga siendo parte de ARA Studio**.
-- El cliente es de **ARA Studio** (marca, contrato, facturación). El partner tiene **crédito y comisión**, no propiedad del cliente.
-- Si el partner deja el equipo: **cola de 3 meses** de residual y luego cesa (evita que se lleve la cartera y protege a la agencia).
-- **Transparencia total:** todo el pipeline y las comisiones se ven en Distribution.
+## 6. Cobro: SIEMPRE por débito automático
+**Todos los planes vendidos se cobran por débito automático.** Esto:
+- Filtra **clientes serios**, dispuestos a crecer con nosotros.
+- Asegura la **recurrencia** y la cobranza (sin perseguir pagos).
+- Hace previsible la comisión del partner mes a mes.
 
-## 6. Por qué es rentable para todos
-- **Cliente:** agencia grande a precio justo.
-- **Partner:** ingreso **recurrente que crece**, marca propia (ficha + mail), **sin costo ni entrega**. Construye su propio libro de negocios.
-- **ARA Studio:** escala ventas **sin sueldos fijos**, paga solo por resultados. Margen sano: fee − comisión − producción (baja, automatizada con IA) ≈ 50%.
+## 7. Lo que le damos al Partner (recursos de agencia grande)
+- Acceso al **sistema**: CRM/seguimiento **Distribution**, motor de contenido con IA, sistema de diagnóstico "Antes/Después".
+- **Mail propio** (@arasolutions.com.ar) y **ficha propia** en la web de ARA Studio.
+- **Marca + casos de éxito** para vender, capacitación y guion.
+- **Línea de calidad** que respalda su trabajo (el cliente sabe que hay una estructura detrás).
+- Posibilidad de **armar su equipo** y cobrar override.
 
-## 7. El crecimiento (la visión)
-Producción automatizada con IA = calidad de agencia grande a bajo costo → margen alto → podemos **pagar bien a los partners** → atraemos partners → más clientes → **flywheel**. El objetivo: una **fuerza de ventas distribuida**, cada una construyendo ingreso recurrente, todas alimentadas por un mismo motor de producción.
+## 8. Reglas
+- Comisión/share se paga **mientras el cliente esté activo y al día** (por débito) y el partner siga en ARA Studio.
+- El cliente es de **ARA Studio** (marca, contrato, facturación, cobranza). El partner tiene share, override y crédito — no propiedad del cliente.
+- Si un partner se va: **cola de 3 meses** de share y luego cesa.
+- Todo (pipeline, calidad, comisiones, adelantos) se ve en **Distribution**.
+
+## 9. Por qué es rentable para todos
+- **Partner:** construye una **mini-agencia propia** (cartera + equipo) con ingreso recurrente alto, sin poner capital en sistema/marca, con QC que la respalda.
+- **Vendedor:** comisión recurrente sin producir.
+- **ARA Studio:** escala sin sueldos fijos; la producción se distribuye en los partners; se queda con 45–55% + owns clientes + cobra por débito. Margen sano y creciente.
+
+## 10. El crecimiento (visión)
+IA + sistema propio = calidad de agencia grande a bajo costo → márgenes que permiten pagar bien → se suman partners y vendedores → cada uno arma su red → **fuerza de ventas y producción distribuida por todos lados**, con una sola marca y un solo estándar de calidad.
 
 *Última actualización: 2026-09-26.*
