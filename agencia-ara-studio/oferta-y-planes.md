@@ -37,11 +37,21 @@ Opcional: **Setup inicial** (una vez) si no tienen web/marca: **USD 150-300** (b
 | Google Business Profile (Maps) | ✅ | ✅ | ✅ |
 | Embudo a WhatsApp | ✅ | ✅ | ✅ |
 | **Reels con video + locución IA** | — | ✅ 2/mes | ✅ 4/mes |
-| Web / landing + SEO local | — | ✅ | ✅ |
+| **Web** | ✅ básica (si no tenés) | ✅ landing + SEO | ✅ completa + SEO |
+| **Dominio + hosting incluidos** | — | ✅ | ✅ |
 | Motor de reseñas (reputación) | — | ✅ | ✅ |
 | **Gestión de campañas de pauta** | — | — | ✅ |
+| **Registro de marca** (si no lo tenés) | — | — | ✅ |
+| **Acceso a CRM Distribution** (1 usuario) * | — | — | ✅ |
 | Dashboard de métricas | básico | ✅ | ✅ prioridad |
 | Reporte | mensual | quincenal | quincenal + llamada |
+
+\* **CRM Distribution:** el plan Full da acceso a nuestro sistema propio de CRM y seguimiento **Distribution** con **1 usuario**. La **implementación/alta de la cuenta es un único pago inicial a cargo del cliente** (aparte del fee mensual).
+
+**Nuevas inclusiones (resumen):**
+- **Esencial:** si no tienen web, **diseñamos una web básica** incluida.
+- **Profesional:** **dominio + hosting incluidos** (además de la web con SEO).
+- **Full:** **registro de marca** (si no lo tienen) dentro del precio + **acceso a Distribution** (1 usuario; alta = 1 pago único del cliente).
 
 **Regla de venta:** presentar SIEMPRE el del medio (Profesional) como recomendado. La mayoría elige el del medio.
 

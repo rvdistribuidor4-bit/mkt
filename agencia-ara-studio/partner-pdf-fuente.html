@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<title>Sumate a ARA Studio</title>
+<style>
+  :root{
+    --navy:#0A214A; --navy-2:#0E2A5E; --blue:#2E74E0; --blue-2:#6EA5F2;
+    --ink:#0C1A33; --ink-2:#38455C; --muted:#6B7A93; --line:#E2E8F2;
+    --bg:#FFFFFF; --soft:#F4F7FC;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:"Manrope",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    color:var(--ink);font-size:12.5px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:"Sora","Manrope",sans-serif;margin:0;line-height:1.1;letter-spacing:-.01em}
+  p{margin:0}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{size:A4;margin:0}
+  .page{width:210mm;min-height:297mm;padding:20mm 18mm;position:relative;page-break-after:always;background:var(--bg)}
+  .page:last-child{page-break-after:auto}
+  .eyebrow{font-family:"Sora";font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:9px;color:var(--blue)}
+  .muted{color:var(--muted)}
+
+  /* cover */
+  .cover{background:radial-gradient(120% 90% at 50% -10%,#12294f,#0a1730 60%,#070d1c);color:#fff;
+    display:flex;flex-direction:column;justify-content:space-between;padding:24mm 18mm}
+  .cover .brand{font-family:"Sora";font-weight:800;font-size:16px;letter-spacing:.02em}
+  .cover .brand b{color:var(--blue-2)} .cover .brand small{display:block;font-weight:600;font-size:8.5px;letter-spacing:.16em;color:#9fb2d6;text-transform:uppercase;margin-top:2px}
+  .cover h1{font-size:40px;font-weight:800;color:#fff;margin-top:8px;max-width:15ch}
+  .cover h1 em{font-style:normal;color:var(--blue-2)}
+  .cover .sub{color:#c6d4ee;font-size:14px;margin-top:14px;max-width:44ch}
+  .cover .to{margin-top:18px;font-family:"Sora";font-weight:600;font-size:12px;color:#9fb2d6}
+  .cover .foot{color:#8ea3c8;font-size:10px}
+  .cover .pill{display:inline-block;background:rgba(46,116,224,.2);border:1px solid rgba(110,165,242,.4);
+    color:var(--blue-2);font-family:"Sora";font-weight:700;font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+    padding:5px 11px;border-radius:999px}
+
+  h2.sec{font-size:24px;font-weight:800;margin-top:6px}
+  .lead{color:var(--ink-2);font-size:13px;margin-top:8px;max-width:60ch}
+  .rule{height:3px;width:44px;background:var(--blue);border-radius:2px;margin-top:14px;margin-bottom:16px}
+
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:12px 13px;background:var(--soft)}
+  .card h3{font-size:13px;font-weight:700}
+  .card p{color:var(--muted);font-size:11px;margin-top:3px}
+  .card .ic{font-size:16px;margin-bottom:5px}
+
+  .flow{display:flex;gap:8px;margin-top:14px}
+  .flow .step{flex:1;border:1px solid var(--line);border-radius:12px;padding:11px;background:#fff;text-align:center}
+  .flow .step .n{font-family:"Sora";font-weight:800;color:var(--blue);font-size:10px}
+  .flow .step h3{font-size:12.5px;margin-top:3px} .flow .step p{font-size:10px;color:var(--muted);margin-top:2px}
+
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:12px}
+  th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line)}
+  thead th{font-family:"Sora";font-weight:800;background:var(--navy);color:#fff}
+  thead th:first-child{border-top-left-radius:10px} thead th:last-child{border-top-right-radius:10px}
+  td:first-child{font-family:"Sora";font-weight:700}
+  tbody tr:nth-child(even){background:var(--soft)}
+  .hl{color:var(--blue);font-weight:800}
+
+  .give{list-style:none;padding:0;margin:8px 0 0}
+  .give li{position:relative;padding-left:22px;margin-bottom:8px;font-size:12.5px}
+  .give li::before{content:"✓";position:absolute;left:0;top:0;color:#fff;background:var(--blue);
+    width:16px;height:16px;border-radius:50%;font-size:10px;display:flex;align-items:center;justify-content:center;font-weight:800}
+  .give li b{font-weight:700}
+
+  .band{background:var(--navy);color:#fff;border-radius:14px;padding:16px 18px;margin-top:16px}
+  .band h3{color:#fff;font-size:15px} .band p{color:#c6d4ee;font-size:11.5px;margin-top:6px}
+  .band .big{font-family:"Sora";font-weight:800;color:var(--blue-2);font-size:20px}
+
+  .foot-note{position:absolute;left:18mm;right:18mm;bottom:12mm;color:var(--muted);font-size:9px;
+    border-top:1px solid var(--line);padding-top:6px;display:flex;justify-content:space-between}
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COVER -->
+<section class="page cover">
+  <div>
+    <div class="brand">ARA <b>STUDIO</b><small>por ARA Solutions</small></div>
+  </div>
+  <div>
+    <span class="pill">Propuesta para sumarte al equipo</span>
+    <h1>Vos vendés.<br>Nosotros <em>producimos</em>.</h1>
+    <p class="sub">Una forma de construir tu propio ingreso recurrente, con los recursos de una agencia grande detrás.</p>
+    <div class="to">Para: [tu nombre] · Preparado por Ricardo Vicente — ARA Studio</div>
+  </div>
+  <div class="foot">ARA Studio · unidad de ARA Solutions · Córdoba, Argentina · studio.arasolutions.com.ar</div>
+</section>
+
+<!-- PAGE 2 — QUÉ ES + DÓNDE ESTÁ EL CRECIMIENTO -->
+<section class="page">
+  <div class="eyebrow">El proyecto</div>
+  <h2 class="sec">Qué es ARA Studio</h2>
+  <div class="rule"></div>
+  <p class="lead">ARA Studio es la unidad de marketing y posicionamiento de <b>ARA Solutions</b>. Le armamos a cada PyME un sistema completo —web, Google, Instagram, reels y pauta— que trabaja todos los días para conseguirle clientes. La diferencia: producimos con <b>inteligencia artificial y un sistema propio</b>, así que damos calidad de agencia grande a un costo bajo.</p>
+
+  <div class="cards">
+    <div class="card"><div class="ic">🧩</div><h3>Sistema completo</h3><p>Web + Google + Instagram + embudo a WhatsApp + reseñas. No posteos sueltos.</p></div>
+    <div class="card"><div class="ic">🤖</div><h3>Producción con IA</h3><p>Imágenes, video y locución con IA. Calidad alta, costo bajo, alto margen.</p></div>
+    <div class="card"><div class="ic">💵</div><h3>Ingreso recurrente</h3><p>Los clientes pagan un fee mensual. Cada cliente suma ingresos que se repiten.</p></div>
+    <div class="card"><div class="ic">🏆</div><h3>Caso real</h3><p>Centro de Ojos Lazarte: web + IG automatizado + Google + reseñas.</p></div>
+  </div>
+
+  <div class="eyebrow" style="margin-top:22px">Dónde está el crecimiento</div>
+  <h2 class="sec">Un mercado enorme y desatendido</h2>
+  <div class="rule"></div>
+  <p class="lead">La mayoría de las PyMEs de Córdoba y del país tienen una presencia digital pobre o inexistente, y saben que la necesitan. Es demanda real esperando. Como cobramos un fee <b>mensual</b>, cada cliente que entra no es una venta única: es un ingreso que se repite. Y como la producción está automatizada, el cuello de botella no es producir — es <b>vender</b>. Ahí es donde entrás vos.</p>
+
+  <div class="band">
+    <h3>El flywheel</h3>
+    <p>Producción con IA → calidad de agencia grande a bajo costo → <b>margen alto</b> → podemos pagar bien a los vendedores → se suman más vendedores → más clientes → más margen. Una rueda que gira sola y cada vuelta es más grande.</p>
+  </div>
+
+  <div class="foot-note"><span>ARA Studio — Propuesta para sumarte al equipo</span><span>2</span></div>
+</section>
+
+<!-- PAGE 3 — EL MODELO (SERHANT) -->
+<section class="page">
+  <div class="eyebrow">El modelo</div>
+  <h2 class="sec">Como una agencia grande: vos vendés, nosotros hacemos el resto</h2>
+  <div class="rule"></div>
+  <p class="lead">Está inspirado en cómo trabaja <b>Ryan Serhant</b>: la firma le da a cada vendedor los recursos de una estructura grande, y el vendedor construye su propio libro de negocios bajo la marca. Acá es igual: te damos todo, vos captás y cerrás, y <b>nosotros absorbemos y producimos al cliente.</b></p>
+
+  <div class="flow">
+    <div class="step"><div class="n">PASO 01</div><h3>Vos captás y cerrás</h3><p>Con el sistema de diagnóstico "Antes/Después" que te damos.</p></div>
+    <div class="step"><div class="n">PASO 02</div><h3>Nosotros producimos</h3><p>La agencia entrega y factura. Vos no tenés que producir nada.</p></div>
+    <div class="step"><div class="n">PASO 03</div><h3>Cobrás todos los meses</h3><p>Comisión recurrente mientras el cliente siga activo.</p></div>
+  </div>
+
+  <div class="eyebrow" style="margin-top:22px">Lo que te damos</div>
+  <h2 class="sec">Los recursos de una agencia grande, para vos</h2>
+  <div class="rule"></div>
+  <ul class="give">
+    <li><b>Acceso a nuestro sistema</b> — CRM y seguimiento Distribution, motor de contenido con IA y el sistema de diagnóstico para vender.</li>
+    <li><b>Mail propio</b> (@arasolutions.com.ar) y <b>tu ficha en la web</b> de ARA Studio (sección Equipo): identidad profesional desde el día 1.</li>
+    <li><b>La marca y los casos de éxito</b> para mostrar, más capacitación y guion de venta.</li>
+    <li><b>Cero costo de herramientas y cero entrega</b>: la producción la hace ARA Studio. Vos te enfocás en vender.</li>
+  </ul>
+
+  <div class="foot-note"><span>ARA Studio — Propuesta para sumarte al equipo</span><span>3</span></div>
+</section>
+
+<!-- PAGE 4 — LA COMISIÓN + EJEMPLO -->
+<section class="page">
+  <div class="eyebrow">Lo que ganás</div>
+  <h2 class="sec">Comisión recurrente que crece mes a mes</h2>
+  <div class="rule"></div>
+  <p class="lead">Como el cliente paga un fee mensual, vos cobrás <b>todos los meses</b> mientras siga activo. Cada cliente que sumás <b>se acumula</b> — no arrancás de cero. Y a más cartera, mayor porcentaje:</p>
+
+  <table>
+    <thead><tr><th>Clientes activos</th><th>Tu comisión recurrente</th></tr></thead>
+    <tbody>
+      <tr><td>1 – 3</td><td class="hl">20%</td></tr>
+      <tr><td>4 – 7</td><td class="hl">25%</td></tr>
+      <tr><td>8 o más</td><td class="hl">30%</td></tr>
+    </tbody>
+  </table>
+  <p class="muted" style="font-size:11px;margin-top:8px">+ <b>Bono de bienvenida:</b> USD 30 por cada cliente cerrado (pago único). &nbsp;·&nbsp; + <b>Override de equipo:</b> si sumás otros vendedores, ganás 5% sobre lo que ellos venden.</p>
+
+  <div class="eyebrow" style="margin-top:22px">Ejemplo real</div>
+  <h2 class="sec">Cómo se acumula</h2>
+  <div class="rule"></div>
+  <table>
+    <thead><tr><th>Momento</th><th>Cartera</th><th>Fees/mes</th><th>Comisión/mes</th></tr></thead>
+    <tbody>
+      <tr><td>Mes 1</td><td>2 clientes</td><td>USD 430</td><td class="hl">≈ USD 86</td></tr>
+      <tr><td>Mes 3</td><td>5 clientes</td><td>≈ USD 1.400</td><td class="hl">≈ USD 350</td></tr>
+      <tr><td>Mes 6</td><td>8 clientes</td><td>≈ USD 2.400</td><td class="hl">≈ USD 720</td></tr>
+    </tbody>
+  </table>
+  <p class="muted" style="font-size:11px;margin-top:8px">Cifras de ejemplo, con mezcla de planes. Es una bola de nieve: lo de cada mes se suma a lo del mes anterior.</p>
+
+  <div class="band">
+    <h3>La regla de oro</h3>
+    <p>El cliente es de ARA Studio (marca, contrato y facturación); vos tenés el crédito y la comisión. Todo el pipeline y tus comisiones los ves en Distribution, con total transparencia. La comisión se paga mientras el cliente esté activo y vos seas parte del equipo.</p>
+  </div>
+
+  <div class="foot-note"><span>ARA Studio — Propuesta para sumarte al equipo</span><span>4</span></div>
+</section>
+
+<!-- PAGE 5 — QUÉ ESPERAMOS + CIERRE -->
+<section class="page">
+  <div class="eyebrow">Lo que esperamos de vos</div>
+  <h2 class="sec">Simple: que vendas</h2>
+  <div class="rule"></div>
+  <div class="cards">
+    <div class="card"><div class="ic">🎯</div><h3>Prospectar y cerrar</h3><p>Con el sistema de diagnóstico. Te enseñamos el método.</p></div>
+    <div class="card"><div class="ic">🗂️</div><h3>Cargar en Distribution</h3><p>Seguir tus prospectos y clientes en el CRM. Ordenado y medible.</p></div>
+    <div class="card"><div class="ic">🤝</div><h3>Cuidar el vínculo</h3><p>Sos la cara del primer contacto. Nosotros hacemos el resto.</p></div>
+    <div class="card"><div class="ic">📚</div><h3>Aprender y crecer</h3><p>Tu formación en marketing digital, aplicada a casos reales.</p></div>
+  </div>
+
+  <div class="band" style="margin-top:24px">
+    <h3>Por qué te conviene</h3>
+    <p>Construís un <b>ingreso recurrente propio</b> y tu <b>marca personal</b> (ficha + mail), sin poner un peso en herramientas y sin tener que producir. Es tu experiencia real en marketing digital, cobrando por resultados, con una estructura que te respalda. Cuanto más crezca ARA Studio, más crecés vos.</p>
+    <p style="margin-top:10px" class="big">Sumate y empezamos.</p>
+  </div>
+
+  <div style="margin-top:26px">
+    <div class="eyebrow">Próximo paso</div>
+    <h2 class="sec" style="font-size:18px;margin-top:4px">Una charla de 20 minutos</h2>
+    <p class="lead">Te muestro el sistema por dentro, resolvemos tus dudas y, si te copa, arrancamos con tu mail, tu ficha y tu primera capacitación.</p>
+    <p style="margin-top:12px;font-family:'Sora';font-weight:700;color:var(--navy)">Ricardo Vicente — ARA Studio<br>
+    <span style="color:var(--blue);font-weight:700">WhatsApp +54 9 351 773-4177 · studio.arasolutions.com.ar</span></p>
+  </div>
+
+  <div class="foot-note"><span>ARA Studio — unidad de ARA Solutions</span><span>5</span></div>
+</section>
+
+</body>
+</html>
