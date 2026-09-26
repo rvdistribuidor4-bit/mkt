@@ -1,0 +1,314 @@
+<meta name="description" content="Propuesta de ARA Studio para Valfi S.A. — Plan Full: catálogo técnico, SEO industrial y captación de pedidos por buscador.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<title>Propuesta Valfi</title>
+<style>
+  :root{
+    --bg:#070A12; --bg-2:#0C1526; --surface:#0F1B33; --card:#111f3a;
+    --ink:#F4F7FC; --ink-2:#C6D2E6; --muted:#8FA0BF; --line:#1E2C46;
+    --blue:#3B82E8; --blue-2:#6EA5F2; --navy:#0A214A;
+    --good:#34C77B; --bad:#E0634A; --amber:#E7B84B;
+    --r:18px; --maxw:960px;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:"Sora","Manrope",system-ui,sans-serif;margin:0;line-height:1.08;
+    letter-spacing:-.02em;text-wrap:balance;font-weight:800}
+  p{margin:0}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:20px}
+  .eyebrow{font-family:"Sora",sans-serif;font-weight:700;text-transform:uppercase;
+    letter-spacing:.18em;font-size:.72rem;color:var(--blue-2)}
+  section{padding-block:clamp(2.6rem,6vw,4.4rem)}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:999px;padding:.8rem 1.4rem;
+    font-family:"Sora";font-weight:700;font-size:.95rem;text-decoration:none;border:1.5px solid transparent}
+  .btn-p{background:var(--blue);color:#fff}
+  .btn-wa{background:#25D366;color:#04331a}
+  .btn-o{border-color:var(--line);color:var(--ink)}
+
+  /* header */
+  header{border-bottom:1px solid var(--line);background:rgba(7,10,18,.85);backdrop-filter:blur(10px);
+    position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
+  .nav{display:flex;align-items:center;gap:1rem;height:58px}
+  .brand{font-family:"Sora";font-weight:800;letter-spacing:.02em;font-size:1rem}
+  .brand b{color:var(--blue-2)}
+  .brand small{display:block;font-family:"Manrope";font-weight:600;font-size:.58rem;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);margin-top:-2px}
+  .nav .tag{margin-left:auto;font-family:"Sora";font-weight:600;font-size:.8rem;color:var(--muted)}
+
+  /* hero */
+  .hero{background:radial-gradient(120% 100% at 50% -20%,#132a5c,#0a1327 55%,#070a12);text-align:center}
+  .hero .wrap{padding-block:clamp(3rem,8vw,5rem)}
+  .hero .kicker{display:inline-flex;gap:.5rem;align-items:center;background:rgba(59,130,232,.14);
+    border:1px solid rgba(110,165,242,.3);color:var(--blue-2);font-family:"Sora";font-weight:700;
+    font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;padding:.4rem .9rem;border-radius:999px}
+  .hero h1{font-size:clamp(2.1rem,6vw,3.6rem);margin:1.1rem auto 0;max-width:16ch;color:#fff}
+  .hero h1 em{font-style:normal;color:var(--blue-2)}
+  .hero .lead{color:var(--ink-2);font-size:clamp(1.05rem,2.3vw,1.28rem);max-width:52ch;margin:1.3rem auto 0}
+  .hero .meta{margin-top:1.6rem;color:var(--muted);font-size:.9rem;font-family:"Sora"}
+
+  .head{max-width:60ch;margin-bottom:1.8rem}
+  .head h2{font-size:clamp(1.6rem,4vw,2.5rem);margin-top:.5rem}
+  .head p{color:var(--muted);margin-top:.7rem;font-size:1.05rem;max-width:54ch}
+
+  /* google search mock */
+  .serp{background:#fff;color:#202124;border-radius:16px;padding:1.3rem 1.4rem;box-shadow:0 30px 70px -30px rgba(0,0,0,.6);
+    font-family:Arial,system-ui,sans-serif;max-width:640px;margin-inline:auto}
+  .serp .bar{display:flex;align-items:center;gap:.6rem;border:1px solid #dfe1e5;border-radius:999px;
+    padding:.55rem 1rem;color:#5f6368;font-size:.95rem}
+  .serp .bar b{color:#202124;font-weight:600}
+  .serp .r{margin-top:1.1rem}
+  .serp .r .u{color:#202124;font-size:.8rem}
+  .serp .r .t{color:#1a0dab;font-size:1.15rem;margin:.15rem 0 .1rem}
+  .serp .r .d{color:#4d5156;font-size:.86rem}
+  .serp .r.ad .t::before{content:"Anuncio · ";color:#006621;font-weight:700;font-size:.8rem}
+  .serp .missing{margin-top:1.1rem;border:1.5px dashed #d33;border-radius:10px;padding:.7rem .9rem;
+    color:#b3261e;font-size:.9rem;background:#fdecea}
+  .serp .missing b{font-weight:700}
+
+  /* antes/despues */
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:1.6rem}
+  @media(max-width:720px){.ba{grid-template-columns:1fr}}
+  .ba-card{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+  .ba-card .lbl{font-family:"Sora";font-weight:800;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+    padding:.7rem 1rem;display:flex;align-items:center;gap:.5rem}
+  .ba-card.before .lbl{background:#3a201a;color:#e6a58c}
+  .ba-card.after .lbl{background:var(--blue);color:#fff}
+  .frame{padding:0;min-height:200px}
+  .ugly{background:#eef0f2;color:#333;padding:1.1rem;font-family:Arial,sans-serif;height:100%}
+  .ugly .h{background:#0e3a6b;color:#fff;text-align:center;padding:.6rem;font-weight:700;border-radius:6px}
+  .ugly .box{background:#dfe3e8;border:1px dashed #aab;color:#889;text-align:center;padding:1.5rem .5rem;
+    margin-top:.7rem;font-size:.82rem;border-radius:6px}
+  .ugly p{font-size:.8rem;margin-top:.6rem;color:#556}
+  /* nice catalog mock */
+  .nice{background:linear-gradient(160deg,#0e2350,#0a1428);padding:1.1rem;height:100%;display:flex;flex-direction:column;gap:.7rem}
+  .nice .top{display:flex;align-items:center;gap:.5rem;font-family:"Sora";font-weight:800;font-size:.9rem;color:#fff}
+  .nice .top .sp{margin-left:auto;background:var(--blue);color:#fff;font-size:.62rem;padding:.25rem .6rem;border-radius:999px;font-weight:700}
+  .nice h4{font-family:"Sora";font-weight:800;font-size:1.05rem;color:#fff;margin:.2rem 0 0}
+  .nice .grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.2rem}
+  .nice .p{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:.55rem .6rem}
+  .nice .p .n{font-family:"Sora";font-weight:700;font-size:.78rem;color:#fff}
+  .nice .p .s{font-size:.64rem;color:#9fb2d6;margin-top:.1rem}
+  .nice .row{display:flex;gap:.4rem;margin-top:auto}
+  .nice .b{font-family:"Sora";font-weight:700;font-size:.7rem;padding:.4rem .7rem;border-radius:999px}
+  .nice .b.g{background:#25D366;color:#04331a}.nice .b.b{background:var(--blue);color:#fff}
+
+  /* differential cards */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.6rem}
+  @media(max-width:680px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.4rem}
+  .card .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:1.25rem;
+    background:rgba(59,130,232,.16);margin-bottom:.8rem}
+  .card h3{font-size:1.12rem;font-weight:700}
+  .card p{color:var(--muted);font-size:.95rem;margin-top:.4rem}
+
+  /* full table */
+  .tablewrap{margin-top:1.6rem;overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+  table{width:100%;border-collapse:collapse;min-width:520px;font-size:.95rem}
+  th,td{padding:.85rem 1rem;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  thead th{font-family:"Sora";font-weight:800;background:var(--bg-2);color:var(--blue-2)}
+  td:first-child{font-family:"Sora";font-weight:700;color:var(--ink);white-space:nowrap}
+  tbody tr:last-child td{border-bottom:none}
+  td .m{color:var(--muted)}
+
+  /* number band */
+  .why{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);padding:1.6rem;margin-top:1.6rem}
+  .why h3{font-size:1.3rem}
+  .why p{color:var(--ink-2);margin-top:.6rem}
+  .why .fine{color:var(--muted);font-size:.85rem;margin-top:.8rem}
+
+  /* pricing */
+  .price{display:grid;grid-template-columns:1.2fr .8fr;gap:1.1rem;margin-top:1.6rem;align-items:stretch}
+  @media(max-width:680px){.price{grid-template-columns:1fr}}
+  .pbox{background:linear-gradient(160deg,#13285a,#0b1732);border:1px solid var(--blue);border-radius:var(--r);
+    padding:1.6rem;position:relative}
+  .pbox .name{font-family:"Sora";font-weight:800;font-size:1.1rem;color:var(--blue-2)}
+  .pbox .amt{font-family:"Sora";font-weight:800;font-size:2.4rem;line-height:1;margin-top:.3rem}
+  .pbox .amt small{font-size:.85rem;color:var(--muted);font-weight:600}
+  .pbox ul{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-direction:column;gap:.5rem}
+  .pbox li{font-size:.92rem;padding-left:1.5rem;position:relative;color:var(--ink-2)}
+  .pbox li::before{content:"✓";position:absolute;left:0;color:var(--good);font-weight:800}
+  .pnote{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.3rem;font-size:.92rem;color:var(--ink-2)}
+  .pnote b{color:var(--ink)}
+
+  /* cta */
+  .final{background:radial-gradient(120% 120% at 50% 0%,#14285a,#0a1122 60%,#070a12);text-align:center;border-radius:22px;
+    padding:clamp(1.8rem,5vw,3rem);margin-top:1rem}
+  .final h2{font-size:clamp(1.7rem,4.4vw,2.6rem);color:#fff;max-width:20ch;margin:0 auto}
+  .final p{color:var(--ink-2);max-width:46ch;margin:1rem auto 1.5rem}
+  .final .row{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap}
+  .wa{font-family:"Sora";font-weight:700;user-select:all;background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:.7rem 1.1rem;color:#fff}
+
+  footer{padding-block:2rem;color:var(--muted);font-size:.85rem;text-align:center;border-top:1px solid var(--line);margin-top:2.4rem}
+  footer b{color:var(--ink)}
+  .divider{height:1px;background:var(--line);margin:1.2rem 0}
+</style>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand">ARA <b>STUDIO</b><small>por ARA Solutions</small></div>
+    <div class="tag">Propuesta · Valfi S.A.</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">🏭 Propuesta a medida · Plan Full</div>
+    <h1>50 años fabricando. Ahora, <em>encontrados donde se compra</em>.</h1>
+    <p class="lead">Valfi tiene autoridad, planta y producto. Lo que falta es estar donde tus clientes deciden: el buscador. Esta es la propuesta para convertir tu nombre en pedidos.</p>
+    <div class="meta">Preparado por ARA Studio para Valfi S.A. · EPS / Poliestireno expandido · Loma Hermosa, BA</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">El punto de partida</div>
+      <h2>Esto es lo que ve un comprador hoy</h2>
+      <p>Cuando alguien busca comprar telgopor, aparecen tus competidores. Valfi, con 50 años, no está en la página.</p>
+    </div>
+    <div class="serp">
+      <div class="bar">🔍 <b>fábrica de telgopor / planchas EPS mayorista</b></div>
+      <div class="r ad"><div class="t">Poltech — Poliestireno Expandido</div><div class="u">poltech.com.ar</div><div class="d">Planchas EPS, aislación y packaging. Pedí tu cotización mayorista online.</div></div>
+      <div class="r"><div class="u">telgomax.com.ar</div><div class="t">Telgomax — Empresa líder en aislación</div><div class="d">Catálogo de productos EPS con medidas y densidades. Envíos a todo el país.</div></div>
+      <div class="r"><div class="u">rivpol.com.ar</div><div class="t">Rivpol — Poliestireno Expandido</div><div class="d">Soluciones en EPS para construcción e industria.</div></div>
+      <div class="missing">⚠️ <b>Valfi no aparece.</b> Cada una de estas búsquedas es un pedido que hoy se va a la competencia.</div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Antes / Después</div>
+      <h2>De una web vacía a un catálogo que vende</h2>
+      <p>Hoy la web no muestra qué fabricás ni deja pedir cotización. Así se vería con nosotros.</p>
+    </div>
+    <div class="ba">
+      <div class="ba-card before">
+        <div class="lbl">😕 Hoy</div>
+        <div class="frame"><div class="ugly">
+          <div class="h">VALFI S.A.</div>
+          <div class="box">[ sin catálogo ni fichas ]</div>
+          <p>Poliestireno expandido. Contáctenos.</p>
+          <p>Sin productos, sin medidas, sin precios, sin cotización online, sin Google.</p>
+        </div></div>
+      </div>
+      <div class="ba-card after">
+        <div class="lbl">🚀 Con ARA Studio</div>
+        <div class="frame"><div class="nice">
+          <div class="top">VALFI <span class="sp">Cotizar</span></div>
+          <h4>Catálogo EPS por línea</h4>
+          <div class="grid">
+            <div class="p"><div class="n">Planchas aislación</div><div class="s">10–100mm · varias densidades</div></div>
+            <div class="p"><div class="n">Envases térmicos</div><div class="s">cadena de frío</div></div>
+            <div class="p"><div class="n">Packaging industrial</div><div class="s">a medida, con logo</div></div>
+            <div class="p"><div class="n">Cortes a medida</div><div class="s">según proyecto</div></div>
+          </div>
+          <div class="row"><span class="b b">Mayorista</span><span class="b g">Minorista WhatsApp</span></div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">El diferencial</div>
+      <h2>Tu Full no es "más posteos". Es una máquina de pedidos.</h2>
+      <p>En una fábrica de EPS, la gente no compra en Instagram: busca en Google con intención de comprar. Ahí ponemos el foco.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="ic">🔎</div><h3>Posicionamiento en buscadores</h3><p>Aparecer en "fábrica de telgopor", "planchas EPS", "cajas térmicas mayorista". Cada clic es un comprador real, no un curioso.</p></div>
+      <div class="card"><div class="ic">📐</div><h3>Catálogo técnico real</h3><p>Cada línea con medidas, densidades y usos. El comprador técnico decide por datos — se los damos.</p></div>
+      <div class="card"><div class="ic">🔀</div><h3>Doble embudo mayorista / minorista</h3><p>Un cotizador que rutea cada consulta al WhatsApp correcto. No se te mezclan los canales.</p></div>
+      <div class="card"><div class="ic">🎯</div><h3>Pauta en Google Search</h3><p>Aparecer primero cuando alguien busca comprar EPS. En B2B, es intención de compra pura. El presupuesto va directo a Google y es tuyo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Tu Plan Full, traducido a Valfi</div>
+      <h2>Qué incluye y qué significa para tu fábrica</h2>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Incluido</th><th>Para Valfi</th></tr></thead>
+        <tbody>
+          <tr><td>Web + SEO local</td><td class="m">Catálogo técnico por línea, con fichas (medidas, densidades, usos). Hoy no existe.</td></tr>
+          <tr><td>SEO industrial</td><td class="m">Rankear en las búsquedas de compra de EPS. Recuperás lo que hoy se va a Telgomax / Poltech / Rivpol.</td></tr>
+          <tr><td>Gestión de pauta (Google)</td><td class="m">Campañas de Search para aparecer primero. Presupuesto aparte, directo a Google.</td></tr>
+          <tr><td>Doble embudo WhatsApp</td><td class="m">Cotizador online que separa mayorista y minorista a tus 2 líneas.</td></tr>
+          <tr><td>Google Business Profile</td><td class="m">Ficha de la planta: cómo llegar, horarios, fotos del proceso.</td></tr>
+          <tr><td>Motor de reseñas</td><td class="m">Reputación con clientes mayoristas → confianza para comprar volumen.</td></tr>
+          <tr><td>20 posteos + 4 reels/mes</td><td class="m">Contenido de autoridad: la planta, el proceso, usos en obra y cadena de frío, "desde 1976".</td></tr>
+          <tr><td>Sesión de fotos on-site</td><td class="m">Vamos a la planta a producir el material real (incluido en Full).</td></tr>
+          <tr><td>Dashboard + reporte quincenal + llamada</td><td class="m">Ves cuántas cotizaciones entran y de qué canal. Medición real.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="why">
+      <h3>Por qué cierra la cuenta</h3>
+      <p>En una fábrica, el ticket mayorista es alto y recurrente. No hace falta mucho volumen nuevo para que la inversión rinda: <b>una sola cuenta mayorista nueva puede pagar el año</b>. Lo importante es que hoy esos pedidos existen y se los está llevando otro por estar mejor posicionado, no por mejor producto.</p>
+      <p class="fine">Nota honesta: no prometemos ni deducimos tus ganancias. Lo que aseguramos es presencia profesional, campañas bien hechas y medición. Si algo no rinde, se ajusta con datos.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Inversión</div><h2>Plan Full</h2></div>
+    <div class="price">
+      <div class="pbox">
+        <div class="name">Full · dolarizado</div>
+        <div class="amt">USD 450<small> /mes</small></div>
+        <ul>
+          <li>Web con catálogo + SEO industrial</li>
+          <li>Gestión de campañas de Google (pauta aparte)</li>
+          <li>Doble embudo mayorista / minorista</li>
+          <li>Google Business + motor de reseñas</li>
+          <li>20 posteos + 4 reels/mes de autoridad</li>
+          <li>Sesión de fotos en planta incluida</li>
+          <li>Reporte quincenal + llamada mensual</li>
+        </ul>
+      </div>
+      <div class="pnote">
+        <p><b>La pauta es aparte y es tuya:</b> el presupuesto de Google lo ponés vos y va directo a la plataforma. Nosotros hacemos que rinda cada peso.</p>
+        <div class="divider"></div>
+        <p><b>Setup de web y catálogo:</b> bonificado dentro del Plan Full.</p>
+        <div class="divider"></div>
+        <p><b>Exclusividad:</b> no tomamos otra fábrica de EPS de tu zona. Tu rubro queda protegido con nosotros.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="final">
+      <h2>Arrancamos y en el primer mes ya tenés catálogo y campañas andando.</h2>
+      <p>Coordinamos una reunión de 15 minutos, te mostramos el plan en detalle y empezamos.</p>
+      <div class="row">
+        <a class="btn btn-wa" href="https://wa.me/5493517734177" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+        <span class="wa">+54 9 351 773-4177</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><b>ARA Studio</b> — marketing y posicionamiento · unidad de ARA Solutions</div>
+    <div style="margin-top:.5rem">studio.arasolutions.com.ar · Propuesta para Valfi S.A.</div>
+  </div>
+</footer>
