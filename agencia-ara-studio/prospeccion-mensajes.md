@@ -46,7 +46,7 @@ Les armé un diagnóstico gratis (sin costo ni compromiso) con el "antes" y una 
 
 Saludos,
 Ricardo Vicente — ARA Studio
-[WhatsApp] · [web] · @arastudio
+WhatsApp +54 9 351 773-4177 · wa.me/5493517734177 · studio.arasolutions.com.ar
 ```
 
 ## 4) Seguimiento (si no responden)

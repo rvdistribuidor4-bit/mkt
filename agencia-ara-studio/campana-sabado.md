@@ -32,7 +32,7 @@ Les preparé un diagnóstico gratis (sin costo ni compromiso) con el "antes" y u
 
 Saludos,
 Ricardo Vicente — ARA Studio
-[WhatsApp] · [web ARA Studio]
+WhatsApp +54 9 351 773-4177 · wa.me/5493517734177 · studio.arasolutions.com.ar
 ```
 
 ### 2) CGAP Medicina Estética — DM / WhatsApp
@@ -61,8 +61,8 @@ Hola [Nombre], ¿pudiste ver el diagnóstico que les mandé? Lo dejo sin comprom
 ---
 
 ## Qué necesito de vos para dejarlo 100%
-1. **WhatsApp y link de ARA Studio** para firmar los mensajes (hoy hay placeholders).
-2. **Compartir** la página de ARA Studio y los diagnósticos (hacerlos públicos) para poder mandar los links.
+1. ✅ **WhatsApp de ARA Studio:** +54 9 351 773-4177 (`wa.me/5493517734177`) — ya está en la web y en los mensajes.
+2. **Compartir** la página de ARA Studio y los diagnósticos (hacerlos públicos) para poder mandar los links. Web: `claude.ai/artifact/66GYvL5yy3WXJ2z1WDikHE` (o el dominio `studio.arasolutions.com.ar` cuando el SSL quede verde).
 3. Confirmar **precios** a mostrar (o los dejamos "a medida").
 
 ## Lo que produce ARA Studio (yo) para el sábado

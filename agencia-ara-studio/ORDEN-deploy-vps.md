@@ -54,7 +54,7 @@ recargar.
 - En el VPS: `git pull` en la carpeta del sitio (o le decís al Claude del VPS "actualizá el sitio de ARA Studio").
 - El `git pull` trae los cambios de la rama **main**.
 
-## Pendiente menor (lo actualizo yo)
-- La web tiene un placeholder de WhatsApp (`000000000`). Cuando me pases tu número de ARA Studio, lo cambio en el repo y el VPS lo toma con `git pull`.
+## WhatsApp de ARA Studio ✅
+- Número: **+54 9 351 773-4177** → `wa.me/5493517734177`. Ya está en toda la web. El VPS lo toma con `git pull`.
 
-*Última actualización: 2026-09-25.*
+*Última actualización: 2026-09-26.*
