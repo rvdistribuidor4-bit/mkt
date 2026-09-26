@@ -1,50 +1,63 @@
 # Orden DEFINITIVA para el Claude que administra el VPS de ARA Solutions
-**Dominio:** studio.arasolutions.com.ar · **Web server:** Caddy (NO nginx) · A record ya cargado.
+**Dominio:** studio.arasolutions.com.ar · **Reverse proxy:** Caddy DENTRO de Docker (`ara-health-staging-reverse-proxy-1`) · A record ya apunta al VPS.
 
-> Versión segura: el VPS corre Caddy con Health, TV, Master y Distribution. NO se instala
-> nginx (pelearía por 80/443). Se agrega un vhost estático, con diff + validación + OK
-> antes de recargar, y reload (no restart).
+> Diagnóstico confirmado en el VPS: Caddy corre en Docker (no systemd), su Caddyfile
+> NO tiene bloque `studio`, y no hay ninguna app "studio" desplegada. Los stacks viven
+> en `/opt/ara/staging/`. Hay que DESPLEGAR el sitio estático y agregar el vhost.
+> Todo additive + reload en caliente. NO recrear ni reiniciar el reverse proxy ni los
+> stacks existentes (Health, TV, Distribution).
 
 ---
 
 ## 📋 Bloque para pegar en el chat del VPS
 
 ```
-Necesito desplegar un sitio web estático nuevo: la landing de
-ARA Studio. Es HTML/CSS puro, sin backend ni base de datos.
+CONTEXTO (ya diagnosticado por vos): Caddy corre en Docker
+(contenedor ara-health-staging-reverse-proxy-1), no como servicio.
+El Caddyfile no tiene bloque para studio. El DNS de
+studio.arasolutions.com.ar ya apunta al VPS (179.43.112.190).
+Falta DESPLEGAR la landing de ARA Studio (sitio estático NUEVO)
+y agregar su vhost. NO es la misma app que health/tv/distribution.
 
-IMPORTANTE — NO instales nginx. El VPS usa Caddy y ahí corren
-Health, TV, Master y Distribution. nginx pelearía por los puertos
-80/443 y puede tirar abajo los 4 servicios. Servilo con Caddy,
-que ya maneja HTTPS automático (sin certbot).
+OBJETIVO: publicar studio.arasolutions.com.ar con HTTPS, SIN
+recrear ni reiniciar los servicios existentes y SIN downtime.
+Solo additive + reload en caliente.
 
-DOMINIO: studio.arasolutions.com.ar
-(El registro A ya está cargado apuntando al VPS.)
+ARCHIVOS: repo público https://github.com/rvdistribuidor4-bit/mkt
+carpeta agencia-ara-studio/web/ (index.html, ara-icon.png,
+reel-cafe.jpg, reel-boutique.jpg). HTML/CSS/JS puro, sin backend.
 
-ARCHIVOS (repo público):
-- Repo: https://github.com/rvdistribuidor4-bit/mkt
-- Carpeta: agencia-ara-studio/web/ (index.html + ara-icon.png)
+PLAN (adaptalo a lo que veas; vos conocés el layout real):
+1) Cloná el repo en el host:
+   git clone --depth 1 https://github.com/rvdistribuidor4-bit/mkt /opt/ara/studio/mkt
+   (a futuro se actualiza con: git -C /opt/ara/studio/mkt pull)
+2) Levantá un contenedor estático liviano llamado ara-studio
+   (caddy:2-alpine o nginx:alpine) que sirva la carpeta
+   /opt/ara/studio/mkt/agencia-ara-studio/web montada read-only,
+   SIN publicar puertos al host (solo interno), CONECTADO a la
+   misma red Docker del reverse proxy (confirmala con
+   docker inspect ara-health-staging-reverse-proxy-1).
+3) En el Caddyfile montado en el reverse proxy, agregá SOLO este
+   bloque nuevo, sin tocar los demás:
 
-QUÉ NECESITO:
-1) Clonar el repo en el VPS como carpeta versionable, para poder
-   actualizar después con git pull. Elegí la ruta según cómo está
-   organizado /opt/ara y decime cuál usaste.
-2) Agregar un vhost estático en el Caddyfile para
-   studio.arasolutions.com.ar. HTTPS automático. Sin tocar ningún
-   vhost existente.
-3) ANTES de recargar Caddy: mostrame el diff del Caddyfile y
-   validá la config con caddy validate. Esperá mi OK.
-4) Recargá (reload, NO restart) para no cortar los servicios
-   que están arriba.
-5) Después del reload, verificá obligatoriamente que health, tv,
-   app y distribution siguen respondiendo, y que
-   studio.arasolutions.com.ar carga con certificado válido y
-   redirige HTTP→HTTPS.
-6) README corto con el comando de actualización (git pull).
+   studio.arasolutions.com.ar {
+       reverse_proxy ara-studio:80
+   }
 
-Las fuentes vienen de Google Fonts, el server no necesita nada
-extra. Mostrame el diff del Caddyfile y esperá mi OK antes de
-recargar.
+4) Mostrame el diff del Caddyfile ANTES de recargar. Recargá EN
+   CALIENTE, sin recrear el contenedor del reverse proxy:
+   docker exec ara-health-staging-reverse-proxy-1 caddy reload \
+     --config <ruta-del-Caddyfile-dentro-del-contenedor> --adapter caddyfile
+5) Caddy va a emitir el certificado Let's Encrypt solo (DNS ok,
+   puertos 80/443 abiertos). Esperá ~1 minuto.
+6) VERIFICÁ obligatoriamente:
+   - https://studio.arasolutions.com.ar carga con cert válido.
+   - health, tv, app y distribution siguen respondiendo igual.
+   - docker ps: ara-studio Up y los demás SIN reiniciarse.
+
+REGLAS: additive only. NO recrear ni reiniciar el reverse proxy ni
+los stacks existentes. reload, NO restart. Si algo obligara a
+recrear el reverse proxy, PARÁ y avisá antes de hacerlo.
 ```
 
 ---
